@@ -3,367 +3,136 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>YAMA Kültür Turları</title>
-  <style>
-    :root {
-      --bg: #0f1115;
-      --card: #181b22;
-      --text: #f4efe6;
-      --muted: #b8aa94;
-      --gold: #c99b45;
-      --line: #2b2f3a;
-    }
-
-    * { box-sizing: border-box; }
-
-    body {
-      margin: 0;
-      font-family: Georgia, "Times New Roman", serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.6;
-    }
-
-    header {
-      min-height: 90vh;
-      padding: 32px 8%;
-      background:
-        linear-gradient(rgba(15,17,21,.75), rgba(15,17,21,.95)),
-        url("https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=1800&q=80");
-      background-size: cover;
-      background-position: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-    }
-
-    nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 24px;
-    }
-
-    .logo {
-      font-size: 1.4rem;
-      letter-spacing: 2px;
-      color: var(--gold);
-      font-weight: bold;
-    }
-
-    .langs button {
-      background: transparent;
-      color: var(--text);
-      border: 1px solid var(--line);
-      padding: 8px 12px;
-      cursor: pointer;
-      margin-left: 6px;
-    }
-
-    .langs button:hover {
-      border-color: var(--gold);
-      color: var(--gold);
-    }
-
-    .hero {
-      max-width: 850px;
-      padding-bottom: 70px;
-    }
-
-    .hero h1 {
-      font-size: clamp(2.6rem, 7vw, 6rem);
-      line-height: 1;
-      margin: 0 0 24px;
-    }
-
-    .hero p {
-      font-size: 1.35rem;
-      color: var(--muted);
-      max-width: 720px;
-    }
-
-    .tag {
-      color: var(--gold);
-      text-transform: uppercase;
-      letter-spacing: 3px;
-      font-size: .85rem;
-    }
-
-    section {
-      padding: 80px 8%;
-      border-top: 1px solid var(--line);
-    }
-
-    h2 {
-      font-size: clamp(2rem, 4vw, 3.4rem);
-      margin-top: 0;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 24px;
-    }
-
-    .card {
-      background: var(--card);
-      border: 1px solid var(--line);
-      padding: 28px;
-      border-radius: 18px;
-    }
-
-    .card h3 {
-      color: var(--gold);
-      margin-top: 0;
-    }
-
-    .quote {
-      font-size: clamp(1.6rem, 4vw, 3rem);
-      color: var(--gold);
-      max-width: 1000px;
-    }
-
-    .route {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-    }
-
-    .route span {
-      color: var(--muted);
-      font-size: .95rem;
-    }
-
-    .cta {
-      background: #15110a;
-      text-align: center;
-    }
-
-    .cta p {
-      max-width: 760px;
-      margin: 0 auto 28px;
-      color: var(--muted);
-      font-size: 1.15rem;
-    }
-
-    .button {
-      display: inline-block;
-      padding: 14px 26px;
-      border: 1px solid var(--gold);
-      color: var(--gold);
-      text-decoration: none;
-      border-radius: 999px;
-    }
-
-    footer {
-      padding: 36px 8%;
-      color: var(--muted);
-      border-top: 1px solid var(--line);
-      font-size: .95rem;
-    }
-  </style>
+  <title>YAMA Kültür · Okuyarak Gezen Bilir</title>
+  <meta name="description" content="YAMA Kültür: akademik kaynaklarla desteklenen, üç dilli kültür rotaları ve zamanda yolculuk platformu." />
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-  <header>
-    <nav>
-      <div class="logo">YAMA KÜLTÜR</div>
+  <header class="hero" id="home">
+    <nav class="nav">
+      <a class="logo" href="#home">YAMA KÜLTÜR</a>
+      <div class="menu">
+        <a href="#turkiye" data-i18n="navTurkey">Türkiye</a>
+        <a href="#themes" data-i18n="navRoutes">Tematik Rotalar</a>
+        <a href="#time">YAMA Time</a>
+        <a href="#research">Research</a>
+        <a href="#library">Library</a>
+        <a href="#journal">Journal</a>
+      </div>
       <div class="langs">
-        <button onclick="setLang('tr')">TR</button>
-        <button onclick="setLang('de')">DE</button>
-        <button onclick="setLang('en')">EN</button>
+        <button data-lang="tr">TR</button>
+        <button data-lang="de">DE</button>
+        <button data-lang="en">EN</button>
       </div>
     </nav>
 
-    <div class="hero">
-      <div class="tag" data-i18n="tag">Sadece meraklılar için</div>
+    <div class="hero-content">
+      <p class="eyebrow" data-i18n="heroEyebrow">Sadece meraklılar için</p>
       <h1 data-i18n="heroTitle">İnsanın ayak izinde zamanda yolculuk</h1>
-      <p data-i18n="heroText">
-        YAMA Kültür Turları; okuyarak gezenler, gezerek düşünenler ve bir yerin sadece fotoğrafını değil, hafızasını da görmek isteyenler için tasarlanmış yüksek nitelikli kültür rotalarıdır.
-      </p>
+      <p class="lead" data-i18n="heroText">YAMA Kültür; okuyarak gezenler, gezerek düşünenler ve bir yerin yalnızca fotoğrafını değil, hafızasını da görmek isteyenler için tasarlanmış kültür platformudur.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#turkiye" data-i18n="startExplore">Keşfetmeye başla</a>
+        <a class="btn" href="#research" data-i18n="seeStandard">Araştırma standardı</a>
+      </div>
     </div>
   </header>
 
-  <section>
-    <p class="quote" data-i18n="quote">
-      “Çok okuyan mı bilir, çok gezen mi? Bizim cevabımız: okuyarak gezen bilir.”
-    </p>
-  </section>
+  <main>
+    <section class="intro">
+      <h2 data-i18n="quote">“Çok okuyan mı bilir, çok gezen mi? Bizim cevabımız: okuyarak gezen bilir.”</h2>
+      <p data-i18n="introText">YAMA Kültür, turizmi hızlı tüketimden çıkarıp tarih, edebiyat, arkeoloji, mimari, dil ve insan hikâyeleriyle zenginleşen bir keşif biçimine dönüştürmeyi amaçlar.</p>
+    </section>
 
-  <section>
-    <div class="tag" data-i18n="philosophyTag">Tur felsefesi</div>
-    <h2 data-i18n="philosophyTitle">Kalanlardan gelenlere uzanan rotalar</h2>
-    <div class="grid">
-      <div class="card">
-        <h3 data-i18n="c1Title">Zaman Katmanları</h3>
-        <p data-i18n="c1Text">Her rota, şehirlerin ve mekânların tarihî, kültürel, edebî ve insani izlerini birlikte okur.</p>
+    <section class="section" id="why">
+      <p class="eyebrow" data-i18n="whyEyebrow">Neden YAMA?</p>
+      <h2 data-i18n="whyTitle">Kültür turizmi için yeni bir standart</h2>
+      <div class="grid five">
+        <article class="card"><h3>📚 <span data-i18n="why1Title">Akademik temelli</span></h3><p data-i18n="why1Text">İçerikler hakemli yayınlar, açık erişimli kaynaklar ve birincil belgelerle desteklenir.</p></article>
+        <article class="card"><h3>🗺️ <span data-i18n="why2Title">Katmanlı rotalar</span></h3><p data-i18n="why2Text">Bir mekân yalnızca gösterilmez; zaman içindeki dönüşümüyle okunur.</p></article>
+        <article class="card"><h3>🌍 <span data-i18n="why3Title">Üç dilli</span></h3><p data-i18n="why3Text">Türkçe, Almanca ve İngilizce içerik mimarisiyle uluslararası erişim hedeflenir.</p></article>
+        <article class="card"><h3>🤖 <span data-i18n="why4Title">AI destekli</span></h3><p data-i18n="why4Text">Yapay zekâ araştırmayı hızlandırır; kaynaksız bilgi üretmez.</p></article>
+        <article class="card"><h3>🔎 <span data-i18n="why5Title">Şeffaf kaynaklar</span></h3><p data-i18n="why5Text">Her önemli içerikte kullanılan kaynaklar ve güven düzeyi gösterilir.</p></article>
       </div>
-      <div class="card">
-        <h3 data-i18n="c2Title">Araştırarak Gezmek</h3>
-        <p data-i18n="c2Text">Yolculuk öncesi okuma notları, rota dosyaları ve bağlam metinleriyle gezi bilgiyle başlar.</p>
+    </section>
+
+    <section class="section highlight" id="turkiye">
+      <p class="eyebrow" data-i18n="turkeyEyebrow">Türkiye rotaları</p>
+      <h2 data-i18n="turkeyTitle">Bugün nereden başlamak istersiniz?</h2>
+      <div class="route-grid" id="routeGrid"></div>
+    </section>
+
+    <section class="section" id="themes">
+      <p class="eyebrow" data-i18n="themesEyebrow">Tematik yolculuklar</p>
+      <h2 data-i18n="themesTitle">Medeniyetlerin, yolların ve seyyahların izinde</h2>
+      <div class="pill-grid" id="themeGrid"></div>
+    </section>
+
+    <section class="section split" id="time">
+      <div>
+        <p class="eyebrow">YAMA Time</p>
+        <h2 data-i18n="timeTitle">Aynı mekânı farklı zamanlarda keşfet</h2>
+        <p data-i18n="timeText">Şehirler; bugün, Cumhuriyet, Osmanlı, Bizans, Roma ve daha eski katmanlarıyla ele alınır. Hedef: mekânı yalnızca bugünkü görünümüyle değil, zaman içindeki anlamıyla okumak.</p>
       </div>
-      <div class="card">
-        <h3 data-i18n="c3Title">Kültür Turizmi</h3>
-        <p data-i18n="c3Text">Hızlı tüketilen turizm yerine anlamaya, karşılaştırmaya ve iz sürmeye dayalı kültür yolculukları.</p>
+      <div class="timeline">
+        <span>Bugün</span><span>1950</span><span>1900</span><span>1800</span><span>1600</span><span>1453</span><span>1200</span><span>Roma</span><span>Antik Çağ</span>
       </div>
+    </section>
+
+    <section class="section research" id="research">
+      <p class="eyebrow" data-i18n="researchEyebrow">YAMA Research Protocol</p>
+      <h2 data-i18n="researchTitle">Ucuz bilgi değil, kaynaklı bilgi</h2>
+      <p class="wide" data-i18n="researchText">YAMA Kültür, yapay zekâ tarafından rastgele üretilmiş içerikler sunmaz. Her önemli bilgi mümkün olduğunca akademik yayınlar, müze ve arşiv kaynakları, UNESCO belgeleri, seyahatnameler ve birincil kaynaklarla desteklenir.</p>
+      <div class="grid three">
+        <article class="card"><h3 data-i18n="rp1">Araştırma sorusu</h3><p data-i18n="rp1t">Her rota önce hangi sorulara cevap verdiğini tanımlar.</p></article>
+        <article class="card"><h3 data-i18n="rp2">Akademik literatür</h3><p data-i18n="rp2t">DergiPark, tezler, hakemli makaleler ve üniversite yayınları taranır.</p></article>
+        <article class="card"><h3 data-i18n="rp3">Birincil kaynaklar</h3><p data-i18n="rp3t">Seyahatnameler, kronikler, haritalar ve arşiv belgeleri dikkate alınır.</p></article>
+      </div>
+      <div class="source-box">
+        <h3 data-i18n="articleCorner">Akademik Makale Köşesi</h3>
+        <p data-i18n="articleCornerText">Her rota sayfasında “Daha Derine İnmek İsteyenler” bölümü bulunur: seçilmiş akademik makaleler, kısa editoryal notlar, DOI veya açık erişim bağlantıları ve güven düzeyi.</p>
+      </div>
+    </section>
+
+    <section class="section split" id="library">
+      <div>
+        <p class="eyebrow">YAMA Library</p>
+        <h2 data-i18n="libraryTitle">Dijital kültür kütüphanesi</h2>
+        <p data-i18n="libraryText">Kitaplar, makaleler, seyahatnameler, eski haritalar, belgeseller, podcastler ve dijital koleksiyonlar zamanla bu bölümde toplanır.</p>
+      </div>
+      <div class="library-list">
+        <span>Kitaplar</span><span>DergiPark</span><span>Tezler</span><span>Seyahatnameler</span><span>Eski Haritalar</span><span>Müze Koleksiyonları</span><span>UNESCO</span><span>Podcast</span>
+      </div>
+    </section>
+
+    <section class="section" id="academy">
+      <p class="eyebrow">YAMA Academy</p>
+      <h2 data-i18n="academyTitle">Gezi öncesi kısa öğrenme modülleri</h2>
+      <div class="grid four">
+        <article class="card"><h3>Mini Dersler</h3><p data-i18n="academy1">10–20 dakikalık rota hazırlıkları.</p></article>
+        <article class="card"><h3>Kavram Sözlüğü</h3><p data-i18n="academy2">Tarih, mimari, arkeoloji ve dil notları.</p></article>
+        <article class="card"><h3>PDF Rehberler</h3><p data-i18n="academy3">Okuma listeleri ve rota dosyaları.</p></article>
+        <article class="card"><h3>Haritalar</h3><p data-i18n="academy4">Katmanlı kültür haritaları.</p></article>
+      </div>
+    </section>
+
+    <section class="section journal" id="journal">
+      <p class="eyebrow">YAMA Journal</p>
+      <h2 data-i18n="journalTitle">Haftalık kültür notları</h2>
+      <div class="grid three">
+        <article class="card feature"><h3 data-i18n="journal1">Haftanın Rotası</h3><p>İstanbul · Osmanlı diplomasisinin izinde</p></article>
+        <article class="card feature"><h3 data-i18n="journal2">Haftanın Makalesi</h3><p>DergiPark havuzundan seçilmiş akademik okuma</p></article>
+        <article class="card feature"><h3 data-i18n="journal3">Haftanın Seyyahı</h3><p>Busbecq, Dernschwam, Evliya Çelebi ve diğerleri</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <strong>YAMA KÜLTÜR</strong>
+      <p data-i18n="footerText">Okuyarak gezenler için akademik destekli kültür platformu.</p>
     </div>
-  </section>
-
-  <section>
-    <div class="tag" data-i18n="routesTag">Türkiye rotaları</div>
-    <h2 data-i18n="routesTitle">İlk rota fikirleri</h2>
-    <div class="grid">
-      <div class="card route">
-        <h3>İstanbul</h3>
-        <span data-i18n="r1Sub">İmparatorluklar, limanlar, geçişler</span>
-        <p data-i18n="r1Text">Bizans’tan Osmanlı’ya, seyyahlardan modern şehre uzanan çok katmanlı bir hafıza yürüyüşü.</p>
-      </div>
-      <div class="card route">
-        <h3>Kapadokya</h3>
-        <span data-i18n="r2Sub">Taş, inanç, yeraltı ve zaman</span>
-        <p data-i18n="r2Text">Manastırlar, vadiler, kaya yerleşimleri ve insanın doğayla kurduğu uzun süreli ilişki.</p>
-      </div>
-      <div class="card route">
-        <h3>Efes – İzmir – Bergama</h3>
-        <span data-i18n="r3Sub">Antik dünya ve Akdeniz hafızası</span>
-        <p data-i18n="r3Text">Antik şehir, liman kültürü, bilgi, ticaret ve medeniyet geçişleri üzerine bir rota.</p>
-      </div>
-      <div class="card route">
-        <h3>Karadeniz</h3>
-        <span data-i18n="r4Sub">Dağ, göç, yol ve hafıza</span>
-        <p data-i18n="r4Text">Yolların, yaylaların, limanların ve sözlü kültürün izinde tarihî ve insani bir yolculuk.</p>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <div class="tag" data-i18n="forTag">Kimler için?</div>
-    <h2 data-i18n="forTitle">Turist değil, meraklı yolcu</h2>
-    <div class="grid">
-      <div class="card"><p data-i18n="f1">Tarih, edebiyat, şehir kültürü ve insan hikâyelerine ilgi duyanlar.</p></div>
-      <div class="card"><p data-i18n="f2">Bir mekânı sadece görmek değil, okumak ve anlamak isteyenler.</p></div>
-      <div class="card"><p data-i18n="f3">Türkiye’yi yüzeysel turizm kalıplarının ötesinde tanımak isteyen yerli ve yabancı gezginler.</p></div>
-    </div>
-  </section>
-
-  <section class="cta">
-    <h2 data-i18n="ctaTitle">YAMA Kültür Turları yakında</h2>
-    <p data-i18n="ctaText">
-      İlk aşamada Türkiye rotaları hazırlanıyor. Daha sonra Almanya, İtalya ve Akdeniz dünyasına uzanan karşılaştırmalı kültür turları eklenecek.
-    </p>
-    <a class="button" href="mailto:info@yamakultur.com" data-i18n="ctaButton">İletişime geç</a>
-  </section>
-
-  <footer>
-    © 2026 YAMA Kültür Turları · Zamanda insanın ayak izi
+    <div class="badges"><span>Academic Verified</span><span>TR · DE · EN</span><span>GitHub Pages Ready</span></div>
   </footer>
-
-  <script>
-    const texts = {
-      tr: {
-        tag: "Sadece meraklılar için",
-        heroTitle: "İnsanın ayak izinde zamanda yolculuk",
-        heroText: "YAMA Kültür Turları; okuyarak gezenler, gezerek düşünenler ve bir yerin sadece fotoğrafını değil, hafızasını da görmek isteyenler için tasarlanmış yüksek nitelikli kültür rotalarıdır.",
-        quote: "“Çok okuyan mı bilir, çok gezen mi? Bizim cevabımız: okuyarak gezen bilir.”",
-        philosophyTag: "Tur felsefesi",
-        philosophyTitle: "Kalanlardan gelenlere uzanan rotalar",
-        c1Title: "Zaman Katmanları",
-        c1Text: "Her rota, şehirlerin ve mekânların tarihî, kültürel, edebî ve insani izlerini birlikte okur.",
-        c2Title: "Araştırarak Gezmek",
-        c2Text: "Yolculuk öncesi okuma notları, rota dosyaları ve bağlam metinleriyle gezi bilgiyle başlar.",
-        c3Title: "Kültür Turizmi",
-        c3Text: "Hızlı tüketilen turizm yerine anlamaya, karşılaştırmaya ve iz sürmeye dayalı kültür yolculukları.",
-        routesTag: "Türkiye rotaları",
-        routesTitle: "İlk rota fikirleri",
-        r1Sub: "İmparatorluklar, limanlar, geçişler",
-        r1Text: "Bizans’tan Osmanlı’ya, seyyahlardan modern şehre uzanan çok katmanlı bir hafıza yürüyüşü.",
-        r2Sub: "Taş, inanç, yeraltı ve zaman",
-        r2Text: "Manastırlar, vadiler, kaya yerleşimleri ve insanın doğayla kurduğu uzun süreli ilişki.",
-        r3Sub: "Antik dünya ve Akdeniz hafızası",
-        r3Text: "Antik şehir, liman kültürü, bilgi, ticaret ve medeniyet geçişleri üzerine bir rota.",
-        r4Sub: "Dağ, göç, yol ve hafıza",
-        r4Text: "Yolların, yaylaların, limanların ve sözlü kültürün izinde tarihî ve insani bir yolculuk.",
-        forTag: "Kimler için?",
-        forTitle: "Turist değil, meraklı yolcu",
-        f1: "Tarih, edebiyat, şehir kültürü ve insan hikâyelerine ilgi duyanlar.",
-        f2: "Bir mekânı sadece görmek değil, okumak ve anlamak isteyenler.",
-        f3: "Türkiye’yi yüzeysel turizm kalıplarının ötesinde tanımak isteyen yerli ve yabancı gezginler.",
-        ctaTitle: "YAMA Kültür Turları yakında",
-        ctaText: "İlk aşamada Türkiye rotaları hazırlanıyor. Daha sonra Almanya, İtalya ve Akdeniz dünyasına uzanan karşılaştırmalı kültür turları eklenecek.",
-        ctaButton: "İletişime geç"
-      },
-      de: {
-        tag: "Für neugierige Reisende",
-        heroTitle: "Zeitreise auf den Spuren des Menschen",
-        heroText: "YAMA Kulturreisen sind anspruchsvolle Kulturreisen für Menschen, die lesend reisen, denkend unterwegs sind und nicht nur Orte sehen, sondern ihre Erinnerung verstehen möchten.",
-        quote: "„Wer weiß mehr: wer viel liest oder wer viel reist? Unsere Antwort: Wer lesend reist.“",
-        philosophyTag: "Reisephilosophie",
-        philosophyTitle: "Routen zwischen Spuren, Erinnerung und Gegenwart",
-        c1Title: "Zeitschichten",
-        c1Text: "Jede Route liest historische, kulturelle, literarische und menschliche Spuren gemeinsam.",
-        c2Title: "Reisen mit Vorbereitung",
-        c2Text: "Lesenotizen, Routendossiers und Kontexttexte machen die Reise zu einer bewussten Erfahrung.",
-        c3Title: "Kulturtourismus",
-        c3Text: "Nicht schneller Konsum, sondern Verstehen, Vergleichen und Spurensuche.",
-        routesTag: "Routen in der Türkei",
-        routesTitle: "Erste Routenideen",
-        r1Sub: "Imperien, Häfen, Übergänge",
-        r1Text: "Ein vielschichtiger Erinnerungsweg von Byzanz über das Osmanische Reich bis zur modernen Stadt.",
-        r2Sub: "Stein, Glaube, Untergrund und Zeit",
-        r2Text: "Klöster, Täler, Felsarchitektur und die lange Beziehung zwischen Mensch und Natur.",
-        r3Sub: "Antike Welt und mediterranes Gedächtnis",
-        r3Text: "Eine Route über antike Städte, Hafenwelten, Wissen, Handel und kulturelle Übergänge.",
-        r4Sub: "Berge, Migration, Wege und Erinnerung",
-        r4Text: "Eine Reise entlang von Straßen, Hochebenen, Häfen und mündlicher Kultur.",
-        forTag: "Für wen?",
-        forTitle: "Nicht Tourist, sondern neugieriger Reisender",
-        f1: "Für Menschen mit Interesse an Geschichte, Literatur, Stadtkultur und menschlichen Geschichten.",
-        f2: "Für alle, die Orte nicht nur sehen, sondern lesen und verstehen möchten.",
-        f3: "Für Reisende, die die Türkei jenseits oberflächlicher Tourismusbilder kennenlernen möchten.",
-        ctaTitle: "YAMA Kulturreisen kommt bald",
-        ctaText: "Zunächst entstehen Routen in der Türkei. Später folgen vergleichende Kulturreisen nach Deutschland, Italien und in den Mittelmeerraum.",
-        ctaButton: "Kontakt aufnehmen"
-      },
-      en: {
-        tag: "For the curious only",
-        heroTitle: "Time travel through the footprints of humankind",
-        heroText: "YAMA Culture Tours are high-quality cultural journeys for readers, thinkers and travellers who want to see not only places, but also their memory.",
-        quote: "“Who knows more: the one who reads or the one who travels? Our answer: the one who travels by reading.”",
-        philosophyTag: "Tour philosophy",
-        philosophyTitle: "Routes from traces of the past to the present",
-        c1Title: "Layers of Time",
-        c1Text: "Each route reads historical, cultural, literary and human traces together.",
-        c2Title: "Travelling Through Research",
-        c2Text: "Reading notes, route dossiers and context texts turn the journey into a thoughtful experience.",
-        c3Title: "Cultural Travel",
-        c3Text: "Not fast consumption, but understanding, comparison and following traces.",
-        routesTag: "Routes in Türkiye",
-        routesTitle: "First route ideas",
-        r1Sub: "Empires, ports and crossings",
-        r1Text: "A layered memory walk from Byzantium to the Ottoman world and the modern city.",
-        r2Sub: "Stone, faith, underground worlds and time",
-        r2Text: "Monasteries, valleys, rock settlements and the long relationship between humans and nature.",
-        r3Sub: "The ancient world and Mediterranean memory",
-        r3Text: "A route about ancient cities, port cultures, knowledge, trade and civilizational crossings.",
-        r4Sub: "Mountains, migration, roads and memory",
-        r4Text: "A journey through roads, highlands, ports and oral culture.",
-        forTag: "For whom?",
-        forTitle: "Not tourists, but curious travellers",
-        f1: "For those interested in history, literature, urban culture and human stories.",
-        f2: "For travellers who want not only to see a place, but to read and understand it.",
-        f3: "For local and international travellers who want to know Türkiye beyond surface tourism.",
-        ctaTitle: "YAMA Culture Tours coming soon",
-        ctaText: "The first phase focuses on routes in Türkiye. Later, comparative cultural tours in Germany, Italy and the Mediterranean world will follow.",
-        ctaButton: "Contact us"
-      }
-    };
-
-    function setLang(lang) {
-      document.querySelectorAll("[data-i18n]").forEach(el => {
-        const key = el.getAttribute("data-i18n");
-        el.textContent = texts[lang][key];
-      });
-    }
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
