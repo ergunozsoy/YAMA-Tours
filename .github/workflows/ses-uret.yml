@@ -52,7 +52,6 @@ jobs:
               print("HATA NEDENİ: ELEVENLABS_API_KEY bulunamadı! GitHub Settings > Secrets alanını kontrol edin.")
               exit(1)
 
-          # Genellikle her hesapta varsayılan olarak açık olan Türkçe destekli "Rachel" sesi ID'si ile güncelledim
           voice_id = "21m00Tcm4TlvDq8ikWAM" 
           url = f"https://elevenlabs.io{voice_id}"
 
