@@ -3,7 +3,10 @@ name: Otomatik Yapay Zeka Seslendirici
 on:
   push:
     paths:
-      - 'rehber/**/*.md' # Sadece rehber klasöründeki yazılar değiştiğinde tetiklenir
+      - 'rehber/**/*.md'
+
+permissions:
+  contents: write
 
 jobs:
   seslendir:
@@ -45,7 +48,7 @@ jobs:
               exit(0)
 
           api_key = os.environ.get("ELEVENLABS_API_KEY")
-          voice_id = "Cwhg4tDNLfX9OsX9GvID" # ElevenLabs "Roger" Sesi (Multilingual destekli)
+          voice_id = "Cwhg4tDNLfX9OsX9GvID" 
           url = f"https://elevenlabs.io{voice_id}"
 
           headers = {
