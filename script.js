@@ -1,7 +1,148 @@
-const routes=[{name:'İstanbul',theme:'İmparatorluklar, limanlar, geçişler',img:'https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=1000&q=80',meta:['24 durak','32 kaynak','⭐⭐⭐⭐']},{name:'Kapadokya',theme:'Taş, inanç, yeraltı ve zaman',img:'https://images.unsplash.com/photo-1641128324972-af3212f0f6bd?auto=format&fit=crop&w=1000&q=80',meta:['18 durak','21 kaynak','⭐⭐⭐']},{name:'Efes · Bergama',theme:'Antik dünya ve Akdeniz hafızası',img:'https://images.unsplash.com/photo-1604408818547-ecbb81f89f6f?auto=format&fit=crop&w=1000&q=80',meta:['16 durak','28 kaynak','⭐⭐⭐⭐']},{name:'Göbeklitepe',theme:'İlk yerleşimler ve ritüel alanları',img:'https://images.unsplash.com/photo-1603484477859-abe6a73f9366?auto=format&fit=crop&w=1000&q=80',meta:['9 durak','19 kaynak','⭐⭐⭐⭐']},{name:'Karadeniz',theme:'Dağ, göç, yol ve hafıza',img:'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1000&q=80',meta:['20 durak','17 kaynak','⭐⭐⭐']},{name:'Mardin',theme:'Taş şehir, diller ve dinler',img:'https://images.unsplash.com/photo-1589308078059-be1415eab4c3?auto=format&fit=crop&w=1000&q=80',meta:['14 durak','22 kaynak','⭐⭐⭐⭐']}];
-const themes=['🏺 Antik Anadolu','🕌 Osmanlı Dünyası','🏰 Bizans','🛶 Akdeniz','🧭 Alman Seyyahları','🧂 Baharat Yolu','🐪 İpek Yolu','⚓ Liman Kentleri','🏛 UNESCO','📜 Seyahatnameler','🗺 Eski Haritalar','🎓 Akademik Okumalar'];
-const translations={tr:{navTurkey:'Türkiye',navRoutes:'Tematik Rotalar',heroEyebrow:'Sadece meraklılar için',heroTitle:'İnsanın ayak izinde zamanda yolculuk',heroText:'YAMA Kültür; okuyarak gezenler, gezerek düşünenler ve bir yerin yalnızca fotoğrafını değil, hafızasını da görmek isteyenler için tasarlanmış kültür platformudur.',startExplore:'Keşfetmeye başla',seeStandard:'Araştırma standardı',quote:'“Çok okuyan mı bilir, çok gezen mi? Bizim cevabımız: okuyarak gezen bilir.”',introText:'YAMA Kültür, turizmi hızlı tüketimden çıkarıp tarih, edebiyat, arkeoloji, mimari, dil ve insan hikâyeleriyle zenginleşen bir keşif biçimine dönüştürmeyi amaçlar.',whyEyebrow:'Neden YAMA?',whyTitle:'Kültür turizmi için yeni bir standart',why1Title:'Akademik temelli',why1Text:'İçerikler hakemli yayınlar, açık erişimli kaynaklar ve birincil belgelerle desteklenir.',why2Title:'Katmanlı rotalar',why2Text:'Bir mekân yalnızca gösterilmez; zaman içindeki dönüşümüyle okunur.',why3Title:'Üç dilli',why3Text:'Türkçe, Almanca ve İngilizce içerik mimarisiyle uluslararası erişim hedeflenir.',why4Title:'AI destekli',why4Text:'Yapay zekâ araştırmayı hızlandırır; kaynaksız bilgi üretmez.',why5Title:'Şeffaf kaynaklar',why5Text:'Her önemli içerikte kullanılan kaynaklar ve güven düzeyi gösterilir.',turkeyEyebrow:'Türkiye rotaları',turkeyTitle:'Bugün nereden başlamak istersiniz?',themesEyebrow:'Tematik yolculuklar',themesTitle:'Medeniyetlerin, yolların ve seyyahların izinde',timeTitle:'Aynı mekânı farklı zamanlarda keşfet',timeText:'Şehirler; bugün, Cumhuriyet, Osmanlı, Bizans, Roma ve daha eski katmanlarıyla ele alınır. Hedef: mekânı yalnızca bugünkü görünümüyle değil, zaman içindeki anlamıyla okumak.',researchEyebrow:'YAMA Research Protocol',researchTitle:'Ucuz bilgi değil, kaynaklı bilgi',researchText:'YAMA Kültür, yapay zekâ tarafından rastgele üretilmiş içerikler sunmaz. Her önemli bilgi mümkün olduğunca akademik yayınlar, müze ve arşiv kaynakları, UNESCO belgeleri, seyahatnameler ve birincil kaynaklarla desteklenir.',rp1:'Araştırma sorusu',rp1t:'Her rota önce hangi sorulara cevap verdiğini tanımlar.',rp2:'Akademik literatür',rp2t:'DergiPark, tezler, hakemli makaleler ve üniversite yayınları taranır.',rp3:'Birincil kaynaklar',rp3t:'Seyahatnameler, kronikler, haritalar ve arşiv belgeleri dikkate alınır.',articleCorner:'Akademik Makale Köşesi',articleCornerText:'Her rota sayfasında “Daha Derine İnmek İsteyenler” bölümü bulunur: seçilmiş akademik makaleler, kısa editoryal notlar, DOI veya açık erişim bağlantıları ve güven düzeyi.',libraryTitle:'Dijital kültür kütüphanesi',libraryText:'Kitaplar, makaleler, seyahatnameler, eski haritalar, belgeseller, podcastler ve dijital koleksiyonlar zamanla bu bölümde toplanır.',academyTitle:'Gezi öncesi kısa öğrenme modülleri',academy1:'10–20 dakikalık rota hazırlıkları.',academy2:'Tarih, mimari, arkeoloji ve dil notları.',academy3:'Okuma listeleri ve rota dosyaları.',academy4:'Katmanlı kültür haritaları.',journalTitle:'Haftalık kültür notları',journal1:'Haftanın Rotası',journal2:'Haftanın Makalesi',journal3:'Haftanın Seyyahı',footerText:'Okuyarak gezenler için akademik destekli kültür platformu.'},de:{navTurkey:'Türkei',navRoutes:'Thematische Routen',heroEyebrow:'Für neugierige Reisende',heroTitle:'Zeitreise auf den Spuren des Menschen',heroText:'YAMA Kultur ist eine Plattform für Menschen, die lesend reisen, denkend unterwegs sind und nicht nur Orte, sondern auch ihre Erinnerung verstehen möchten.',startExplore:'Entdecken',seeStandard:'Research Standard',quote:'„Wer weiß mehr: wer viel liest oder wer viel reist? Unsere Antwort: Wer lesend reist.“'},en:{navTurkey:'Türkiye',navRoutes:'Thematic Routes',heroEyebrow:'For the curious only',heroTitle:'Time travel through human footprints',heroText:'YAMA Culture is a platform for readers, thinkers and travellers who want to understand not only places, but also their memory.',startExplore:'Start exploring',seeStandard:'Research standard',quote:'“Who knows more: the one who reads or the one who travels? Our answer: the one who travels by reading.”'}};
-function renderRoutes(){document.getElementById('routeGrid').innerHTML=routes.map(r=>`<article class="route-card"><div class="img" style="background-image:url('${r.img}')"></div><div class="content"><h3>${r.name}</h3><p>${r.theme}</p><div class="meta">${r.meta.map(m=>`<span>${m}</span>`).join('')}</div></div></article>`).join('')}
-function renderThemes(){document.getElementById('themeGrid').innerHTML=themes.map(t=>`<a class="pill" href="#research">${t}</a>`).join('')}
-function setLang(lang){document.querySelectorAll('[data-i18n]').forEach(el=>{const k=el.dataset.i18n;if(translations[lang]&&translations[lang][k]) el.textContent=translations[lang][k]});document.querySelectorAll('[data-lang]').forEach(b=>b.classList.toggle('active',b.dataset.lang===lang));document.documentElement.lang=lang}
-document.querySelectorAll('[data-lang]').forEach(btn=>btn.addEventListener('click',()=>setLang(btn.dataset.lang)));renderRoutes();renderThemes();setLang('tr');
+/* ==========================================================================
+   YAMA KÜLTÜR - ANA VERİ HAVUZU VE DİL DESTEĞİ
+   ========================================================================== */
+
+// 1. Dil Çevirileri (Mevcut yapınız korunmuştur)
+const translations = {
+  tr: {
+    navTurkey: "Türkiye", navRoutes: "Tematik Rotalar", heroEyebrow: "Sadece meraklılar için",
+    heroTitle: "İnsanın ayak izinde zamanda yolculuk", heroText: "YAMA Kültür; okuyarak gezenler, gezerek düşünenler ve bir yerin yalnızca fotoğrafını değil, hafızasını da görmek isteyenler için tasarlanmış kültür platformudur.",
+    startExplore: "Keşfetmeye başla", seeStandard: "Araştırma standardı", quote: "“Çok okuyan mı bilir, çok gezen mi? Bizim cevabımız: okuyarak gezen bilir.”",
+    introText: "YAMA Kültür, turizmi hızlı tüketimden çıkarıp tarih, edebiyat, arkeoloji, mimari, dil ve insan hikâyeleriyle zenginleşen bir keşif biçimine dönüştürmeyi amaçlar.",
+    whyTitle: "Kültür turizmi için yeni bir standart", why1Title: "Akademik temelli", why1Text: "İçerikler hakemli yayınlar, açık erişimli kaynaklar ve birincil belgelerle desteklenir.",
+    why2Title: "Katmanlı rotalar", why2Text: "Bir mekân yalnızca gösterilmez; zaman içindeki dönüşümüyle okunur.",
+    why3Title: "Üç dilli", why3Text: "Türkçe, Almanca ve İngilizce içerik mimarisiyle uluslararası erişim hedeflenir.",
+    why4Title: "AI destekli", why4Text: "Yapay zekâ araştırmayı hızlandırır; kaynaksız bilgi üretmez.",
+    why5Title: "Şeffaf kaynaklar", why5Text: "Her önemli içerikte kullanılan kaynaklar ve güven düzeyi gösterilir.",
+    turkeyTitle: "Türkiye rotaları", themesTitle: "Medeniyetlerin, yolların ve seyyahların izinde",
+    timeTitle: "Aynı mekânı farklı zamanlarda keşfet", researchTitle: "Ucuz bilgi değil, kaynaklı bilgi",
+    libraryTitle: "Dijital kültür kütüphanesi", academyTitle: "Gezi öncesi kısa öğrenme modülleri",
+    journalTitle: "Haftalık kültür notları", openGuideBtn: "Sesli Rehberi Aç"
+  },
+  en: {
+    navTurkey: "Turkey", navRoutes: "Thematic Routes", heroEyebrow: "Only for the curious",
+    heroTitle: "Time travel in the footsteps of humanity", heroText: "YAMA Culture is a cultural platform designed for those who travel by reading, think by traveling, and want to see the memory of a place, not just its picture.",
+    startExplore: "Start exploring", seeStandard: "Research standard", quote: "“Does the one who reads much know, or the one who travels much? Our answer: the one who travels by reading knows.”",
+    introText: "YAMA Culture aims to remove tourism from fast consumption and transform it into a form of discovery enriched by history, literature, archaeology, architecture, language, and human stories.",
+    whyTitle: "A new standard for cultural tourism", why1Title: "Academic based", why1Text: "Contents are supported by peer-reviewed publications, open-access resources, and primary documents.",
+    why2Title: "Layered routes", why2Text: "A place is not just shown; it is read through its transformation over time.",
+    why3Title: "Trilingual", why3Text: "International accessibility is aimed with Turkish, German, and English content architecture.",
+    why4Title: "AI supported", why4Text: "Artificial intelligence accelerates research; does not produce sourceless information.",
+    why5Title: "Transparent sources", why5Text: "Sources used and confidence levels are shown for every major content.",
+    turkeyTitle: "Turkey routes", themesTitle: "In the footsteps of civilizations, roads, and travelers",
+    timeTitle: "Discover the same place at different times", researchTitle: "Not cheap information, sourced information",
+    libraryTitle: "Digital culture library", academyTitle: "Short pre-trip learning modules",
+    journalTitle: "Weekly culture notes", openGuideBtn: "Open Audio Guide"
+  }
+};
+
+// 2. Dinamik Rotalar Listesi (Anadolu Medeniyetleri Müzesi Başlangıçlı)
+const routes = [
+  {
+    id: "anadolu-medeniyetleri",
+    title: "Anadolu Medeniyetleri Müzesi",
+    region: "İç Anadolu · Ankara",
+    image: "" // İleride görsel linki koyabilirsiniz
+  }
+];
+
+// 3. YAMA Dijital Sesli Rehber İçerik Havuzu
+const yamaGuides = {
+  "anadolu-medeniyetleri": {
+    title: "Anadolu Medeniyetleri Müzesi",
+    location: "📍 Ulus, Ankara",
+    content: `
+      <p style="color: var(--gold); font-weight: 600; margin-bottom: 15px;">YAMA DNA · Anadolu'yu Anlamaya Açılan Kapı</p>
+      <p>Anadolu Medeniyetleri Müzesi yalnızca eserlerin sergilendiği bir müze değildir. Burası, Anadolu'nun yaklaşık on bin yıllık kültürel hafızasının bir araya geldiği eşsiz bir zaman yolculuğudur. Bu müzeyi gezen bir ziyaretçi yalnızca taşları, heykelleri veya çanak çömlekleri görmez; binlerce yıl boyunca bu topraklarda yaşamış insanların düşünce dünyasına, gündelik hayatına, inançlarına ve üretim biçimlerine tanıklık eder.</p>
+      
+      <div class="audio-player-container">
+        <span class="guide-badge">Express Guide (2 Dakika)</span>
+        <audio controls src="rehber/ic-anadolu/ankara/anadolu-medeniyetleri-muzesi.mp3"></audio>
+      </div>
+
+      <h3>Müze Hakkında</h3>
+      <p>Bulunduğunuz müze, Anadolu'da Paleolitik Çağ'dan başlayarak Hititlere, Friglere, Urartulara ve daha birçok uygarlığa ait eserleri kronolojik bir düzen içinde bir araya getirir. Burada sergilenen taş baltalar, mühürler, tabletler, heykeller... hepsi insanlığın sessiz tanıklarıdır.</p>
+      
+      blockquote><em>"Bir müzeyi değil, insanlığın hafızasını geziyorsunuz."</em></blockquote>
+      
+      <h3>YAMA Insight</h3>
+      <p>Müzeyi gezerken her esere şu soruyu sorun: <strong>"Bunu yapan insan nasıl bir dünyada yaşıyordu?"</strong> İşte bu soru, taşları yeniden konuşturmaya başlar.</p>
+    `
+  }
+};
+
+/* ==========================================================================
+   UYGULAMA MOTORU VE TETİKLEYİCİLER
+   ========================================================================== */
+
+// Sayfa Yüklendiğinde Çalışacak İşlemler
+document.addEventListener("DOMContentLoaded", () => {
+  renderRoutes();
+  setupLanguageButtons();
+});
+
+// Rotaları Ekrana Basan Fonksiyon
+function renderRoutes() {
+  const routeGrid = document.getElementById("routeGrid");
+  if (!routeGrid) return;
+
+  routeGrid.innerHTML = routes.map(route => `
+    <div class="route-card" onclick="openGuide('${route.id}')">
+      <div class="route-img" style="background-image: url('${route.image}'); background-size: cover; background-position: center;"></div>
+      <div class="route-info">
+        <h3>${route.title}</h3>
+        <p>${route.region}</p>
+        <button class="btn primary" style="margin-top: 15px; width: 100%; font-size: 0.9rem; padding: 0.5rem;" onclick="event.stopPropagation(); openGuide('${route.id}')">
+          🎧 Sesli Rehberi Aç
+        </button>
+      </div>
+    </div>
+  `).join('');
+}
+
+// Rehber Pop-up Penceresini Açma Fonksiyonu
+function openGuide(guideId) {
+  const guide = yamaGuides[guideId];
+  if (!guide) return;
+
+  const modalBody = document.getElementById("modalBody");
+  modalBody.innerHTML = `
+    <h2>${guide.title}</h2>
+    <p style="color: var(--muted); font-size: 14px; margin-top: 5px;">${guide.location}</p>
+    <hr style="border: 0; border-top: 1px solid var(--line); margin: 15px 0;">
+    <div>${guide.content}</div>
+  `;
+
+  document.getElementById("guideModal").style.display = "flex";
+}
+
+// Rehber Pop-up Penceresini Kapatma Fonksiyonu
+function closeGuide() {
+  const modal = document.getElementById("guideModal");
+  const audio = modal.querySelector("audio");
+  if (audio) {
+    audio.pause();
+  }
+  modal.style.display = "none";
+}
+
+// Boşluğa tıklayınca kapatma modalı
+window.addEventListener("click", (e) => {
+  const modal = document.getElementById("guideModal");
+  if (e.target === modal) closeGuide();
+});
+
+// Dil buton ayarları (Mevcut yapınız)
+function setupLanguageButtons() {
+  document.querySelectorAll(".langs button").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const lang = btn.getAttribute("data-lang");
+      if (translations[lang]) {
+        document.querySelectorAll("[data-i18n]").forEach(el => {
+          const key = el.getAttribute("data-i18n");
+          if (translations[lang][key]) el.textContent = translations[lang][key];
+        });
+      }
+    });
+  });
+}
