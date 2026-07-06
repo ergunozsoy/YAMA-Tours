@@ -22,4 +22,4 @@ Türkiye'nin dört bir yanında göreceğimiz Hattuşa, Alacahöyük, Çatalhöy
 
 ## YAMA Connections
 Bu müzeyi gezdikten sonra şu rotalar önerilir:
-Hattuşa, Alacahöyük, Çatalhöyük, Kültepe (Kaniş), Gordion, Troya, Göbeklitepe, Nemrut Dağı, Efes, Bergama.
+Hattuşa, Alacahöyük, Çatalhöyük, Kültepe (Kaniş), Gordion, Troya, Göbeklitepe, Nemrut Dağı, Efes, Bergama
