@@ -48,7 +48,12 @@ jobs:
               exit(0)
 
           api_key = os.environ.get("ELEVENLABS_API_KEY")
-          voice_id = "Cwhg4tDNLfX9OsX9GvID" 
+          if not api_key:
+              print("HATA NEDENİ: ELEVENLABS_API_KEY bulunamadı! GitHub Settings > Secrets alanını kontrol edin.")
+              exit(1)
+
+          # Genellikle her hesapta varsayılan olarak açık olan Türkçe destekli "Rachel" sesi ID'si ile güncelledim
+          voice_id = "21m00Tcm4TlvDq8ikWAM" 
           url = f"https://elevenlabs.io{voice_id}"
 
           headers = {
@@ -76,9 +81,10 @@ jobs:
                       text_to_speak += line.strip() + " "
 
               if not text_to_speak.strip():
+                  print(f"HATA NEDENİ: {file_path} içinde 'Express Guide' ve 'YAMA Motto' arasında seslendirilecek metin bulunamadı!")
                   continue
 
-              print(f"{file_path} için ses üretiliyor...")
+              print(f"{file_path} için ses üretiliyor... Metin boyutu: {len(text_to_speak)} karakter.")
               
               data = {
                   "text": text_to_speak,
@@ -96,7 +102,8 @@ jobs:
                       audio_out.write(response.content)
                   print(f"Başarılı: {mp3_path} oluşturuldu.")
               else:
-                  print(f"Hata Kodu: {response.status_code} - {response.text}")
+                  print(f"HATA NEDENİ: ElevenLabs API hata döndürdü. Kodu: {response.status_code} - Mesaj: {response.text}")
+                  exit(1)
 
           EOF
 
