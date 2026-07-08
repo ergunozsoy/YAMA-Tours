@@ -11,16 +11,21 @@
     <nav class="topbar">
       <a class="brand" href="../index.html">YAMA Guide</a>
       <div class="navlinks">
-        <a href="../index.html">Home</a>
-        <a href="./index.html" class="active">Dictionary</a>
+        <a href="../index.html" id="navHome">Ana Sayfa</a>
+        <a href="./index.html" class="active" id="navDict">Sözlük</a>
+      </div>
+      <div class="langs">
+        <button data-lang="tr">TR</button>
+        <button data-lang="de">DE</button>
+        <button data-lang="en">EN</button>
       </div>
     </nav>
     <div class="hero-inner">
       <p class="eyebrow">Visual Heritage Dictionary</p>
       <h1>YAMA Heritage Visual Dictionary</h1>
-      <p class="lead">Türkiye’de müze, ören yeri, kilise, cami, şehir kalıntısı ve mimari yapılarda sıkça karşılaşılan kavramları görsel, kısa ve anlaşılır biçimde tanımak için hazırlanmış kültürel sözlük.</p>
+      <p class="lead"></p>
       <div class="search-wrap">
-        <input id="searchInput" type="search" placeholder="Kavram ara: Anastasis, apsis, forum, mihrap..." />
+        <input id="searchInput" type="search" placeholder="Kavram ara..." />
       </div>
     </div>
   </header>
@@ -38,7 +43,7 @@
 
   <div class="modal" id="termModal" aria-hidden="true">
     <div class="modal-card">
-      <button class="close" id="closeModal">×</button>
+      <button class="close" id="closeModal">&times;</button>
       <div id="modalContent"></div>
     </div>
   </div>
