@@ -68,3 +68,9 @@ footer { border-top: 1px solid var(--line); padding: 28px 20px; text-align: cent
 /* --- Arama kutusu düzeltmesi: kartların bindiği alan için hero'ya alt boşluk --- */
 .hero { padding-bottom: 130px; }
 @media (max-width: 650px) { .hero { padding-bottom: 95px; } }
+/* --- Kompakt kültür kartları --- */
+.culture-grid { grid-template-columns: repeat(auto-fit, minmax(158px, 1fr)); gap: 12px; }
+.culture-card { padding: 14px 16px; border-radius: 16px; }
+.culture-card .icon { font-size: 1.45rem; margin-bottom: 8px; }
+.culture-card h3 { font-size: 1.02rem; margin-bottom: 4px; }
+.culture-card p { font-size: .84rem; line-height: 1.4; }

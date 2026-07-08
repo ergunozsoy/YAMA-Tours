@@ -56,7 +56,7 @@ const cultures = {
     desc: { tr: 'Anadolu\u2019nun Tunç Çağı mirası, kapılar, kabartmalar ve yazılar.',
             de: 'Anatoliens bronzezeitliches Erbe: Tore, Reliefs und Schriften.',
             en: 'Anatolia\u2019s Bronze Age heritage: gates, reliefs and scripts.' } },
-  seljuk: { icon: '\u2726', title: { tr: 'Selçuklu', de: 'Seldschuken', en: 'Seljuk' },
+  seljuk: { icon: '\uD83E\uDD85', title: { tr: 'Selçuklu', de: 'Seldschuken', en: 'Seljuk' },
     desc: { tr: 'Taçkapılar, medreseler, kümbetler ve taş süsleme dili.',
             de: 'Portale, Medresen, Grabtürme und die Sprache des Steindekors.',
             en: 'Portals, madrasas, tomb towers and the language of stone ornament.' } },
@@ -121,6 +121,7 @@ function renderCultures() {
       card.classList.add('active');
       currentCulture = card.dataset.culture;
       renderTerms();
+      document.querySelector('.terms-section').scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
   });
 }
