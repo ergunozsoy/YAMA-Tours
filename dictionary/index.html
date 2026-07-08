@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YAMA Heritage Visual Dictionary</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="topbar">
+      <a class="brand" href="../index.html">YAMA Guide</a>
+      <div class="navlinks">
+        <a href="../index.html">Home</a>
+        <a href="./index.html" class="active">Dictionary</a>
+      </div>
+    </nav>
+    <div class="hero-inner">
+      <p class="eyebrow">Visual Heritage Dictionary</p>
+      <h1>YAMA Heritage Visual Dictionary</h1>
+      <p class="lead">Türkiye’de müze, ören yeri, kilise, cami, şehir kalıntısı ve mimari yapılarda sıkça karşılaşılan kavramları görsel, kısa ve anlaşılır biçimde tanımak için hazırlanmış kültürel sözlük.</p>
+      <div class="search-wrap">
+        <input id="searchInput" type="search" placeholder="Kavram ara: Anastasis, apsis, forum, mihrap..." />
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="culture-grid" id="cultureGrid"></section>
+    <section class="terms-section">
+      <div class="section-head">
+        <h2>Kavramlar</h2>
+        <p id="resultCount"></p>
+      </div>
+      <div class="terms-grid" id="termsGrid"></div>
+    </section>
+  </main>
+
+  <div class="modal" id="termModal" aria-hidden="true">
+    <div class="modal-card">
+      <button class="close" id="closeModal">×</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <footer>
+    <p>YAMA Heritage Visual Dictionary · Personal academic-cultural guide project · Not an official institutional page.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

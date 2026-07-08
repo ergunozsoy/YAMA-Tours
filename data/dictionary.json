@@ -1,0 +1,2981 @@
+{
+  "project": "YAMA Heritage Visual Dictionary",
+  "version": "0.1",
+  "terms": [
+    {
+      "id": "anastasis",
+      "culture": "byzantine",
+      "title": "Anastasis",
+      "original": "Ἀνάστασις",
+      "language": "Eski Yunanca",
+      "meaning_tr": "Diriliş",
+      "meaning_en": "Resurrection",
+      "short": "Bizans sanatında İsa’nın ölüm diyarına inişi ve Adem ile Havva’yı kurtarması sahnesi.",
+      "description": "Bizans sanatında İsa’nın ölüm diyarına inişi ve Adem ile Havva’yı kurtarması sahnesi.",
+      "recognition_hint": "İsa merkezde; Adem ve Havva figürleri; kırılmış kapılar; mandorla.",
+      "how_to_recognize": [
+        "İsa merkezde güçlü bir hareketle gösterilir.",
+        "Adem çoğunlukla bileğinden tutulup kaldırılır.",
+        "Hades’in kırılmış kapıları ve zincirler zeminde yer alabilir."
+      ],
+      "seen_in_turkiye": [
+        "Kariye Camii / eski Khora Manastırı",
+        "Kapadokya kaya kiliseleri",
+        "Bizans ikonaları ve freskleri"
+      ],
+      "related": [
+        "Pantokrator",
+        "Deesis",
+        "Mandorla"
+      ]
+    },
+    {
+      "id": "pantokrator",
+      "culture": "byzantine",
+      "title": "Pantokrator",
+      "original": "Παντοκράτωρ",
+      "language": "Eski Yunanca",
+      "meaning_tr": "Her şeye hükmeden",
+      "meaning_en": "Ruler of all",
+      "short": "İsa’nın evrenin hâkimi olarak cepheden ve görkemli biçimde tasvir edildiği ikonografik tip.",
+      "description": "İsa’nın evrenin hâkimi olarak cepheden ve görkemli biçimde tasvir edildiği ikonografik tip.",
+      "recognition_hint": "Cepheden İsa; sağ elde takdis; sol elde kitap.",
+      "how_to_recognize": [
+        "Genellikle kubbe veya apsiste yer alır.",
+        "Sağ el takdis işareti yapar.",
+        "Sol elde İncil kitabı bulunur."
+      ],
+      "seen_in_turkiye": [
+        "Ayasofya",
+        "Kariye",
+        "Kapadokya kiliseleri"
+      ],
+      "related": [
+        "Anastasis",
+        "Deesis",
+        "Apsis"
+      ]
+    },
+    {
+      "id": "deesis",
+      "culture": "byzantine",
+      "title": "Deesis",
+      "original": "Δέησις",
+      "language": "Eski Yunanca",
+      "meaning_tr": "Yakarış",
+      "meaning_en": "Supplication",
+      "short": "İsa’nın merkezde, Meryem ve Yahya’nın iki yanda ona yönelerek insanlık için yakardığı sahne.",
+      "description": "İsa’nın merkezde, Meryem ve Yahya’nın iki yanda ona yönelerek insanlık için yakardığı sahne.",
+      "recognition_hint": "Ortada İsa; yanlarda Meryem ve Yahya.",
+      "how_to_recognize": [
+        "Üçlü kompozisyon görülür.",
+        "Meryem ve Yahya yüzlerini İsa’ya çevirir.",
+        "Dua ve aracılık anlamı taşır."
+      ],
+      "seen_in_turkiye": [
+        "Ayasofya üst galeri mozaiği",
+        "Kariye",
+        "Bizans kiliseleri"
+      ],
+      "related": [
+        "Pantokrator",
+        "Theotokos",
+        "Ioannes Prodromos"
+      ]
+    },
+    {
+      "id": "mandorla",
+      "culture": "byzantine",
+      "title": "Mandorla",
+      "original": "mandorla",
+      "language": "İtalyanca / Latince kökenli kullanım",
+      "meaning_tr": "Badem biçimli ışık halesi",
+      "meaning_en": "Almond-shaped halo",
+      "short": "Kutsal figürü çevreleyen badem biçimli ışık alanı; özellikle İsa’nın göksel/parlak varlığını vurgular.",
+      "description": "Kutsal figürü çevreleyen badem biçimli ışık alanı; özellikle İsa’nın göksel/parlak varlığını vurgular.",
+      "recognition_hint": "Badem biçimli büyük hale.",
+      "how_to_recognize": [
+        "Figürün tüm bedenini kuşatır.",
+        "Genellikle mavi, altın veya ışıklı alan olarak gösterilir.",
+        "Anastasis ve Transfiguration sahnelerinde sık görülür."
+      ],
+      "seen_in_turkiye": [
+        "Kariye",
+        "Kapadokya freskleri",
+        "Bizans ikonaları"
+      ],
+      "related": [
+        "Anastasis",
+        "Pantokrator"
+      ]
+    },
+    {
+      "id": "narthex",
+      "culture": "byzantine",
+      "title": "Nartheks",
+      "original": "νάρθηξ",
+      "language": "Eski Yunanca",
+      "meaning_tr": "Kilise giriş holü",
+      "meaning_en": "Church entrance hall",
+      "short": "Kilise ana mekânından önce gelen giriş bölümü; bazen iç ve dış nartheks olarak ikiye ayrılır.",
+      "description": "Kilise ana mekânından önce gelen giriş bölümü; bazen iç ve dış nartheks olarak ikiye ayrılır.",
+      "recognition_hint": "Ana mekândan önceki uzun giriş holü.",
+      "how_to_recognize": [
+        "Kilisenin batı tarafında bulunur.",
+        "Ana mekâna geçiş sağlar.",
+        "Duvarlarında fresk ve mozaikler olabilir."
+      ],
+      "seen_in_turkiye": [
+        "Kariye",
+        "Ayasofya",
+        "Kapadokya kiliseleri"
+      ],
+      "related": [
+        "Naos",
+        "Exonartheks",
+        "Esonartheks"
+      ]
+    },
+    {
+      "id": "naos",
+      "culture": "byzantine",
+      "title": "Naos",
+      "original": "ναός",
+      "language": "Eski Yunanca",
+      "meaning_tr": "Kutsal ana mekân",
+      "meaning_en": "Nave / main church space",
+      "short": "Bizans kilisesinde cemaatin toplandığı ana ibadet mekânı.",
+      "description": "Bizans kilisesinde cemaatin toplandığı ana ibadet mekânı.",
+      "recognition_hint": "Kilise içindeki ana hacim.",
+      "how_to_recognize": [
+        "Nartheksten sonra gelir.",
+        "Kubbe altında ana mekân olabilir.",
+        "Apsis yönüne açılır."
+      ],
+      "seen_in_turkiye": [
+        "Ayasofya",
+        "Kariye",
+        "Göreme Açık Hava Müzesi"
+      ],
+      "related": [
+        "Nartheks",
+        "Apsis",
+        "Bema"
+      ]
+    },
+    {
+      "id": "apse",
+      "culture": "byzantine",
+      "title": "Apsis",
+      "original": "ἁψίς",
+      "language": "Yunanca / Latince",
+      "meaning_tr": "Yarım daire uç mekân",
+      "meaning_en": "Apse",
+      "short": "Kilise planında doğu ucunda yer alan, çoğunlukla yarım daire biçimli kutsal bölüm.",
+      "description": "Kilise planında doğu ucunda yer alan, çoğunlukla yarım daire biçimli kutsal bölüm.",
+      "recognition_hint": "Yarım kubbeli doğu ucu.",
+      "how_to_recognize": [
+        "Genellikle doğu yönündedir.",
+        "Yarım kubbe ile örtülür.",
+        "Meryem, İsa veya aziz tasvirleri bulunabilir."
+      ],
+      "seen_in_turkiye": [
+        "Ayasofya",
+        "Alahan Manastırı",
+        "Bizans kiliseleri"
+      ],
+      "related": [
+        "Bema",
+        "Synthronon",
+        "Naos"
+      ]
+    },
+    {
+      "id": "iconostasis",
+      "culture": "byzantine",
+      "title": "İkonostasis",
+      "original": "εἰκονοστάσιον",
+      "language": "Eski Yunanca",
+      "meaning_tr": "İkona duvarı",
+      "meaning_en": "Icon screen",
+      "short": "Ortodoks kiliselerinde kutsal alanı ana mekândan ayıran ikonlarla kaplı bölüm.",
+      "description": "Ortodoks kiliselerinde kutsal alanı ana mekândan ayıran ikonlarla kaplı bölüm.",
+      "recognition_hint": "İkonlarla kaplı ayırıcı duvar.",
+      "how_to_recognize": [
+        "Apsis önünde yer alır.",
+        "Kapılar ve ikon sıraları bulunur.",
+        "Kutsal alan ile cemaat mekânını ayırır."
+      ],
+      "seen_in_turkiye": [
+        "Ortodoks kiliseleri",
+        "Bizans sonrası kiliseler",
+        "Müze koleksiyonları"
+      ],
+      "related": [
+        "İkona",
+        "Bema",
+        "Apsis"
+      ]
+    },
+    {
+      "id": "roman-forum",
+      "culture": "roman",
+      "title": "Forum",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Forum",
+      "meaning_en": "Forum",
+      "short": "Forum, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Forum, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "roman-cardo",
+      "culture": "roman",
+      "title": "Cardo",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Cardo",
+      "meaning_en": "Cardo",
+      "short": "Cardo, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Cardo, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "roman-decumanus",
+      "culture": "roman",
+      "title": "Decumanus",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Decumanus",
+      "meaning_en": "Decumanus",
+      "short": "Decumanus, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Decumanus, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "roman-basilica",
+      "culture": "roman",
+      "title": "Basilica",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Basilica",
+      "meaning_en": "Basilica",
+      "short": "Basilica, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Basilica, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "roman-curia",
+      "culture": "roman",
+      "title": "Curia",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Curia",
+      "meaning_en": "Curia",
+      "short": "Curia, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Curia, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "roman-thermae",
+      "culture": "roman",
+      "title": "Thermae",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Thermae",
+      "meaning_en": "Thermae",
+      "short": "Thermae, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Thermae, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "roman-amphitheatrum",
+      "culture": "roman",
+      "title": "Amphitheatrum",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Amphitheatrum",
+      "meaning_en": "Amphitheatrum",
+      "short": "Amphitheatrum, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Amphitheatrum, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "roman-odeon",
+      "culture": "roman",
+      "title": "Odeon",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Odeon",
+      "meaning_en": "Odeon",
+      "short": "Odeon, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Odeon, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "roman-aquaeductus",
+      "culture": "roman",
+      "title": "Aquaeductus",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Aquaeductus",
+      "meaning_en": "Aquaeductus",
+      "short": "Aquaeductus, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Aquaeductus, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "roman-mausoleum",
+      "culture": "roman",
+      "title": "Mausoleum",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Mausoleum",
+      "meaning_en": "Mausoleum",
+      "short": "Mausoleum, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Mausoleum, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "roman-atrium",
+      "culture": "roman",
+      "title": "Atrium",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Atrium",
+      "meaning_en": "Atrium",
+      "short": "Atrium, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Atrium, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "roman-caldarium",
+      "culture": "roman",
+      "title": "Caldarium",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Caldarium",
+      "meaning_en": "Caldarium",
+      "short": "Caldarium, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Caldarium, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "roman-frigidarium",
+      "culture": "roman",
+      "title": "Frigidarium",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Frigidarium",
+      "meaning_en": "Frigidarium",
+      "short": "Frigidarium, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Frigidarium, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "roman-latrina",
+      "culture": "roman",
+      "title": "Latrina",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Latrina",
+      "meaning_en": "Latrina",
+      "short": "Latrina, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Latrina, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "roman-milarium",
+      "culture": "roman",
+      "title": "Milarium",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Milarium",
+      "meaning_en": "Milarium",
+      "short": "Milarium, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Milarium, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "roman-triumphbogen",
+      "culture": "roman",
+      "title": "Triumphbogen",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Triumphbogen",
+      "meaning_en": "Triumphbogen",
+      "short": "Triumphbogen, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Triumphbogen, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "roman-columna",
+      "culture": "roman",
+      "title": "Columna",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Columna",
+      "meaning_en": "Columna",
+      "short": "Columna, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Columna, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "roman-villa",
+      "culture": "roman",
+      "title": "Villa",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Villa",
+      "meaning_en": "Villa",
+      "short": "Villa, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Villa, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "roman-insula",
+      "culture": "roman",
+      "title": "Insula",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Insula",
+      "meaning_en": "Insula",
+      "short": "Insula, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Insula, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "roman-palaestra",
+      "culture": "roman",
+      "title": "Palaestra",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Palaestra",
+      "meaning_en": "Palaestra",
+      "short": "Palaestra, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Palaestra, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "greek-polis",
+      "culture": "greek",
+      "title": "Polis",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Polis",
+      "meaning_en": "Polis",
+      "short": "Polis, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Polis, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "greek-akropolis",
+      "culture": "greek",
+      "title": "Akropolis",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Akropolis",
+      "meaning_en": "Akropolis",
+      "short": "Akropolis, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Akropolis, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "greek-agora",
+      "culture": "greek",
+      "title": "Agora",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Agora",
+      "meaning_en": "Agora",
+      "short": "Agora, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Agora, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "greek-stoa",
+      "culture": "greek",
+      "title": "Stoa",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Stoa",
+      "meaning_en": "Stoa",
+      "short": "Stoa, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Stoa, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "greek-bouleuterion",
+      "culture": "greek",
+      "title": "Bouleuterion",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Bouleuterion",
+      "meaning_en": "Bouleuterion",
+      "short": "Bouleuterion, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Bouleuterion, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "greek-prytaneion",
+      "culture": "greek",
+      "title": "Prytaneion",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Prytaneion",
+      "meaning_en": "Prytaneion",
+      "short": "Prytaneion, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Prytaneion, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "greek-gymnasion",
+      "culture": "greek",
+      "title": "Gymnasion",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Gymnasion",
+      "meaning_en": "Gymnasion",
+      "short": "Gymnasion, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Gymnasion, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "greek-temenos",
+      "culture": "greek",
+      "title": "Temenos",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Temenos",
+      "meaning_en": "Temenos",
+      "short": "Temenos, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Temenos, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "greek-propylon",
+      "culture": "greek",
+      "title": "Propylon",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Propylon",
+      "meaning_en": "Propylon",
+      "short": "Propylon, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Propylon, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "greek-naos",
+      "culture": "greek",
+      "title": "Naos",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Naos",
+      "meaning_en": "Naos",
+      "short": "Naos, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Naos, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "greek-cella",
+      "culture": "greek",
+      "title": "Cella",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Cella",
+      "meaning_en": "Cella",
+      "short": "Cella, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Cella, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "greek-pronaos",
+      "culture": "greek",
+      "title": "Pronaos",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Pronaos",
+      "meaning_en": "Pronaos",
+      "short": "Pronaos, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Pronaos, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "greek-peripteros",
+      "culture": "greek",
+      "title": "Peripteros",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Peripteros",
+      "meaning_en": "Peripteros",
+      "short": "Peripteros, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Peripteros, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "greek-dor-duzeni",
+      "culture": "greek",
+      "title": "Dor Düzeni",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Dor Düzeni",
+      "meaning_en": "Dor Düzeni",
+      "short": "Dor Düzeni, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Dor Düzeni, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "greek-iyon-duzeni",
+      "culture": "greek",
+      "title": "İyon Düzeni",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "İyon Düzeni",
+      "meaning_en": "İyon Düzeni",
+      "short": "İyon Düzeni, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "İyon Düzeni, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "greek-korinth-duzeni",
+      "culture": "greek",
+      "title": "Korinth Düzeni",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Korinth Düzeni",
+      "meaning_en": "Korinth Düzeni",
+      "short": "Korinth Düzeni, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Korinth Düzeni, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "greek-stylobat",
+      "culture": "greek",
+      "title": "Stylobat",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Stylobat",
+      "meaning_en": "Stylobat",
+      "short": "Stylobat, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Stylobat, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "greek-architrav",
+      "culture": "greek",
+      "title": "Architrav",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Architrav",
+      "meaning_en": "Architrav",
+      "short": "Architrav, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Architrav, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "greek-friz",
+      "culture": "greek",
+      "title": "Friz",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Friz",
+      "meaning_en": "Friz",
+      "short": "Friz, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Friz, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "greek-tympanon",
+      "culture": "greek",
+      "title": "Tympanon",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Tympanon",
+      "meaning_en": "Tympanon",
+      "short": "Tympanon, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Tympanon, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "hittite-orthostat",
+      "culture": "hittite",
+      "title": "Orthostat",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Orthostat",
+      "meaning_en": "Orthostat",
+      "short": "Orthostat, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Orthostat, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "hittite-sfenks-kapisi",
+      "culture": "hittite",
+      "title": "Sfenks Kapısı",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Sfenks Kapısı",
+      "meaning_en": "Sfenks Kapısı",
+      "short": "Sfenks Kapısı, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Sfenks Kapısı, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "hittite-aslan-kapisi",
+      "culture": "hittite",
+      "title": "Aslan Kapısı",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Aslan Kapısı",
+      "meaning_en": "Aslan Kapısı",
+      "short": "Aslan Kapısı, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Aslan Kapısı, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "hittite-kral-kapisi",
+      "culture": "hittite",
+      "title": "Kral Kapısı",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Kral Kapısı",
+      "meaning_en": "Kral Kapısı",
+      "short": "Kral Kapısı, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Kral Kapısı, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "hittite-yazilikaya",
+      "culture": "hittite",
+      "title": "Yazılıkaya",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Yazılıkaya",
+      "meaning_en": "Yazılıkaya",
+      "short": "Yazılıkaya, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Yazılıkaya, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "hittite-hiyeroglif-luwice",
+      "culture": "hittite",
+      "title": "Hiyeroglif Luwice",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Hiyeroglif Luwice",
+      "meaning_en": "Hiyeroglif Luwice",
+      "short": "Hiyeroglif Luwice, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Hiyeroglif Luwice, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "hittite-çivi-yazisi",
+      "culture": "hittite",
+      "title": "Çivi Yazısı",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Çivi Yazısı",
+      "meaning_en": "Çivi Yazısı",
+      "short": "Çivi Yazısı, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Çivi Yazısı, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "hittite-gunes-kursu",
+      "culture": "hittite",
+      "title": "Güneş Kursu",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Güneş Kursu",
+      "meaning_en": "Güneş Kursu",
+      "short": "Güneş Kursu, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Güneş Kursu, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "hittite-firtina-tanrisi",
+      "culture": "hittite",
+      "title": "Fırtına Tanrısı",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Fırtına Tanrısı",
+      "meaning_en": "Fırtına Tanrısı",
+      "short": "Fırtına Tanrısı, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Fırtına Tanrısı, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "hittite-hepat",
+      "culture": "hittite",
+      "title": "Hepat",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Hepat",
+      "meaning_en": "Hepat",
+      "short": "Hepat, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Hepat, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "hittite-labarna",
+      "culture": "hittite",
+      "title": "Labarna",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Labarna",
+      "meaning_en": "Labarna",
+      "short": "Labarna, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Labarna, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "hittite-tawananna",
+      "culture": "hittite",
+      "title": "Tawananna",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Tawananna",
+      "meaning_en": "Tawananna",
+      "short": "Tawananna, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Tawananna, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "hittite-kerpic",
+      "culture": "hittite",
+      "title": "Kerpiç",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Kerpiç",
+      "meaning_en": "Kerpiç",
+      "short": "Kerpiç, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Kerpiç, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "hittite-sur",
+      "culture": "hittite",
+      "title": "Sur",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Sur",
+      "meaning_en": "Sur",
+      "short": "Sur, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Sur, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "hittite-pithos",
+      "culture": "hittite",
+      "title": "Pithos",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Pithos",
+      "meaning_en": "Pithos",
+      "short": "Pithos, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Pithos, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "hittite-stel",
+      "culture": "hittite",
+      "title": "Stel",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Stel",
+      "meaning_en": "Stel",
+      "short": "Stel, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Stel, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "hittite-bit-hilani",
+      "culture": "hittite",
+      "title": "Bit Hilani",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Bit Hilani",
+      "meaning_en": "Bit Hilani",
+      "short": "Bit Hilani, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Bit Hilani, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "hittite-megaron",
+      "culture": "hittite",
+      "title": "Megaron",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Megaron",
+      "meaning_en": "Megaron",
+      "short": "Megaron, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Megaron, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "hittite-kabartma",
+      "culture": "hittite",
+      "title": "Kabartma",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Kabartma",
+      "meaning_en": "Kabartma",
+      "short": "Kabartma, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Kabartma, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "hittite-kutsal-alan",
+      "culture": "hittite",
+      "title": "Kutsal Alan",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Kutsal Alan",
+      "meaning_en": "Kutsal Alan",
+      "short": "Kutsal Alan, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Kutsal Alan, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "seljuk-tackapi",
+      "culture": "seljuk",
+      "title": "Taçkapı",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Taçkapı",
+      "meaning_en": "Taçkapı",
+      "short": "Taçkapı, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Taçkapı, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "seljuk-mukarnas",
+      "culture": "seljuk",
+      "title": "Mukarnas",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Mukarnas",
+      "meaning_en": "Mukarnas",
+      "short": "Mukarnas, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Mukarnas, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "seljuk-eyvan",
+      "culture": "seljuk",
+      "title": "Eyvan",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Eyvan",
+      "meaning_en": "Eyvan",
+      "short": "Eyvan, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Eyvan, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "seljuk-revak",
+      "culture": "seljuk",
+      "title": "Revak",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Revak",
+      "meaning_en": "Revak",
+      "short": "Revak, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Revak, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "seljuk-kumbet",
+      "culture": "seljuk",
+      "title": "Kümbet",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Kümbet",
+      "meaning_en": "Kümbet",
+      "short": "Kümbet, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Kümbet, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "seljuk-turbe",
+      "culture": "seljuk",
+      "title": "Türbe",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Türbe",
+      "meaning_en": "Türbe",
+      "short": "Türbe, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Türbe, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "seljuk-medrese",
+      "culture": "seljuk",
+      "title": "Medrese",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Medrese",
+      "meaning_en": "Medrese",
+      "short": "Medrese, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Medrese, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "seljuk-şadirvan",
+      "culture": "seljuk",
+      "title": "Şadırvan",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Şadırvan",
+      "meaning_en": "Şadırvan",
+      "short": "Şadırvan, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Şadırvan, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "seljuk-kulliye",
+      "culture": "seljuk",
+      "title": "Külliye",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Külliye",
+      "meaning_en": "Külliye",
+      "short": "Külliye, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Külliye, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "seljuk-mihrap",
+      "culture": "seljuk",
+      "title": "Mihrap",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Mihrap",
+      "meaning_en": "Mihrap",
+      "short": "Mihrap, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Mihrap, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "seljuk-minber",
+      "culture": "seljuk",
+      "title": "Minber",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Minber",
+      "meaning_en": "Minber",
+      "short": "Minber, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Minber, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "seljuk-geometrik-gecme",
+      "culture": "seljuk",
+      "title": "Geometrik Geçme",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Geometrik Geçme",
+      "meaning_en": "Geometrik Geçme",
+      "short": "Geometrik Geçme, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Geometrik Geçme, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "seljuk-rumi",
+      "culture": "seljuk",
+      "title": "Rumi",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Rumi",
+      "meaning_en": "Rumi",
+      "short": "Rumi, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Rumi, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "seljuk-hatayi",
+      "culture": "seljuk",
+      "title": "Hatayi",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Hatayi",
+      "meaning_en": "Hatayi",
+      "short": "Hatayi, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Hatayi, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "seljuk-çini",
+      "culture": "seljuk",
+      "title": "Çini",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Çini",
+      "meaning_en": "Çini",
+      "short": "Çini, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Çini, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "seljuk-sirli-tugla",
+      "culture": "seljuk",
+      "title": "Sırlı Tuğla",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Sırlı Tuğla",
+      "meaning_en": "Sırlı Tuğla",
+      "short": "Sırlı Tuğla, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Sırlı Tuğla, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "seljuk-çifte-minare",
+      "culture": "seljuk",
+      "title": "Çifte Minare",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Çifte Minare",
+      "meaning_en": "Çifte Minare",
+      "short": "Çifte Minare, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Çifte Minare, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "seljuk-kitabe",
+      "culture": "seljuk",
+      "title": "Kitabe",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Kitabe",
+      "meaning_en": "Kitabe",
+      "short": "Kitabe, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Kitabe, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "seljuk-vakfiye",
+      "culture": "seljuk",
+      "title": "Vakfiye",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Vakfiye",
+      "meaning_en": "Vakfiye",
+      "short": "Vakfiye, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Vakfiye, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "seljuk-kervansaray",
+      "culture": "seljuk",
+      "title": "Kervansaray",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Kervansaray",
+      "meaning_en": "Kervansaray",
+      "short": "Kervansaray, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Kervansaray, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "ottoman-cami",
+      "culture": "ottoman",
+      "title": "Cami",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Cami",
+      "meaning_en": "Cami",
+      "short": "Cami, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Cami, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "ottoman-mihrap",
+      "culture": "ottoman",
+      "title": "Mihrap",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Mihrap",
+      "meaning_en": "Mihrap",
+      "short": "Mihrap, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Mihrap, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "ottoman-minber",
+      "culture": "ottoman",
+      "title": "Minber",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Minber",
+      "meaning_en": "Minber",
+      "short": "Minber, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Minber, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "ottoman-mahfil",
+      "culture": "ottoman",
+      "title": "Mahfil",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Mahfil",
+      "meaning_en": "Mahfil",
+      "short": "Mahfil, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Mahfil, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "ottoman-hunkâr-mahfili",
+      "culture": "ottoman",
+      "title": "Hünkâr Mahfili",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Hünkâr Mahfili",
+      "meaning_en": "Hünkâr Mahfili",
+      "short": "Hünkâr Mahfili, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Hünkâr Mahfili, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "ottoman-son-cemaat-yeri",
+      "culture": "ottoman",
+      "title": "Son Cemaat Yeri",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Son Cemaat Yeri",
+      "meaning_en": "Son Cemaat Yeri",
+      "short": "Son Cemaat Yeri, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Son Cemaat Yeri, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "ottoman-şerefe",
+      "culture": "ottoman",
+      "title": "Şerefe",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Şerefe",
+      "meaning_en": "Şerefe",
+      "short": "Şerefe, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Şerefe, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "ottoman-alem",
+      "culture": "ottoman",
+      "title": "Alem",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Alem",
+      "meaning_en": "Alem",
+      "short": "Alem, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Alem, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "ottoman-kubbe",
+      "culture": "ottoman",
+      "title": "Kubbe",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Kubbe",
+      "meaning_en": "Kubbe",
+      "short": "Kubbe, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Kubbe, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "ottoman-kasnak",
+      "culture": "ottoman",
+      "title": "Kasnak",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Kasnak",
+      "meaning_en": "Kasnak",
+      "short": "Kasnak, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Kasnak, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "ottoman-pandantif",
+      "culture": "ottoman",
+      "title": "Pandantif",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Pandantif",
+      "meaning_en": "Pandantif",
+      "short": "Pandantif, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Pandantif, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "ottoman-tromp",
+      "culture": "ottoman",
+      "title": "Tromp",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Tromp",
+      "meaning_en": "Tromp",
+      "short": "Tromp, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Tromp, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "ottoman-minare",
+      "culture": "ottoman",
+      "title": "Minare",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Minare",
+      "meaning_en": "Minare",
+      "short": "Minare, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Minare, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "ottoman-şadirvan",
+      "culture": "ottoman",
+      "title": "Şadırvan",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Şadırvan",
+      "meaning_en": "Şadırvan",
+      "short": "Şadırvan, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Şadırvan, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "ottoman-hazire",
+      "culture": "ottoman",
+      "title": "Hazire",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Hazire",
+      "meaning_en": "Hazire",
+      "short": "Hazire, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Hazire, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "ottoman-turbe",
+      "culture": "ottoman",
+      "title": "Türbe",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Türbe",
+      "meaning_en": "Türbe",
+      "short": "Türbe, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Türbe, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "ottoman-sebil",
+      "culture": "ottoman",
+      "title": "Sebil",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Sebil",
+      "meaning_en": "Sebil",
+      "short": "Sebil, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Sebil, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "ottoman-çesme",
+      "culture": "ottoman",
+      "title": "Çeşme",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Çeşme",
+      "meaning_en": "Çeşme",
+      "short": "Çeşme, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Çeşme, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "ottoman-kulliye",
+      "culture": "ottoman",
+      "title": "Külliye",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Külliye",
+      "meaning_en": "Külliye",
+      "short": "Külliye, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Külliye, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "ottoman-arasta",
+      "culture": "ottoman",
+      "title": "Arasta",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Arasta",
+      "meaning_en": "Arasta",
+      "short": "Arasta, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Arasta, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "islamic-hat",
+      "culture": "islamic",
+      "title": "Hat",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Hat",
+      "meaning_en": "Hat",
+      "short": "Hat, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Hat, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "islamic-kufi",
+      "culture": "islamic",
+      "title": "Kufi",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Kufi",
+      "meaning_en": "Kufi",
+      "short": "Kufi, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Kufi, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "islamic-sulus",
+      "culture": "islamic",
+      "title": "Sülüs",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Sülüs",
+      "meaning_en": "Sülüs",
+      "short": "Sülüs, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Sülüs, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "islamic-nesih",
+      "culture": "islamic",
+      "title": "Nesih",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Nesih",
+      "meaning_en": "Nesih",
+      "short": "Nesih, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Nesih, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "islamic-tezhip",
+      "culture": "islamic",
+      "title": "Tezhip",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Tezhip",
+      "meaning_en": "Tezhip",
+      "short": "Tezhip, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Tezhip, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "islamic-minyatur",
+      "culture": "islamic",
+      "title": "Minyatür",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Minyatür",
+      "meaning_en": "Minyatür",
+      "short": "Minyatür, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Minyatür, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "islamic-ebru",
+      "culture": "islamic",
+      "title": "Ebru",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Ebru",
+      "meaning_en": "Ebru",
+      "short": "Ebru, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Ebru, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "islamic-arabesk",
+      "culture": "islamic",
+      "title": "Arabesk",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Arabesk",
+      "meaning_en": "Arabesk",
+      "short": "Arabesk, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Arabesk, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "islamic-geometrik-desen",
+      "culture": "islamic",
+      "title": "Geometrik Desen",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Geometrik Desen",
+      "meaning_en": "Geometrik Desen",
+      "short": "Geometrik Desen, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Geometrik Desen, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "islamic-rumi",
+      "culture": "islamic",
+      "title": "Rumi",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Rumi",
+      "meaning_en": "Rumi",
+      "short": "Rumi, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Rumi, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "islamic-hatayi",
+      "culture": "islamic",
+      "title": "Hatayi",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Hatayi",
+      "meaning_en": "Hatayi",
+      "short": "Hatayi, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Hatayi, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "islamic-palmet",
+      "culture": "islamic",
+      "title": "Palmet",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Palmet",
+      "meaning_en": "Palmet",
+      "short": "Palmet, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Palmet, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "islamic-lotus",
+      "culture": "islamic",
+      "title": "Lotus",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Lotus",
+      "meaning_en": "Lotus",
+      "short": "Lotus, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Lotus, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "islamic-servi",
+      "culture": "islamic",
+      "title": "Servi",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Servi",
+      "meaning_en": "Servi",
+      "short": "Servi, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Servi, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "islamic-kandil-motifi",
+      "culture": "islamic",
+      "title": "Kandil Motifi",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Kandil Motifi",
+      "meaning_en": "Kandil Motifi",
+      "short": "Kandil Motifi, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Kandil Motifi, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "islamic-lale",
+      "culture": "islamic",
+      "title": "Lale",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Lale",
+      "meaning_en": "Lale",
+      "short": "Lale, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Lale, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "islamic-karanfil",
+      "culture": "islamic",
+      "title": "Karanfil",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Karanfil",
+      "meaning_en": "Karanfil",
+      "short": "Karanfil, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Karanfil, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "islamic-şemse",
+      "culture": "islamic",
+      "title": "Şemse",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Şemse",
+      "meaning_en": "Şemse",
+      "short": "Şemse, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Şemse, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "islamic-zencerek",
+      "culture": "islamic",
+      "title": "Zencerek",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Zencerek",
+      "meaning_en": "Zencerek",
+      "short": "Zencerek, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Zencerek, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    },
+    {
+      "id": "islamic-mukarnas",
+      "culture": "islamic",
+      "title": "Mukarnas",
+      "original": "",
+      "language": "Latince / Yunanca / Türkçe / Arapça geleneği",
+      "meaning_tr": "Mukarnas",
+      "meaning_en": "Mukarnas",
+      "short": "Mukarnas, Türkiye’deki tarihî yapılarda ve ören yerlerinde karşılaşılabilecek temel bir kavramdır.",
+      "description": "Mukarnas, YAMA Heritage Visual Dictionary’nin başlangıç kavramlarından biridir. Bu kayıt kısa tanım, tanıma ipucu ve Türkiye’de görülebilecek örneklerle daha sonra genişletilecektir.",
+      "recognition_hint": "Biçim, konum ve kullanım bağlamına dikkat edilir.",
+      "how_to_recognize": [
+        "Yapı içindeki konumuna bakılır.",
+        "Malzeme, süsleme ve plan ilişkisi incelenir.",
+        "Aynı kültür grubundaki benzer kavramlarla karşılaştırılır."
+      ],
+      "seen_in_turkiye": [
+        "Anadolu’daki müzeler",
+        "Ören yerleri",
+        "Tarihî şehir ve mimari yapılar"
+      ],
+      "related": []
+    }
+  ]
+}
