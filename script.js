@@ -17,11 +17,18 @@ const trails=[
  {n:'🥾 Evliya Çelebi Yolu',d:'atlı/yaya kültür rotası',u:'https://cultureroutesinturkey.com/evliya-celebi-way/'},
  {n:'🏛 Kral Yolu',d:'tarihî güzergâh · Sardes–Sus',u:'https://cultureroutesinturkey.com/'},
  {n:'⛰ Ağrı zirve tırmanışı',d:'izinli çıkış · TDF',u:'https://tdf.gov.tr/'}];
-const waters=['🌊 Akdeniz','🌊 Ege','🌊 Karadeniz','🌊 Marmara','🏞 Kızılırmak','🏞 Fırat','🏞 Dicle','🏞 Çoruh','💧 Van Gölü','💧 Tuz Gölü','🌾 Konya Ovası','🌾 Harran Ovası'];
+const W=(t)=>`https://tr.wikipedia.org/wiki/${encodeURIComponent(t)}`;
+const waters=[
+ {n:'🌊 Akdeniz',u:W('Akdeniz')},{n:'🌊 Ege Denizi',u:W('Ege Denizi')},
+ {n:'🌊 Karadeniz',u:W('Karadeniz')},{n:'🌊 Marmara Denizi',u:W('Marmara Denizi')},
+ {n:'🏞 Kızılırmak · 1355 km',u:W('Kızılırmak')},{n:'🏞 Fırat · 2800 km',u:W('Fırat')},
+ {n:'🏞 Dicle · 1900 km',u:W('Dicle')},{n:'🏞 Çoruh · 431 km',u:W('Çoruh')},
+ {n:'💧 Van Gölü',u:W('Van Gölü')},{n:'💧 Tuz Gölü',u:W('Tuz Gölü')},
+ {n:'🌾 Konya Ovası',u:W('Konya Ovası')},{n:'🌾 Harran Ovası',u:W('Harran Ovası')}];
 function renderNature(){
  const m=document.getElementById('mountainGrid'); if(m) m.innerHTML=mountains.map(x=>`<a class="pill" target="_blank" rel="noopener" href="${PF(x.lat,x.lng,x.n)}">🏔 ${x.n} · ${x.e}</a>`).join('');
  const t=document.getElementById('trailGrid'); if(t) t.innerHTML=trails.map(x=>`<a class="pill" target="_blank" rel="noopener" href="${x.u}" title="${x.d}">${x.n} <small>· ${x.d}</small></a>`).join('');
- const w=document.getElementById('waterGrid'); if(w) w.innerHTML=waters.map(x=>`<span class="pill">${x}</span>`).join('');
+ const w=document.getElementById('waterGrid'); if(w) w.innerHTML=waters.map(x=>`<a class="pill" target="_blank" rel="noopener" href="${x.u}">${x.n}</a>`).join('');
 }
 const routes=[{name:'İstanbul',theme:'İmparatorluklar, limanlar, geçişler',img:'https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=1000&q=80',meta:['24 durak','32 kaynak','⭐⭐⭐⭐']},{name:'Kapadokya',theme:'Taş, inanç, yeraltı ve zaman',img:'https://images.unsplash.com/photo-1641128324972-af3212f0f6bd?auto=format&fit=crop&w=1000&q=80',meta:['18 durak','21 kaynak','⭐⭐⭐']},{name:'Efes · Bergama',theme:'Antik dünya ve Akdeniz hafızası',img:'https://images.unsplash.com/photo-1604408818547-ecbb81f89f6f?auto=format&fit=crop&w=1000&q=80',meta:['16 durak','28 kaynak','⭐⭐⭐⭐']},{name:'Göbeklitepe',theme:'İlk yerleşimler ve ritüel alanları',img:'https://images.unsplash.com/photo-1603484477859-abe6a73f9366?auto=format&fit=crop&w=1000&q=80',meta:['9 durak','19 kaynak','⭐⭐⭐⭐']},{name:'Karadeniz',theme:'Dağ, göç, yol ve hafıza',img:'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1000&q=80',meta:['20 durak','17 kaynak','⭐⭐⭐']},{name:'Mardin',theme:'Taş şehir, diller ve dinler',img:'https://images.unsplash.com/photo-1589308078059-be1415eab4c3?auto=format&fit=crop&w=1000&q=80',meta:['14 durak','22 kaynak','⭐⭐⭐⭐']}];
 const themes=['🏺 Antik Anadolu','🕌 Osmanlı Dünyası','🏰 Bizans','🛶 Akdeniz','🧭 Alman Seyyahları','🧂 Baharat Yolu','🐪 İpek Yolu','⚓ Liman Kentleri','🏛 UNESCO','📜 Seyahatnameler','🗺 Eski Haritalar','🎓 Akademik Okumalar'];
