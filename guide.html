@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>YAMA Rehber · Digital Tour Guide</title>
+<meta name="description" content="YAMA Kültür dijital rehber: Türkiye'nin turistik noktaları — üç dilli kısa anlatımlar ve sesli rehber." />
+<style>
+:root{--bg:#0e1116;--bg2:#141820;--card:#1b202a;--text:#f5efe4;--muted:#bbad97;--gold:#d0a047;--line:#2a303b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Georgia,'Times New Roman',serif;line-height:1.6}
+.top{position:sticky;top:0;background:rgba(14,17,22,.92);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);padding:14px 20px;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.top a.logo{color:var(--gold);text-decoration:none;font-weight:700;letter-spacing:.08em}
+.langs{display:flex;gap:6px}
+.langs button{font:inherit;font-size:.8rem;padding:5px 12px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--muted);cursor:pointer}
+.langs button.active{background:var(--gold);color:#14100a;border-color:var(--gold)}
+main{max-width:960px;margin:0 auto;padding:28px 20px 60px}
+h1{font-size:1.6rem;margin:10px 0 4px}
+.lead{color:var(--muted);margin:0 0 22px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 24px}
+.tabs button{font:inherit;padding:9px 16px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--text);cursor:pointer}
+.tabs button.active{border-color:var(--gold);color:var(--gold)}
+.region-hero{height:150px;border-radius:14px;background-size:cover;background-position:center;border:1px solid var(--line);margin-bottom:20px}
+.place{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:16px}
+.place h3{margin:0 0 8px;color:var(--gold);font-size:1.12rem}
+.place p{margin:0 0 12px}
+.actions{display:flex;gap:10px;flex-wrap:wrap}
+.actions a,.actions button{font:inherit;font-size:.82rem;padding:7px 14px;border-radius:999px;border:1px solid var(--line);background:var(--bg2);color:var(--muted);cursor:pointer;text-decoration:none}
+.actions .speak.on{border-color:var(--gold);color:var(--gold)}
+.note{color:var(--muted);font-size:.82rem;margin-top:30px;border-top:1px solid var(--line);padding-top:14px}
+</style>
+</head>
+<body>
+<div class="top">
+  <a class="logo" href="index.html">← YAMA KÜLTÜR</a>
+  <div class="langs">
+    <button data-lang="tr" class="active">TR</button>
+    <button data-lang="de">DE</button>
+    <button data-lang="en">EN</button>
+  </div>
+</div>
+<main>
+  <h1 id="title">Dijital Rehber</h1>
+  <p class="lead" id="lead">Bölge seç, noktayı oku — ya da 🔊 ile dinle. Kaynaklı, kısa, üç dilli.</p>
+  <div class="tabs" id="tabs"></div>
+  <div class="region-hero" id="hero"></div>
+  <div id="places"></div>
+  <p class="note" id="note">🔊 Sesli okuma cihazınızın kendi ses motorunu kullanır (ücretsiz); ses kalitesi cihaza göre değişir. 📍 harita bağlantısı noktayı OpenStreetMap'te açar.</p>
+</main>
+<script>
+const UI={
+ tr:{title:'Dijital Rehber',lead:'Bölge seç, noktayı oku — ya da 🔊 ile dinle. Kaynaklı, kısa, üç dilli.',listen:'🔊 Dinle',stop:'⏹ Durdur',map:'📍 Harita',note:'🔊 Sesli okuma cihazınızın kendi ses motorunu kullanır (ücretsiz); ses kalitesi cihaza göre değişir. 📍 harita bağlantısı noktayı OpenStreetMap\'te açar.'},
+ de:{title:'Digitaler Guide',lead:'Region wählen, lesen — oder mit 🔊 anhören. Fundiert, kurz, dreisprachig.',listen:'🔊 Anhören',stop:'⏹ Stopp',map:'📍 Karte',note:'🔊 Die Sprachausgabe nutzt die Stimme Ihres Geräts (kostenlos); die Qualität variiert je nach Gerät. 📍 öffnet den Ort in OpenStreetMap.'},
+ en:{title:'Digital Guide',lead:'Pick a region, read the spot — or listen with 🔊. Sourced, short, trilingual.',listen:'🔊 Listen',stop:'⏹ Stop',map:'📍 Map',note:'🔊 Audio uses your device\'s own voice engine (free); quality varies by device. 📍 opens the spot in OpenStreetMap.'}
+};
+const SPEECH_LANG={tr:'tr-TR',de:'de-DE',en:'en-GB'};
+let DATA=null, lang='tr', region=null, speakingBtn=null;
+
+fetch('places.json').then(r=>r.json()).then(d=>{DATA=d;region=d.regions[0].id;render();});
+
+function t(k){return UI[lang][k];}
+function render(){
+  document.getElementById('title').textContent=t('title');
+  document.getElementById('lead').textContent=t('lead');
+  document.getElementById('note').textContent=t('note');
+  document.documentElement.lang=lang;
+  document.querySelectorAll('.langs button').forEach(b=>b.classList.toggle('active',b.dataset.lang===lang));
+  const tabs=document.getElementById('tabs');
+  tabs.innerHTML=DATA.regions.map(r=>`<button data-r="${r.id}" class="${r.id===region?'active':''}">${r.name[lang]}</button>`).join('');
+  tabs.querySelectorAll('button').forEach(b=>b.onclick=()=>{stopSpeak();region=b.dataset.r;render();});
+  const reg=DATA.regions.find(r=>r.id===region);
+  const hero=document.getElementById('hero');
+  if(reg.img){hero.style.display='block';hero.style.backgroundImage=`url('${reg.img}')`;}else{hero.style.display='none';}
+  document.getElementById('places').innerHTML=reg.places.map(p=>`
+    <article class="place">
+      <h3>${p.name[lang]}</h3>
+      <p>${p.desc[lang]}</p>
+      <div class="actions">
+        <button class="speak" data-text="${encodeURIComponent(p.name[lang]+'. '+p.desc[lang])}">${t('listen')}</button>
+        <a target="_blank" rel="noopener" href="https://www.openstreetmap.org/?mlat=${p.coords[0]}&mlon=${p.coords[1]}#map=16/${p.coords[0]}/${p.coords[1]}">${t('map')}</a>
+      </div>
+    </article>`).join('');
+  document.querySelectorAll('.speak').forEach(b=>b.onclick=()=>toggleSpeak(b));
+}
+function stopSpeak(){
+  try{speechSynthesis.cancel();}catch(e){}
+  if(speakingBtn){speakingBtn.classList.remove('on');speakingBtn.textContent=t('listen');speakingBtn=null;}
+}
+function toggleSpeak(btn){
+  if(speakingBtn===btn){stopSpeak();return;}
+  stopSpeak();
+  const u=new SpeechSynthesisUtterance(decodeURIComponent(btn.dataset.text));
+  u.lang=SPEECH_LANG[lang]; u.rate=0.95;
+  u.onend=()=>{if(speakingBtn===btn)stopSpeak();};
+  speakingBtn=btn; btn.classList.add('on'); btn.textContent=t('stop');
+  try{speechSynthesis.speak(u);}catch(e){stopSpeak();}
+}
+document.querySelectorAll('.langs button').forEach(b=>b.onclick=()=>{stopSpeak();lang=b.dataset.lang;render();});
+</script>
+</body>
+</html>
