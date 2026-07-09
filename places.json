@@ -1,0 +1,610 @@
+{
+  "regions": [
+    {
+      "id": "istanbul",
+      "name": {
+        "tr": "İstanbul",
+        "de": "Istanbul",
+        "en": "Istanbul"
+      },
+      "img": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=1000&q=80",
+      "places": [
+        {
+          "id": "ayasofya",
+          "name": {
+            "tr": "Ayasofya",
+            "de": "Hagia Sophia",
+            "en": "Hagia Sophia"
+          },
+          "coords": [
+            41.0086,
+            28.9802
+          ],
+          "desc": {
+            "tr": "537 yılında İmparator Justinianus tarafından yaptırılan Ayasofya, yaklaşık bin yıl boyunca dünyanın en büyük kubbeli yapısı olarak kaldı. Bizans katedrali, Osmanlı camisi, müze ve yeniden cami: tek yapıda dört dönem okunur. 31 metre çapındaki kubbesi, mimarlık tarihinin dönüm noktalarından biridir.",
+            "de": "Die 537 unter Kaiser Justinian errichtete Hagia Sophia blieb fast tausend Jahre lang der größte Kuppelbau der Welt. Byzantinische Kathedrale, osmanische Moschee, Museum und wieder Moschee: In einem Bau lassen sich vier Epochen lesen. Ihre Kuppel von 31 Metern Durchmesser ist ein Wendepunkt der Architekturgeschichte.",
+            "en": "Built in 537 under Emperor Justinian, Hagia Sophia remained the world's largest domed building for nearly a thousand years. Byzantine cathedral, Ottoman mosque, museum and mosque again: four eras can be read in a single building. Its 31-metre dome is a turning point in the history of architecture."
+          }
+        },
+        {
+          "id": "topkapi",
+          "name": {
+            "tr": "Topkapı Sarayı",
+            "de": "Topkapı-Palast",
+            "en": "Topkapı Palace"
+          },
+          "coords": [
+            41.0115,
+            28.9834
+          ],
+          "desc": {
+            "tr": "Fatih Sultan Mehmed'in 15. yüzyılda yaptırdığı Topkapı Sarayı, yaklaşık 400 yıl Osmanlı Devleti'nin yönetim merkezi oldu. Avlular, köşkler ve Harem'den oluşan yapı bir saraydan çok bir saray-şehirdir. Kutsal Emanetler ve hazine koleksiyonu, imparatorluğun hafızasını taşır.",
+            "de": "Der im 15. Jahrhundert von Mehmed dem Eroberer errichtete Topkapı-Palast war rund 400 Jahre lang das Machtzentrum des Osmanischen Reiches. Mit seinen Höfen, Pavillons und dem Harem ist er weniger ein Palast als eine Palaststadt. Die heiligen Reliquien und die Schatzkammer bewahren das Gedächtnis des Reiches.",
+            "en": "Built in the 15th century by Mehmed the Conqueror, Topkapı Palace was the administrative heart of the Ottoman Empire for some 400 years. With its courtyards, pavilions and the Harem, it is less a palace than a palace-city. The sacred relics and the treasury carry the memory of the empire."
+          }
+        },
+        {
+          "id": "yerebatan",
+          "name": {
+            "tr": "Yerebatan Sarnıcı",
+            "de": "Cisterna Basilica",
+            "en": "Basilica Cistern"
+          },
+          "coords": [
+            41.0084,
+            28.9779
+          ],
+          "desc": {
+            "tr": "6. yüzyılda Justinianus döneminde inşa edilen Yerebatan Sarnıcı, 336 sütunlu bir yeraltı su deposudur. Sütunların çoğu daha eski yapılardan devşirilmiştir; iki Medusa başı bunun en ünlü örneğidir. Bizans İstanbul'unun su mühendisliğini gösteren en etkileyici mekândır.",
+            "de": "Die im 6. Jahrhundert unter Justinian erbaute Cisterna Basilica ist ein unterirdischer Wasserspeicher mit 336 Säulen. Viele Säulen stammen aus älteren Bauten; die beiden Medusenhäupter sind das berühmteste Beispiel. Kein Ort zeigt die Wasseringenieurkunst des byzantinischen Konstantinopel eindrucksvoller.",
+            "en": "Built in the 6th century under Justinian, the Basilica Cistern is an underground water reservoir with 336 columns. Many columns were reused from older buildings; the two Medusa heads are the most famous example. No place shows the water engineering of Byzantine Constantinople more impressively."
+          }
+        }
+      ]
+    },
+    {
+      "id": "kapadokya",
+      "name": {
+        "tr": "Kapadokya",
+        "de": "Kappadokien",
+        "en": "Cappadocia"
+      },
+      "img": "https://images.unsplash.com/photo-1641128324972-af3212f0f6bd?auto=format&fit=crop&w=1000&q=80",
+      "places": [
+        {
+          "id": "goreme",
+          "name": {
+            "tr": "Göreme Açık Hava Müzesi",
+            "de": "Freilichtmuseum Göreme",
+            "en": "Göreme Open-Air Museum"
+          },
+          "coords": [
+            38.6425,
+            34.8399
+          ],
+          "desc": {
+            "tr": "Göreme, kayaya oyulmuş kiliseleri ve manastırlarıyla Bizans dönemi keşiş yaşamının merkeziydi. Karanlık Kilise'nin 11. yüzyıl freskleri, bölgenin en iyi korunmuş duvar resimleri arasındadır. Alan 1985'ten beri UNESCO Dünya Mirası listesindedir.",
+            "de": "Göreme war mit seinen in den Fels gehauenen Kirchen und Klöstern ein Zentrum des byzantinischen Mönchtums. Die Fresken der Dunklen Kirche aus dem 11. Jahrhundert gehören zu den besterhaltenen Wandmalereien der Region. Seit 1985 zählt das Gebiet zum UNESCO-Welterbe.",
+            "en": "With its rock-cut churches and monasteries, Göreme was a centre of Byzantine monastic life. The 11th-century frescoes of the Dark Church are among the best-preserved wall paintings of the region. The site has been a UNESCO World Heritage Site since 1985."
+          }
+        },
+        {
+          "id": "derinkuyu",
+          "name": {
+            "tr": "Derinkuyu Yeraltı Şehri",
+            "de": "Untergrundstadt Derinkuyu",
+            "en": "Derinkuyu Underground City"
+          },
+          "coords": [
+            38.3739,
+            34.7345
+          ],
+          "desc": {
+            "tr": "Derinkuyu, yaklaşık 85 metre derinliğe inen, binlerce kişiyi barındırabilen çok katlı bir yeraltı şehridir. Havalandırma bacaları, taş kapılar, ahırlar ve şapellerle tam bir sığınak-kent olarak tasarlanmıştır. Saldırı dönemlerinde bölge halkına yüzyıllarca güvenlik sağladı.",
+            "de": "Derinkuyu ist eine mehrstöckige Untergrundstadt, die etwa 85 Meter in die Tiefe reicht und Tausende Menschen aufnehmen konnte. Mit Lüftungsschächten, Steintüren, Ställen und Kapellen war sie als vollständige Zufluchtsstadt angelegt. In Zeiten von Angriffen bot sie der Bevölkerung jahrhundertelang Schutz.",
+            "en": "Derinkuyu is a multi-level underground city reaching about 85 metres deep and able to shelter thousands of people. With ventilation shafts, stone doors, stables and chapels, it was designed as a complete refuge city. In times of attack it protected the local population for centuries."
+          }
+        },
+        {
+          "id": "uchisar",
+          "name": {
+            "tr": "Uçhisar Kalesi",
+            "de": "Burgfelsen Uçhisar",
+            "en": "Uçhisar Castle"
+          },
+          "coords": [
+            38.63,
+            34.805
+          ],
+          "desc": {
+            "tr": "Kapadokya'nın en yüksek noktası olan Uçhisar, içine oyulmuş odalarla dolu dev bir kaya kaledir. Zirvesinden Erciyes'e kadar uzanan vadiler tek bakışta görülür. Güvercinlikleri, bölgenin tarım hafızasının sessiz tanıklarıdır.",
+            "de": "Uçhisar, der höchste Punkt Kappadokiens, ist ein gewaltiger Burgfels voller in den Stein gehauener Kammern. Vom Gipfel überblickt man die Täler bis zum Erciyes. Seine Taubenschläge sind stille Zeugen des landwirtschaftlichen Gedächtnisses der Region.",
+            "en": "Uçhisar, the highest point of Cappadocia, is a huge castle rock full of chambers carved into the stone. From its summit the valleys stretch in one view as far as Mount Erciyes. Its dovecotes are silent witnesses of the region's agricultural memory."
+          }
+        }
+      ]
+    },
+    {
+      "id": "efes",
+      "name": {
+        "tr": "Efes",
+        "de": "Ephesos",
+        "en": "Ephesus"
+      },
+      "img": "https://images.unsplash.com/photo-1604408818547-ecbb81f89f6f?auto=format&fit=crop&w=1000&q=80",
+      "places": [
+        {
+          "id": "celsus",
+          "name": {
+            "tr": "Celsus Kütüphanesi",
+            "de": "Celsus-Bibliothek",
+            "en": "Library of Celsus"
+          },
+          "coords": [
+            37.9394,
+            27.3408
+          ],
+          "desc": {
+            "tr": "MS 2. yüzyılda Roma valisi Celsus'un anıt mezarı üzerine yaptırılan kütüphane, on iki bin ruloya ev sahipliği yapıyordu. İki katlı cephesi, antik dünyanın en zarif mimari sahnelerinden biridir. Bilgelik, erdem, akıl ve bilgiyi simgeleyen dört kadın heykeli cepheyi süsler.",
+            "de": "Die im 2. Jahrhundert n. Chr. über dem Grabmal des römischen Statthalters Celsus errichtete Bibliothek beherbergte zwölftausend Schriftrollen. Ihre zweigeschossige Fassade ist eine der elegantesten Architekturkulissen der Antike. Vier Frauenstatuen — Weisheit, Tugend, Verstand und Wissen — schmücken die Front.",
+            "en": "Built in the 2nd century AD over the tomb of the Roman governor Celsus, the library housed twelve thousand scrolls. Its two-storey façade is one of the most elegant architectural stages of antiquity. Four female statues — wisdom, virtue, intellect and knowledge — adorn the front."
+          }
+        },
+        {
+          "id": "tiyatro",
+          "name": {
+            "tr": "Efes Büyük Tiyatro",
+            "de": "Großes Theater von Ephesos",
+            "en": "Great Theatre of Ephesus"
+          },
+          "coords": [
+            37.9411,
+            27.3419
+          ],
+          "desc": {
+            "tr": "Yaklaşık 24 bin kişilik Büyük Tiyatro, Anadolu'nun en büyük antik tiyatrolarındandır. Aziz Pavlus'un Efesliler ile hikâyesi bu kentte geçer; Resullerin İşleri'nde anlatılan gümüşçüler ayaklanması bu tiyatroda toplanmıştı. Sahnesinden liman caddesine bakış, antik kent yaşamını gözde canlandırır.",
+            "de": "Das Große Theater mit rund 24.000 Plätzen gehört zu den größten antiken Theatern Anatoliens. Die Geschichte des Apostels Paulus mit den Ephesern spielt in dieser Stadt; der in der Apostelgeschichte geschilderte Aufstand der Silberschmiede versammelte sich in diesem Theater. Der Blick von der Bühne zur Hafenstraße lässt das antike Stadtleben lebendig werden.",
+            "en": "With around 24,000 seats, the Great Theatre is among the largest ancient theatres of Anatolia. The story of St Paul and the Ephesians unfolds in this city; the riot of the silversmiths described in the Acts of the Apostles gathered in this very theatre. The view from the stage down Harbour Street brings ancient city life before the eyes."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ankara",
+      "name": {
+        "tr": "Ankara",
+        "de": "Ankara",
+        "en": "Ankara"
+      },
+      "places": [
+        {
+          "id": "anitkabir",
+          "name": {
+            "tr": "Anıtkabir",
+            "de": "Anıtkabir",
+            "en": "Anıtkabir"
+          },
+          "coords": [
+            39.9251,
+            32.8369
+          ],
+          "desc": {
+            "tr": "Cumhuriyetin kurucusu Atatürk'ün anıt mezarı, 1944–1953 arasında inşa edildi. Aslanlı Yol, Zafer Kuleleri ve Kurtuluş Savaşı Müzesi ile modern Türkiye'nin hafıza mekânıdır.",
+            "de": "Das zwischen 1944 und 1953 errichtete Mausoleum Atatürks, des Gründers der Republik. Mit Löwenallee, Türmen und dem Museum des Befreiungskrieges ist es der zentrale Erinnerungsort der modernen Türkei.",
+            "en": "The mausoleum of Atatürk, founder of the Republic, built 1944–1953. With its Lion Road, towers and War of Independence Museum, it is modern Türkiye's central site of memory."
+          }
+        },
+        {
+          "id": "anadolumed",
+          "name": {
+            "tr": "Anadolu Medeniyetleri Müzesi",
+            "de": "Museum für Anatolische Zivilisationen",
+            "en": "Museum of Anatolian Civilizations"
+          },
+          "coords": [
+            39.9381,
+            32.8622
+          ],
+          "desc": {
+            "tr": "Osmanlı bedesteninde kurulu müze, Paleolitik'ten Roma'ya Anadolu'nun tüm katmanlarını sergiler. Hitit ve Frig koleksiyonları dünyada eşsizdir; 1997'de Avrupa'da Yılın Müzesi seçildi.",
+            "de": "In einem osmanischen Bedesten untergebracht, zeigt das Museum alle Schichten Anatoliens vom Paläolithikum bis Rom. Seine hethitischen und phrygischen Sammlungen sind weltweit einzigartig; 1997 Europäisches Museum des Jahres.",
+            "en": "Housed in an Ottoman bedesten, the museum displays every layer of Anatolia from the Palaeolithic to Rome. Its Hittite and Phrygian collections are unique worldwide; European Museum of the Year 1997."
+          }
+        },
+        {
+          "id": "hacibayram",
+          "name": {
+            "tr": "Hacı Bayram Veli Camii & Augustus Tapınağı",
+            "de": "Hacı-Bayram-Moschee & Augustustempel",
+            "en": "Hacı Bayram Mosque & Temple of Augustus"
+          },
+          "coords": [
+            39.943,
+            32.859
+          ],
+          "desc": {
+            "tr": "15. yüzyıl camisi ile Roma tapınağı duvar duvara durur: Ankara'nın kutsal sürekliliği tek bakışta. Tapınak duvarındaki 'Res Gestae', İmparator Augustus'un vasiyetinin en iyi korunmuş nüshasıdır.",
+            "de": "Die Moschee des 15. Jahrhunderts und der römische Tempel stehen Wand an Wand: Ankaras sakrale Kontinuität auf einen Blick. Die 'Res Gestae' an der Tempelwand ist die besterhaltene Fassung des Rechenschaftsberichts des Augustus.",
+            "en": "The 15th-century mosque and the Roman temple stand wall to wall: Ankara's sacred continuity in a single view. The 'Res Gestae' on the temple wall is the best-preserved copy of Augustus' testament."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sivas",
+      "name": {
+        "tr": "Sivas",
+        "de": "Sivas",
+        "en": "Sivas"
+      },
+      "places": [
+        {
+          "id": "gokmedrese",
+          "name": {
+            "tr": "Gök Medrese",
+            "de": "Gök-Medrese",
+            "en": "Gök Medrese"
+          },
+          "coords": [
+            39.7439,
+            37.0179
+          ],
+          "desc": {
+            "tr": "1271 tarihli medrese, çifte minaresi ve taş işçiliğiyle Selçuklu mimarisinin başyapıtlarındandır. Adını taç kapısındaki mavi çinilerden alır.",
+            "de": "Die Medrese von 1271 gehört mit ihrem Doppelminarett und ihrer Steinmetzkunst zu den Meisterwerken seldschukischer Architektur. Ihren Namen verdankt sie den blauen Fliesen des Portals.",
+            "en": "Dated 1271, this medrese is a masterpiece of Seljuk architecture with its twin minarets and stone carving. It takes its name from the blue tiles of its portal."
+          }
+        },
+        {
+          "id": "ciftesivas",
+          "name": {
+            "tr": "Çifte Minareli Medrese & Şifaiye",
+            "de": "Doppelminarett-Medrese & Şifaiye",
+            "en": "Twin-Minaret Medrese & Şifaiye"
+          },
+          "coords": [
+            39.7469,
+            37.0165
+          ],
+          "desc": {
+            "tr": "Sivas meydanında 13. yüzyılın iki anıtı karşı karşıya durur: 1271 tarihli Çifte Minareli Medrese ve 1217 tarihli Şifaiye — Anadolu'nun en eski hastane-tıp okullarından biri. Selçuklu bilim ve mimarlığının kalbi buradadır.",
+            "de": "Auf dem Platz von Sivas stehen sich zwei Monumente des 13. Jahrhunderts gegenüber: die Doppelminarett-Medrese von 1271 und die Şifaiye von 1217 — eines der ältesten Krankenhaus-Medizinschulen Anatoliens. Hier schlägt das Herz seldschukischer Wissenschaft und Baukunst.",
+            "en": "On Sivas' main square two 13th-century monuments face each other: the Twin-Minaret Medrese of 1271 and the Şifaiye of 1217 — one of Anatolia's oldest hospital-medical schools. This is the heart of Seljuk science and architecture."
+          }
+        }
+      ]
+    },
+    {
+      "id": "kayseri",
+      "name": {
+        "tr": "Kayseri",
+        "de": "Kayseri",
+        "en": "Kayseri"
+      },
+      "places": [
+        {
+          "id": "hunat",
+          "name": {
+            "tr": "Hunat Hatun Külliyesi",
+            "de": "Hunat-Hatun-Komplex",
+            "en": "Hunat Hatun Complex"
+          },
+          "coords": [
+            38.7226,
+            35.49
+          ],
+          "desc": {
+            "tr": "1238'de Alâeddin Keykubad'ın eşi Mahperi Hunat Hatun tarafından yaptırılan külliye; cami, medrese, hamam ve türbeden oluşur. Bir kadın bani tarafından kurulan en görkemli Selçuklu eserlerindendir.",
+            "de": "Der 1238 von Mahperi Hunat Hatun, der Gemahlin Alaeddin Keykubads, gestiftete Komplex umfasst Moschee, Medrese, Hamam und Grabmal. Eines der prächtigsten seldschukischen Werke einer Stifterin.",
+            "en": "Founded in 1238 by Mahperi Hunat Hatun, wife of Alaeddin Keykubad, the complex comprises mosque, medrese, bath and tomb. One of the most magnificent Seljuk works founded by a woman patron."
+          }
+        },
+        {
+          "id": "gevher",
+          "name": {
+            "tr": "Gevher Nesibe Darüşşifası",
+            "de": "Gevher-Nesibe-Hospital",
+            "en": "Gevher Nesibe Hospital"
+          },
+          "coords": [
+            38.7266,
+            35.478
+          ],
+          "desc": {
+            "tr": "1206 tarihli darüşşifa, Anadolu'nun ayakta kalan en eski hastanesi ve tıp okuludur; bugün Selçuklu Uygarlığı Müzesi'dir. Akıl hastalarının müzikle tedavi edildiği bölümleriyle tıp tarihinin öncü kurumlarındandır.",
+            "de": "Das Hospital von 1206 ist das älteste erhaltene Krankenhaus und die älteste Medizinschule Anatoliens; heute Museum der seldschukischen Zivilisation. Mit Abteilungen, in denen psychisch Kranke mit Musik behandelt wurden, ein Pionier der Medizingeschichte.",
+            "en": "Dated 1206, this is Anatolia's oldest surviving hospital and medical school, today the Museum of Seljuk Civilization. With wards where the mentally ill were treated with music, it is a pioneer in the history of medicine."
+          }
+        }
+      ]
+    },
+    {
+      "id": "konya",
+      "name": {
+        "tr": "Konya",
+        "de": "Konya",
+        "en": "Konya"
+      },
+      "places": [
+        {
+          "id": "mevlana",
+          "name": {
+            "tr": "Mevlâna Müzesi",
+            "de": "Mevlana-Museum",
+            "en": "Mevlâna Museum"
+          },
+          "coords": [
+            37.8706,
+            32.5044
+          ],
+          "desc": {
+            "tr": "Mevlânâ Celâleddin Rûmî'nin türbesi ve eski Mevlevî dergâhı, yeşil kubbesiyle Konya'nın simgesidir. Sema geleneğinin doğduğu bu mekân, her yıl milyonlarca ziyaretçiyi ağırlar.",
+            "de": "Das Grabmal von Mevlana Dschalal ad-Din Rumi und das ehemalige Mevlevi-Kloster mit seiner grünen Kuppel sind das Wahrzeichen Konyas. Hier entstand die Tradition der Sema-Zeremonie.",
+            "en": "The tomb of Mevlana Jalal ad-Din Rumi and the former Mevlevi lodge, with its green dome, is Konya's landmark. The tradition of the sema ceremony was born here."
+          }
+        },
+        {
+          "id": "karatay",
+          "name": {
+            "tr": "Karatay Medresesi (Çini Müzesi)",
+            "de": "Karatay-Medrese (Fliesenmuseum)",
+            "en": "Karatay Medrese (Tile Museum)"
+          },
+          "coords": [
+            37.8736,
+            32.493
+          ],
+          "desc": {
+            "tr": "1251 tarihli medrese, kubbesini kaplayan lacivert-firuze çinileriyle Selçuklu çini sanatının zirvesidir. Bugün çini eserler müzesi olarak Kubadabad Sarayı çinilerini de barındırır.",
+            "de": "Die Medrese von 1251 ist mit den dunkelblau-türkisen Fliesen ihrer Kuppel der Höhepunkt seldschukischer Fliesenkunst. Heute beherbergt sie als Fliesenmuseum auch die Kacheln des Kubadabad-Palastes.",
+            "en": "Dated 1251, the medrese is the summit of Seljuk tile art with the deep-blue and turquoise tiles of its dome. As a tile museum it now also houses the tiles of Kubadabad Palace."
+          }
+        },
+        {
+          "id": "catalhoyuk",
+          "name": {
+            "tr": "Çatalhöyük (UNESCO)",
+            "de": "Çatalhöyük (UNESCO)",
+            "en": "Çatalhöyük (UNESCO)"
+          },
+          "coords": [
+            37.6664,
+            32.8286
+          ],
+          "desc": {
+            "tr": "Yaklaşık 9 bin yıllık Çatalhöyük, dünyanın en eski ve en büyük Neolitik yerleşimlerindendir. Evlere damdan girilen, sokaksız bu 'ilk kent' insanlığın yerleşik hayata geçişinin anahtarıdır; 2012'den beri UNESCO listesindedir.",
+            "de": "Das rund 9.000 Jahre alte Çatalhöyük ist eine der ältesten und größten neolithischen Siedlungen der Welt. Diese 'erste Stadt' ohne Straßen, deren Häuser über die Dächer betreten wurden, ist ein Schlüssel zur Sesshaftwerdung des Menschen; seit 2012 UNESCO-Welterbe.",
+            "en": "Some 9,000 years old, Çatalhöyük is one of the world's oldest and largest Neolithic settlements. This streetless 'first city', entered through the rooftops, is a key to humanity's transition to settled life; UNESCO-listed since 2012."
+          }
+        }
+      ]
+    },
+    {
+      "id": "eskisehir",
+      "name": {
+        "tr": "Eskişehir & Frigya",
+        "de": "Eskişehir & Phrygien",
+        "en": "Eskişehir & Phrygia"
+      },
+      "places": [
+        {
+          "id": "gordion",
+          "name": {
+            "tr": "Gordion (UNESCO)",
+            "de": "Gordion (UNESCO)",
+            "en": "Gordion (UNESCO)"
+          },
+          "coords": [
+            39.6551,
+            31.9936
+          ],
+          "desc": {
+            "tr": "Frig Krallığı'nın başkenti Gordion, Kral Midas efsanesi ve İskender'in kestiği 'Gordion düğümü' ile tarihe geçti. Devasa Midas Tümülüsü, dünyanın en eski ahşap yapılarından birini barındırır; 2023'te UNESCO listesine girdi.",
+            "de": "Gordion, Hauptstadt des Phrygerreiches, ging mit der Midas-Legende und dem von Alexander durchschlagenen 'Gordischen Knoten' in die Geschichte ein. Der gewaltige Midas-Tumulus birgt eines der ältesten Holzbauwerke der Welt; seit 2023 UNESCO-Welterbe.",
+            "en": "Gordion, capital of the Phrygian kingdom, entered history with the Midas legend and the 'Gordian knot' cut by Alexander. The huge Midas Tumulus holds one of the world's oldest wooden structures; UNESCO-listed in 2023."
+          }
+        },
+        {
+          "id": "odunpazari",
+          "name": {
+            "tr": "Odunpazarı Evleri",
+            "de": "Häuser von Odunpazarı",
+            "en": "Odunpazarı Houses"
+          },
+          "coords": [
+            39.7626,
+            30.525
+          ],
+          "desc": {
+            "tr": "Eskişehir'in tarihî çekirdeği Odunpazarı, renkli cumbalı Osmanlı evleriyle yaşayan bir açık hava müzesidir. Lületaşı atölyeleri ve Odunpazarı Modern Müze ile gelenek ve çağdaş sanat yan yana durur.",
+            "de": "Odunpazarı, der historische Kern Eskişehirs, ist mit seinen farbigen osmanischen Erkerhäusern ein lebendiges Freilichtmuseum. Mit Meerschaum-Werkstätten und dem Museum Odunpazarı Modern stehen Tradition und Gegenwartskunst Seite an Seite.",
+            "en": "Odunpazarı, the historic core of Eskişehir, is a living open-air museum of colourful Ottoman houses with projecting bays. With meerschaum workshops and the Odunpazarı Modern Museum, tradition and contemporary art stand side by side."
+          }
+        }
+      ]
+    },
+    {
+      "id": "bursa",
+      "name": {
+        "tr": "Bursa & İznik",
+        "de": "Bursa & İznik",
+        "en": "Bursa & İznik"
+      },
+      "places": [
+        {
+          "id": "ulucami",
+          "name": {
+            "tr": "Bursa Ulu Camii",
+            "de": "Große Moschee von Bursa",
+            "en": "Grand Mosque of Bursa"
+          },
+          "coords": [
+            40.1841,
+            29.0613
+          ],
+          "desc": {
+            "tr": "1399'da Yıldırım Bayezid'in yaptırdığı Ulu Cami, yirmi kubbesi ve iç şadırvanıyla erken Osmanlı mimarisinin anıtıdır. Duvarlarındaki dev hat levhaları onu yaşayan bir kaligrafi müzesi yapar.",
+            "de": "Die 1399 von Yıldırım Bayezid errichtete Große Moschee ist mit zwanzig Kuppeln und ihrem Innenbrunnen das Monument frühosmanischer Architektur. Die riesigen Kalligraphien an ihren Wänden machen sie zu einem lebendigen Schriftkunstmuseum.",
+            "en": "Built in 1399 by Yıldırım Bayezid, the Grand Mosque with its twenty domes and interior fountain is the monument of early Ottoman architecture. The huge calligraphic panels on its walls make it a living museum of calligraphy."
+          }
+        },
+        {
+          "id": "yesil",
+          "name": {
+            "tr": "Yeşil Külliye",
+            "de": "Grüne Moschee & Grabmal",
+            "en": "Green Mosque & Tomb"
+          },
+          "coords": [
+            40.1817,
+            29.074
+          ],
+          "desc": {
+            "tr": "Çelebi Mehmed'in 15. yüzyıl başındaki külliyesi, adını firuze çinili türbesinden alır. Yeşil Türbe'nin çinileri, Osmanlı sanatının İznik öncesi zirvesidir.",
+            "de": "Der Komplex Mehmeds I. vom Beginn des 15. Jahrhunderts verdankt seinen Namen dem türkisgekachelten Mausoleum. Die Fliesen der Grünen Türbe sind der Höhepunkt osmanischer Kunst vor İznik.",
+            "en": "The early 15th-century complex of Mehmed I takes its name from its turquoise-tiled mausoleum. The tiles of the Green Tomb are the peak of Ottoman art before İznik."
+          }
+        },
+        {
+          "id": "cumalikizik",
+          "name": {
+            "tr": "Cumalıkızık (UNESCO)",
+            "de": "Cumalıkızık (UNESCO)",
+            "en": "Cumalıkızık (UNESCO)"
+          },
+          "coords": [
+            40.1739,
+            29.1725
+          ],
+          "desc": {
+            "tr": "700 yıllık Cumalıkızık, erken Osmanlı kır yerleşiminin en iyi korunmuş örneğidir; 2014'te 'Osmanlı İmparatorluğu'nun Doğuşu' alanıyla UNESCO listesine girdi. Dar taş sokakları ve ahşap evleriyle kuruluş dönemine açılan kapıdır.",
+            "de": "Das 700-jährige Cumalıkızık ist das besterhaltene Beispiel einer frühosmanischen Dorfsiedlung; 2014 als Teil der Stätte 'Geburt des Osmanischen Reiches' in die UNESCO-Liste aufgenommen. Mit engen Steingassen und Holzhäusern ein Tor zur Gründungszeit.",
+            "en": "Seven-hundred-year-old Cumalıkızık is the best-preserved example of an early Ottoman rural settlement, UNESCO-listed in 2014 as part of the 'Birth of the Ottoman Empire' site. Its narrow stone lanes and timber houses open a door to the founding era."
+          }
+        },
+        {
+          "id": "iznik",
+          "name": {
+            "tr": "İznik",
+            "de": "İznik (Nikaia)",
+            "en": "İznik (Nicaea)"
+          },
+          "coords": [
+            40.4285,
+            29.7218
+          ],
+          "desc": {
+            "tr": "Antik Nikaia, iki ekümenik konsile ev sahipliği yaptı (325 ve 787) ve surları hâlâ kenti çevreler. Osmanlı döneminde dünyaca ünlü İznik çinisinin merkezi oldu; Ayasofya'sı her iki dönemi birleştirir.",
+            "de": "Das antike Nikaia war Schauplatz zweier ökumenischer Konzile (325 und 787), seine Stadtmauern umschließen die Stadt bis heute. In osmanischer Zeit wurde es zum Zentrum der weltberühmten İznik-Keramik; seine Hagia Sophia verbindet beide Epochen.",
+            "en": "Ancient Nicaea hosted two ecumenical councils (325 and 787) and its walls still encircle the town. In the Ottoman era it became the centre of the world-famous İznik tiles; its Hagia Sophia unites both eras."
+          }
+        }
+      ]
+    },
+    {
+      "id": "edirne",
+      "name": {
+        "tr": "Edirne",
+        "de": "Edirne",
+        "en": "Edirne"
+      },
+      "places": [
+        {
+          "id": "selimiye",
+          "name": {
+            "tr": "Selimiye Camii (UNESCO)",
+            "de": "Selimiye-Moschee (UNESCO)",
+            "en": "Selimiye Mosque (UNESCO)"
+          },
+          "coords": [
+            41.6781,
+            26.5599
+          ],
+          "desc": {
+            "tr": "Mimar Sinan'ın 'ustalık eserim' dediği Selimiye (1575), 31,5 metrelik kubbesi ve dört zarif minaresiyle Osmanlı mimarisinin zirvesidir. 2011'den beri UNESCO Dünya Mirası'dır.",
+            "de": "Die Selimiye (1575), die Sinan sein 'Meisterwerk' nannte, ist mit ihrer Kuppel von 31,5 Metern und vier schlanken Minaretten der Gipfel osmanischer Architektur. Seit 2011 UNESCO-Welterbe.",
+            "en": "The Selimiye (1575), which Sinan called his 'masterpiece', is the summit of Ottoman architecture with its 31.5-metre dome and four slender minarets. A UNESCO World Heritage Site since 2011."
+          }
+        },
+        {
+          "id": "bayezid2",
+          "name": {
+            "tr": "Sultan II. Bayezid Külliyesi",
+            "de": "Komplex Bayezids II.",
+            "en": "Complex of Bayezid II"
+          },
+          "coords": [
+            41.6867,
+            26.546
+          ],
+          "desc": {
+            "tr": "1488 tarihli külliyenin darüşşifası, hastaların su sesi ve müzikle tedavi edildiği bölümleriyle ünlüdür; bugün Sağlık Müzesi'dir. Osmanlı tıp ve vakıf anlayışının en dokunaklı anıtıdır.",
+            "de": "Das Hospital des Komplexes von 1488 ist berühmt für die Behandlung der Kranken mit Wassergeräuschen und Musik; heute Gesundheitsmuseum. Das berührendste Denkmal osmanischer Medizin- und Stiftungskultur.",
+            "en": "The hospital of this 1488 complex is famous for treating patients with the sound of water and music; today it is a Health Museum. The most touching monument of Ottoman medicine and charitable foundations."
+          }
+        }
+      ]
+    },
+    {
+      "id": "canakkale",
+      "name": {
+        "tr": "Çanakkale & Troya",
+        "de": "Çanakkale & Troja",
+        "en": "Çanakkale & Troy"
+      },
+      "places": [
+        {
+          "id": "troya",
+          "name": {
+            "tr": "Troya (UNESCO)",
+            "de": "Troja (UNESCO)",
+            "en": "Troy (UNESCO)"
+          },
+          "coords": [
+            39.9576,
+            26.2389
+          ],
+          "desc": {
+            "tr": "Homeros'un İlyada'sının kenti Troya, üst üste dokuz yerleşim katmanıyla 4 bin yılı aşan bir höyüktür; 1998'den beri UNESCO listesindedir. Schliemann'ın kazıları arkeoloji tarihini başlatan efsanedir; çağdaş Troya Müzesi buluntuları sergiler.",
+            "de": "Troja, die Stadt von Homers Ilias, ist ein Siedlungshügel mit neun übereinanderliegenden Schichten aus über 4.000 Jahren; seit 1998 UNESCO-Welterbe. Schliemanns Grabungen sind der Gründungsmythos der Archäologie; das moderne Troja-Museum zeigt die Funde.",
+            "en": "Troy, the city of Homer's Iliad, is a mound of nine superimposed settlement layers spanning over 4,000 years; UNESCO-listed since 1998. Schliemann's excavations are the founding legend of archaeology; the modern Troy Museum displays the finds."
+          }
+        },
+        {
+          "id": "assos",
+          "name": {
+            "tr": "Assos",
+            "de": "Assos",
+            "en": "Assos"
+          },
+          "coords": [
+            39.4886,
+            26.3366
+          ],
+          "desc": {
+            "tr": "Deniz kıyısındaki granit tepede kurulu Assos'un zirvesinde MÖ 6. yüzyıldan Athena Tapınağı yükselir. Aristoteles burada üç yıl felsefe okulu yönetti; aşağıda Behramkale köyü ve antik liman durur.",
+            "de": "Auf dem Granitfelsen über dem Meer erhebt sich der Athenatempel von Assos aus dem 6. Jahrhundert v. Chr. Aristoteles leitete hier drei Jahre eine Philosophenschule; unten liegen das Dorf Behramkale und der antike Hafen.",
+            "en": "On a granite hill above the sea rises the 6th-century BC Temple of Athena of Assos. Aristotle led a school of philosophy here for three years; below lie the village of Behramkale and the ancient harbour."
+          }
+        },
+        {
+          "id": "gelibolu",
+          "name": {
+            "tr": "Gelibolu Tarihî Yarımadası",
+            "de": "Halbinsel Gallipoli",
+            "en": "Gallipoli Peninsula"
+          },
+          "coords": [
+            40.05,
+            26.2178
+          ],
+          "desc": {
+            "tr": "1915 Çanakkale Savaşları'nın cephesi Gelibolu, Conkbayırı'ndan Anzak Koyu'na şehitlikler ve anıtlarla kaplı bir hafıza coğrafyasıdır. Yarım milyonu aşan kayıp, burayı Türkiye, Avustralya ve Yeni Zelanda için ortak yas ve saygı alanı yapar.",
+            "de": "Gallipoli, Front der Schlachten von 1915, ist von Conkbayırı bis zur Anzac-Bucht eine Erinnerungslandschaft aus Soldatenfriedhöfen und Denkmälern. Über eine halbe Million Opfer machen den Ort zu einem gemeinsamen Trauer- und Gedenkraum für die Türkei, Australien und Neuseeland.",
+            "en": "Gallipoli, front of the 1915 campaign, is a landscape of memory from Chunuk Bair to Anzac Cove, covered with cemeteries and memorials. Over half a million casualties make it a shared space of mourning for Türkiye, Australia and New Zealand."
+          }
+        }
+      ]
+    }
+  ]
+}
