@@ -45,16 +45,25 @@ h1{font-size:1.6rem;margin:10px 0 4px}
   <div class="tabs" id="tabs"></div>
   <div class="region-hero" id="hero"></div>
   <div id="places"></div>
-  <p class="note" id="note">🔊 Sesli okuma cihazınızın kendi ses motorunu kullanır (ücretsiz); ses kalitesi cihaza göre değişir. 📍 harita bağlantısı noktayı OpenStreetMap'te açar.</p>
+  <p class="note" id="note">🔊 Sesli okuma cihazınızın ses motorunu kullanır; kalite cihaza göre değişir (Chrome/Android genelde en doğalıdır). Repoda music.mp3 varsa anlatım sırasında hafif fon müziği çalar. 📍 harita bağlantısı noktayı OpenStreetMap'te açar.</p>
 </main>
+<audio id="bgm" src="music.mp3" loop preload="none"></audio>
 <script>
 const UI={
  tr:{title:'Dijital Rehber',lead:'Bölge seç, noktayı oku — ya da 🔊 ile dinle. Kaynaklı, kısa, üç dilli.',listen:'🔊 Dinle',stop:'⏹ Durdur',map:'📍 Harita',note:'🔊 Sesli okuma cihazınızın kendi ses motorunu kullanır (ücretsiz); ses kalitesi cihaza göre değişir. 📍 harita bağlantısı noktayı OpenStreetMap\'te açar.'},
- de:{title:'Digitaler Guide',lead:'Region wählen, lesen — oder mit 🔊 anhören. Fundiert, kurz, dreisprachig.',listen:'🔊 Anhören',stop:'⏹ Stopp',map:'📍 Karte',note:'🔊 Die Sprachausgabe nutzt die Stimme Ihres Geräts (kostenlos); die Qualität variiert je nach Gerät. 📍 öffnet den Ort in OpenStreetMap.'},
+ de:{title:'Digitaler Guide',lead:'Region wählen, lesen — oder mit 🔊 anhören. Fundiert, kurz, dreisprachig.',listen:'🔊 Anhören',stop:'⏹ Stopp',map:'📍 Karte',note:'🔊 Die Sprachausgabe nutzt die Stimme Ihres Geräts; die Qualität variiert (Chrome/Android meist am natürlichsten). Liegt music.mp3 im Repo, läuft leise Hintergrundmusik. 📍 öffnet den Ort in OpenStreetMap.'},
  en:{title:'Digital Guide',lead:'Pick a region, read the spot — or listen with 🔊. Sourced, short, trilingual.',listen:'🔊 Listen',stop:'⏹ Stop',map:'📍 Map',note:'🔊 Audio uses your device\'s own voice engine (free); quality varies by device. 📍 opens the spot in OpenStreetMap.'}
 };
 const SPEECH_LANG={tr:'tr-TR',de:'de-DE',en:'en-GB'};
-let DATA=null, lang='tr', region=null, speakingBtn=null;
+let DATA=null, lang='tr', region=null, speakingBtn=null, VOICES=[];
+function loadVoices(){VOICES=speechSynthesis.getVoices()||[];}
+loadVoices();
+if(typeof speechSynthesis!=='undefined') speechSynthesis.onvoiceschanged=loadVoices;
+function pickVoice(bcp){
+  const base=bcp.split('-')[0];
+  const cand=VOICES.filter(v=>v.lang&&v.lang.toLowerCase().startsWith(base));
+  return cand.find(v=>/natural|neural|premium|enhanced|google/i.test(v.name)) || cand[0] || null;
+}
 
 fetch('places.json').then(r=>r.json()).then(d=>{DATA=d;region=d.regions[0].id;render();});
 
@@ -82,7 +91,11 @@ function render(){
     </article>`).join('');
   document.querySelectorAll('.speak').forEach(b=>b.onclick=()=>toggleSpeak(b));
 }
+const bgm=document.getElementById('bgm');
+function musicStart(){try{bgm.volume=0.12;bgm.currentTime=0;const p=bgm.play();if(p&&p.catch)p.catch(()=>{});}catch(e){}}
+function musicStop(){try{bgm.pause();}catch(e){}}
 function stopSpeak(){
+  musicStop();
   try{speechSynthesis.cancel();}catch(e){}
   if(speakingBtn){speakingBtn.classList.remove('on');speakingBtn.textContent=t('listen');speakingBtn=null;}
 }
@@ -90,9 +103,13 @@ function toggleSpeak(btn){
   if(speakingBtn===btn){stopSpeak();return;}
   stopSpeak();
   const u=new SpeechSynthesisUtterance(decodeURIComponent(btn.dataset.text));
-  u.lang=SPEECH_LANG[lang]; u.rate=0.95;
+  u.lang=SPEECH_LANG[lang];
+  const v=pickVoice(u.lang); if(v) u.voice=v;
+  u.rate=0.82; u.pitch=1;
   u.onend=()=>{if(speakingBtn===btn)stopSpeak();};
+  u.onerror=()=>{if(speakingBtn===btn)stopSpeak();};
   speakingBtn=btn; btn.classList.add('on'); btn.textContent=t('stop');
+  musicStart();
   try{speechSynthesis.speak(u);}catch(e){stopSpeak();}
 }
 document.querySelectorAll('.langs button').forEach(b=>b.onclick=()=>{stopSpeak();lang=b.dataset.lang;render();});
