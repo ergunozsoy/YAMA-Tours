@@ -656,6 +656,187 @@
           }
         }
       ]
+    },
+    {
+      "id": "antalya",
+      "name": {
+        "tr": "Antalya",
+        "de": "Antalya",
+        "en": "Antalya"
+      },
+      "img": "",
+      "places": [
+        {
+          "id": "kaleici",
+          "name": {
+            "tr": "Kaleiçi",
+            "de": "Kaleiçi (Altstadt)",
+            "en": "Kaleiçi (Old Town)"
+          },
+          "coords": [
+            36.8841,
+            30.7056
+          ],
+          "desc": {
+            "tr": "Antalya'nın tarihî çekirdeği Kaleiçi, Roma, Bizans, Selçuklu ve Osmanlı katmanlarını dar sokaklarında bir arada taşıyan bir açık hava müzesidir. Girişini, İmparator Hadrianus'un MS 130'daki ziyareti için yapılan üç kemerli anıtsal Hadrianus Kapısı (Üçkapılar) belirler. Kentin siluetine damgasını vuran Yivli Minare, 13. yüzyılda Selçuklu döneminde yükselmiş ve Antalya'nın simgesi olmuştur. Limana inen taş döşeli yollar boyunca cumbalı Osmanlı evleri, hanlar ve Roma dönemine ait Hıdırlık Kulesi sıralanır. Bugün restore edilen konaklar butik oteller ve kafeler olarak yaşarken, eski liman yatlarla dolu canlı bir buluşma noktasıdır.",
+            "de": "Kaleiçi, der historische Kern Antalyas, ist ein Freilichtmuseum, das römische, byzantinische, seldschukische und osmanische Schichten in engen Gassen vereint. Sein Eingang wird vom dreibogigen Hadrianstor (Üçkapılar) markiert, errichtet zum Besuch Kaiser Hadrians 130 n. Chr. Das die Silhouette prägende Yivli-Minarett stieg im 13. Jahrhundert unter den Seldschuken empor und wurde zum Wahrzeichen Antalyas. Entlang der gepflasterten Gassen zum Hafen reihen sich osmanische Erkerhäuser, Karawansereien und der römische Hıdırlık-Turm. Restaurierte Villen leben heute als Boutiquehotels und Cafés, während der alte Hafen voller Yachten ein lebhafter Treffpunkt ist.",
+            "en": "Kaleiçi, the historic core of Antalya, is an open-air museum where Roman, Byzantine, Seljuk and Ottoman layers meet in narrow lanes. Its entrance is marked by the three-arched Hadrian's Gate (Üçkapılar), built for Emperor Hadrian's visit in 130 AD. The Yivli (Fluted) Minaret, rising under the Seljuks in the 13th century, became the symbol of Antalya. Along the cobbled streets down to the harbour stand bay-windowed Ottoman houses, old inns and the Roman Hıdırlık Tower. Restored mansions now live on as boutique hotels and cafés, while the old harbour, full of yachts, is a lively meeting point."
+          }
+        },
+        {
+          "id": "perge",
+          "name": {
+            "tr": "Perge",
+            "de": "Perge",
+            "en": "Perge"
+          },
+          "coords": [
+            36.9611,
+            30.8539
+          ],
+          "desc": {
+            "tr": "Antalya'nın doğusundaki Perge, Pamfilya'nın en görkemli antik kentlerinden biridir; efsaneye göre Truva Savaşı sonrası Anadolu'ya gelen kâhinlerce kurulmuştur. Yuvarlak kuleli Helenistik kapısı, sütunlu ana caddesi, agorası, hamamları ve yaklaşık on iki bin kişilik stadyumuyla planlı bir Roma kentinin dokusunu bugüne taşır. Aziz Pavlus'un ilk misyon yolculuğunda uğradığı kent, Hristiyanlık tarihinde de anılır. Perge kazılarında bulunan zarif tanrıça ve imparator heykelleri bugün Antalya Müzesi'nin en değerli eserleri arasındadır. Suyun kentin ortasından bir kanalla akıtıldığı düzen, antik şehir planlamasının inceliğini gösterir.",
+            "de": "Perge östlich von Antalya zählt zu den prächtigsten antiken Städten Pamphyliens; der Sage nach von Sehern gegründet, die nach dem Trojanischen Krieg nach Anatolien kamen. Sein hellenistisches Tor mit Rundtürmen, die Säulenstraße, Agora, Bäder und das Stadion für rund zwölftausend Zuschauer bewahren das Gefüge einer planvollen römischen Stadt. Als Station der ersten Missionsreise des Apostels Paulus wird die Stadt auch in der Christentumsgeschichte genannt. Die in Perge gefundenen anmutigen Göttinnen- und Kaiserstatuen gehören heute zu den kostbarsten Werken des Museums von Antalya. Der Wasserkanal mitten durch die Stadt zeigt die Finesse antiker Stadtplanung.",
+            "en": "Perge, east of Antalya, is among the grandest ancient cities of Pamphylia; legend says it was founded by seers who came to Anatolia after the Trojan War. Its Hellenistic gate with round towers, colonnaded main street, agora, baths and stadium for some twelve thousand spectators preserve the fabric of a planned Roman city. As a stop on the Apostle Paul's first missionary journey, the city also figures in Christian history. The graceful statues of goddesses and emperors unearthed at Perge are today among the most prized works of the Antalya Museum. A water channel running down the city's centre reveals the refinement of ancient urban planning."
+          }
+        },
+        {
+          "id": "aspendos",
+          "name": {
+            "tr": "Aspendos",
+            "de": "Aspendos",
+            "en": "Aspendos"
+          },
+          "coords": [
+            36.9394,
+            31.1722
+          ],
+          "desc": {
+            "tr": "Serik yakınlarındaki Aspendos, Akdeniz dünyasının en iyi korunmuş Roma tiyatrosuyla ünlüdür. MS 2. yüzyılda, İmparator Marcus Aurelius döneminde, yerli mimar Zenon tarafından tasarlanan yapı, sahne binası ve oturma basamakları neredeyse eksiksiz ayakta kalmış nadir örneklerdendir. On binlerce izleyiciyi ağırlayan tiyatro, olağanüstü akustiğiyle bugün hâlâ opera ve bale festivallerine ev sahipliği yapar. Kentin gerisinde uzanan görkemli su kemerleri, Aspendos'un Roma mühendisliğindeki ustalığını gösterir. Bir zamanlar Köprüçay kıyısındaki ticaretle zenginleşen kent, kendi sikkeleriyle de tanınırdı.",
+            "de": "Aspendos bei Serik ist berühmt für das besterhaltene römische Theater der Mittelmeerwelt. Im 2. Jahrhundert n. Chr. unter Kaiser Marcus Aurelius vom einheimischen Architekten Zenon entworfen, ist es eines der seltenen Beispiele, bei denen Bühnenhaus und Sitzreihen fast vollständig erhalten sind. Das Theater fasste Zehntausende und beherbergt dank seiner außergewöhnlichen Akustik noch heute Opern- und Ballettfestivals. Die mächtigen Aquädukte hinter der Stadt zeugen von Aspendos' Meisterschaft in römischer Ingenieurskunst. Einst reich durch den Handel am Fluss Eurymedon (Köprüçay), war die Stadt auch für ihre Münzen bekannt.",
+            "en": "Aspendos, near Serik, is famous for the best-preserved Roman theatre in the Mediterranean world. Designed in the 2nd century AD, under Emperor Marcus Aurelius, by the local architect Zenon, it is one of the rare examples where the stage building and seating survive almost intact. Holding tens of thousands, the theatre still hosts opera and ballet festivals thanks to its extraordinary acoustics. The imposing aqueducts behind the city attest to Aspendos's mastery of Roman engineering. Once enriched by trade along the river Eurymedon (Köprüçay), the city was also known for its coins."
+          }
+        },
+        {
+          "id": "side",
+          "name": {
+            "tr": "Side",
+            "de": "Side",
+            "en": "Side"
+          },
+          "coords": [
+            36.7676,
+            31.3889
+          ],
+          "desc": {
+            "tr": "Bir yarımadanın ucuna kurulan Side, adını antik Anadolu dilinde 'nar' anlamına gelen sözcükten alır. Pamfilya'nın önemli liman kentlerinden biri olan Side, antik çağda köle ticaretinin de merkeziydi. Kentin simgesi, deniz kıyısındaki MS 2. yüzyıla ait Apollon Tapınağı'dır; ayakta kalan zarif sütunları, gün batımında Akdeniz'e karşı büyüleyici bir manzara sunar. Yaklaşık on beş bin kişilik büyük tiyatrosu, anıtsal çeşmesi, agorası ve sütunlu caddeleriyle Side, tarihi bugünkü tatil kasabasının içine gömülü yaşayan bir kenttir. Antik liman ile modern plajlar burada iç içe geçmiştir.",
+            "de": "Side, an der Spitze einer Halbinsel erbaut, trägt einen Namen, der in einer altanatolischen Sprache 'Granatapfel' bedeutet. Als bedeutende Hafenstadt Pamphyliens war Side in der Antike auch ein Zentrum des Sklavenhandels. Wahrzeichen ist der Apollon-Tempel aus dem 2. Jahrhundert n. Chr. am Meer; seine erhaltenen schlanken Säulen bieten bei Sonnenuntergang einen bezaubernden Blick über das Mittelmeer. Mit seinem großen Theater für rund fünfzehntausend Zuschauer, dem Monumentalbrunnen, der Agora und Säulenstraßen ist Side eine lebendige Stadt, deren Geschichte im heutigen Ferienort eingebettet ist. Antiker Hafen und moderne Strände verschmelzen.",
+            "en": "Built at the tip of a peninsula, Side takes its name from a word meaning 'pomegranate' in an ancient Anatolian language. A major port of Pamphylia, Side was also a centre of the slave trade in antiquity. Its emblem is the 2nd-century AD Temple of Apollo by the sea; its surviving slender columns offer an enchanting view over the Mediterranean at sunset. With its great theatre for some fifteen thousand spectators, monumental fountain, agora and colonnaded streets, Side is a living city whose history is embedded in today's resort town. Ancient harbour and modern beaches merge into one."
+          }
+        },
+        {
+          "id": "alanya",
+          "name": {
+            "tr": "Alanya",
+            "de": "Alanya",
+            "en": "Alanya"
+          },
+          "coords": [
+            36.5445,
+            32.0
+          ],
+          "desc": {
+            "tr": "Akdeniz'e uzanan kayalık bir yarımada üzerine kurulan Alanya, Selçuklu denizciliğinin en görkemli mirasını taşır. Sultan I. Alâeddin Keykubad, 1220'lerde kenti fethedip yazlık başkenti yapmış; surlarla çevrili kaleyi, sarayları ve limanı bu dönemde inşa ettirmiştir. Liman girişini koruyan sekizgen, kırmızı tuğladan Kızıl Kule 1226'da tamamlanmış ve kentin simgesi olmuştur. Hemen yanındaki Tersane, Selçukluların Akdeniz'deki tek gemi inşa tesisidir. Yarımadanın eteğindeki Damlataş Mağarası ve Kleopatra Plajı ise doğal güzellikleriyle tanınır. Alanya, ortaçağ kalesi ile modern sahil hayatını bir arada sunan ender yerlerdendir.",
+            "de": "Auf einer felsigen Halbinsel im Mittelmeer erbaut, trägt Alanya das prächtigste Erbe der seldschukischen Seefahrt. Sultan Alâeddin Keykubad I. eroberte die Stadt in den 1220er Jahren und machte sie zur Sommerresidenz; die von Mauern umgebene Burg, Paläste und den Hafen ließ er in dieser Zeit errichten. Der achteckige Rote Turm (Kızıl Kule) aus rotem Backstein, der die Hafeneinfahrt schützt, wurde 1226 vollendet und zum Wahrzeichen der Stadt. Die benachbarte Werft ist die einzige seldschukische Schiffbauanlage am Mittelmeer. Die Damlataş-Höhle und der Kleopatra-Strand am Fuß der Halbinsel sind für ihre Naturschönheit bekannt.",
+            "en": "Built on a rocky peninsula reaching into the Mediterranean, Alanya carries the grandest legacy of Seljuk seafaring. Sultan Alaeddin Keykubad I conquered the city in the 1220s and made it his summer capital, building the walled castle, palaces and harbour in this period. The octagonal Red Tower (Kızıl Kule) of red brick, guarding the harbour entrance, was completed in 1226 and became the city's emblem. The adjoining shipyard is the only Seljuk shipbuilding facility on the Mediterranean. At the foot of the peninsula, the Damlataş Cave and Cleopatra Beach are known for their natural beauty."
+          }
+        },
+        {
+          "id": "phaselis",
+          "name": {
+            "tr": "Phaselis",
+            "de": "Phaselis",
+            "en": "Phaselis"
+          },
+          "coords": [
+            36.5225,
+            30.5519
+          ],
+          "desc": {
+            "tr": "Çam ormanlarının denize kavuştuğu bir koyda kurulan Phaselis, Likya ile Pamfilya sınırındaki antik bir liman kentidir. MÖ 7. yüzyılda Rodoslu denizciler tarafından kurulan kent, üç ayrı doğal limanıyla ticarette önemli bir rol oynamıştır. Büyük İskender'in bir kışı burada geçirdiği anlatılır. Kentin ana caddesi iki liman arasında uzanır ve İmparator Hadrianus onuruna yapılmış anıtsal bir kapıyla süslenir; su kemerleri, hamamları ve agorası hâlâ görülebilir. Bugün antik yolları çam kokusu ve deniz sesi eşliğinde yürünen Phaselis, tarihle yüzmenin bir arada yaşandığı ender arkeolojik kıyılardandır.",
+            "de": "In einer Bucht, wo Pinienwälder das Meer berühren, liegt Phaselis, eine antike Hafenstadt an der Grenze zwischen Lykien und Pamphylien. Im 7. Jahrhundert v. Chr. von rhodischen Seefahrern gegründet, spielte die Stadt mit ihren drei natürlichen Häfen eine wichtige Rolle im Handel. Es heißt, Alexander der Große habe hier einen Winter verbracht. Die Hauptstraße verläuft zwischen zwei Häfen und wird von einem Monumentaltor zu Ehren Kaiser Hadrians geschmückt; Aquädukte, Bäder und Agora sind noch zu sehen. Wo man heute die antiken Wege im Duft der Pinien und beim Rauschen des Meeres begeht, gehört Phaselis zu den seltenen archäologischen Küsten.",
+            "en": "Set in a bay where pine forests meet the sea, Phaselis is an ancient port on the border of Lycia and Pamphylia. Founded by Rhodian sailors in the 7th century BC, the city played an important role in trade with its three separate natural harbours. Alexander the Great is said to have spent a winter here. Its main street runs between two harbours and is adorned with a monumental gate honouring Emperor Hadrian; aqueducts, baths and an agora can still be seen. Where you now walk the ancient roads amid the scent of pine and the sound of the sea, Phaselis is one of those rare archaeological shores where history and swimming meet."
+          }
+        },
+        {
+          "id": "olimpos",
+          "name": {
+            "tr": "Olimpos",
+            "de": "Olympos",
+            "en": "Olympos"
+          },
+          "coords": [
+            36.3969,
+            30.4703
+          ],
+          "desc": {
+            "tr": "Likya Birliği'nin köklü kentlerinden Olimpos, defne ve sakız ağaçlarıyla kaplı bir vadinin bir dere boyunca denize indiği noktada kurulmuştur. Antik çağda korsanlara da yataklık eden kent, Roma, Bizans ve ortaçağda Cenevizlilerle Venediklilerin izlerini taşıyan kalıntılarla doludur. Hemen yakınındaki Yanartaş'ta (antik adıyla Khimaira) yerden çıkan doğal gazın söndürülemeyen alevleri, mitolojide ateş püsküren canavar efsanesine ilham vermiş ve gemiciler için bir tür deniz feneri işlevi görmüştür. Bugün Olimpos, antik kalıntıların doğayla iç içe geçtiği plajı ve ağaç ev pansiyonlarıyla farklı bir gezgin kitlesini çeker.",
+            "de": "Olympos, eine altehrwürdige Stadt des Lykischen Bundes, entstand dort, wo ein von Lorbeer und Mastix bewachsenes Tal entlang eines Baches zum Meer hinabführt. In der Antike auch ein Schlupfwinkel für Piraten, ist die Stadt voller Ruinen mit Spuren aus römischer, byzantinischer und – im Mittelalter – genuesischer und venezianischer Zeit. Am nahen Yanartaş (antik Chimaira) inspirieren die unlöschbaren Flammen austretenden Erdgases die Sage des feuerspeienden Ungeheuers und dienten Seefahrern als Leuchtfeuer. Heute zieht Olympos mit seinem Strand, wo antike Ruinen und Natur verschmelzen, und seinen Baumhaus-Pensionen ein besonderes Reisepublikum an.",
+            "en": "Olympos, a venerable city of the Lycian League, arose where a valley cloaked in laurel and mastic descends along a stream to the sea. A haven for pirates in antiquity, the city is full of ruins bearing traces of Roman, Byzantine and — in the Middle Ages — Genoese and Venetian times. At nearby Yanartaş (ancient Chimaera), the inextinguishable flames of natural gas seeping from the ground inspired the legend of the fire-breathing monster and served sailors as a beacon. Today Olympos, with its beach where ancient ruins merge into nature and its tree-house lodges, draws a distinctive kind of traveller."
+          }
+        },
+        {
+          "id": "termessos",
+          "name": {
+            "tr": "Termessos",
+            "de": "Termessos",
+            "en": "Termessos"
+          },
+          "coords": [
+            36.9825,
+            30.4642
+          ],
+          "desc": {
+            "tr": "Güllük Dağı'nın sarp yamaçlarında, yaklaşık bin metre yükseklikte kurulan Termessos, Büyük İskender'in bile alamadığı efsanevi bir Pisidya kentidir. MÖ 333'te kenti kuşatan İskender, doğal savunması sarsılmaz bu 'kartal yuvası' karşısında geri çekilmek zorunda kalmıştır. Çam ormanının içinde yükselen tiyatrosu, vadiye bakan konumuyla Anadolu'nun en etkileyici manzaralarından birini sunar. Dağ yamacına dağılmış anıtsal lahitler, agora ve kayaya oyulmuş sarnıçlar, ulaşılması güç ama görmeye değer bir açık hava müzesi oluşturur. Bugün Termessos, Güllük Dağı Milli Parkı'nın el değmemiş doğasıyla tarihi bir arada yaşatan bir yürüyüş rotasıdır.",
+            "de": "Auf den steilen Hängen des Güllük-Bergs, in rund tausend Metern Höhe, erbaut, ist Termessos eine sagenhafte pisidische Stadt, die selbst Alexander der Große nicht einnehmen konnte. Als er die Stadt 333 v. Chr. belagerte, musste er sich vor diesem uneinnehmbaren 'Adlerhorst' mit seiner natürlichen Verteidigung zurückziehen. Das im Pinienwald aufragende Theater bietet mit seinem Blick ins Tal eine der eindrucksvollsten Aussichten Anatoliens. Über den Berghang verstreute monumentale Sarkophage, Agora und in den Fels gehauene Zisternen bilden ein schwer erreichbares, doch lohnendes Freilichtmuseum. Heute ist Termessos ein Wanderweg, der die unberührte Natur des Nationalparks mit Geschichte verbindet.",
+            "en": "Built on the steep slopes of Mount Güllük at about a thousand metres, Termessos is a legendary Pisidian city that even Alexander the Great could not take. Besieging it in 333 BC, he had to withdraw before this 'eagle's nest' with its unshakeable natural defences. Rising within the pine forest, its theatre, overlooking the valley, offers one of the most striking views in Anatolia. Monumental sarcophagi scattered across the hillside, an agora and rock-cut cisterns form a hard-to-reach but rewarding open-air museum. Today Termessos is a hiking route that keeps the untouched nature of the national park and history alive together."
+          }
+        },
+        {
+          "id": "duden",
+          "name": {
+            "tr": "Düden Şelalesi",
+            "de": "Düden-Wasserfälle",
+            "en": "Düden Waterfalls"
+          },
+          "coords": [
+            36.9464,
+            30.7522
+          ],
+          "desc": {
+            "tr": "Antalya'nın karstik yeraltı sularının yüzeye çıkıp gösterişli çağlayanlar oluşturduğu Düden, kentin en sevilen doğa harikalarından biridir. Yukarı Düden Şelalesi yemyeşil bir park içinde akar ve suyun ardındaki mağaradan şelaleye arkadan bakma imkânı sunar. Aşağı Düden ise kentin doğusunda, yaklaşık kırk metrelik bir uçurumdan doğrudan Akdeniz'e dökülerek nadir bir manzara yaratır; bu görüntü en iyi denizden, teknelerle izlenir. Düden Çayı'nı besleyen yeraltı ırmakları, Toros Dağları'ndan süzülen suların binlerce yıllık yolculuğunun sonudur. Serinliği ve yeşiliyle Düden, tarih gezisinin arasına doğa molası katmak için ideal bir duraktır.",
+            "de": "Wo Antalyas karstige Grundwasser an die Oberfläche treten und prächtige Wasserfälle bilden, gehört Düden zu den beliebtesten Naturwundern der Stadt. Der Obere Düden-Wasserfall fließt inmitten eines grünen Parks und erlaubt aus der Höhle dahinter einen Blick von hinten auf das stürzende Wasser. Der Untere Düden dagegen stürzt im Osten der Stadt über eine rund vierzig Meter hohe Klippe direkt ins Mittelmeer und schafft ein seltenes Bild, das man am besten vom Meer aus per Boot betrachtet. Die unterirdischen Flüsse, die den Düden-Bach speisen, sind das Ende einer jahrtausendelangen Reise des Wassers aus dem Taurusgebirge.",
+            "en": "Where Antalya's karstic groundwater rises to the surface to form spectacular falls, Düden is among the city's best-loved natural wonders. The Upper Düden Waterfall flows within a lush park and lets you view the cascade from behind, through the cave that lies behind the water. The Lower Düden, by contrast, plunges in the east of the city over a cliff some forty metres high directly into the Mediterranean, a rare sight best watched from the sea by boat. The underground rivers feeding the Düden stream are the end of a millennia-long journey of water from the Taurus Mountains."
+          }
+        },
+        {
+          "id": "selge",
+          "name": {
+            "tr": "Selge ve Beşkonak",
+            "de": "Selge und Beşkonak",
+            "en": "Selge and Beşkonak"
+          },
+          "coords": [
+            37.2306,
+            31.1272
+          ],
+          "desc": {
+            "tr": "Toros Dağları'nın derin vadilerinde, Köprülü Kanyon'un yukarısında kurulan Selge, Pisidya'nın yüksek bir dağ kentidir. Çevresini saran sarp kayalıklar kente doğal bir kale görünümü kazandırır; bugün hâlâ ayakta olan tiyatrosu ve agorası, köyün taş evleriyle iç içe geçmiştir. Selge'ye giden yolda Köprüçay'ın üzerinden atlayan Roma dönemine ait Oluk ve Bögrüm köprüleri, iki bin yıldır ayakta durarak antik mühendisliğe tanıklık eder. Kentin ayağındaki Beşkonak ve Köprülü Kanyon Milli Parkı ise buz gibi akan Köprüçay'da rafting ile ünlüdür. Selge, tarih, kanyon ve dağ doğasının aynı rotada birleştiği ender bir noktadır.",
+            "de": "In den tiefen Tälern des Taurusgebirges, oberhalb des Köprülü-Canyons, liegt Selge, eine hoch gelegene pisidische Bergstadt. Die umgebenden schroffen Felsen verleihen ihr das Aussehen einer natürlichen Festung; das noch erhaltene Theater und die Agora verschmelzen mit den Steinhäusern des heutigen Dorfes. Auf dem Weg nach Selge bezeugen die römischen Oluk- und Bögrüm-Brücken, die den Fluss Köprüçay überspannen, seit zweitausend Jahren antike Ingenieurskunst. Am Fuß der Stadt sind Beşkonak und der Köprülü-Canyon-Nationalpark für das Rafting auf dem eiskalten Köprüçay berühmt. Selge vereint Geschichte, Schlucht und Bergnatur auf einer Route.",
+            "en": "In the deep valleys of the Taurus Mountains, above the Köprülü Canyon, lies Selge, a high mountain city of Pisidia. The sheer cliffs around it give the city the look of a natural fortress; its still-standing theatre and agora merge with the stone houses of today's village. On the road to Selge, the Roman Oluk and Bögrüm bridges spanning the Köprüçay river have stood for two thousand years, bearing witness to ancient engineering. At the foot of the city, Beşkonak and the Köprülü Canyon National Park are famous for rafting on the icy Köprüçay. Selge is a rare place where history, canyon and mountain nature meet on one route."
+          }
+        }
+      ]
     }
   ]
 }
