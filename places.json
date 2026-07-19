@@ -59,6 +59,57 @@
             "de": "Die im 6. Jahrhundert unter Justinian erbaute Cisterna Basilica ist ein gewaltiger unterirdischer Wasserspeicher auf 336 Säulen; sie fasste rund 80.000 Tonnen Wasser. Das Wasser kam über Aquädukte aus dem kilometerweit entfernten Belgrader Wald und versorgte den Palast und seine Umgebung — die unsichtbare Lebensader des byzantinischen Konstantinopel. Die meisten Säulen sind Spolien älterer Tempel und Bauten; die beiden verkehrt und seitlich gesetzten Medusenhäupter sind das berühmteste und rätselhafteste Beispiel. Die Reliefs der Tränensäule sollen an die Hunderten von Sklaven erinnern, die beim Bau starben. In osmanischer Zeit vergessen, wurde die Zisterne im 16. Jahrhundert von Petrus Gyllius wiederentdeckt — er bemerkte Anwohner, die durch Löcher im Boden ihrer Häuser Wasser und sogar Fische heraufzogen.",
             "en": "Built in the 6th century under Justinian, the Basilica Cistern is a vast underground reservoir resting on 336 columns; it could hold some 80,000 tonnes of water. The water travelled by aqueduct from the Belgrade Forest kilometres away and supplied the palace quarter — the invisible lifeline of Byzantine Constantinople. Most columns are spolia from older temples and buildings; the two Medusa heads, set upside down and sideways, are the most famous and most enigmatic example. The reliefs of the Column of Tears are said to mourn the hundreds of slaves who died in its construction. Forgotten in Ottoman times, the cistern was rediscovered in the 16th century by Petrus Gyllius, who noticed residents drawing water — and even fish — through holes in the floors of their houses."
           }
+        },
+        {
+          "id": "sultanahmet",
+          "name": {
+            "tr": "Sultanahmet Camii",
+            "de": "Sultanahmet-Moschee (Blaue Moschee)",
+            "en": "Sultanahmet Mosque (Blue Mosque)"
+          },
+          "coords": [
+            41.0054,
+            28.9768
+          ],
+          "desc": {
+            "tr": "Sultan I. Ahmed'in emriyle 1609-1616 arasında Mimar Sinan'ın öğrencisi Sedefkâr Mehmed Ağa tarafından yapılan Sultanahmet Camii, Osmanlı klasik mimarisinin son büyük anıtlarından biridir. İç mekânı süsleyen yirmi binden fazla İznik çinisinin mavi-yeşil tonları yapıya Batı dillerinde 'Mavi Cami' adını kazandırmıştır. Altı minareli oluşu döneminde tartışma yaratmış; Mekke'deki Harem-i Şerif ile eşitlenmemesi için oraya yeni bir minare eklendiği rivayet edilir. Ayasofya'nın tam karşısına, Bizans Hipodromu'nun yanına konumlandırılan cami, kademeli yarım kubbeleri ve geniş avlusuyla meydanın siluetini belirler. İbadete açık olduğundan ziyaret saatleri namaz vakitlerine göre düzenlenir.",
+            "de": "Die zwischen 1609 und 1616 im Auftrag Sultan Ahmeds I. errichtete Sultanahmet-Moschee gilt als eines der letzten großen Werke der klassischen osmanischen Architektur; ihr Baumeister Sedefkâr Mehmed Ağa war ein Schüler Sinans. Über zwanzigtausend blau-grüne İznik-Fliesen im Innenraum gaben ihr im Westen den Namen 'Blaue Moschee'. Ihre sechs Minarette erregten damals Aufsehen – der Überlieferung nach ließ man in Mekka ein weiteres errichten, um den Gleichrang zu vermeiden. Direkt gegenüber der Hagia Sophia und neben dem byzantinischen Hippodrom gelegen, prägt sie mit ihrer gestuften Kuppelsilhouette und dem Innenhof das Bild des Platzes. Als aktive Moschee richten sich die Besuchszeiten nach den Gebetszeiten.",
+            "en": "Built between 1609 and 1616 for Sultan Ahmed I by Sedefkâr Mehmed Ağa, a pupil of Sinan, the Sultanahmet Mosque is among the last great monuments of classical Ottoman architecture. The blue-green tones of its more than twenty thousand İznik tiles earned it the Western name 'Blue Mosque.' Its six minarets caused controversy at the time; tradition holds that a new minaret was added to the Great Mosque in Mecca so the two would not be equalled. Set directly opposite Hagia Sophia and beside the Byzantine Hippodrome, its cascading half-domes and courtyard define the square's skyline. As a working mosque, visiting hours follow the times of prayer."
+          }
+        },
+        {
+          "id": "suleymaniye",
+          "name": {
+            "tr": "Süleymaniye Camii",
+            "de": "Süleymaniye-Moschee",
+            "en": "Süleymaniye Mosque"
+          },
+          "coords": [
+            41.0165,
+            28.9639
+          ],
+          "desc": {
+            "tr": "Kanuni Sultan Süleyman'ın buyruğuyla 1550-1557 arasında Mimar Sinan'ın inşa ettiği Süleymaniye Camii, mimarın kendi deyişiyle 'kalfalık' eseri sayılır ve Osmanlı klasik çağının doruğunu temsil eder. Haliç'e hâkim bir tepeye kurulan yapı yalnızca bir cami değil; medreseleri, darüşşifası, hamamı, imareti ve kütüphanesiyle koca bir külliyedir. Avlusunun arkasındaki hazirede Kanuni ile Hürrem Sultan'ın türbeleri, külliyenin dışında ise Sinan'ın kendi mütevazı türbesi bulunur. Yaklaşık 53 metreye ulaşan ana kubbesi, akustiği ve ışık düzeniyle Sinan'ın strüktürel dehasını gösterir. İstanbul silüetini yüzyıllardır belirleyen simge yapılardandır.",
+            "de": "Die zwischen 1550 und 1557 von Mimar Sinan im Auftrag Süleymans des Prächtigen errichtete Süleymaniye-Moschee gilt – nach Sinans eigenen Worten sein 'Gesellenstück' – als Höhepunkt der klassischen osmanischen Baukunst. Auf einem Hügel über dem Goldenen Horn gelegen, ist sie nicht nur Moschee, sondern eine ganze Stiftungsanlage mit Medresen, Krankenhaus, Hamam, Armenküche und Bibliothek. Im Garten dahinter ruhen Süleyman und Hürrem Sultan, etwas abseits Sinan selbst in seinem schlichten Grabmal. Die rund 53 Meter hohe Hauptkuppel zeigt mit ihrer Akustik und Lichtführung Sinans strukturelles Genie. Seit Jahrhunderten prägt sie die Silhouette Istanbuls.",
+            "en": "Built between 1550 and 1557 by Mimar Sinan for Süleyman the Magnificent, the Süleymaniye Mosque was, in the architect's own words, his 'journeyman work,' and it marks the summit of classical Ottoman architecture. Set on a hill above the Golden Horn, it is not merely a mosque but a whole complex, with madrasas, a hospital, a hamam, a soup kitchen and a library. In the garden behind lie the tombs of Süleyman and Hürrem Sultan, while just outside rests Sinan himself in his modest grave. Its main dome, rising about 53 metres, reveals Sinan's structural genius through its acoustics and light. It has shaped Istanbul's skyline for centuries."
+          }
+        },
+        {
+          "id": "kariye",
+          "name": {
+            "tr": "Kariye (Chora)",
+            "de": "Chora-Kirche (Kariye)",
+            "en": "Chora (Kariye)"
+          },
+          "coords": [
+            41.0311,
+            28.9394
+          ],
+          "desc": {
+            "tr": "Kariye, adını Bizans döneminde şehir surlarının dışında ('khora' – kır) kalmasından alan bir manastır kilisesidir. Bugün hayranlık uyandıran mozaik ve freskleri, 14. yüzyıl başında (yaklaşık 1315-1321) devlet adamı ve bilgin Theodoros Metokhites'in himayesinde yaptırılmıştır. İsa ile Meryem'in hayatını anlatan sahneler, altın zeminli mozaiklerdeki devinim ve derinlik duygusuyla geç Bizans (Paleologos) sanatının en olgun örnekleri arasında sayılır; parekklesiondaki Anastasis freski bu ustalığın zirvesidir. Yapı Osmanlı döneminde camiye çevrilmiş, 1945'te müze olmuş, 2020'de yeniden cami statüsü kazanmıştır. Kimi araştırmacılar bu eserleri İtalyan Rönesansı'nın habercisi olarak yorumlar.",
+            "de": "Die Chora-Kirche (Kariye) verdankt ihren Namen ihrer einstigen Lage außerhalb der byzantinischen Stadtmauern ('chora' – Land). Ihre heute bewunderten Mosaiken und Fresken entstanden im frühen 14. Jahrhundert (etwa 1315-1321) unter der Förderung des Staatsmannes und Gelehrten Theodoros Metochites. Die Szenen aus dem Leben Christi und Mariens zählen mit ihrer Bewegtheit und Tiefe auf Goldgrund zu den reifsten Werken der spätbyzantinischen (palaiologischen) Kunst; das Anastasis-Fresko im Parekklesion ist ihr Höhepunkt. In osmanischer Zeit zur Moschee umgewandelt, 1945 Museum, erhielt der Bau 2020 erneut den Status einer Moschee. Manche sehen darin einen Vorboten der italienischen Renaissance.",
+            "en": "The Chora (Kariye) takes its name from its former position outside the Byzantine city walls ('chora' – countryside). Its celebrated mosaics and frescoes were made in the early 14th century (about 1315-1321) under the patronage of the statesman and scholar Theodore Metochites. Depicting the lives of Christ and the Virgin, their movement and depth against gold grounds place them among the most accomplished works of late Byzantine (Palaiologan) art; the Anastasis fresco in the parekklesion is their crowning achievement. Converted to a mosque under the Ottomans, made a museum in 1945, the building was again given mosque status in 2020. Some scholars read these works as a herald of the Italian Renaissance."
+          }
         }
       ]
     },
