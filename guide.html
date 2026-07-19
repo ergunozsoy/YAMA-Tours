@@ -9,11 +9,14 @@
 :root{--bg:#0e1116;--bg2:#141820;--card:#1b202a;--text:#f5efe4;--muted:#bbad97;--gold:#d0a047;--line:#2a303b}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--text);font-family:Georgia,'Times New Roman',serif;line-height:1.6}
-.top{position:sticky;top:0;background:rgba(14,17,22,.92);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);padding:14px 20px;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.top{position:sticky;top:0;background:rgba(14,17,22,.92);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);padding:14px 20px;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;z-index:5}
 .top a.logo{color:var(--gold);text-decoration:none;font-weight:700;letter-spacing:.08em}
+.top-right{display:flex;align-items:center;gap:10px}
 .langs{display:flex;gap:6px}
 .langs button{font:inherit;font-size:.8rem;padding:5px 12px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--muted);cursor:pointer}
 .langs button.active{background:var(--gold);color:#14100a;border-color:var(--gold)}
+.music-btn{font:inherit;font-size:.9rem;padding:5px 11px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--gold);cursor:pointer;line-height:1}
+.music-btn.off{color:var(--muted);opacity:.6}
 main{max-width:960px;margin:0 auto;padding:28px 20px 60px}
 h1{font-size:1.6rem;margin:10px 0 4px}
 .lead{color:var(--muted);margin:0 0 22px}
@@ -24,19 +27,24 @@ h1{font-size:1.6rem;margin:10px 0 4px}
 .place{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:16px}
 .place h3{margin:0 0 8px;color:var(--gold);font-size:1.12rem}
 .place p{margin:0 0 12px}
-.actions{display:flex;gap:10px;flex-wrap:wrap}
+.actions{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
 .actions a,.actions button{font:inherit;font-size:.82rem;padding:7px 14px;border-radius:999px;border:1px solid var(--line);background:var(--bg2);color:var(--muted);cursor:pointer;text-decoration:none}
 .actions .speak.on{border-color:var(--gold);color:var(--gold)}
+.actions .speak.voice{border-color:var(--gold);color:var(--gold)}
+.badge-voice{font-size:.7rem;color:var(--gold);opacity:.8;letter-spacing:.04em}
 .note{color:var(--muted);font-size:.82rem;margin-top:30px;border-top:1px solid var(--line);padding-top:14px}
 </style>
 </head>
 <body>
 <div class="top">
   <a class="logo" href="index.html">← YAMA KÜLTÜR</a>
-  <div class="langs">
-    <button data-lang="tr" class="active">TR</button>
-    <button data-lang="de">DE</button>
-    <button data-lang="en">EN</button>
+  <div class="top-right">
+    <button class="music-btn" id="musicBtn" title="Müzik aç/kapa" aria-label="Müzik">♪</button>
+    <div class="langs">
+      <button data-lang="tr" class="active">TR</button>
+      <button data-lang="de">DE</button>
+      <button data-lang="en">EN</button>
+    </div>
   </div>
 </div>
 <main>
@@ -45,17 +53,28 @@ h1{font-size:1.6rem;margin:10px 0 4px}
   <div class="tabs" id="tabs"></div>
   <div class="region-hero" id="hero"></div>
   <div id="places"></div>
-  <p class="note" id="note">🔊 Sesli okuma cihazınızın ses motorunu kullanır; kalite cihaza göre değişir (Chrome/Android genelde en doğalıdır). Repoda music.mp3 varsa anlatım sırasında hafif fon müziği çalar. 📍 harita bağlantısı noktayı OpenStreetMap'te açar.</p>
+  <p class="note" id="note"></p>
 </main>
-<audio id="bgm" src="music.mp3" loop preload="none"></audio>
+<audio id="bgm" loop preload="none"></audio>
 <script>
 const UI={
- tr:{title:'Dijital Rehber',lead:'Bölge seç, noktayı oku — ya da 🔊 ile dinle. Kaynaklı, kısa, üç dilli.',listen:'🔊 Dinle',stop:'⏹ Durdur',map:'📍 Harita',note:'🔊 Sesli okuma cihazınızın kendi ses motorunu kullanır (ücretsiz); ses kalitesi cihaza göre değişir. 📍 harita bağlantısı noktayı OpenStreetMap\'te açar.'},
- de:{title:'Digitaler Guide',lead:'Region wählen, lesen — oder mit 🔊 anhören. Fundiert, kurz, dreisprachig.',listen:'🔊 Anhören',stop:'⏹ Stopp',map:'📍 Karte',note:'🔊 Die Sprachausgabe nutzt die Stimme Ihres Geräts; die Qualität variiert (Chrome/Android meist am natürlichsten). Liegt music.mp3 im Repo, läuft leise Hintergrundmusik. 📍 öffnet den Ort in OpenStreetMap.'},
- en:{title:'Digital Guide',lead:'Pick a region, read the spot — or listen with 🔊. Sourced, short, trilingual.',listen:'🔊 Listen',stop:'⏹ Stop',map:'📍 Map',note:'🔊 Audio uses your device\'s own voice engine (free); quality varies by device. 📍 opens the spot in OpenStreetMap.'}
+ tr:{title:'Dijital Rehber',lead:'Bölge seç, noktayı oku — ya da 🔊 ile dinle. Kaynaklı, kısa, üç dilli.',listen:'🔊 Dinle',stop:'⏹ Durdur',map:'📍 Harita',voice:'kendi sesiyle',note:'🔊 Bir nokta için önceden üretilmiş ses varsa YAMA’nın kendi sesiyle çalar; yoksa cihazınızın ses motoru okur. ♪ ile arkada bölgeye özel müzik açılıp kapatılır; anlatım sırasında müzik otomatik kısılır. 📍 harita bağlantısı noktayı OpenStreetMap\'te açar.'},
+ de:{title:'Digitaler Guide',lead:'Region wählen, lesen — oder mit 🔊 anhören. Fundiert, kurz, dreisprachig.',listen:'🔊 Anhören',stop:'⏹ Stopp',map:'📍 Karte',voice:'eigene Stimme',note:'🔊 Gibt es eine Aufnahme, spielt sie in YAMAs eigener Stimme; sonst liest die Stimme Ihres Geräts. Mit ♪ läuft im Hintergrund regionsspezifische Musik, die während der Erzählung automatisch leiser wird. 📍 öffnet den Ort in OpenStreetMap.'},
+ en:{title:'Digital Guide',lead:'Pick a region, read the spot — or listen with 🔊. Sourced, short, trilingual.',listen:'🔊 Listen',stop:'⏹ Stop',map:'📍 Map',voice:'own voice',note:'🔊 If a clip exists a spot plays in YAMA’s own voice; otherwise your device reads it. ♪ toggles region-specific background music that automatically ducks under the narration. 📍 opens the spot in OpenStreetMap.'}
 };
 const SPEECH_LANG={tr:'tr-TR',de:'de-DE',en:'en-GB'};
+const AUDIO_DIR='sesler/';                 // önceden üretilmiş anlatım mp3'leri
+const MUSIC={ istanbul:'muzik/istanbul.mp3' };   // bölgeye özel müzik (yoksa genel music.mp3)
+const MUSIC_FALLBACK='music.mp3';
+const VOL_NORMAL=0.16, VOL_DUCK=0.045;     // müzik: normal / anlatım sırasında kısık
+
 let DATA=null, lang='tr', region=null, speakingBtn=null, VOICES=[];
+let MANIFEST=new Set(), currentAudio=null;
+let musicEnabled=true, bgmStarted=false, currentMusicSrc='', rampTimer=null;
+
+const bgm=document.getElementById('bgm');
+const musicBtn=document.getElementById('musicBtn');
+
 function loadVoices(){VOICES=speechSynthesis.getVoices()||[];}
 loadVoices();
 if(typeof speechSynthesis!=='undefined') speechSynthesis.onvoiceschanged=loadVoices;
@@ -65,9 +84,57 @@ function pickVoice(bcp){
   return cand.find(v=>/natural|neural|premium|enhanced|google/i.test(v.name)) || cand[0] || null;
 }
 
-fetch('places.json').then(r=>r.json()).then(d=>{DATA=d;region=d.regions[0].id;render();});
+Promise.resolve()
+  .then(()=>fetch(AUDIO_DIR+'manifest.json').then(r=>r.ok?r.json():[]).catch(()=>[]))
+  .then(list=>{ if(Array.isArray(list)) MANIFEST=new Set(list); })
+  .then(()=>fetch('places.json').then(r=>r.json()))
+  .then(d=>{DATA=d;region=d.regions[0].id;render();});
 
 function t(k){return UI[lang][k];}
+function keyFor(placeId){return region+'-'+placeId+'-'+lang;}
+function hasVoice(placeId){return MANIFEST.has(keyFor(placeId));}
+
+/* ---------- MÜZİK: sürekli + ducking ---------- */
+function musicForRegion(r){return MUSIC[r]||MUSIC_FALLBACK;}
+function rampVolume(target,dur){
+  if(rampTimer) clearInterval(rampTimer);
+  const start=bgm.volume, steps=Math.max(1,Math.round(dur/40));
+  let i=0;
+  rampTimer=setInterval(()=>{
+    i++; bgm.volume=Math.max(0,Math.min(1,start+(target-start)*i/steps));
+    if(i>=steps){clearInterval(rampTimer);rampTimer=null;}
+  },40);
+}
+function ensureMusic(){
+  if(!musicEnabled||bgmStarted) return;
+  const src=musicForRegion(region);
+  bgm.src=src; currentMusicSrc=src; bgm.loop=true; bgm.volume=0;
+  const p=bgm.play();
+  if(p&&p.then){p.then(()=>{bgmStarted=true;rampVolume(VOL_NORMAL,800);}).catch(()=>{});}
+  bgmStarted=true;
+}
+function switchMusic(){
+  if(!musicEnabled||!bgmStarted) return;
+  const src=musicForRegion(region);
+  if(src===currentMusicSrc) return;
+  rampVolume(0,300);
+  setTimeout(()=>{
+    bgm.src=src; currentMusicSrc=src; bgm.loop=true;
+    const p=bgm.play(); if(p&&p.catch)p.catch(()=>{});
+    rampVolume(speakingBtn?VOL_DUCK:VOL_NORMAL,600);
+  },320);
+}
+function duck(){ if(musicEnabled&&bgmStarted) rampVolume(VOL_DUCK,220); }
+function unduck(){ if(musicEnabled&&bgmStarted) rampVolume(VOL_NORMAL,600); }
+function toggleMusic(){
+  musicEnabled=!musicEnabled;
+  musicBtn.classList.toggle('off',!musicEnabled);
+  if(musicEnabled){ bgmStarted=false; ensureMusic(); }
+  else { rampVolume(0,300); setTimeout(()=>{try{bgm.pause();}catch(e){}},320); bgmStarted=false; }
+}
+musicBtn.onclick=toggleMusic;
+
+/* ---------- RENDER ---------- */
 function render(){
   document.getElementById('title').textContent=t('title');
   document.getElementById('lead').textContent=t('lead');
@@ -76,40 +143,53 @@ function render(){
   document.querySelectorAll('.langs button').forEach(b=>b.classList.toggle('active',b.dataset.lang===lang));
   const tabs=document.getElementById('tabs');
   tabs.innerHTML=DATA.regions.map(r=>`<button data-r="${r.id}" class="${r.id===region?'active':''}">${r.name[lang]}</button>`).join('');
-  tabs.querySelectorAll('button').forEach(b=>b.onclick=()=>{stopSpeak();region=b.dataset.r;render();});
+  tabs.querySelectorAll('button').forEach(b=>b.onclick=()=>{stopSpeak();region=b.dataset.r;render();ensureMusic();switchMusic();});
   const reg=DATA.regions.find(r=>r.id===region);
   const hero=document.getElementById('hero');
   if(reg.img){hero.style.display='block';hero.style.backgroundImage=`url('${reg.img}')`;}else{hero.style.display='none';}
-  document.getElementById('places').innerHTML=reg.places.map(p=>`
+  document.getElementById('places').innerHTML=reg.places.map(p=>{
+    const voiced=hasVoice(p.id);
+    return `
     <article class="place">
       <h3>${p.name[lang]}</h3>
       <p>${p.desc[lang]}</p>
       <div class="actions">
-        <button class="speak" data-text="${encodeURIComponent(p.name[lang]+'. '+p.desc[lang])}">${t('listen')}</button>
+        <button class="speak${voiced?' voice':''}" data-place="${p.id}" data-text="${encodeURIComponent(p.name[lang]+'. '+p.desc[lang])}">${t('listen')}</button>
+        ${voiced?`<span class="badge-voice">✦ ${t('voice')}</span>`:''}
         <a target="_blank" rel="noopener" href="https://www.openstreetmap.org/?mlat=${p.coords[0]}&mlon=${p.coords[1]}#map=16/${p.coords[0]}/${p.coords[1]}">${t('map')}</a>
       </div>
-    </article>`).join('');
+    </article>`;}).join('');
   document.querySelectorAll('.speak').forEach(b=>b.onclick=()=>toggleSpeak(b));
 }
-const bgm=document.getElementById('bgm');
-function musicStart(){try{bgm.volume=0.12;bgm.currentTime=0;const p=bgm.play();if(p&&p.catch)p.catch(()=>{});}catch(e){}}
-function musicStop(){try{bgm.pause();}catch(e){}}
+
+/* ---------- ANLATIM ---------- */
 function stopSpeak(){
-  musicStop();
   try{speechSynthesis.cancel();}catch(e){}
+  if(currentAudio){try{currentAudio.pause();}catch(e){}currentAudio=null;}
   if(speakingBtn){speakingBtn.classList.remove('on');speakingBtn.textContent=t('listen');speakingBtn=null;}
+  unduck();               // müzik durmaz, sadece seviyesi geri yükselir (sürekli çalar)
 }
 function toggleSpeak(btn){
   if(speakingBtn===btn){stopSpeak();return;}
   stopSpeak();
+  speakingBtn=btn; btn.classList.add('on'); btn.textContent=t('stop');
+  ensureMusic(); duck();
+  if(hasVoice(btn.dataset.place)) playClip(btn); else speakTTS(btn);
+}
+function playClip(btn){
+  const url=AUDIO_DIR+keyFor(btn.dataset.place)+'.mp3';
+  const a=new Audio(url); currentAudio=a;
+  a.onended=()=>{if(speakingBtn===btn)stopSpeak();};
+  a.onerror=()=>{currentAudio=null; if(speakingBtn===btn) speakTTS(btn);};
+  const p=a.play(); if(p&&p.catch)p.catch(()=>{});
+}
+function speakTTS(btn){
   const u=new SpeechSynthesisUtterance(decodeURIComponent(btn.dataset.text));
   u.lang=SPEECH_LANG[lang];
   const v=pickVoice(u.lang); if(v) u.voice=v;
   u.rate=0.82; u.pitch=1;
   u.onend=()=>{if(speakingBtn===btn)stopSpeak();};
   u.onerror=()=>{if(speakingBtn===btn)stopSpeak();};
-  speakingBtn=btn; btn.classList.add('on'); btn.textContent=t('stop');
-  musicStart();
   try{speechSynthesis.speak(u);}catch(e){stopSpeak();}
 }
 document.querySelectorAll('.langs button').forEach(b=>b.onclick=()=>{stopSpeak();lang=b.dataset.lang;render();});
