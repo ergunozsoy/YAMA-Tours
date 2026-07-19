@@ -172,6 +172,40 @@
             "de": "Uçhisar, der höchste Punkt Kappadokiens, ist ein gewaltiger Burgfels, dessen Inneres zu Kammern, Tunneln und Treppen ausgehöhlt ist; sein Name bedeutet 'Grenzfestung'. Im Zeitalter der byzantinisch-arabischen Kämpfe war er der Wachtturm der Region: Vom Gipfel überblickt man die Täler bis zum Erciyes, Gefahr wurde mit Feuer und Zeichen an die Nachbarburgen gemeldet. Die Taubenschläge, die den Fels wie Waben überziehen, waren jahrhundertelang die wertvollste Düngerquelle der Winzer — die Taube ist der stille Partner der kappadokischen Landwirtschaft. Das Taubental zu seinen Füßen gehört mit seinen rosa Tuffhängen bei Sonnenuntergang zu den beliebtesten Wanderwegen der Region. Heute sind die alten Felshäuser rund um die Burg zu Hotels und Werkstätten geworden; das Steindorf lebt wieder.",
             "en": "Uçhisar, the highest point of Cappadocia, is a colossal castle rock hollowed into chambers, tunnels and stairways; its name means 'frontier fortress'. In the age of Byzantine–Arab warfare it was the region's watchtower: from its summit the valleys stretch in one view to Mount Erciyes, and danger was signalled by fire to neighbouring strongholds. The dovecotes covering the rock like honeycomb were for centuries the vine-growers' most precious source of fertiliser — the pigeon is the silent partner of Cappadocian agriculture. Pigeon Valley at its feet, with its pink tuff slopes at sunset, is among the region's best-loved walking routes. Today the old cave houses around the castle have become hotels and workshops, and the stone village lives again."
           }
+        },
+        {
+          "id": "urgup",
+          "name": {
+            "tr": "Ürgüp",
+            "de": "Ürgüp",
+            "en": "Ürgüp"
+          },
+          "coords": [
+            38.631,
+            34.913
+          ],
+          "desc": {
+            "tr": "Kapadokya'nın bağcılık geleneğiyle ünlü kasabası Ürgüp, peribacalarının ve kaya oyuğu evlerin arasına kurulmuştur. Yüzyıllardır süren şarapçılık, bölgenin volkanik toprağı ve serin mahzenleriyle birleşerek kasabaya kendine özgü bir kimlik kazandırmıştır. Temenni Tepesi'nden bakıldığında, kayaya oyulmuş eski mahalleler ile modern Ürgüp iç içe görünür. Bugün pek çok kaya evi butik otele dönüşmüş; bölge, balon turlarının ve tarih gezilerinin merkezlerinden biri olmuştur.",
+            "de": "Ürgüp, für seine Weinbautradition bekannte Stadt Kappadokiens, liegt zwischen Feenkaminen und in den Fels gehauenen Häusern. Der jahrhundertealte Weinbau verband sich mit dem vulkanischen Boden und den kühlen Kellern zu einer eigenen Identität. Vom Temenni-Hügel verschmelzen die alten Felsviertel mit dem modernen Ürgüp. Heute sind viele Höhlenhäuser Boutiquehotels, und die Gegend ist ein Zentrum für Ballonfahrten und Kulturreisen.",
+            "en": "Ürgüp, a town of Cappadocia famed for its winemaking, was built among fairy chimneys and rock-cut houses. Centuries of viticulture, joined to the volcanic soil and cool cellars, gave the town a character of its own. From Temenni Hill, the old rock-carved quarters and modern Ürgüp appear intertwined. Today many cave houses have become boutique hotels, and the area is a hub for balloon flights and cultural travel."
+          }
+        },
+        {
+          "id": "ihlara",
+          "name": {
+            "tr": "Ihlara Vadisi",
+            "de": "Ihlara-Tal",
+            "en": "Ihlara Valley"
+          },
+          "coords": [
+            38.256,
+            34.305
+          ],
+          "desc": {
+            "tr": "Melendiz Çayı'nın binlerce yılda oyduğu Ihlara Vadisi, yaklaşık on dört kilometre boyunca uzanan yeşil ve serin bir kanyondur. Dik kaya duvarlarına oyulmuş onlarca kilise ve manastır, vadiyi bir açık hava inanç merkezine dönüştürmüştür. Bu kiliselerin duvarlarındaki freskler, Bizans dinî sanatının taşradaki en canlı örnekleri arasındadır. Çayın kenarında yürürken, kavakların gölgesi, kuş sesleri ve suyun serinliği tarih gezisine doğa molası katar.",
+            "de": "Das vom Fluss Melendiz über Jahrtausende geformte Ihlara-Tal ist eine grüne, kühle Schlucht von etwa vierzehn Kilometern Länge. Dutzende in die steilen Felswände gehauene Kirchen und Klöster machten das Tal zu einem Freiluft-Glaubenszentrum. Die Fresken an ihren Wänden zählen zu den lebendigsten Beispielen byzantinischer Sakralkunst in der Provinz. Am Flussufer spenden Pappeln Schatten, während Vogelstimmen und kühles Wasser die Reise begleiten.",
+            "en": "The Ihlara Valley, carved by the Melendiz river over millennia, is a green and cool canyon stretching about fourteen kilometres. Dozens of churches and monasteries cut into its sheer cliffs turned the valley into an open-air centre of faith. The frescoes on their walls are among the most vivid provincial examples of Byzantine religious art. Walking along the stream, the shade of poplars, birdsong and the cool water add a touch of nature to a journey through history."
+          }
         }
       ]
     },
@@ -216,6 +250,57 @@
             "tr": "Panayır Dağı'nın yamacına yaslanan Büyük Tiyatro, yaklaşık 24 bin seyirci kapasitesiyle Anadolu'nun en büyük antik tiyatrolarındandır; Helenistik çekirdeği Roma döneminde kat kat büyütüldü. Akustiği bugün bile şaşırtır: sahnede düşen bir iğnenin sesi üst sıralardan duyulabilir. Aziz Pavlus'un Efes hikâyesinin doruğu burada yaşandı — Resullerin İşleri'ne göre, Artemis gümüşçülerinin başlattığı ayaklanmada kalabalık bu tiyatroda saatlerce 'Efeslilerin Artemis'i uludur!' diye bağırdı. Sahneden bakınca Liman Caddesi (Arkadiane) dosdoğru antik limana uzanır; denizden gelen bir yolcunun kente ilk bakışta gördüğü şey bu mermer perspektifti. Tiyatro, gladyatör dövüşlerinden modern konserlere iki bin yıldır seyirci ağırlamayı sürdürüyor.",
             "de": "Das an den Hang des Panayır-Berges gelehnte Große Theater gehört mit rund 24.000 Plätzen zu den größten antiken Theatern Anatoliens; sein hellenistischer Kern wurde in römischer Zeit Stufe um Stufe erweitert. Seine Akustik verblüfft noch heute: Eine auf der Bühne fallende Nadel ist bis in die oberen Reihen zu hören. Hier erreichte die Ephesus-Geschichte des Apostels Paulus ihren Höhepunkt — nach der Apostelgeschichte schrie die Menge beim Aufstand der Artemis-Silberschmiede stundenlang in diesem Theater: 'Groß ist die Artemis der Epheser!' Von der Bühne aus läuft die Hafenstraße (Arkadiane) schnurgerade zum antiken Hafen; dieser Marmorprospekt war das Erste, was ein von See kommender Reisender von der Stadt sah. Von Gladiatorenkämpfen bis zu modernen Konzerten empfängt das Theater seit zweitausend Jahren sein Publikum.",
             "en": "Leaning against the slope of Mount Panayır, the Great Theatre, with room for some 24,000 spectators, is among the largest ancient theatres of Anatolia; its Hellenistic core was enlarged tier by tier in Roman times. Its acoustics still astonish: a pin dropped on stage can be heard from the upper rows. Here the Ephesus story of St Paul reached its climax — according to the Acts of the Apostles, during the riot of the silversmiths of Artemis the crowd shouted for hours in this theatre: 'Great is Artemis of the Ephesians!' From the stage, Harbour Street (the Arcadiane) runs dead straight to the ancient port; this marble perspective was the first thing a traveller arriving by sea saw of the city. From gladiator fights to modern concerts, the theatre has been receiving audiences for two thousand years."
+          }
+        },
+        {
+          "id": "bergama",
+          "name": {
+            "tr": "Bergama (Pergamon)",
+            "de": "Bergama (Pergamon)",
+            "en": "Bergama (Pergamon)"
+          },
+          "coords": [
+            39.132,
+            27.184
+          ],
+          "desc": {
+            "tr": "Antik Pergamon, Helenistik çağda Attalos hanedanının başkenti ve dönemin en parlak kültür merkezlerinden biriydi. Dünyanın en dik antik tiyatrolarından biri, yamaca adeta asılı gibi kurulmuştur. Kentin kütüphanesi, İskenderiye'yle yarışacak kadar zengindi; parşömenin adı da buradan gelir. Şehrin aşağısındaki Asklepion ise antik dünyanın ünlü bir sağlık merkeziydi. Bergama, bugün UNESCO Dünya Mirası listesinde yer alan çok katmanlı bir açık hava müzesidir.",
+            "de": "Das antike Pergamon war in hellenistischer Zeit Hauptstadt der Attaliden und eines der glänzendsten Kulturzentren der Epoche. Eines der steilsten antiken Theater klebt förmlich am Hang. Die Bibliothek konkurrierte mit Alexandria; das Pergament trägt daher seinen Namen. Unterhalb der Stadt war das Asklepieion ein berühmtes Heilzentrum der Antike. Bergama ist heute ein vielschichtiges Freilichtmuseum des UNESCO-Welterbes.",
+            "en": "Ancient Pergamon was the capital of the Attalid dynasty in the Hellenistic age and one of the most brilliant cultural centres of its time. One of the steepest ancient theatres seems to hang from the hillside. Its library rivalled Alexandria; parchment takes its very name from the city. Below, the Asclepion was a famous healing centre of the ancient world. Bergama is today a many-layered open-air museum on the UNESCO World Heritage list."
+          }
+        },
+        {
+          "id": "sirince",
+          "name": {
+            "tr": "Şirince",
+            "de": "Şirince",
+            "en": "Şirince"
+          },
+          "coords": [
+            37.945,
+            27.447
+          ],
+          "desc": {
+            "tr": "Selçuk'un tepelerine kurulmuş Şirince, taş ve ahşap evleriyle Ege'nin en sevimli köylerinden biridir. Bir zamanlar Rum nüfusun yaşadığı köy, mübadeleyle yeni sakinlerini karşılamış; eski evler özenle korunmuştur. Dar sokakları, meyve şarapları, el işleri ve zeytinlikleriyle Şirince, hem bir tarih hem de bir tat durağıdır. Efes'i gezenler için, antik dünyadan Anadolu köy hayatına yumuşak bir geçiş sunar.",
+            "de": "Auf den Hügeln von Selçuk gelegen, ist Şirince mit seinen Stein- und Holzhäusern eines der reizendsten Dörfer der Ägäis. Einst von Griechen bewohnt, empfing das Dorf nach dem Bevölkerungsaustausch neue Bewohner; die alten Häuser blieben sorgsam erhalten. Mit engen Gassen, Obstweinen, Handwerk und Olivenhainen ist Şirince zugleich ein Geschichts- und ein Genussort. Für Ephesos-Besucher bietet es einen sanften Übergang vom Altertum ins anatolische Dorfleben.",
+            "en": "Set on the hills above Selçuk, Şirince, with its stone and timber houses, is one of the loveliest villages of the Aegean. Once home to a Greek population, the village welcomed new residents after the population exchange; the old houses were carefully preserved. With narrow lanes, fruit wines, handicrafts and olive groves, Şirince is both a historical and a culinary stop. For those visiting Ephesus, it offers a gentle passage from antiquity to Anatolian village life."
+          }
+        },
+        {
+          "id": "meryemana",
+          "name": {
+            "tr": "Meryem Ana Evi",
+            "de": "Haus der Jungfrau Maria",
+            "en": "House of the Virgin Mary"
+          },
+          "coords": [
+            37.911,
+            27.334
+          ],
+          "desc": {
+            "tr": "Efes'in yakınındaki Bülbül Dağı'nın yamacında yer alan Meryem Ana Evi, inanışa göre Hz. Meryem'in son yıllarını geçirdiği yerdir. Küçük, sade bir taş yapı olan ev, hem Hristiyanlar hem Müslümanlar için önemli bir ziyaret ve dua noktasıdır. Çeşitli papaların da ziyaret ettiği mekân, çevresindeki sessiz orman ve dilek çeşmesiyle huzurlu bir atmosfer sunar. Antik Efes'in hemen yanında, kentin inanç tarihini bugüne bağlayan canlı bir durak olmuştur.",
+            "de": "Am Hang des Bülbül-Bergs bei Ephesos liegt das Haus der Jungfrau Maria, wo sie der Überlieferung nach ihre letzten Jahre verbracht haben soll. Das kleine, schlichte Steinhaus ist ein bedeutender Wallfahrts- und Gebetsort für Christen wie Muslime. Der auch von mehreren Päpsten besuchte Ort bietet mit dem stillen Wald und der Wunschquelle eine friedvolle Atmosphäre. Gleich neben dem antiken Ephesos verbindet er die Glaubensgeschichte der Stadt mit der Gegenwart.",
+            "en": "On the slope of Bülbül Mountain near Ephesus stands the House of the Virgin Mary, where, by tradition, she is believed to have spent her final years. The small, simple stone house is an important place of pilgrimage and prayer for both Christians and Muslims. Visited by several popes, the site offers a peaceful atmosphere with its quiet forest and wishing spring. Beside ancient Ephesus, it has become a living stop linking the city's history of faith to the present."
           }
         }
       ]
@@ -834,6 +919,277 @@
             "tr": "Toros Dağları'nın derin vadilerinde, Köprülü Kanyon'un yukarısında kurulan Selge, Pisidya'nın yüksek bir dağ kentidir. Çevresini saran sarp kayalıklar kente doğal bir kale görünümü kazandırır; bugün hâlâ ayakta olan tiyatrosu ve agorası, köyün taş evleriyle iç içe geçmiştir. Selge'ye giden yolda Köprüçay'ın üzerinden atlayan Roma dönemine ait Oluk ve Bögrüm köprüleri, iki bin yıldır ayakta durarak antik mühendisliğe tanıklık eder. Kentin ayağındaki Beşkonak ve Köprülü Kanyon Milli Parkı ise buz gibi akan Köprüçay'da rafting ile ünlüdür. Selge, tarih, kanyon ve dağ doğasının aynı rotada birleştiği ender bir noktadır.",
             "de": "In den tiefen Tälern des Taurusgebirges, oberhalb des Köprülü-Canyons, liegt Selge, eine hoch gelegene pisidische Bergstadt. Die umgebenden schroffen Felsen verleihen ihr das Aussehen einer natürlichen Festung; das noch erhaltene Theater und die Agora verschmelzen mit den Steinhäusern des heutigen Dorfes. Auf dem Weg nach Selge bezeugen die römischen Oluk- und Bögrüm-Brücken, die den Fluss Köprüçay überspannen, seit zweitausend Jahren antike Ingenieurskunst. Am Fuß der Stadt sind Beşkonak und der Köprülü-Canyon-Nationalpark für das Rafting auf dem eiskalten Köprüçay berühmt. Selge vereint Geschichte, Schlucht und Bergnatur auf einer Route.",
             "en": "In the deep valleys of the Taurus Mountains, above the Köprülü Canyon, lies Selge, a high mountain city of Pisidia. The sheer cliffs around it give the city the look of a natural fortress; its still-standing theatre and agora merge with the stone houses of today's village. On the road to Selge, the Roman Oluk and Bögrüm bridges spanning the Köprüçay river have stood for two thousand years, bearing witness to ancient engineering. At the foot of the city, Beşkonak and the Köprülü Canyon National Park are famous for rafting on the icy Köprüçay. Selge is a rare place where history, canyon and mountain nature meet on one route."
+          }
+        }
+      ]
+    },
+    {
+      "id": "gobeklitepe",
+      "name": {
+        "tr": "Göbeklitepe · Şanlıurfa",
+        "de": "Göbekli Tepe · Şanlıurfa",
+        "en": "Göbekli Tepe · Şanlıurfa"
+      },
+      "img": "",
+      "places": [
+        {
+          "id": "gobeklitepe",
+          "name": {
+            "tr": "Göbeklitepe",
+            "de": "Göbekli Tepe",
+            "en": "Göbekli Tepe"
+          },
+          "coords": [
+            37.2231,
+            38.9224
+          ],
+          "desc": {
+            "tr": "Şanlıurfa yakınlarındaki Göbeklitepe, bilinen en eski anıtsal tapınak alanıdır ve tarih anlayışımızı kökten değiştirmiştir. Yaklaşık MÖ 9600'e, yani tarım ve çömlekten bile önceye tarihlenen bu alan, avcı-toplayıcı toplulukların dev taş anıtlar dikebildiğini kanıtlar. T biçimli dikilitaşların üzerindeki tilki, yılan, akrep ve yaban domuzu kabartmaları, çok eski bir inanç dünyasının izlerini taşır. Klaus Schmidt'in kazılarıyla gün yüzüne çıkan alan, 2018'de UNESCO Dünya Mirası ilan edilmiştir.",
+            "de": "Göbekli Tepe bei Şanlıurfa ist die älteste bekannte monumentale Tempelanlage und hat unser Geschichtsbild grundlegend verändert. Auf etwa 9600 v. Chr. datiert – noch vor Ackerbau und Töpferei – beweist der Ort, dass Jäger und Sammler gewaltige Steinmonumente errichten konnten. Reliefs von Fuchs, Schlange, Skorpion und Wildschwein auf den T-förmigen Pfeilern zeugen von einer sehr alten Glaubenswelt. Durch die Grabungen von Klaus Schmidt freigelegt, wurde die Stätte 2018 UNESCO-Welterbe.",
+            "en": "Göbekli Tepe near Şanlıurfa is the oldest known monumental sanctuary and has fundamentally changed our understanding of history. Dated to around 9600 BC, before farming and even pottery, the site proves that hunter-gatherers could raise giant stone monuments. Reliefs of fox, snake, scorpion and boar on the T-shaped pillars carry traces of a very ancient world of belief. Brought to light by the excavations of Klaus Schmidt, the site was declared a UNESCO World Heritage Site in 2018."
+          }
+        },
+        {
+          "id": "karahantepe",
+          "name": {
+            "tr": "Karahantepe",
+            "de": "Karahantepe",
+            "en": "Karahantepe"
+          },
+          "coords": [
+            37.064,
+            39.29
+          ],
+          "desc": {
+            "tr": "Göbeklitepe ile aynı çağa ait olan Karahantepe, son yıllarda ortaya çıkarılan ve dünyayı yeniden şaşırtan bir başka anıtsal alandır. Kayaya oyulmuş odalar, dikilmiş taş sütunlar ve son derece gerçekçi insan başı heykelleri, buradaki toplulukların hem inanç hem sanat dünyasının zenginliğini gösterir. 'Taş Tepeler' adı verilen bu geniş kültür bölgesi, insanlığın yerleşik hayata geçiş öyküsünü yeni baştan yazmaktadır. Kazılar sürdükçe, Karahantepe her mevsim yeni sırlar açığa çıkarıyor.",
+            "de": "Karahantepe, aus derselben Epoche wie Göbekli Tepe, ist eine weitere monumentale Stätte, die in den letzten Jahren freigelegt wurde und die Welt erneut verblüfft. In den Fels gehauene Räume, aufgerichtete Steinpfeiler und äußerst realistische menschliche Kopfskulpturen zeugen vom Reichtum der Glaubens- und Kunstwelt dieser Gemeinschaften. Die weite Kulturregion der „Taş Tepeler“ schreibt die Geschichte der Sesshaftwerdung neu.",
+            "en": "Karahantepe, of the same age as Göbekli Tepe, is another monumental site unearthed in recent years that has amazed the world anew. Rock-cut chambers, upright stone pillars and strikingly realistic human-head sculptures reveal the rich world of belief and art of these communities. The wide cultural region called 'Taş Tepeler' is rewriting the story of humanity's shift to settled life. As excavations continue, Karahantepe reveals new secrets each season."
+          }
+        },
+        {
+          "id": "sanliurfa",
+          "name": {
+            "tr": "Şanlıurfa · Balıklıgöl",
+            "de": "Şanlıurfa · Balıklıgöl",
+            "en": "Şanlıurfa · Balıklıgöl"
+          },
+          "coords": [
+            37.15,
+            38.797
+          ],
+          "desc": {
+            "tr": "Peygamberler şehri olarak anılan Şanlıurfa'nın kalbinde, kutsal sayılan Balıklıgöl yer alır. İnanışa göre Hz. İbrahim ateşe atıldığında ateş suya, odunlar da balıklara dönüşmüş; gölün sazan balıkları o günden beri kutsal kabul edilir. Gölü çevreleyen avlular, camiler ve taş yapılar, kente huzurlu bir ruh verir. Yakındaki Şanlıurfa Müzesi ise Göbeklitepe buluntularını ve dünyanın bilinen en eski insan boyu heykellerinden birini barındırır. Kent, inançla arkeolojinin buluştuğu ender yerlerdendir.",
+            "de": "Im Herzen von Şanlıurfa, der „Stadt der Propheten“, liegt der heilige Teich Balıklıgöl. Der Überlieferung nach verwandelte sich das Feuer, in das Abraham geworfen wurde, in Wasser und das Holz in Fische; die Karpfen des Teichs gelten seither als heilig. Höfe, Moscheen und Steinbauten rings um den Teich verleihen der Stadt eine friedvolle Seele. Das nahe Museum von Şanlıurfa birgt Funde aus Göbekli Tepe und eine der ältesten lebensgroßen Menschenstatuen der Welt.",
+            "en": "At the heart of Şanlıurfa, known as the 'city of prophets', lies the sacred pool of Balıklıgöl. By tradition, when Abraham was cast into the fire, the fire turned to water and the wood to fish; the carp of the pool have been held sacred ever since. Courtyards, mosques and stone buildings around the pool give the city a peaceful soul. The nearby Şanlıurfa Museum houses finds from Göbekli Tepe and one of the world's oldest life-size human statues. It is a rare place where faith and archaeology meet."
+          }
+        },
+        {
+          "id": "harran",
+          "name": {
+            "tr": "Harran",
+            "de": "Harran",
+            "en": "Harran"
+          },
+          "coords": [
+            36.864,
+            39.031
+          ],
+          "desc": {
+            "tr": "Dünyanın en eski yerleşimlerinden biri olan Harran, konik kubbeli 'kümbet evleriyle' bilinir; kerpiçten örülen bu evler, ovanın sıcağında serin kalmayı sağlayan zekice bir mimaridir. Harran, antik çağda Ay tanrısı Sin'e adanmış bir tapınağın merkeziydi ve daha sonra astronomi ile felsefenin parladığı büyük bir bilim şehrine dönüştü. Ulu Cami ile eski üniversitenin kalıntıları, kentin bu ilim geçmişini bugüne taşır. Mezopotamya ovasının ortasında Harran, gökle toprağın buluştuğu bir eşik gibidir.",
+            "de": "Harran, eine der ältesten Siedlungen der Welt, ist für seine kegelförmigen „Kuppelhäuser“ bekannt; diese Lehmziegelbauten sind eine kluge Architektur gegen die Hitze der Ebene. In der Antike war Harran Zentrum eines dem Mondgott Sin geweihten Tempels und wurde später eine große Wissenschaftsstadt, in der Astronomie und Philosophie blühten. Die Ruinen der Ulu-Moschee und der alten Universität bewahren dieses Erbe. Inmitten der mesopotamischen Ebene wirkt Harran wie eine Schwelle zwischen Himmel und Erde.",
+            "en": "Harran, one of the world's oldest settlements, is known for its conical 'beehive houses'; these mud-brick domes are a clever architecture for staying cool in the heat of the plain. In antiquity Harran was the centre of a temple dedicated to the moon god Sin, and later became a great city of science where astronomy and philosophy flourished. The ruins of the Grand Mosque and the old university carry this legacy to the present. In the midst of the Mesopotamian plain, Harran feels like a threshold where sky and earth meet."
+          }
+        }
+      ]
+    },
+    {
+      "id": "karadeniz",
+      "name": {
+        "tr": "Karadeniz",
+        "de": "Schwarzmeerregion",
+        "en": "Black Sea"
+      },
+      "img": "",
+      "places": [
+        {
+          "id": "sumela",
+          "name": {
+            "tr": "Sümela Manastırı",
+            "de": "Kloster Sumela",
+            "en": "Sumela Monastery"
+          },
+          "coords": [
+            40.69,
+            39.658
+          ],
+          "desc": {
+            "tr": "Trabzon'un Altındere Vadisi'nde, dik bir kaya duvarına adeta yapışmış gibi duran Sümela Manastırı, Meryem Ana'ya adanmış bir Ortodoks manastırıdır. Rivayete göre yaklaşık MS 386'da, iki keşişin bir Meryem ikonasını burada bulmasıyla kurulmuştur. Yüzlerce metre yükseklikteki konumu, kayaya oyulmuş şapelleri ve canlı freskleriyle manastır, hem bir inanç hem bir mimari mucizesidir. Ormanın yeşili, sisin puslu perdesi ve suyun sesi, Sümela'yı bir efsane atmosferine büründürür.",
+            "de": "Im Altındere-Tal von Trabzon klebt das Kloster Sumela förmlich an einer steilen Felswand; es ist ein der Gottesmutter geweihtes orthodoxes Kloster. Der Überlieferung nach wurde es um 386 n. Chr. gegründet, als zwei Mönche hier eine Marienikone fanden. Mit seiner Lage in großer Höhe, den in den Fels gehauenen Kapellen und lebendigen Fresken ist es ein Wunder des Glaubens und der Architektur. Wald, Nebel und Wasserrauschen hüllen Sumela in eine legendäre Stimmung.",
+            "en": "In the Altındere Valley of Trabzon, clinging to a sheer cliff, Sumela Monastery is an Orthodox monastery dedicated to the Virgin Mary. By tradition it was founded around 386 AD, when two monks found an icon of Mary here. With its position hundreds of metres up, its rock-cut chapels and vivid frescoes, the monastery is a marvel of both faith and architecture. The green of the forest, the veil of mist and the sound of water wrap Sumela in a legendary atmosphere."
+          }
+        },
+        {
+          "id": "trabzonayasofya",
+          "name": {
+            "tr": "Trabzon Ayasofyası",
+            "de": "Hagia Sophia von Trabzon",
+            "en": "Hagia Sophia of Trabzon"
+          },
+          "coords": [
+            41.004,
+            39.687
+          ],
+          "desc": {
+            "tr": "Trabzon'un deniz kıyısına yakın kurulmuş Ayasofyası, on üçüncü yüzyılda Trabzon Rum İmparatorluğu döneminde inşa edilmiş bir Bizans kilisesidir. İç ve dış yüzeylerini süsleyen freskler, geç Bizans resim sanatının Karadeniz'deki en nitelikli örnekleri arasında sayılır. Yapı, sonraki yüzyıllarda camiye çevrilmiş, bir dönem müze olarak da hizmet vermiştir. Bahçesindeki çan kulesi ve deniz manzarasıyla Trabzon Ayasofyası, kentin katmanlı tarihini tek bir yapıda özetler.",
+            "de": "Die nahe der Küste Trabzons errichtete Hagia Sophia ist eine byzantinische Kirche aus dem 13. Jahrhundert, aus der Zeit des Kaiserreichs Trapezunt. Die Fresken an Innen- und Außenwänden zählen zu den hochwertigsten Beispielen spätbyzantinischer Malerei am Schwarzen Meer. Der Bau wurde später in eine Moschee umgewandelt und diente zeitweise als Museum. Mit Glockenturm und Meerblick fasst die Hagia Sophia von Trabzon die vielschichtige Geschichte der Stadt zusammen.",
+            "en": "Built near the seashore of Trabzon, its Hagia Sophia is a Byzantine church from the 13th century, from the era of the Empire of Trebizond. The frescoes adorning its inner and outer surfaces are among the finest examples of late Byzantine painting on the Black Sea. The building was later converted into a mosque and for a time served as a museum. With its bell tower and sea view, the Hagia Sophia of Trabzon sums up the city's layered history in a single structure."
+          }
+        },
+        {
+          "id": "uzungol",
+          "name": {
+            "tr": "Uzungöl",
+            "de": "Uzungöl",
+            "en": "Uzungöl"
+          },
+          "coords": [
+            40.618,
+            40.287
+          ],
+          "desc": {
+            "tr": "Trabzon'un Çaykara ilçesindeki Uzungöl, bir heyelanın dere yatağını kapatmasıyla oluşmuş doğal bir göldür. Etrafını saran yüksek yeşil dağlar, göl yüzeyine yansıyan cami silueti ve sabah sisleri, Uzungöl'ü Karadeniz'in en çok fotoğraflanan manzaralarından biri yapar. Çevresindeki yaylalar, serin havası ve bol yağışlı iklimiyle yaz sıcağından kaçanların uğrak yeridir. Göl kıyısında yürümek, dağ havasını içine çekmek ve yöresel lezzetleri tatmak, buradaki dinginliğin bir parçasıdır.",
+            "de": "Uzungöl im Kreis Çaykara von Trabzon ist ein natürlicher See, der entstand, als ein Erdrutsch das Bachbett abriegelte. Die umliegenden hohen grünen Berge, die im See gespiegelte Moscheesilhouette und der Morgennebel machen Uzungöl zu einer der meistfotografierten Landschaften des Schwarzen Meeres. Die umliegenden Hochweiden mit kühler Luft und regenreichem Klima ziehen jene an, die der Sommerhitze entfliehen. Ein Spaziergang am Ufer gehört zur Ruhe dieses Ortes.",
+            "en": "Uzungöl, in the Çaykara district of Trabzon, is a natural lake formed when a landslide dammed a stream bed. The high green mountains around it, the mosque silhouette mirrored on its surface and the morning mists make Uzungöl one of the most photographed landscapes of the Black Sea. The surrounding highlands, with cool air and a rainy climate, draw those escaping the summer heat. Walking along the shore, breathing the mountain air and tasting local flavours are part of the calm here."
+          }
+        },
+        {
+          "id": "zilkale",
+          "name": {
+            "tr": "Zil Kale",
+            "de": "Zil-Burg",
+            "en": "Zil Castle"
+          },
+          "coords": [
+            40.933,
+            41.117
+          ],
+          "desc": {
+            "tr": "Rize'nin Fırtına Vadisi'nde, sarp bir kaya çıkıntısının üzerinde yükselen Zil Kale, ortaçağdan kalma etkileyici bir gözetleme ve savunma kalesidir. Vadinin derinliklerine ve Fırtına Deresi'ne hâkim konumu, kaleyi bir zamanlar geçit kontrolünün kilit noktası yapmıştır. Sisin sık sık sardığı yeşil dağların arasında birden beliren taş kuleleri, ziyaretçide masalsı bir izlenim bırakır. Çevresindeki kemer köprüler, yaylalar ve gür ormanlar, Zil Kale'yi Karadeniz doğasının kalbine yerleştirir.",
+            "de": "Im Fırtına-Tal von Rize erhebt sich die Zil-Burg auf einem schroffen Felsvorsprung – eine eindrucksvolle mittelalterliche Wach- und Verteidigungsburg. Ihre Lage über den Tiefen des Tals und dem Fırtına-Bach machte sie einst zum Schlüsselpunkt der Passkontrolle. Zwischen oft nebelverhangenen grünen Bergen wirken ihre plötzlich auftauchenden Steintürme märchenhaft. Bogenbrücken, Hochweiden und dichte Wälder betten die Zil-Burg ins Herz der Schwarzmeernatur.",
+            "en": "In the Fırtına Valley of Rize, rising on a sheer rocky spur, Zil Castle is an impressive medieval watch and defence fortress. Its command over the depths of the valley and the Fırtına stream once made it a key point for controlling the pass. Its stone towers, appearing suddenly among green mountains often wrapped in mist, leave a fairy-tale impression. The arched bridges, highlands and lush forests around it set Zil Castle at the heart of Black Sea nature."
+          }
+        },
+        {
+          "id": "ayder",
+          "name": {
+            "tr": "Ayder Yaylası",
+            "de": "Hochweide Ayder",
+            "en": "Ayder Plateau"
+          },
+          "coords": [
+            40.954,
+            41.096
+          ],
+          "desc": {
+            "tr": "Rize'nin yüksek dağlarında yer alan Ayder Yaylası, şifalı kaplıcaları, yemyeşil çayırları ve şelaleleriyle Karadeniz yayla kültürünün simgesidir. Yaz aylarında serinliğiyle, ilkbaharda çiçekleriyle, sonbaharda renk cümbüşüyle her mevsim ayrı bir güzellik sunar. Hemşin kültürünün yaşadığı bu yüksekliklerde, ahşap evler, çan sesleri ve tulum ezgileri manzaraya eşlik eder. Kaçkar Dağları'na açılan kapılardan biri olan Ayder, doğayla iç içe bir mola için ideal bir duraktır.",
+            "de": "Die Hochweide Ayder in den hohen Bergen von Rize ist mit ihren Heilquellen, saftig grünen Wiesen und Wasserfällen ein Sinnbild der Almkultur am Schwarzen Meer. Im Sommer kühl, im Frühling voller Blüten, im Herbst ein Farbenrausch – jede Jahreszeit hat ihren Reiz. In diesen Höhen der Hemşin-Kultur begleiten Holzhäuser, Glockenklänge und Dudelsackweisen die Landschaft. Als eines der Tore zum Kaçkar-Gebirge ist Ayder ein idealer Ort für eine naturnahe Rast.",
+            "en": "The Ayder Plateau, high in the mountains of Rize, is a symbol of Black Sea highland culture with its healing hot springs, lush green meadows and waterfalls. Cool in summer, full of flowers in spring and a riot of colour in autumn, it offers a distinct beauty in every season. In these heights of Hemşin culture, timber houses, the sound of bells and bagpipe tunes accompany the scenery. One of the gateways to the Kaçkar Mountains, Ayder is an ideal stop for a rest amid nature."
+          }
+        }
+      ]
+    },
+    {
+      "id": "mardin",
+      "name": {
+        "tr": "Mardin",
+        "de": "Mardin",
+        "en": "Mardin"
+      },
+      "img": "",
+      "places": [
+        {
+          "id": "mardineski",
+          "name": {
+            "tr": "Mardin Eski Şehir",
+            "de": "Altstadt von Mardin",
+            "en": "Mardin Old City"
+          },
+          "coords": [
+            37.312,
+            40.735
+          ],
+          "desc": {
+            "tr": "Mezopotamya ovasına tepeden bakan bir yamaca kurulan Mardin, bal renkli taş evleriyle âdeta bir açık hava müzesidir. Sokaklar birbirinin üzerinde basamak basamak yükselir; bir evin damı, komşusunun avlusu olur. Camiler, kiliseler, medreseler ve manastırlar yüzyıllardır aynı silüette yan yana durur; bu yüzden Mardin, farklı dillerin ve dinlerin bir arada yaşadığı bir hoşgörü kentidir. Taş oymacılığındaki incelik, kentin her cephesinde göze çarpar ve Mardin'i benzersiz kılar.",
+            "de": "An einem Hang über der mesopotamischen Ebene erbaut, ist Mardin mit seinen honigfarbenen Steinhäusern geradezu ein Freilichtmuseum. Die Gassen steigen terrassenförmig übereinander; das Dach eines Hauses wird zum Hof des Nachbarn. Moscheen, Kirchen, Medresen und Klöster stehen seit Jahrhunderten in derselben Silhouette nebeneinander; so ist Mardin eine Stadt der Toleranz, in der Sprachen und Religionen zusammenleben. Die Feinheit der Steinmetzkunst prägt jede Fassade.",
+            "en": "Built on a slope overlooking the Mesopotamian plain, Mardin, with its honey-coloured stone houses, is virtually an open-air museum. The streets rise in terraces one above another; one house's roof becomes its neighbour's courtyard. Mosques, churches, madrasas and monasteries have stood side by side in the same silhouette for centuries; thus Mardin is a city of tolerance where languages and faiths live together. The refinement of its stone carving marks every façade and makes Mardin unique."
+          }
+        },
+        {
+          "id": "deyrulzafaran",
+          "name": {
+            "tr": "Deyrulzafaran Manastırı",
+            "de": "Kloster Deyrulzafaran",
+            "en": "Deyrulzafaran Monastery"
+          },
+          "coords": [
+            37.308,
+            40.783
+          ],
+          "desc": {
+            "tr": "Mardin'in doğusundaki Deyrulzafaran Manastırı, Süryani Ortodoks Kilisesi'nin en önemli manastırlarından biridir; adı, çevresindeki safran renkli taşlardan gelir. Beşinci yüzyıla uzanan geçmişiyle manastır, uzun süre Süryani patrikliğine ev sahipliği yapmıştır. Kaya içine oyulmuş, güneşe yönelik eski bir tapınağın üzerine kurulduğu söylenen yapı, katmanlı inanç tarihinin canlı bir örneğidir. Kalın taş duvarları, sessiz avluları ve dua odalarıyla Deyrulzafaran, hâlâ yaşayan bir manevi merkezdir.",
+            "de": "Das Kloster Deyrulzafaran östlich von Mardin ist eines der wichtigsten Klöster der Syrisch-Orthodoxen Kirche; sein Name rührt von den safranfarbenen Steinen ringsum. Mit einer bis ins 5. Jahrhundert reichenden Geschichte beherbergte es lange das syrische Patriarchat. Der Bau, angeblich über einem alten, der Sonne zugewandten Tempel errichtet, ist ein lebendiges Beispiel vielschichtiger Glaubensgeschichte. Mit dicken Steinmauern und stillen Höfen ist Deyrulzafaran ein noch lebendiges geistliches Zentrum.",
+            "en": "The Deyrulzafaran Monastery, east of Mardin, is one of the most important monasteries of the Syriac Orthodox Church; its name comes from the saffron-coloured stones around it. With a history reaching back to the 5th century, it long housed the Syriac patriarchate. Said to be built over an older sun-facing temple carved into the rock, it is a living example of layered religious history. With thick stone walls, quiet courtyards and prayer rooms, Deyrulzafaran remains a living spiritual centre."
+          }
+        },
+        {
+          "id": "dara",
+          "name": {
+            "tr": "Dara Antik Kenti",
+            "de": "Antike Stadt Dara",
+            "en": "Ancient City of Dara"
+          },
+          "coords": [
+            37.177,
+            40.945
+          ],
+          "desc": {
+            "tr": "Mardin yakınlarındaki Dara, Bizans İmparatorluğu'nun Sasanilere karşı kurduğu güçlü bir sınır garnizon kentidir. İmparator Anastasios döneminde, yaklaşık MS 505'te hızla inşa edilen kent, dev su sarnıçları, barajı, köprüsü ve kayaya oyulmuş nekropolüyle etkileyici bir mühendislik gösterisidir. Yer altına inen sarnıçların yüksek kemerleri, insanı bir katedralin içindeymiş gibi hissettirir. Bugün köyün evleriyle iç içe geçmiş kalıntılar, Dara'yı hâlâ keşfedilmeyi bekleyen bir açık hava müzesine dönüştürür.",
+            "de": "Dara bei Mardin war eine starke Grenzgarnisonsstadt, die das Byzantinische Reich gegen die Sasaniden errichtete. Unter Kaiser Anastasios um 505 n. Chr. rasch erbaut, ist die Stadt mit riesigen Zisternen, einem Damm, einer Brücke und einer in den Fels gehauenen Nekropole ein beeindruckendes Ingenieurwerk. Die hohen Bögen der unterirdischen Zisternen lassen einen wie in einer Kathedrale fühlen. Heute machen die mit dem Dorf verwobenen Ruinen Dara zu einem noch zu entdeckenden Freilichtmuseum.",
+            "en": "Dara, near Mardin, was a strong frontier garrison city built by the Byzantine Empire against the Sasanians. Rapidly constructed under Emperor Anastasios around 505 AD, the city is an impressive feat of engineering with giant cisterns, a dam, a bridge and a rock-cut necropolis. The high arches of the underground cisterns make one feel as if inside a cathedral. Today the ruins interwoven with the village houses turn Dara into an open-air museum still waiting to be discovered."
+          }
+        },
+        {
+          "id": "kasimiye",
+          "name": {
+            "tr": "Kasımiye Medresesi",
+            "de": "Kasımiye-Medrese",
+            "en": "Kasımiye Madrasa"
+          },
+          "coords": [
+            37.305,
+            40.718
+          ],
+          "desc": {
+            "tr": "Mardin'in en zarif yapılarından Kasımiye Medresesi, on beşinci yüzyılda, Akkoyunlular döneminde tamamlanmış bir eğitim yapısıdır. İki katlı avlusu, taç kapısı ve ince taş işçiliğiyle dönemin mimari inceliğini yansıtır. Avlusunun ortasındaki su havuzu ve kanalları, bir insanın doğumdan ölüme uzanan yaşamını simgeleyecek biçimde tasarlanmıştır; su, önce coşkuyla akar, sonra dinginleşir. Ovaya bakan konumuyla medrese, hem bir ilim yuvası hem de bir tefekkür mekânı olmuştur.",
+            "de": "Die Kasımiye-Medrese, eines der elegantesten Bauwerke Mardins, ist eine im 15. Jahrhundert unter den Akkoyunlu vollendete Bildungsstätte. Mit zweigeschossigem Hof, Portal und feiner Steinmetzarbeit spiegelt sie die architektonische Finesse der Zeit. Das Wasserbecken und die Kanäle in der Hofmitte sind so gestaltet, dass sie das Leben von Geburt bis Tod versinnbildlichen: Das Wasser fließt erst stürmisch, dann ruhig. Mit Blick auf die Ebene war die Medrese Stätte des Wissens und der Besinnung.",
+            "en": "The Kasımiye Madrasa, one of Mardin's most elegant buildings, is a place of learning completed in the 15th century under the Akkoyunlu. With its two-storey courtyard, portal and fine stonework, it reflects the architectural refinement of the age. The water basin and channels at the centre of its courtyard are designed to symbolise a human life from birth to death: the water first flows with vigour, then grows calm. Overlooking the plain, the madrasa was both a home of knowledge and a place of contemplation."
+          }
+        },
+        {
+          "id": "midyat",
+          "name": {
+            "tr": "Midyat",
+            "de": "Midyat",
+            "en": "Midyat"
+          },
+          "coords": [
+            37.418,
+            41.367
+          ],
+          "desc": {
+            "tr": "Mardin'in Tur Abdin bölgesindeki Midyat, taş işçiliğinin ve çok kültürlü yaşamın simge kentlerinden biridir. Bal renkli taştan yapılmış konakları, dantel gibi işlenmiş cepheleri ve dar sokaklarıyla eski Midyat, gezginleri başka bir çağa taşır. Süryani manastır ve kiliseleri, camilerle aynı ufku paylaşır; bu topraklar yüzyıllardır farklı inançların ortak yurdu olmuştur. Telkâri adı verilen ince gümüş işçiliği, Midyat ustalarının elinde bugün de yaşayan bir sanattır.",
+            "de": "Midyat in der Region Tur Abdin von Mardin ist eine Symbolstadt der Steinmetzkunst und des multikulturellen Lebens. Mit honigfarbenen Steinvillen, spitzenartig gearbeiteten Fassaden und engen Gassen versetzt die Altstadt von Midyat die Reisenden in eine andere Zeit. Syrisch-orthodoxe Klöster und Kirchen teilen denselben Horizont mit Moscheen; dieses Land ist seit Jahrhunderten Heimat verschiedener Glaubensrichtungen. Die feine Silberkunst Telkâri lebt in den Händen der Meister von Midyat bis heute.",
+            "en": "Midyat, in the Tur Abdin region of Mardin, is one of the symbol cities of stone craftsmanship and multicultural life. With its honey-coloured stone mansions, lace-like carved façades and narrow lanes, old Midyat carries travellers to another age. Syriac monasteries and churches share the same horizon with mosques; this land has been the common home of different faiths for centuries. The fine silverwork called telkâri is an art still alive today in the hands of Midyat's masters."
           }
         }
       ]

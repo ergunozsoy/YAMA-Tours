@@ -88,7 +88,14 @@ Promise.resolve()
   .then(()=>fetch(AUDIO_DIR+'manifest.json').then(r=>r.ok?r.json():[]).catch(()=>[]))
   .then(list=>{ if(Array.isArray(list)) MANIFEST=new Set(list); })
   .then(()=>fetch('places.json').then(r=>r.json()))
-  .then(d=>{DATA=d;region=d.regions[0].id;render();});
+  .then(d=>{
+    DATA=d;
+    const params=new URLSearchParams(location.search);
+    const wanted=(params.get('region')||location.hash.replace('#','')).toLowerCase();
+    const match=d.regions.find(r=>r.id===wanted);
+    region = match ? match.id : d.regions[0].id;
+    render();
+  });
 
 function t(k){return UI[lang][k];}
 function keyFor(placeId){return region+'-'+placeId+'-'+lang;}
