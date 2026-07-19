@@ -40,6 +40,14 @@ VOICE_ID = os.environ.get("ELEVENLABS_VOICE_ID") or "JuqrWTQM4Cgm58BilWSp"
 LANGS = [x.strip() for x in os.environ.get("YAMA_LANGS", "tr").split(",") if x.strip()]
 FORCE = os.environ.get("YAMA_FORCE", "") not in ("", "0", "false", "False")
 
+# Ergun'un Playground'da seçtiği doğal ton (daha canlı, biraz yavaş, hafif style).
+MODEL_ID = os.environ.get("YAMA_MODEL", "eleven_multilingual_v2")
+VS_STABILITY = float(os.environ.get("YAMA_STABILITY", "0.42"))
+VS_SIMILARITY = float(os.environ.get("YAMA_SIMILARITY", "0.52"))
+VS_STYLE = float(os.environ.get("YAMA_STYLE", "0.12"))
+VS_SPEED = float(os.environ.get("YAMA_SPEED", "0.93"))
+VS_BOOST = os.environ.get("YAMA_SPEAKER_BOOST", "1") not in ("0", "false", "False")
+
 if not API_KEY or not VOICE_ID:
     print("HATA: ELEVENLABS_API_KEY ve ELEVENLABS_VOICE_ID ortam degiskenleri gerekli.")
     sys.exit(1)
@@ -72,8 +80,14 @@ for region in data["regions"]:
             print(f"Uretiliyor: {key}  ({len(text)} karakter)")
             body = {
                 "text": text,
-                "model_id": "eleven_multilingual_v2",
-                "voice_settings": {"stability": 0.5, "similarity_boost": 0.75},
+                "model_id": MODEL_ID,
+                "voice_settings": {
+                    "stability": VS_STABILITY,
+                    "similarity_boost": VS_SIMILARITY,
+                    "style": VS_STYLE,
+                    "use_speaker_boost": VS_BOOST,
+                    "speed": VS_SPEED,
+                },
             }
             r = requests.post(url, params=params, json=body, headers=headers)
             if r.status_code == 200:
