@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>YAMA · Turum / My Tour</title>
+<meta name="description" content="YAMA Kültür — kişiye özel, üç dilli tur belgesi." />
+<style>
+:root{--bg:#0e1116;--bg2:#141820;--card:#1b202a;--text:#f5efe4;--muted:#bbad97;--gold:#d0a047;--line:#2a303b;--ink:#20242c}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Georgia,'Times New Roman',serif;line-height:1.6}
+/* ---- KONTROL ÇUBUĞU (yalnız ekran) ---- */
+.bar{position:sticky;top:0;z-index:5;background:rgba(14,17,22,.94);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);padding:12px 18px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.bar a.back{color:var(--gold);text-decoration:none;font-weight:700}
+.bar .grp{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.bar .lbl{color:var(--muted);font-size:.8rem}
+.chip{font:inherit;font-size:.8rem;padding:5px 12px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--muted);cursor:pointer}
+.chip.on{background:var(--gold);color:#14100a;border-color:var(--gold)}
+.bar .spacer{flex:1}
+.btn{font:inherit;font-size:.85rem;padding:7px 15px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--text);cursor:pointer}
+.btn.print{background:var(--gold);color:#14100a;border-color:var(--gold);font-weight:700}
+/* ---- BELGE ---- */
+.doc{max-width:820px;margin:22px auto;background:#fff;color:#20242c;border-radius:6px;overflow:hidden;box-shadow:0 8px 40px rgba(0,0,0,.4)}
+.cover{background:linear-gradient(135deg,#1b202a,#2a2013);color:#f5efe4;padding:40px 44px}
+.cover .brand{color:var(--gold);letter-spacing:.16em;font-size:.8rem;font-weight:700}
+.cover h1{font-size:2rem;margin:12px 0 6px}
+.cover .sub{color:#d9cdb6;margin:0 0 18px;font-style:italic}
+.cover .meta{display:flex;gap:26px;flex-wrap:wrap;border-top:1px solid rgba(208,160,71,.35);padding-top:16px}
+.cover .meta div{font-size:.9rem}
+.cover .meta b{display:block;color:var(--gold);font-size:1.4rem;font-weight:700;line-height:1.1}
+.body{padding:30px 44px 40px}
+.sec-title{color:#8a6d25;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;border-bottom:2px solid #e7dcc4;padding-bottom:6px;margin:26px 0 14px}
+.route{font-size:.92rem;color:#4a4636;margin:0 0 6px}
+.stop{border:1px solid #e7dcc4;border-radius:8px;padding:16px 18px;margin:0 0 14px;page-break-inside:avoid;break-inside:avoid}
+.stop .head{display:flex;align-items:baseline;gap:10px;margin-bottom:4px}
+.stop .no{background:#8a6d25;color:#fff;width:26px;height:26px;min-width:26px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-size:.85rem;font-weight:700;font-family:Arial,sans-serif}
+.stop h3{margin:0;font-size:1.15rem;color:#20242c}
+.stop .reg{color:#8a6d25;font-size:.78rem;margin-left:auto;text-align:right}
+.lang-block{margin:8px 0 0;padding-left:36px}
+.lang-block .tag{display:inline-block;font-family:Arial,sans-serif;font-size:.62rem;font-weight:700;letter-spacing:.08em;color:#8a6d25;border:1px solid #d8c9a6;border-radius:4px;padding:1px 6px;margin-right:8px;vertical-align:middle}
+.lang-block .nm{font-weight:700}
+.lang-block p{margin:3px 0 0;font-size:.92rem;color:#33302a}
+.meta-line{padding-left:36px;margin-top:8px;font-size:.8rem;color:#6a6552;font-family:Arial,sans-serif}
+.meta-line a{color:#8a6d25;text-decoration:none}
+.guide-note,.agency-note{padding-left:36px;margin-top:8px;font-size:.82rem;background:#faf6ec;border-left:3px solid var(--gold);padding:8px 10px 8px 12px;border-radius:0 6px 6px 0}
+.guide-note b,.agency-note b{font-family:Arial,sans-serif;font-size:.68rem;letter-spacing:.06em;color:#8a6d25;display:block;margin-bottom:2px}
+.blank{height:20px;border-bottom:1px dashed #cbbf9f;margin:6px 0}
+.notes-box{background:#faf6ec;border:1px solid #e7dcc4;border-radius:8px;padding:14px 18px;font-size:.9rem}
+.notes-box ul{margin:6px 0 0;padding-left:20px}
+.notes-box li{margin:3px 0}
+.foot{border-top:2px solid #e7dcc4;margin-top:26px;padding-top:14px;font-size:.78rem;color:#6a6552;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+.foot b{color:#8a6d25}
+.empty{max-width:820px;margin:60px auto;text-align:center;color:var(--muted)}
+.empty a{color:var(--gold)}
+@media print{
+  body{background:#fff}
+  .bar{display:none}
+  .doc{box-shadow:none;margin:0;max-width:none;border-radius:0}
+  .cover{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .stop .no,.cover,.sec-title,.lang-block .tag,.guide-note,.agency-note,.notes-box{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  @page{margin:14mm}
+}
+</style>
+</head>
+<body>
+<div class="bar">
+  <a class="back" href="guide.html">← YAMA Rehber</a>
+  <div class="grp"><span class="lbl" id="lblLang">Diller:</span>
+    <button class="chip" data-l="tr">TR</button>
+    <button class="chip" data-l="de">DE</button>
+    <button class="chip" data-l="en">EN</button>
+  </div>
+  <div class="grp"><span class="lbl" id="lblAud">Model:</span>
+    <button class="chip aud" data-a="birey">Bireysel</button>
+    <button class="chip aud" data-a="rehber">Rehber</button>
+    <button class="chip aud" data-a="acente">Acente</button>
+  </div>
+  <span class="spacer"></span>
+  <button class="btn" id="btnPrint2">↑↓ Sırala</button>
+  <button class="btn print" id="btnPrint">🖨 Yazdır / PDF</button>
+</div>
+<div id="root"></div>
+
+<script>
+/* ---------- ÇEVİRİLER ---------- */
+const T={
+ tr:{docTitle:'Kişiye Özel Kültür Turu',sub:'YAMA Kültür ile hazırlanmış üç dilli gezi programı',stops:'Nokta',regions:'Bölge',dist:'≈ km rota',route:'Rota',itin:'Gezi Programı',notes:'Pratik Notlar',sources:'Kaynak & Not',coord:'Koordinat',
+   guideLbl:'REHBER NOTU',agencyLbl:'ACENTE / LOJİSTİK',
+   guideTip:'Anlatım süresi, vurgulanacak noktalar ve grup yönlendirmesi için boş alan.',
+   agencyTip:'Ulaşım, giriş ücreti, süre ve fiyatlandırma için boş alan.',
+   noteItems:['Açılış saatleri ve giriş ücretleri mevsime göre değişebilir; ziyaret öncesi teyit edin.','Ören yerlerinde Müzekart / Müzekart+ geçerlidir.','Rahat ayakkabı, su ve güneş koruması önerilir.','Koordinat bağlantıları noktayı harita uygulamasında açar.'],
+   src:'Anlatımlar YAMA Kültür dijital rehberinden derlenmiştir; akademik ve resmî kaynaklara (Kültür ve Turizm Bakanlığı, UNESCO, müze yayınları) dayanır.',
+   made:'Bu belge otomatik oluşturulmuştur',empty:'Turunuz henüz boş. Rehber sayfasına dönüp noktaları ＋ ile ekleyin.',emptyLink:'→ Rehbere dön',
+   remove:'Çıkar',up:'Yukarı',down:'Aşağı',done:'Bitti',sortHint:'Sıralamayı değiştirin, sonra “Bitti”ye basın.'},
+ de:{docTitle:'Individuelle Kulturreise',sub:'Dreisprachiges Reiseprogramm, erstellt mit YAMA Kültür',stops:'Orte',regions:'Regionen',dist:'≈ km Route',route:'Route',itin:'Reiseprogramm',notes:'Praktische Hinweise',sources:'Quellen & Hinweis',coord:'Koordinaten',
+   guideLbl:'GUIDE-NOTIZ',agencyLbl:'AGENTUR / LOGISTIK',
+   guideTip:'Platz für Dauer, Höhepunkte und Gruppenführung.',
+   agencyTip:'Platz für Anfahrt, Eintritt, Dauer und Preise.',
+   noteItems:['Öffnungszeiten und Eintrittspreise variieren saisonal; bitte vorab prüfen.','In den Ausgrabungsstätten gilt die Müzekart / Müzekart+.','Bequeme Schuhe, Wasser und Sonnenschutz empfohlen.','Die Koordinaten-Links öffnen den Ort in der Karten-App.'],
+   src:'Die Texte stammen aus dem digitalen Guide YAMA Kültür und beruhen auf akademischen und offiziellen Quellen (Kultusministerium, UNESCO, Museumspublikationen).',
+   made:'Automatisch erstelltes Dokument',empty:'Ihre Tour ist noch leer. Gehen Sie zum Guide zurück und fügen Sie Orte mit ＋ hinzu.',emptyLink:'→ Zum Guide',
+   remove:'Entfernen',up:'Hoch',down:'Runter',done:'Fertig',sortHint:'Reihenfolge ändern, dann „Fertig“.'},
+ en:{docTitle:'Personalised Culture Tour',sub:'Trilingual itinerary built with YAMA Kültür',stops:'Stops',regions:'Regions',dist:'≈ km route',route:'Route',itin:'Itinerary',notes:'Practical Notes',sources:'Sources & Note',coord:'Coordinates',
+   guideLbl:'GUIDE NOTE',agencyLbl:'AGENCY / LOGISTICS',
+   guideTip:'Space for duration, highlights and group handling.',
+   agencyTip:'Space for transport, entry fee, duration and pricing.',
+   noteItems:['Opening hours and entrance fees vary by season; confirm before your visit.','The Museum Pass (Müzekart / Müzekart+) is valid at the archaeological sites.','Comfortable shoes, water and sun protection are recommended.','The coordinate links open the spot in your map app.'],
+   src:'Descriptions are compiled from the YAMA Kültür digital guide and rest on academic and official sources (Ministry of Culture & Tourism, UNESCO, museum publications).',
+   made:'This document was generated automatically',empty:'Your tour is empty. Go back to the guide and add spots with ＋.',emptyLink:'→ Back to guide',
+   remove:'Remove',up:'Up',down:'Down',done:'Done',sortHint:'Reorder, then press “Done”.'}
+};
+const LANG_TAG={tr:'TÜRKÇE',de:'DEUTSCH',en:'ENGLISH'};
+
+/* ---------- DURUM ---------- */
+const TOUR_KEY='yamaTour';
+const params=new URLSearchParams(location.search);
+let ui=(params.get('lang')||'tr'); if(!T[ui])ui='tr';
+let langs=['tr','de','en'];        // belgeye dahil diller
+let audience='birey';
+let sortMode=false;
+let DATA=null;
+
+function tourGet(){try{const a=JSON.parse(localStorage.getItem(TOUR_KEY)||'[]');return Array.isArray(a)?a:[];}catch(e){return [];}}
+function tourSave(a){try{localStorage.setItem(TOUR_KEY,JSON.stringify(a));}catch(e){}}
+
+function findPlace(r,p){
+  const reg=DATA.regions.find(x=>x.id===r); if(!reg)return null;
+  const pl=reg.places.find(x=>x.id===p); if(!pl)return null;
+  return {reg,pl};
+}
+function haversine(a,b){
+  const R=6371,dLat=(b[0]-a[0])*Math.PI/180,dLon=(b[1]-a[1])*Math.PI/180;
+  const s=Math.sin(dLat/2)**2+Math.cos(a[0]*Math.PI/180)*Math.cos(b[0]*Math.PI/180)*Math.sin(dLon/2)**2;
+  return 2*R*Math.asin(Math.sqrt(s));
+}
+function esc(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+
+/* ---------- RENDER ---------- */
+function render(){
+  document.querySelectorAll('.chip[data-l]').forEach(c=>c.classList.toggle('on',langs.includes(c.dataset.l)));
+  document.querySelectorAll('.chip.aud').forEach(c=>c.classList.toggle('on',c.dataset.a===audience));
+  const tr=T[ui];
+  document.getElementById('lblLang').textContent={tr:'Diller:',de:'Sprachen:',en:'Languages:'}[ui];
+  document.getElementById('lblAud').textContent={tr:'Model:',de:'Modell:',en:'Model:'}[ui];
+  document.getElementById('btnPrint').textContent={tr:'🖨 Yazdır / PDF',de:'🖨 Drucken / PDF',en:'🖨 Print / PDF'}[ui];
+  document.getElementById('btnPrint2').textContent=sortMode?('✓ '+tr.done):'↕ '+({tr:'Sırala',de:'Sortieren',en:'Reorder'}[ui]);
+
+  const root=document.getElementById('root');
+  const items=tourGet().map(x=>({...x,d:findPlace(x.r,x.p)})).filter(x=>x.d);
+  if(!items.length){
+    root.innerHTML=`<div class="empty"><p>${tr.empty}</p><p><a href="guide.html">${tr.emptyLink}</a></p></div>`;
+    return;
+  }
+  // rota özeti
+  const regionsSet=[...new Set(items.map(i=>i.d.reg.name[ui]||i.d.reg.name.tr))];
+  let dist=0; for(let i=1;i<items.length;i++){dist+=haversine(items[i-1].d.pl.coords,items[i].d.pl.coords);}
+  const routeLine=items.map(i=>i.d.pl.name[ui]||i.d.pl.name.tr).join('  →  ');
+
+  const stopsHtml=items.map((it,idx)=>{
+    const pl=it.d.pl, reg=it.d.reg;
+    const langBlocks=langs.map(l=>{
+      const nm=pl.name[l]||pl.name.tr, ds=pl.desc[l]||pl.desc.tr;
+      return `<div class="lang-block"><span class="tag">${LANG_TAG[l]}</span><span class="nm">${esc(nm)}</span><p>${esc(ds)}</p></div>`;
+    }).join('');
+    const c=pl.coords;
+    const mapLinks=`<div class="meta-line">${tr.coord}: ${c[0].toFixed(4)}, ${c[1].toFixed(4)} · `+
+      `<a href="https://www.openstreetmap.org/?mlat=${c[0]}&mlon=${c[1]}#map=15/${c[0]}/${c[1]}" target="_blank" rel="noopener">OpenStreetMap</a> · `+
+      `<a href="https://www.google.com/maps/search/?api=1&query=${c[0]},${c[1]}" target="_blank" rel="noopener">Google Maps</a></div>`;
+    let extra='';
+    if(audience==='rehber'){
+      extra=`<div class="guide-note"><b>${tr.guideLbl}</b>${tr.guideTip}<div class="blank"></div><div class="blank"></div></div>`;
+    }else if(audience==='acente'){
+      extra=`<div class="agency-note"><b>${tr.agencyLbl}</b>${tr.agencyTip}<div class="blank"></div><div class="blank"></div></div>`;
+    }
+    const sortCtl=sortMode?`<span class="reg" style="display:flex;gap:6px;margin-left:auto">
+      <button class="chip" onclick="move(${idx},-1)">↑</button>
+      <button class="chip" onclick="move(${idx},1)">↓</button>
+      <button class="chip" onclick="removeAt(${idx})">✕</button></span>`
+      :`<span class="reg">${esc(reg.name[ui]||reg.name.tr)}</span>`;
+    return `<div class="stop">
+      <div class="head"><span class="no">${idx+1}</span><h3>${esc(pl.name[ui]||pl.name.tr)}</h3>${sortCtl}</div>
+      ${langBlocks}${mapLinks}${extra}
+    </div>`;
+  }).join('');
+
+  const today=new Date().toISOString().slice(0,10);
+  root.innerHTML=`<div class="doc">
+    <div class="cover">
+      <div class="brand">YAMA KÜLTÜR · DIGITAL TOUR GUIDE</div>
+      <h1>${tr.docTitle}</h1>
+      <p class="sub">${tr.sub}</p>
+      <div class="meta">
+        <div><b>${items.length}</b>${tr.stops}</div>
+        <div><b>${regionsSet.length}</b>${tr.regions}</div>
+        <div><b>${Math.round(dist)}</b>${tr.dist}</div>
+        <div><b>${today}</b>&nbsp;</div>
+      </div>
+    </div>
+    <div class="body">
+      <div class="sec-title">${tr.route}</div>
+      <p class="route">${esc(routeLine)}</p>
+      ${sortMode?`<p class="route" style="color:#8a6d25">${tr.sortHint}</p>`:''}
+      <div class="sec-title">${tr.itin}</div>
+      ${stopsHtml}
+      <div class="sec-title">${tr.notes}</div>
+      <div class="notes-box"><ul>${tr.noteItems.map(n=>`<li>${esc(n)}</li>`).join('')}</ul></div>
+      <div class="sec-title">${tr.sources}</div>
+      <p class="route">${esc(tr.src)}</p>
+      <div class="foot"><span><b>YAMA Kültür</b> · ergunozsoy.github.io/YAMA-Tours</span><span>${tr.made} · ${today}</span></div>
+    </div>
+  </div>`;
+}
+function move(i,dir){
+  const a=tourGet(); const j=i+dir; if(j<0||j>=a.length)return;
+  const t=a[i];a[i]=a[j];a[j]=t; tourSave(a); render();
+}
+function removeAt(i){const a=tourGet();a.splice(i,1);tourSave(a);render();}
+
+/* ---------- OLAYLAR ---------- */
+document.querySelectorAll('.chip[data-l]').forEach(c=>c.onclick=()=>{
+  const l=c.dataset.l;
+  if(langs.includes(l)){ if(langs.length>1)langs=langs.filter(x=>x!==l); }
+  else langs.push(l);
+  langs=['tr','de','en'].filter(x=>langs.includes(x));
+  render();
+});
+document.querySelectorAll('.chip.aud').forEach(c=>c.onclick=()=>{audience=c.dataset.a;render();});
+document.getElementById('btnPrint').onclick=()=>window.print();
+document.getElementById('btnPrint2').onclick=()=>{sortMode=!sortMode;render();};
+
+fetch('places.json').then(r=>r.json()).then(d=>{DATA=d;render();}).catch(()=>{
+  document.getElementById('root').innerHTML='<div class="empty"><p>places.json yüklenemedi.</p></div>';
+});
+</script>
+</body>
+</html>
