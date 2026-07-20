@@ -2929,6 +2929,417 @@
           }
         }
       ]
+    },
+    {
+      "id": "agri",
+      "name": {
+        "tr": "Ağrı",
+        "de": "Ağrı",
+        "en": "Ağrı"
+      },
+      "img": "",
+      "places": [
+        {
+          "id": "ishakpasa",
+          "coords": [
+            39.522,
+            44.123
+          ],
+          "name": {
+            "tr": "İshak Paşa Sarayı",
+            "de": "İshak-Pascha-Palast",
+            "en": "Ishak Pasha Palace"
+          },
+          "desc": {
+            "tr": "Doğubayazıt'ın doğusunda, tarihî İpek Yolu'na hâkim sarp bir kayalık üzerinde yükselen İshak Paşa Sarayı, 1685'te Çıldıroğulları'ndan Çolak Abdi Paşa tarafından başlatılıp 1784'te İshak Paşa döneminde tamamlanan bir saray-külliyedir. Yaklaşık 7.600 metrekarelik alanı kaplayan yapı; Osmanlı, Selçuklu, Gürcü, Ermeni ve Fars üsluplarını Barok ve Rokoko bezemelerle harmanlar. Harem, selamlık, cami, türbe, kütüphane, hamam ile dönemine göre ileri bir merkezi ısıtma sistemi barındırır; taş işçiliğiyle bezeli anıtsal taçkapısıyla dikkat çeker. Ağrı Dağı manzarasına açılan yapı, 2000'den bu yana UNESCO Dünya Mirası Geçici Listesi'nde yer alır.",
+            "de": "Östlich von Doğubayazıt erhebt sich der İshak-Pascha-Palast auf einem schroffen Felsen über der historischen Seidenstraße. Die Palastanlage wurde 1685 von Çolak Abdi Pascha aus der Familie der Çıldıroğulları begonnen und 1784 unter İshak Pascha vollendet. Der rund 7.600 Quadratmeter große Bau verbindet osmanische, seldschukische, georgische, armenische und persische Stile mit Barock- und Rokoko-Ornamentik. Er umfasst Harem, Selamlık, Moschee, Mausoleum, Bibliothek, Bad sowie eine für die Zeit fortschrittliche Zentralheizung und besticht durch sein reich mit Steinmetzarbeit verziertes Monumentalportal. Mit Blick auf den Berg Ararat steht der Palast seit 2000 auf der Tentativliste des UNESCO-Welterbes.",
+            "en": "Rising on a steep crag east of Doğubayazıt, overlooking the historic Silk Road, the Ishak Pasha Palace is a palace-complex begun in 1685 by Çolak Abdi Pasha of the Çıldıroğulları family and completed in 1784 under İshak Pasha. Covering about 7,600 square metres, the building blends Ottoman, Seljuk, Georgian, Armenian and Persian styles with Baroque and Rococo ornamentation. It houses a harem, selamlık, mosque, mausoleum, library and bath, along with a central heating system advanced for its time, and is distinguished by its monumental gateway rich in stone carving. Commanding a view of Mount Ararat, the palace has been on UNESCO's Tentative World Heritage List since 2000."
+          }
+        }
+      ]
+    },
+    {
+      "id": "bitlis",
+      "name": {
+        "tr": "Bitlis · Ahlat",
+        "de": "Bitlis · Ahlat",
+        "en": "Bitlis · Ahlat"
+      },
+      "img": "",
+      "places": [
+        {
+          "id": "ahlat",
+          "coords": [
+            38.752,
+            42.488
+          ],
+          "name": {
+            "tr": "Ahlat Selçuklu Meydan Mezarlığı ve Kümbetler",
+            "de": "Seldschukischer Meydan-Friedhof und die Grabtürme (Kümbet) von Ahlat",
+            "en": "Ahlat Seljuk Meydan Cemetery and Tomb Towers (Kümbets)"
+          },
+          "desc": {
+            "tr": "Van Gölü'nün kuzeybatı kıyısında, Bitlis'in Ahlat ilçesinde yer alan Selçuklu Meydan (Meydanlık) Mezarlığı, dünyanın en büyük Türk-İslam mezarlıklarından biri olarak anılır ve bugün açık hava müzesi gibi gezilir. Büyük bölümü 12. ile 15. yüzyıllara tarihlenen, çevredeki volkanik Ahlat taşından yontulmuş anıtsal şahideler; bitkisel-geometrik bezemeleri, usta taş işçilerinin imzaları ve kitabeleriyle Anadolu'daki erken Türk dönemi taş işçiliğinin en görkemli örneklerindendir. Alandaki binlerce mezarın yanında Selçuklu geleneğini sürdüren kümbetler yükselir: 13. yüzyıla tarihlenen Ulu Kümbet ile Akkoyunlu Bayındır Bey için 1481'de yaptırılan Emir Bayındır Kümbeti öne çıkar. Ahlat, 25 Şubat 2000'de UNESCO Dünya Mirası Geçici Listesi'ne alınmıştır.",
+            "de": "Am nordwestlichen Ufer des Van-Sees, im Landkreis Ahlat der Provinz Bitlis, gilt der seldschukische Meydan-Friedhof (Meydanlık) als einer der größten türkisch-islamischen Friedhöfe der Welt und wird heute wie ein Freilichtmuseum besucht. Die überwiegend ins 12. bis 15. Jahrhundert datierten, aus dem vulkanischen Ahlat-Stein gehauenen monumentalen Grabstelen zählen mit ihren pflanzlich-geometrischen Ornamenten, den Signaturen der Steinmetzmeister und ihren Inschriften zu den eindrucksvollsten Zeugnissen der frühtürkischen Steinmetzkunst in Anatolien. Neben Tausenden Gräbern erheben sich Grabtürme in seldschukischer Tradition: hervorzuheben sind der ins 13. Jahrhundert datierte Ulu Kümbet und der 1481 für den Akkoyunlu-Fürsten Bayındır Bey errichtete Emir-Bayındır-Kümbet. Ahlat wurde am 25. Februar 2000 in die UNESCO-Tentativliste des Welterbes aufgenommen.",
+            "en": "On the northwestern shore of Lake Van, in the Ahlat district of Bitlis province, the Seljuk Meydan (Meydanlık) Cemetery is regarded as one of the largest Turkish-Islamic cemeteries in the world and is today visited as an open-air museum. Dating mostly from the 12th to the 15th centuries, its monumental gravestones carved from the local volcanic Ahlat stone rank among the most striking examples of early Turkish stonework in Anatolia, with their vegetal-geometric ornament, the signatures of master stonemasons, and their inscriptions. Beyond the thousands of graves rise tomb towers in the Seljuk tradition: the 13th-century Ulu Kümbet and the Emir Bayındır Kümbet, built in 1481 for the Akkoyunlu lord Bayındır Bey, stand out. Ahlat was inscribed on the UNESCO World Heritage Tentative List on 25 February 2000."
+          }
+        }
+      ]
+    },
+    {
+      "id": "elazig",
+      "name": {
+        "tr": "Elazığ · Harput",
+        "de": "Elazığ · Harput",
+        "en": "Elazığ · Harput"
+      },
+      "img": "",
+      "places": [
+        {
+          "id": "harput",
+          "coords": [
+            38.714,
+            39.26
+          ],
+          "name": {
+            "tr": "Harput",
+            "de": "Harput",
+            "en": "Harput"
+          },
+          "desc": {
+            "tr": "Elazığ'ın kuzeyinde, ovaya hâkim sarp bir tepede yükselen Harput, katmanlı bir yerleşim tarihinin merkezidir. Kalenin kökeni Urartu dönemine (MÖ 8. yüzyıl) uzanır; 2016'da bulunan bir kabartma, yerleşimin izini yaklaşık MÖ 2000'e kadar geriye taşımıştır. Kaya kütlesi üzerindeki kale Bizans, Artuklu, Selçuklu, Dulkadir ve 1515'ten sonra Osmanlı egemenliğini görmüş, defalarca onarılmıştır. 12. yüzyılda yükselen Harput Ulu Camii, tuğladan eğik minaresiyle tanınır; eğim açısının Pisa Kulesi'ni aştığı belirtilir. 1279 tarihli Arap Baba Türbesi ise mumyalanmış bedeniyle halk arasında ünlüdür. UNESCO Geçici Listesi'nde yer alan Harput, bugün Elazığ'a bakan panoramik manzarasıyla adeta açık hava müzesidir.",
+            "de": "Nördlich von Elazığ erhebt sich Harput auf einem steilen, die Ebene beherrschenden Hügel und bildet das Zentrum einer vielschichtigen Siedlungsgeschichte. Die Ursprünge der Burg reichen in die urartäische Zeit (8. Jahrhundert v. Chr.) zurück; ein 2016 entdecktes Relief datiert die Besiedlung bis etwa 2000 v. Chr. Die auf einem Felsmassiv errichtete Festung erlebte byzantinische, artukidische, seldschukische, dulkadiridische und ab 1515 osmanische Herrschaft und wurde mehrfach erneuert. Die im 12. Jahrhundert erbaute Große Moschee (Ulu Camii) ist für ihr geneigtes Ziegelminarett bekannt, dessen Neigung den Schiefen Turm von Pisa übertreffen soll. Das Arap-Baba-Mausoleum von 1279 ist für seinen mumifizierten Leichnam berühmt. Harput steht auf der UNESCO-Vorschlagsliste und wirkt mit seinem Panoramablick auf Elazığ wie ein Freilichtmuseum.",
+            "en": "Rising on a steep hill north of Elazığ that commands the plain below, Harput is the heart of a deeply layered settlement history. The castle's origins reach back to the Urartian period (8th century BC), and a relief found in 2016 traces occupation to roughly 2000 BC. Set on a rock massif, the fortress passed through Byzantine, Artuqid, Seljuk, Dulkadir and, from 1515, Ottoman rule and was rebuilt many times. The 12th-century Great Mosque (Ulu Camii) is known for its leaning brick minaret, whose tilt is said to exceed that of the Tower of Pisa. The Arap Baba Mausoleum, dated 1279, is famous for the mummified body it holds. Listed on UNESCO's Tentative List, Harput today feels like an open-air museum, offering panoramic views over modern Elazığ."
+          }
+        }
+      ]
+    },
+    {
+      "id": "erzurum",
+      "name": {
+        "tr": "Erzurum",
+        "de": "Erzurum",
+        "en": "Erzurum"
+      },
+      "img": "",
+      "places": [
+        {
+          "id": "cifteminareli",
+          "coords": [
+            39.908,
+            41.276
+          ],
+          "name": {
+            "tr": "Çifte Minareli Medrese",
+            "de": "Çifte-Minareli-Medrese (Doppelminarett-Medrese)",
+            "en": "Twin Minaret Madrasa (Çifte Minareli Medrese)"
+          },
+          "desc": {
+            "tr": "Erzurum'un simgesi sayılan Çifte Minareli Medrese, kitabesi bulunmadığından kesin tarihi bilinmese de 13. yüzyıl sonuna, Anadolu Selçuklu-İlhanlı çevresine tarihlenir ve Hatuniye Medresesi olarak da anılır. 35 x 48 metrelik ölçüsüyle Anadolu'nun en büyük açık avlulu Selçuklu medreselerinden biridir; iki katlı, dört eyvanlı planıyla anıtsal bir yapıdır. En belirgin özelliği, palmet ve rumi dizileriyle bezenmiş derin nişli taçkapısı ile onu kuşatan, tuğladan yükselen, yivli gövdeleri üçgen çinilerle süslü iki minaresidir. Yapının arkasında on iki köşeli bir kümbet yer alır. Anadolu Selçuklu taş işçiliğinin başyapıtlarından sayılır.",
+            "de": "Die als Wahrzeichen Erzurums geltende Çifte-Minareli-Medrese lässt sich mangels Bauinschrift nicht genau datieren, wird aber dem Ende des 13. Jahrhunderts, dem anatolisch-seldschukisch-ilchanidischen Umfeld zugeordnet und ist auch als Hatuniye-Medrese bekannt. Mit 35 x 48 Metern zählt sie zu den größten seldschukischen Medresen Anatoliens mit offenem Innenhof; der zweigeschossige Bau besitzt vier Iwane. Am auffälligsten ist das tiefe, mit Palmetten und Rumi-Ranken verzierte Portal, flankiert von zwei Ziegelminaretten mit geriffelten, mit Dreieckskacheln geschmückten Schäften. Hinter dem Bau steht ein zwölfeckiges Kümbet. Sie gilt als Meisterwerk seldschukischer Steinmetzkunst.",
+            "en": "Regarded as the symbol of Erzurum, the Çifte Minareli Medrese cannot be dated precisely as it bears no foundation inscription, but it is placed at the end of the 13th century within the Anatolian Seljuk-Ilkhanid milieu and is also known as the Hatuniye Medrese. At 35 x 48 metres it ranks among Anatolia's largest open-courtyard Seljuk madrasas; the two-storey building has four iwans. Its most striking feature is the deep portal adorned with palmette and rumi motifs, flanked by two brick minarets whose fluted shafts are decorated with triangular tiles. A twelve-sided tomb stands behind the building. It is counted among the masterpieces of Seljuk stonework."
+          }
+        },
+        {
+          "id": "yakutiye",
+          "coords": [
+            39.907,
+            41.274
+          ],
+          "name": {
+            "tr": "Yakutiye Medresesi",
+            "de": "Yakutiye-Medrese",
+            "en": "Yakutiye Madrasa"
+          },
+          "desc": {
+            "tr": "Yakutiye Medresesi, kitabesine göre 1310 yılında İlhanlı hükümdarı Olcaytu döneminde Emir Hoca Cemaleddin Yakut tarafından yaptırılmıştır. Kapalı avlulu plan tipinin Anadolu'daki en görkemli örneklerinden biridir; kesme taştan inşa edilmiş, kubbeli orta mekân ve eyvanlar çevresine öğrenci odaları dizilmiştir. Yapının en dikkat çekici bölümü, yüksek kabartma tekniğiyle işlenmiş doğu taçkapısıdır; hayat ağacı ile çift başlı kartal ve aslan figürleri Orta Asya Türk sanatının simgelerini yansıtır. Güneyde firuze ve mor çinilerle bezeli tek minare, doğuda ise silindirik bir kümbet yer alır. Bugün Türk-İslam Eserleri ve Etnografya Müzesi olarak hizmet vermektedir.",
+            "de": "Die Yakutiye-Medrese wurde laut Inschrift 1310 unter dem ilchanidischen Herrscher Öldscheitü von Emir Hoca Cemaleddin Yakut errichtet. Sie zählt zu den prächtigsten anatolischen Beispielen des Typs mit geschlossenem Innenhof; aus Haustein erbaut, reihen sich um den kuppelüberwölbten Mittelraum und die Iwane die Studentenzimmer. Auffälligster Teil ist das in Hochrelief gearbeitete Ostportal; Lebensbaum, Doppeladler und Löwenfiguren spiegeln Symbole zentralasiatischer Türkenkunst wider. Im Süden steht ein einzelnes, mit türkis- und violettfarbenen Kacheln geschmücktes Minarett, im Osten ein zylindrisches Kümbet. Heute dient der Bau als Museum für türkisch-islamische Kunst und Ethnographie.",
+            "en": "According to its inscription, the Yakutiye Medrese was built in 1310 under the Ilkhanid ruler Öljaitü by Emir Hoca Cemaleddin Yakut. It is among Anatolia's most splendid examples of the closed-courtyard type; built of cut stone, student cells line the domed central hall and iwans. Its most striking element is the east portal worked in high relief, whose tree of life, double-headed eagle and lion figures reflect symbols of Central Asian Turkish art. A single minaret clad in turquoise and purple tiles rises on the south side, and a cylindrical tomb adjoins the east. Today the building serves as the Museum of Turkish-Islamic Arts and Ethnography."
+          }
+        },
+        {
+          "id": "uckumbetler",
+          "coords": [
+            39.904,
+            41.277
+          ],
+          "name": {
+            "tr": "Üç Kümbetler",
+            "de": "Üç Kümbetler (Drei Grabtürme)",
+            "en": "Üç Kümbetler (Three Tombs)"
+          },
+          "desc": {
+            "tr": "Üç Kümbetler, Erzurum'un en eski anıt mezarlarından oluşan bir Selçuklu-Saltuklu yadigârıdır. En eski ve en görkemlisi, 12. yüzyılın ikinci yarısına, Saltuklu Emiri İzzeddin Saltuk çevresine tarihlenen Emir Saltuk Kümbeti'dir; sekizgen gövdesi konik bir taş külahla örtülüdür ve her cephesinde çift pencere yer alır. Gövdedeki nişlerde birbirine dolanmış ejder, kanatları açık kartal, uzun kulaklı tavşan ve boğa başı gibi kabartmalar, Türk geleneğindeki On İki Hayvanlı Takvim'e gönderme olarak yorumlanır. Yanındaki diğer iki kümbet ise 14. yüzyıla tarihlenir; on iki köşeli gövdeleri ve taş külahlarıyla ilk kümbetten ayrılır.",
+            "de": "Die Üç Kümbetler (Drei Grabtürme) bilden ein seldschukisch-saltukidisches Ensemble der ältesten Grabmäler Erzurums. Das älteste und prächtigste ist das Emir-Saltuk-Kümbet, das in die zweite Hälfte des 12. Jahrhunderts, in das Umfeld des Saltukiden-Emirs İzzeddin Saltuk, datiert wird; sein achteckiger Körper ist von einer konischen Steinhaube bedeckt, jede Fassade zeigt Doppelfenster. Die Reliefs in den Nischen – ineinander verschlungene Drachen, ein Adler mit ausgebreiteten Flügeln, ein langohriger Hase und ein Stierkopf – werden als Anspielung auf den türkischen Zwölf-Tier-Kalender gedeutet. Die beiden anderen Kümbets datieren ins 14. Jahrhundert und heben sich durch ihre zwölfeckigen Körper und Steinhauben ab.",
+            "en": "The Üç Kümbetler (Three Tombs) form a Seljuk-Saltukid ensemble of Erzurum's oldest funerary monuments. The oldest and most magnificent is the Emir Saltuk Kümbet, dated to the second half of the 12th century, to the circle of the Saltukid emir İzzeddin Saltuk; its octagonal body is crowned by a conical stone cap, and each facade bears paired windows. The reliefs in its niches – intertwined dragons, an eagle with spread wings, a long-eared hare and a bull's head – are interpreted as allusions to the Turkish Twelve-Animal calendar. The other two tombs date to the 14th century and are distinguished by their twelve-sided bodies and stone caps."
+          }
+        },
+        {
+          "id": "aziziye",
+          "coords": [
+            39.93,
+            41.22
+          ],
+          "name": {
+            "tr": "Aziziye Tabyaları",
+            "de": "Aziziye-Schanzen",
+            "en": "Aziziye Redoubts"
+          },
+          "desc": {
+            "tr": "Aziziye Tabyaları, Erzurum'un doğu sınırını güçlendirmek amacıyla 1872 yılı dolaylarında inşa edilen savunma yapılarıdır. Adını, 93 Harbi olarak bilinen 1877-1878 Osmanlı-Rus Savaşı'ndaki Erzurum savunmasıyla duyurmuştur. 8-9 Kasım 1877 gecesi tabyalar çevresinde yaşanan çatışmalar, askerlerin yanı sıra halkın da katıldığı bir direniş olarak anılır ve Nene Hatun figürüyle simgeleşmiştir. Bu olaylar Türk kültürel belleğinde önemli bir yer tutar. Günümüzde tabyalar restore edilerek ziyarete açılmış, alanda Nene Hatun'u ve savunmayı anan bir anıt düzenlenmiştir.",
+            "de": "Die Aziziye-Schanzen sind Verteidigungsanlagen, die um 1872 zur Sicherung der Ostgrenze Erzurums errichtet wurden. Bekannt wurden sie durch die Verteidigung Erzurums im Russisch-Osmanischen Krieg von 1877-1878 (im Türkischen „93 Harbi\"). Die Kämpfe rund um die Schanzen in der Nacht vom 8. auf den 9. November 1877 gelten als Widerstand, an dem neben Soldaten auch die Bevölkerung beteiligt war, und sind mit der Gestalt der Nene Hatun verbunden. Diese Ereignisse nehmen im türkischen kulturellen Gedächtnis einen bedeutenden Platz ein. Heute sind die restaurierten Schanzen zugänglich; auf dem Gelände erinnert ein Denkmal an Nene Hatun und die Verteidigung.",
+            "en": "The Aziziye Redoubts are defensive fortifications built around 1872 to strengthen Erzurum's eastern frontier. They became renowned through the defence of Erzurum during the Russo-Ottoman War of 1877-1878 (known in Turkish as the '93 War'). The fighting around the redoubts on the night of 8-9 November 1877 is remembered as a resistance in which townspeople took part alongside soldiers, and it has become symbolised by the figure of Nene Hatun. These events hold an important place in Turkish cultural memory. Today the restored redoubts are open to visitors, and a monument on the site commemorates Nene Hatun and the defence."
+          }
+        },
+        {
+          "id": "erzurumtashan",
+          "coords": [
+            39.906,
+            41.276
+          ],
+          "name": {
+            "tr": "Rüstem Paşa Bedesteni (Taşhan)",
+            "de": "Rüstem-Pascha-Basar (Taşhan)",
+            "en": "Rüstem Pasha Bedesten (Taşhan)"
+          },
+          "desc": {
+            "tr": "Rüstem Paşa Bedesteni, halk arasındaki adıyla Taşhan, Kanuni Sultan Süleyman döneminde Sadrazam Rüstem Paşa tarafından 1561 yılında yaptırılmıştır. Osmanlı ticaret yapısı geleneğinin Erzurum'daki en önemli örneklerinden biridir; kesme taştan, iki katlı olarak inşa edilmiş, dikdörtgen bir avlu çevresine revakların arkasında sıralanan odalarla düzenlenmiştir. Yapı 1965 yılında kapsamlı biçimde restore edilmiştir. Günümüzde yörenin ünlü oltu taşının işlendiği ve satıldığı tarihî bir çarşı olarak yaşamaktadır; tespih, yüzük ve kolye gibi el işi ürünler burada üretilip pazarlanır.",
+            "de": "Der Rüstem-Pascha-Basar, im Volksmund Taşhan genannt, wurde 1561 unter Sultan Süleyman dem Prächtigen vom Großwesir Rüstem Pascha errichtet. Er zählt zu den bedeutendsten Erzurumer Beispielen osmanischer Handelsbauten; aus Haustein und zweigeschossig erbaut, sind die Räume hinter Arkaden um einen rechteckigen Innenhof angeordnet. 1965 wurde das Gebäude umfassend restauriert. Heute lebt es als historischer Basar fort, in dem der berühmte Oltu-Stein der Region verarbeitet und verkauft wird; Gebetsketten, Ringe und Ketten werden hier in Handarbeit gefertigt und angeboten.",
+            "en": "The Rüstem Pasha Bedesten, popularly known as the Taşhan, was built in 1561 by Grand Vizier Rüstem Pasha during the reign of Süleyman the Magnificent. It is among Erzurum's most important examples of Ottoman commercial architecture; built of cut stone and two storeys high, its rooms are arranged behind arcades around a rectangular courtyard. The building was extensively restored in 1965. Today it lives on as a historic bazaar where the region's famous Oltu stone is worked and sold; prayer beads, rings and necklaces are handcrafted and offered here."
+          }
+        }
+      ]
+    },
+    {
+      "id": "igdir",
+      "name": {
+        "tr": "Iğdır",
+        "de": "Iğdır",
+        "en": "Iğdır"
+      },
+      "img": "",
+      "places": [
+        {
+          "id": "igdirsoykirim",
+          "coords": [
+            39.92,
+            44.043
+          ],
+          "name": {
+            "tr": "Iğdır Soykırım Anıtı ve Müzesi",
+            "de": "Iğdır-Genozid-Denkmal und -Museum",
+            "en": "Iğdır Genocide Memorial and Museum"
+          },
+          "desc": {
+            "tr": "Iğdır kent girişinde, Azerbaycan, İran ve Ermenistan yollarının kesiştiği noktada yükselen anıt, 1918-1920 yıllarında bölgede yaşamını yitiren Türklerin anısına yapıldı. Temeli 1997'de atılan yapı 1999'da açıldı; 43,5 metreye ulaşan ve beş kılıç figüründen oluşan tasarımı, yukarıdan bakıldığında beş köşeli yıldızı andırır ve kılıçların uçları bir kubbede birleşir. Yapay höyüğün altındaki dairesel salonda kurbanları simgeleyen mezarlar, fotoğraf ve belgeler sergilenir; ek odalarda tarihî fotoğraflar ve bir araştırma kitaplığı yer alır. Kılıç kabzalarındaki bronz kabartmalar Türk tarihinin çeşitli dönemlerine gönderme yapar. Anıt, Ağrı Dağı eteklerindeki ovaya bakar.",
+            "de": "Am Stadteingang von Iğdır, wo die Straßen aus Aserbaidschan, dem Iran und Armenien zusammentreffen, erhebt sich das Denkmal zum Gedenken an die Türken, die zwischen 1918 und 1920 in der Region ums Leben kamen. Der Grundstein wurde 1997 gelegt, die Eröffnung erfolgte 1999. Der 43,5 Meter hohe Bau besteht aus fünf schwertförmigen Elementen, die von oben betrachtet einen fünfzackigen Stern bilden und deren Spitzen sich zu einer Kuppel vereinen. In einem runden Saal unter dem künstlichen Hügel werden symbolische Gräber der Opfer sowie Fotos und Dokumente gezeigt; Nebenräume beherbergen historische Aufnahmen und eine Forschungsbibliothek. Bronzereliefs an den Schwertgriffen verweisen auf verschiedene Epochen der türkischen Geschichte. Das Denkmal blickt auf die Ebene am Fuße des Ararat.",
+            "en": "Standing at the entrance to Iğdır, where the roads from Azerbaijan, Iran and Armenia converge, this monument commemorates the Turks who lost their lives in the region between 1918 and 1920. Its foundation was laid in 1997 and it opened in 1999. The 43.5-metre-high structure is formed of five sword figures that, seen from above, resemble a five-pointed star, their tips meeting to form a dome. A circular chamber beneath the artificial mound displays symbolic graves of the victims along with photographs and documents, while adjoining rooms hold historic images and a research library. Bronze reliefs on the sword hilts reference various periods of Turkish history. The memorial overlooks the plain at the foot of Mount Ararat."
+          }
+        },
+        {
+          "id": "tuzluca",
+          "coords": [
+            40.04,
+            43.66
+          ],
+          "name": {
+            "tr": "Tuzluca Tuz Mağaraları",
+            "de": "Salzhöhlen von Tuzluca",
+            "en": "Tuzluca Salt Caves"
+          },
+          "desc": {
+            "tr": "Iğdır'ın Tuzluca ilçesinde, yüzyıllardır işletilen bir kaya tuzu madeninin galerilerinden oluşan mağaralar, tuz kristalleriyle kaplı duvarları ve labirenti andıran koridorlarıyla tanınır. Çökel kaya tuzu tabakalarının yaklaşık 24-37 milyon yıl önce oluştuğu, madenin ise çok eski çağlardan beri kullanıldığı belirtilir. Bir zamanlar bölgenin sofralık ve sanayi tuzu ihtiyacını karşılayan ocak, sonraları turizme ve sağlık turizmine açıldı; içindeki serin, nemli mikroklima ile tuz bakımından zengin havanın astım ve bronşit gibi solunum yolu rahatsızlıklarına iyi geldiği söylenir. Bu amaçla mağarada bir Tuz Terapi Merkezi hizmet vermektedir. Dışarıdaki sıcaklıklara karşın galeriler yıl boyu serin kalır ve ziyaretçilerce serinlemek için de tercih edilir.",
+            "de": "Im Bezirk Tuzluca von Iğdır bilden die Stollen eines seit Jahrhunderten betriebenen Steinsalzbergwerks ein Höhlensystem, das für seine mit Salzkristallen überzogenen Wände und labyrinthartigen Gänge bekannt ist. Die abgelagerten Steinsalzschichten sollen vor etwa 24 bis 37 Millionen Jahren entstanden sein, während das Bergwerk seit sehr alter Zeit genutzt wird. Der Stollen, der einst den Speise- und Industriesalzbedarf der Region deckte, wurde später für den Tourismus und den Gesundheitstourismus geöffnet; dem kühlen, feuchten Mikroklima und der salzreichen Luft wird eine wohltuende Wirkung bei Atemwegserkrankungen wie Asthma und Bronchitis nachgesagt. Zu diesem Zweck betreibt die Höhle ein Salztherapiezentrum. Trotz der Hitze draußen bleiben die Gänge das ganze Jahr über kühl und werden auch zur Abkühlung besucht.",
+            "en": "In the Tuzluca district of Iğdır, the galleries of a rock-salt mine worked for centuries form a cave system known for its salt-crystal-lined walls and labyrinthine corridors. The sedimentary rock-salt layers are said to have formed some 24 to 37 million years ago, while the mine has reportedly been in use since very ancient times. Once supplying the region's table and industrial salt, the workings were later opened to tourism and health tourism; the cool, humid microclimate and salt-rich air are said to relieve respiratory conditions such as asthma and bronchitis. A Salt Therapy Centre operates within the cave for this purpose. Despite the heat outside, the galleries stay cool year-round and are also visited simply to escape the warmth."
+          }
+        }
+      ]
+    },
+    {
+      "id": "kars",
+      "name": {
+        "tr": "Kars · Ani",
+        "de": "Kars · Ani",
+        "en": "Kars · Ani"
+      },
+      "img": "",
+      "places": [
+        {
+          "id": "ani",
+          "coords": [
+            40.507,
+            43.572
+          ],
+          "name": {
+            "tr": "Ani Arkeolojik Alanı",
+            "de": "Archäologische Stätte Ani",
+            "en": "Archaeological Site of Ani"
+          },
+          "desc": {
+            "tr": "Arpaçay (Ahuryan) vadisinin sarp yamacında kurulan Ani, 961 yılından itibaren ortaçağ Ermeni Bagratlı Krallığı’nın başkenti oldu ve İpek Yolu üzerindeki konumuyla 10-11. yüzyıllarda zenginleşerek nüfusu on binleri bulan bir ticaret merkezine dönüştü. Çok sayıda kilisesi nedeniyle “1001 kilise şehri” olarak anılır; mimar Trdat’ın 1001’de tamamladığı katedral, Surp Krikor kiliseleri ve çift sıralı surları öne çıkar. Selçuklu, Gürcü ve Moğol egemenlikleri, 1319 depremi ve değişen ticaret yollarıyla giderek terk edildi. 2016 yılında UNESCO Dünya Mirası Listesi’ne alındı.",
+            "de": "Ani, am steilen Rand des Tals des Arpaçay (Achurjan) gelegen, war ab dem Jahr 961 die Hauptstadt des mittelalterlichen armenischen Königreichs der Bagratiden und entwickelte sich dank seiner Lage an der Seidenstraße im 10.-11. Jahrhundert zu einem wohlhabenden Handelszentrum mit Zehntausenden Einwohnern. Wegen seiner vielen Kirchen wird es „Stadt der 1001 Kirchen“ genannt; hervorzuheben sind die 1001 vom Baumeister Trdat vollendete Kathedrale, die Surp-Krikor-Kirchen und die doppelte Stadtmauer. Unter seldschukischer, georgischer und mongolischer Herrschaft sowie durch das Erdbeben von 1319 und verlagerte Handelswege wurde die Stadt allmählich aufgegeben. 2016 wurde sie in die UNESCO-Welterbeliste aufgenommen.",
+            "en": "Set on the steep edge of the Arpaçay (Akhurian) valley, Ani became the capital of the medieval Armenian Bagratid Kingdom from 961 and, thanks to its position on the Silk Road, grew in the 10th-11th centuries into a wealthy trading centre with a population in the tens of thousands. Its many churches earned it the name “city of 1001 churches”; notable are the cathedral completed in 1001 by the architect Trdat, the Surp Krikor churches and the double line of city walls. Under Seljuk, Georgian and Mongol rule, and following the 1319 earthquake and shifting trade routes, it was gradually abandoned. It was inscribed on the UNESCO World Heritage List in 2016."
+          }
+        },
+        {
+          "id": "karskalesi",
+          "coords": [
+            40.609,
+            43.09
+          ],
+          "name": {
+            "tr": "Kars Kalesi ve Taş Köprü",
+            "de": "Burg von Kars und die Steinbrücke",
+            "en": "Kars Castle and the Stone Bridge"
+          },
+          "desc": {
+            "tr": "Kars Çayı’na hâkim tepede yükselen Kars Kalesi, kentin tarihî çekirdeğini oluşturur; kökeni ortaçağa uzanan yapı çeşitli dönemlerde onarılıp güçlendirildi. Kale eteğinde, aslen 10. yüzyılda Bagratlılar döneminde inşa edilen ve sonradan camiye çevrilen 12 Havariler Kilisesi (Kümbet Camii) yer alır. Yakınında Kars Çayı üzerindeki taş kemerli Taş Köprü ile 11. yüzyıl tasavvuf düşünürü Ebu’l Hasan Harakani’ye adanan türbe ve külliye bulunur. Bu yapılar, kentin İslam, Ermeni ve Osmanlı katmanlarını bir arada barındıran çok katmanlı tarihini yansıtır.",
+            "de": "Die auf einem den Kars-Fluss beherrschenden Hügel aufragende Burg von Kars bildet den historischen Kern der Stadt; der bis ins Mittelalter zurückreichende Bau wurde in verschiedenen Epochen instand gesetzt und verstärkt. Am Fuß der Burg steht die ursprünglich im 10. Jahrhundert unter den Bagratiden errichtete und später in eine Moschee umgewandelte Zwölf-Apostel-Kirche (Kümbet-Moschee). In der Nähe befinden sich die steinerne Bogenbrücke (Taş Köprü) über den Kars-Fluss sowie das dem Sufi-Denker Abu l-Hasan Harakani aus dem 11. Jahrhundert gewidmete Mausoleum mit seinem Komplex. Diese Bauten spiegeln die vielschichtige Geschichte der Stadt mit ihren islamischen, armenischen und osmanischen Schichten wider.",
+            "en": "Rising on a hill commanding the Kars River, Kars Castle forms the historic core of the city; the structure, whose origins reach back to the Middle Ages, was repaired and reinforced in various periods. At the foot of the castle stands the Church of the Twelve Apostles (Kümbet Mosque), originally built in the 10th century under the Bagratids and later converted into a mosque. Nearby are the arched Stone Bridge over the Kars River and the mausoleum and complex dedicated to the 11th-century Sufi thinker Abu al-Hasan Harakani. These buildings reflect the layered history of the city, holding together its Islamic, Armenian and Ottoman strata."
+          }
+        },
+        {
+          "id": "sarikamis",
+          "coords": [
+            40.33,
+            42.59
+          ],
+          "name": {
+            "tr": "Sarıkamış",
+            "de": "Sarıkamış",
+            "en": "Sarıkamış"
+          },
+          "desc": {
+            "tr": "Sarıçam ormanlarıyla çevrili yüksek yayla kenti Sarıkamış, 1914-1915 kışında yaşanan Sarıkamış Harekâtı’yla anılır; Osmanlı Üçüncü Ordusu ile Rus kuvvetleri arasındaki çatışmalarda, ağır kış koşulları ve donma nedeniyle çok sayıda asker hayatını kaybetti ve harekât büyük kayıplarla sonuçlandı. Rus döneminden kalma Katerina Av Köşkü ilçenin simge yapılarındandır. Bugün Cıbıltepe’deki pistleriyle Türkiye’nin önemli kayak merkezlerinden biri olan Sarıkamış, kaliteli “kristal karı” ve geniş sarıçam ormanlarıyla kış turizminin gözde noktalarındandır.",
+            "de": "Sarıkamış, eine von Waldkiefernwäldern umgebene Hochplateau-Stadt, ist vor allem für die Schlacht von Sarıkamış im Winter 1914-1915 bekannt; in den Kämpfen zwischen der osmanischen Dritten Armee und russischen Truppen kamen infolge der harten Winterbedingungen und der Kälte zahlreiche Soldaten ums Leben, und die Operation endete mit schweren Verlusten. Das aus der russischen Zeit stammende Jagdschloss Katerina zählt zu den Wahrzeichen des Bezirks. Heute ist Sarıkamış mit seinen Pisten am Cıbıltepe eines der bedeutenden Skigebiete der Türkei und dank seines hochwertigen „Kristallschnees“ und seiner ausgedehnten Waldkiefernwälder ein beliebtes Ziel des Wintertourismus.",
+            "en": "Sarıkamış, a high plateau town surrounded by Scots pine forests, is remembered above all for the Sarıkamış campaign of the winter of 1914-1915; in the fighting between the Ottoman Third Army and Russian forces, many soldiers lost their lives owing to the severe winter conditions and freezing cold, and the operation ended in heavy losses. The Katerina Hunting Lodge, dating from the Russian period, is among the district’s landmark buildings. Today, with its slopes on Cıbıltepe, Sarıkamış is one of Türkiye’s important ski resorts and, thanks to its fine “crystal snow” and extensive Scots pine forests, a favourite destination for winter tourism."
+          }
+        },
+        {
+          "id": "karsmuze",
+          "coords": [
+            40.6,
+            43.1
+          ],
+          "name": {
+            "tr": "Kars Müzesi",
+            "de": "Museum von Kars",
+            "en": "Kars Museum"
+          },
+          "desc": {
+            "tr": "Kars Arkeoloji ve Etnografya Müzesi, bölgenin derin geçmişini yansıtan zengin bir koleksiyona ev sahipliği yapar. Ani ve çevre kazılarından çıkarılan arkeolojik eserler ile Tunç Çağı’ndan Urartu, Roma, Bizans, Selçuklu ve Osmanlı dönemlerine uzanan buluntular sergilenir. Etnografya bölümünde bölgeye özgü halı ve kilimler, giysiler, el sanatları ve günlük yaşam eşyaları yer alır. Kars’ın Anadolu ile Kafkasya arasındaki kavşak konumunu yansıtan müze, farklı halkların ve kültürlerin yüzyıllar içinde iç içe geçen mirasını görünür kılar.",
+            "de": "Das Archäologie- und Ethnographie-Museum von Kars beherbergt eine reiche Sammlung, die die tiefe Vergangenheit der Region widerspiegelt. Ausgestellt werden archäologische Funde aus den Grabungen von Ani und Umgebung sowie Objekte, die von der Bronzezeit über Urartu, Rom, Byzanz, die Seldschuken bis zu den Osmanen reichen. In der ethnographischen Abteilung finden sich regionaltypische Teppiche und Kelims, Trachten, Handwerkskunst und Gegenstände des täglichen Lebens. Als Spiegel der Kreuzungslage von Kars zwischen Anatolien und dem Kaukasus macht das Museum das über Jahrhunderte ineinander verwobene Erbe verschiedener Völker und Kulturen sichtbar.",
+            "en": "The Kars Archaeology and Ethnography Museum holds a rich collection reflecting the region’s deep past. On display are archaeological artefacts from the excavations at Ani and its surroundings, along with finds ranging from the Bronze Age through Urartian, Roman, Byzantine, Seljuk and Ottoman periods. The ethnography section presents locally distinctive rugs and kilims, garments, handicrafts and everyday objects. Reflecting the position of Kars at the crossroads between Anatolia and the Caucasus, the museum makes visible the heritage of different peoples and cultures that has intertwined over the centuries."
+          }
+        }
+      ]
+    },
+    {
+      "id": "malatya",
+      "name": {
+        "tr": "Malatya",
+        "de": "Malatya",
+        "en": "Malatya"
+      },
+      "img": "",
+      "places": [
+        {
+          "id": "arslantepe",
+          "coords": [
+            38.382,
+            38.362
+          ],
+          "name": {
+            "tr": "Arslantepe Höyüğü",
+            "de": "Siedlungshügel Arslantepe",
+            "en": "Arslantepe Mound"
+          },
+          "desc": {
+            "tr": "Malatya Ovası'nda, Fırat'a yakın konumda yükselen Arslantepe, yaklaşık 30 metre yüksekliğinde ve 4,5 hektarı aşan bir arkeolojik höyüktür; 2021'de UNESCO Dünya Mirası Listesi'ne alınmıştır. Yerleşim izleri en az MÖ 6. binyıla uzanır ve Roma dönemine dek kesintisiz sürer. Geç Kalkolitik katmanda (yaklaşık MÖ 3400-3100) ortaya çıkan anıtsal yapı, dünyanın bilinen en eski saraylarından biri sayılır ve yazıdan önce gelişen mühür-idare sistemiyle ilk devlet örgütlenmesinin izlerini taşır. Yaklaşık MÖ 33.-31. yüzyıla tarihlenen, arsenikli bakır alaşımından dökülmüş kılıçlar, bilinen en eski metal kılıçlar arasındadır. Sarayı yıkan büyük bir yangın buluntuları korumuş, erken yönetici seçkinlerinin günlük yaşamını çarpıcı biçimde bugüne taşımıştır.",
+            "de": "Auf der Ebene von Malatya nahe dem Euphrat erhebt sich Arslantepe, ein etwa 30 Meter hoher, über 4,5 Hektar großer Siedlungshügel, der 2021 in die UNESCO-Welterbeliste aufgenommen wurde. Siedlungsspuren reichen mindestens bis ins 6. Jahrtausend v. Chr. zurück und setzen sich ohne Unterbrechung bis in die Römerzeit fort. Der in der Spätchalkolithikum-Schicht (etwa 3400-3100 v. Chr.) errichtete Monumentalbau gilt als einer der ältesten bekannten Paläste der Welt und zeugt mit seinem der Schrift vorausgehenden Siegel- und Verwaltungssystem von einer der frühesten Staatsbildungen. Die um das 33. bis 31. Jahrhundert v. Chr. datierten, aus einer Arsen-Kupfer-Legierung gegossenen Schwerter zählen zu den ältesten bekannten Metallschwertern. Ein großer Brand, der den Palast zerstörte, bewahrte die Funde und macht das Alltagsleben der frühen Herrschaftselite eindrucksvoll greifbar.",
+            "en": "Rising on the Malatya plain near the Euphrates, Arslantepe is an archaeological mound roughly 30 meters high and over 4.5 hectares in area, inscribed on the UNESCO World Heritage List in 2021. Traces of settlement reach back at least to the 6th millennium BCE and continue unbroken into the Roman era. The monumental building that emerged in the Late Chalcolithic layer (about 3400-3100 BCE) is regarded as one of the oldest known palaces in the world and, with its seal-based administrative system predating writing, bears the marks of one of the earliest forms of state organization. Cast from an arsenical copper alloy and dated to about the 33rd to 31st centuries BCE, its swords are among the oldest known metal swords. A great fire that destroyed the palace preserved the finds, vividly conveying the daily life of these early governing elites."
+          }
+        }
+      ]
+    },
+    {
+      "id": "van",
+      "name": {
+        "tr": "Van",
+        "de": "Van",
+        "en": "Van"
+      },
+      "img": "",
+      "places": [
+        {
+          "id": "akdamar",
+          "coords": [
+            38.34,
+            43.033
+          ],
+          "name": {
+            "tr": "Akdamar Adası ve Surp Haç Kilisesi",
+            "de": "Insel Akdamar und Kirche zum Heiligen Kreuz (Surp Haç)",
+            "en": "Akdamar Island and the Church of the Holy Cross (Surp Haç)"
+          },
+          "desc": {
+            "tr": "Van Gölü'nün güneyinde, Gevaş açıklarındaki ada üzerinde yükselen Surp Haç (Kutsal Haç) Kilisesi, Vaspurakan Ermeni Krallığı hükümdarı I. Gagik için 915-921 yılları arasında keşiş-mimar Manuel'e yaptırıldı. Kesme taştan, merkezi kubbeli, dört yapraklı yonca planlı yapı, Ortaçağ Ermeni mimarisinin başyapıtlarından sayılır. Kiliseyi asıl ünlü kılan, dış cephelerini kuşatan kabartmalardır: İncil ve Tevrat'tan sahneler; Adem ile Havva, Davut ile Golyat, Yunus Peygamber ve kucağında İsa'yı tutan Meryem taşa işlenmiştir. 2007'deki restorasyondan sonra anıt müze olarak ziyarete açıldı; baharda adayı saran badem çiçekleri manzarayı bütünler.",
+            "de": "Die Kirche zum Heiligen Kreuz (Surp Haç) erhebt sich auf einer Insel vor Gevaş im Süden des Vansees. Sie wurde zwischen 915 und 921 im Auftrag von Gagik I., dem König des armenischen Reiches Waspurakan, vom Mönch und Baumeister Manuel errichtet. Der aus Werkstein gefügte Bau mit zentraler Kuppel und vierblättrigem Kreuzgrundriss gilt als Meisterwerk der mittelalterlichen armenischen Architektur. Berühmt ist die Kirche vor allem für die Reliefs an ihren Außenwänden: Szenen aus dem Alten und Neuen Testament, darunter Adam und Eva, David und Goliath, der Prophet Jona sowie Maria mit dem Jesuskind. Nach der Restaurierung von 2007 als Denkmalmuseum geöffnet; im Frühling umrahmen blühende Mandelbäume die Insel.",
+            "en": "The Church of the Holy Cross (Surp Haç) rises on an island off Gevaş in the southern part of Lake Van. It was built between 915 and 921 for Gagik I, king of the Armenian kingdom of Vaspurakan, by the monk-architect Manuel. Made of cut stone with a central dome and a four-lobed cross plan, it is regarded as a masterpiece of medieval Armenian architecture. The church is above all famous for the reliefs covering its outer walls: scenes from the Old and New Testaments, among them Adam and Eve, David and Goliath, the prophet Jonah, and Mary holding the infant Jesus. Reopened as a monument museum after the 2007 restoration; in spring, blossoming almond trees frame the island."
+          }
+        },
+        {
+          "id": "vankalesi",
+          "coords": [
+            38.568,
+            43.339
+          ],
+          "name": {
+            "tr": "Van Kalesi (Tuşpa)",
+            "de": "Festung von Van (Tuschpa)",
+            "en": "Van Fortress (Tushpa)"
+          },
+          "desc": {
+            "tr": "Van Gölü'nün doğu kıyısında, yaklaşık 1.300 metre uzunluğunda ve 100 metre yüksekliğindeki sarp kayalık üzerinde yükselen kale, Urartu Krallığı'nın başkenti Tuşpa'nın çekirdeğidir. MÖ 9. yüzyılda kral I. Sarduri döneminde kurulan yerleşim, üç asır boyunca Doğu Anadolu'ya hükmeden Urartu'nun siyasi merkezi oldu. Kayaya oyulmuş kral mezar odaları, tören platformları ve çivi yazılı kaya yazıtları, dönemin gücünü ve taş işçiliğini yansıtır. Kalenin eteğinde, Ortaçağ'dan 20. yüzyıl başına uzanan Eski Van şehrinin kalıntıları uzanır; zirveden göl ve ovaya bakan manzara etkileyicidir.",
+            "de": "Auf einem schroffen, rund 1.300 Meter langen und 100 Meter hohen Felsrücken am Ostufer des Vansees erhebt sich die Festung, der Kern von Tuschpa, der Hauptstadt des urartäischen Reiches. Die im 9. Jahrhundert v. Chr. unter König Sarduri I. gegründete Siedlung war drei Jahrhunderte lang das politische Zentrum Urartus, das über Ostanatolien herrschte. In den Fels gehauene Königsgrabkammern, Zeremonialplattformen und Keilschriftinschriften zeugen von der Macht und der Steinmetzkunst der Zeit. Am Fuß der Festung liegen die Ruinen der Altstadt von Van, die vom Mittelalter bis ins frühe 20. Jahrhundert reicht; vom Gipfel bietet sich ein eindrucksvoller Blick auf See und Ebene.",
+            "en": "Perched on a steep rocky ridge about 1,300 metres long and 100 metres high on the eastern shore of Lake Van, the fortress is the core of Tushpa, the capital of the Kingdom of Urartu. Founded in the 9th century BC under King Sarduri I, the settlement served for three centuries as the political centre of Urartu, which ruled over eastern Anatolia. Rock-cut royal burial chambers, ceremonial platforms and cuneiform inscriptions attest to the power and stonemasonry of the era. At the foot of the fortress lie the ruins of the Old City of Van, spanning from the medieval period to the early 20th century; from the summit an impressive view opens over the lake and the plain."
+          }
+        },
+        {
+          "id": "cavustepe",
+          "coords": [
+            38.35,
+            43.6
+          ],
+          "name": {
+            "tr": "Çavuştepe Kalesi",
+            "de": "Festung Çavuştepe (Sardurihinili)",
+            "en": "Çavuştepe Fortress (Sardurihinili)"
+          },
+          "desc": {
+            "tr": "Van'ın yaklaşık 25 kilometre güneydoğusunda, Gürpınar yakınındaki uzun bir tepe üzerine kurulan Çavuştepe (Sardurihinili) Kalesi, MÖ 8. yüzyıl ortasında Urartu kralı II. Sarduri tarafından inşa edildi. Yukarı ve Aşağı Kale olmak üzere iki bölümden oluşan yapıda, baş tanrı Haldi'ye ve tanrı İrmuşini'ye adanmış tapınaklar, saray kalıntıları, kayaya oyulmuş su sarnıçları ve büyük depolama küpleri yer alır. Düzgün kesilmiş bazalt bloklar, Urartu taş işçiliğinin inceliğini gösterir. Duvarlar ve tapınak kaideleri üzerindeki çivi yazıtları, kentin kuruluşunu ve krallığa dair kayıtları günümüze taşır.",
+            "de": "Rund 25 Kilometer südöstlich von Van, bei Gürpınar, wurde die Festung Çavuştepe (Sardurihinili) auf einem langgestreckten Hügel errichtet, und zwar Mitte des 8. Jahrhunderts v. Chr. durch den urartäischen König Sarduri II. Die aus einer Ober- und einer Unterburg bestehende Anlage umfasst Tempel für den Hauptgott Haldi und den Gott Irmuşini, Palastreste, in den Fels gehauene Wasserzisternen und große Vorratsgefäße. Sauber behauene Basaltblöcke zeigen die Feinheit der urartäischen Steinmetzkunst. Keilschriftinschriften an Mauern und Tempelsockeln überliefern bis heute die Gründung der Stadt und Aufzeichnungen über das Königreich.",
+            "en": "About 25 kilometres southeast of Van, near Gürpınar, the fortress of Çavuştepe (Sardurihinili) was built on a long ridge in the mid-8th century BC by the Urartian king Sarduri II. Consisting of an upper and a lower citadel, the complex includes temples dedicated to the chief god Haldi and to the god Irmuşini, palace remains, rock-cut water cisterns and large storage jars. Neatly hewn basalt blocks reveal the refinement of Urartian stonemasonry. Cuneiform inscriptions on the walls and temple bases preserve the founding of the city and records of the kingdom to this day."
+          }
+        },
+        {
+          "id": "vanmuze",
+          "coords": [
+            38.495,
+            43.405
+          ],
+          "name": {
+            "tr": "Van Müzesi",
+            "de": "Museum von Van",
+            "en": "Van Museum"
+          },
+          "desc": {
+            "tr": "1972'de kurulan Van Müzesi, 2011 depremlerinin ardından Van Kalesi'nin karşısındaki çağdaş binasına taşınarak 2019'da yeniden ziyarete açıldı. Envanterinde 40 bini aşan eser bulunan müze, dünyanın en zengin Urartu koleksiyonlarından birine ev sahipliği yapar. Salonlarda altın ve gümüş takılar, bronz kemerler, tören silahları, damga ve silindir mühürler ile çivi yazılı kil tabletler kronolojik bir düzende sergilenir. Urartu'dan Ortaçağ'a bölgenin katmanlı geçmişini yansıtan koleksiyon, kazılarda gün ışığına çıkan buluntularla zenginleşir; müze, Van havzasının arkeolojik derinliğini tek çatı altında sunar.",
+            "de": "Das 1972 gegründete Museum von Van zog nach den Erdbeben von 2011 in einen modernen Neubau gegenüber der Festung von Van um und wurde 2019 wiedereröffnet. Mit über 40.000 inventarisierten Objekten beherbergt es eine der reichsten urartäischen Sammlungen der Welt. In den Sälen werden Gold- und Silberschmuck, Bronzegürtel, Zeremonialwaffen, Stempel- und Rollsiegel sowie Tontafeln mit Keilschrift in chronologischer Ordnung gezeigt. Die Sammlung, die die vielschichtige Vergangenheit der Region von Urartu bis ins Mittelalter widerspiegelt, wird durch Funde aus laufenden Grabungen ergänzt; das Museum präsentiert die archäologische Tiefe des Van-Beckens unter einem Dach.",
+            "en": "Founded in 1972, the Van Museum moved into a modern building opposite the Van Fortress after the 2011 earthquakes and reopened in 2019. With more than 40,000 inventoried objects, it holds one of the richest Urartian collections in the world. Its halls display gold and silver jewellery, bronze belts, ceremonial weapons, stamp and cylinder seals, and clay tablets bearing cuneiform, all arranged in chronological order. Reflecting the layered past of the region from Urartu to the medieval era, the collection is continually enriched by finds from ongoing excavations; the museum presents the archaeological depth of the Van basin under a single roof."
+          }
+        }
+      ]
     }
   ]
 }
