@@ -2489,6 +2489,85 @@
           }
         }
       ]
+    },
+    {
+      "id": "corum",
+      "name": {
+        "tr": "Çorum · Hattuşa",
+        "de": "Çorum · Hattuşa",
+        "en": "Çorum · Hattuşa"
+      },
+      "img": "",
+      "places": [
+        {
+          "id": "hattusa",
+          "name": {
+            "tr": "Hattuşa (Hitit Başkenti)",
+            "de": "Hattuša (Hethitische Hauptstadt)",
+            "en": "Hattusa (Hittite Capital)"
+          },
+          "coords": [
+            40.019,
+            34.615
+          ],
+          "desc": {
+            "tr": "Çorum'un Boğazkale ilçesindeki Hattuşa, yaklaşık MÖ 1600-1180 arasında Hitit İmparatorluğu'nun başkentiydi. Kalın surlarla çevrili kentte Büyük Tapınak (Fırtına Tanrısı ve Güneş Tanrıçası'na adanmış), kral sarayının bulunduğu Büyükkale, anıtsal Aslanlı Kapı, Kral Kapısı ve Sfenksli Kapı ile poterni (yer altı tüneli) yaklaşık 71 m uzunluğundaki Yerkapı seddi öne çıkar. Kentteki arşivlerde bulunan binlerce çivi yazılı kil tablet, MÖ 1259 dolaylarında Hitit kralı III. Hattuşili ile Mısır firavunu II. Ramses arasında yapılan ve bilinen en eski yazılı barış metni sayılan Kadeş Antlaşması dahil, döneme ışık tutar. Hattuşa 1986'da UNESCO Dünya Mirası Listesi'ne alınmıştır.",
+            "de": "Hattuša im Bezirk Boğazkale in Çorum war etwa von 1600 bis 1180 v. Chr. die Hauptstadt des Hethitischen Reiches. Die von mächtigen Mauern umgebene Stadt umfasst den Großen Tempel (dem Wettergott und der Sonnengöttin geweiht), die Palastburg Büyükkale, die monumentalen Tore Löwentor, Königstor und Sphinxtor sowie den Wall von Yerkapı mit seiner rund 71 m langen Poterne. Tausende Keilschrifttafeln aus den Archiven beleuchten die Epoche, darunter der Vertrag von Kadesch, um 1259 v. Chr. zwischen dem Hethiterkönig Hattušili III. und Pharao Ramses II. geschlossen und als ältester bekannter schriftlicher Friedensvertrag geltend. Hattuša wurde 1986 in die UNESCO-Welterbeliste aufgenommen.",
+            "en": "Hattusa, in the Boğazkale district of Çorum, was the capital of the Hittite Empire from roughly 1600 to 1180 BC. Ringed by massive walls, the city features the Great Temple (dedicated to the Storm God and Sun Goddess), the palace citadel of Büyükkale, the monumental Lion Gate, King's Gate and Sphinx Gate, and the Yerkapı rampart with its roughly 71 m postern tunnel. Thousands of cuneiform clay tablets from its archives illuminate the era, including the Treaty of Kadesh, concluded around 1259 BC between Hittite king Hattusili III and Pharaoh Ramesses II and regarded as the oldest known written peace treaty. Hattusa was inscribed on the UNESCO World Heritage List in 1986."
+          }
+        },
+        {
+          "id": "yazilikaya",
+          "name": {
+            "tr": "Yazılıkaya Açık Hava Tapınağı",
+            "de": "Yazılıkaya (Hethitisches Freilichtheiligtum)",
+            "en": "Yazılıkaya Open-Air Sanctuary"
+          },
+          "coords": [
+            40.027,
+            34.635
+          ],
+          "desc": {
+            "tr": "Hattuşa'nın yaklaşık 2 km kuzeydoğusunda yer alan Yazılıkaya, doğal kaya yarıklarının duvarlarına oyulmuş kabartmalarıyla Hititler'in bilinen en büyük açık hava kutsal alanıdır. Bugünkü kabartmaların çoğu MÖ 13. yüzyıla, büyük olasılıkla IV. Tudhaliya dönemine tarihlenir. Büyük galeri olarak anılan A odasında karşılıklı iki alay hâlinde ilerleyen tanrı ve tanrıçalar betimlenir; ortada Fırtına Tanrısı Teşup ile Güneş Tanrıçası Hepat buluşur. Daha dar B odasında ise IV. Tudhaliya'nın kartuşu, on iki tanrı geçidi ve kılıç-tanrı Nergal/Şarruma figürleri görülür. Alanın yeni yıl kutlamaları ve kraliyet ata kültüyle bağlantılı dini törenlerde kullanıldığı düşünülür; Hattuşa ile birlikte UNESCO Dünya Mirası kapsamındadır.",
+            "de": "Rund 2 km nordöstlich von Hattuša gelegen, ist Yazılıkaya mit seinen in die Wände natürlicher Felsspalten gehauenen Reliefs das größte bekannte Freilichtheiligtum der Hethiter. Die meisten heutigen Reliefs datieren ins 13. Jahrhundert v. Chr., wahrscheinlich in die Zeit Tudhalijas IV. In der Hauptkammer A ziehen zwei einander zugewandte Prozessionen von Göttern und Göttinnen aufeinander zu; in der Mitte begegnen sich Wettergott Tešup und Sonnengöttin Hepat. Die schmalere Kammer B zeigt die Kartusche Tudhalijas IV., einen Zug von zwölf Göttern und den Schwertgott Nergal/Šarruma. Das Areal diente vermutlich Neujahrsfeiern und dem königlichen Ahnenkult; es gehört mit Hattuša zum UNESCO-Welterbe.",
+            "en": "About 2 km northeast of Hattusa, Yazılıkaya, with reliefs carved into the walls of natural rock clefts, is the largest known open-air sanctuary of the Hittites. Most of the surviving reliefs date to the 13th century BC, most likely the reign of Tudhaliya IV. In the main Chamber A, two facing processions of gods and goddesses advance toward each other, meeting at the center where the Storm God Teshub greets the Sun Goddess Hepat. The narrower Chamber B bears Tudhaliya IV's cartouche, a procession of twelve gods, and the sword-god Nergal/Sharruma. The site is thought to have hosted religious ceremonies tied to New Year festivals and the royal ancestor cult; it forms part of the UNESCO World Heritage inscription with Hattusa."
+          }
+        },
+        {
+          "id": "alacahoyuk",
+          "name": {
+            "tr": "Alacahöyük",
+            "de": "Alacahöyük",
+            "en": "Alacahöyük"
+          },
+          "coords": [
+            40.227,
+            34.678
+          ],
+          "desc": {
+            "tr": "Çorum'un Alaca ilçesindeki Alacahöyük, Kalkolitik'ten Hitit dönemine dek kesintisiz iskân görmüş, önce Hatti sonra Hitit yerleşimi olan önemli bir höyüktür. Kentin girişindeki anıtsal Sfenksli Kapı, iki yanında sfenks kabartmaları ve av-tören sahneleri işlenmiş ortostatlarıyla tanınır (özgün kabartmalar Ankara Anadolu Medeniyetleri Müzesi'nde, kapıda kopyaları sergilenir). Höyükte 1935'ten itibaren yürütülen kazılarda ortaya çıkarılan ve MÖ 3. binyıla, Hatti (Erken Tunç) dönemine tarihlenen zengin kral mezarları; altın, elektron ve tunç eserler, boğa-geyik figürlü güneş kursları ve standartlarıyla ünlüdür. Bu güneş kursu motifi Anadolu'nun simgelerinden biri hâline gelmiştir.",
+            "de": "Alacahöyük im Bezirk Alaca in Çorum ist ein bedeutender Siedlungshügel mit durchgehender Besiedlung vom Chalkolithikum bis in die Hethiterzeit, zunächst hattisch, dann hethitisch. Am Stadttor steht das monumentale Sphinxtor mit flankierenden Sphinx-Reliefs und Orthostaten voller Jagd- und Zeremonialszenen (die Originale im Museum für anatolische Zivilisationen in Ankara, am Tor Kopien). Berühmt ist der Ort für die seit 1935 ergrabenen, ins 3. Jahrtausend v. Chr. datierenden reichen Fürstengräber der hattischen (frühbronzezeitlichen) Epoche mit Gold-, Elektron- und Bronzefunden sowie den Standarten und Sonnenscheiben mit Stier- und Hirschfiguren. Dieses Sonnenscheiben-Motiv wurde zu einem Sinnbild Anatoliens.",
+            "en": "Alacahöyük, in the Alaca district of Çorum, is a major settlement mound occupied continuously from the Chalcolithic into the Hittite era, first Hattian and later Hittite. Its city entrance is marked by the monumental Sphinx Gate, flanked by sphinx reliefs and orthostats carved with hunting and ceremonial scenes (the originals are in Ankara's Museum of Anatolian Civilizations, with copies at the gate). The site is famous for the rich royal tombs uncovered in excavations from 1935 onward, dating to the 3rd millennium BC in the Hattian (Early Bronze Age) period, yielding gold, electrum and bronze objects along with standards and sun-discs bearing bull and stag figures. This sun-disc motif has become one of Anatolia's emblems."
+          }
+        },
+        {
+          "id": "corummuze",
+          "name": {
+            "tr": "Çorum Müzesi",
+            "de": "Museum Çorum",
+            "en": "Çorum Museum"
+          },
+          "coords": [
+            40.549,
+            34.953
+          ],
+          "desc": {
+            "tr": "Çorum il merkezinde yer alan Çorum Müzesi (Arkeoloji ve Etnografya Müzesi), başta Hattuşa, Alacahöyük, Şapinuva (Ortaköy) ve Hüseyindede gibi bölge kazılarından gelen eserlerle Hitit uygarlığının en kapsamlı koleksiyonlarından birini barındırır. Çivi yazılı kil tabletler, silindir ve damga mühürler, tanrı ve kral heykelcikleri, kabartmalı bezemeli törensel kaplar (Hüseyindede vazoları) ve seramikler öne çıkan yapıtlar arasındadır. Müze aynı zamanda Paleolitik'ten Hatti, Hitit, Frig, Helenistik, Roma, Bizans ve Osmanlı dönemlerine uzanan çok katmanlı bir tarihi sergiler; etnografya bölümünde yöresel el sanatları ve yaşam kültürüne de yer verir. Bölgeyi gezmeden önce Hitit dünyasına giriş için ideal bir duraktır.",
+            "de": "Das im Zentrum von Çorum gelegene Museum Çorum (Archäologie- und Ethnographiemuseum) beherbergt mit Funden aus regionalen Grabungen wie Hattuša, Alacahöyük, Šapinuwa (Ortaköy) und Hüseyindede eine der umfassendsten Sammlungen zur hethitischen Zivilisation. Zu den Höhepunkten zählen Keilschrifttafeln, Rollsiegel und Stempelsiegel, Götter- und Königsstatuetten, reliefverzierte Kultgefäße (die Vasen von Hüseyindede) und Keramik. Das Museum zeigt eine vielschichtige Geschichte vom Paläolithikum über hattische, hethitische, phrygische, hellenistische, römische, byzantinische bis osmanische Epochen; die ethnographische Abteilung präsentiert regionales Kunsthandwerk und Alltagskultur. Ein idealer Auftakt zur hethitischen Welt vor dem Besuch der Region.",
+            "en": "Located in the center of Çorum, the Çorum Museum (Archaeology and Ethnography Museum) holds one of the most comprehensive collections of Hittite civilization, drawn largely from regional excavations such as Hattusa, Alacahöyük, Sapinuwa (Ortaköy) and Hüseyindede. Highlights include cuneiform clay tablets, cylinder and stamp seals, statuettes of gods and kings, relief-decorated ceremonial vessels (the Hüseyindede vases) and pottery. The museum presents a multilayered history spanning the Paleolithic through Hattian, Hittite, Phrygian, Hellenistic, Roman, Byzantine and Ottoman periods, while its ethnography section showcases regional crafts and everyday culture. It is an ideal introduction to the Hittite world before touring the region."
+          }
+        }
+      ]
     }
   ]
 }
