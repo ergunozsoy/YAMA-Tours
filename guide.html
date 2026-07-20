@@ -11,6 +11,8 @@
 body{margin:0;background:var(--bg);color:var(--text);font-family:Georgia,'Times New Roman',serif;line-height:1.6}
 .top{position:sticky;top:0;background:rgba(14,17,22,.92);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);padding:14px 20px;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;z-index:5}
 .top a.logo{color:var(--gold);text-decoration:none;font-weight:700;letter-spacing:.08em}
+.top a.maplink{color:var(--muted);text-decoration:none;font-size:.85rem;border:1px solid var(--line);border-radius:999px;padding:5px 12px}
+.top a.maplink:hover{color:var(--gold);border-color:var(--gold)}
 .top-right{display:flex;align-items:center;gap:10px}
 .langs{display:flex;gap:6px}
 .langs button{font:inherit;font-size:.8rem;padding:5px 12px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--muted);cursor:pointer}
@@ -48,6 +50,7 @@ h1{font-size:1.6rem;margin:10px 0 4px}
 <body>
 <div class="top">
   <a class="logo" href="index.html">← YAMA KÜLTÜR</a>
+  <a class="maplink" href="harita.html">🗺 Harita</a>
   <div class="top-right">
     <button class="music-btn" id="musicBtn" title="Müzik aç/kapa" aria-label="Müzik">♪</button>
     <div class="langs">
