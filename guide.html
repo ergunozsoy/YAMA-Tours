@@ -33,6 +33,16 @@ h1{font-size:1.6rem;margin:10px 0 4px}
 .actions .speak.voice{border-color:var(--gold);color:var(--gold)}
 .badge-voice{font-size:.7rem;color:var(--gold);opacity:.8;letter-spacing:.04em}
 .note{color:var(--muted);font-size:.82rem;margin-top:30px;border-top:1px solid var(--line);padding-top:14px}
+.actions .add{border-color:var(--line);color:var(--muted)}
+.actions .add.in{border-color:var(--gold);background:rgba(208,160,71,.14);color:var(--gold)}
+.tourbar{position:fixed;left:0;right:0;bottom:0;transform:translateY(120%);transition:transform .28s ease;background:rgba(20,24,32,.97);backdrop-filter:blur(8px);border-top:1px solid var(--gold);padding:12px 18px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;z-index:20}
+.tourbar.show{transform:translateY(0)}
+.tourbar .info{color:var(--text);font-size:.92rem}
+.tourbar .info b{color:var(--gold)}
+.tourbar .tb-actions{display:flex;gap:8px;flex-wrap:wrap}
+.tourbar button{font:inherit;font-size:.85rem;padding:8px 16px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--text);cursor:pointer}
+.tourbar button.primary{background:var(--gold);color:#14100a;border-color:var(--gold);font-weight:700}
+.tourbar button.ghost{color:var(--muted)}
 </style>
 </head>
 <body>
@@ -55,12 +65,19 @@ h1{font-size:1.6rem;margin:10px 0 4px}
   <div id="places"></div>
   <p class="note" id="note"></p>
 </main>
+<div class="tourbar" id="tourbar">
+  <span class="info" id="tbInfo"></span>
+  <span class="tb-actions">
+    <button class="ghost" id="tbClear"></button>
+    <button class="primary" id="tbBuild"></button>
+  </span>
+</div>
 <audio id="bgm" loop preload="none"></audio>
 <script>
 const UI={
- tr:{title:'Dijital Rehber',lead:'Bölge seç, noktayı oku — ya da 🔊 ile dinle. Kaynaklı, kısa, üç dilli.',listen:'🔊 Dinle',stop:'⏹ Durdur',map:'📍 Harita',voice:'kendi sesiyle',note:'🔊 Bir nokta için önceden üretilmiş ses varsa YAMA’nın kendi sesiyle çalar; yoksa cihazınızın ses motoru okur. ♪ ile arkada bölgeye özel müzik açılıp kapatılır; anlatım sırasında müzik otomatik kısılır. 📍 harita bağlantısı noktayı OpenStreetMap\'te açar.'},
- de:{title:'Digitaler Guide',lead:'Region wählen, lesen — oder mit 🔊 anhören. Fundiert, kurz, dreisprachig.',listen:'🔊 Anhören',stop:'⏹ Stopp',map:'📍 Karte',voice:'eigene Stimme',note:'🔊 Gibt es eine Aufnahme, spielt sie in YAMAs eigener Stimme; sonst liest die Stimme Ihres Geräts. Mit ♪ läuft im Hintergrund regionsspezifische Musik, die während der Erzählung automatisch leiser wird. 📍 öffnet den Ort in OpenStreetMap.'},
- en:{title:'Digital Guide',lead:'Pick a region, read the spot — or listen with 🔊. Sourced, short, trilingual.',listen:'🔊 Listen',stop:'⏹ Stop',map:'📍 Map',voice:'own voice',note:'🔊 If a clip exists a spot plays in YAMA’s own voice; otherwise your device reads it. ♪ toggles region-specific background music that automatically ducks under the narration. 📍 opens the spot in OpenStreetMap.'}
+ tr:{title:'Dijital Rehber',lead:'Bölge seç, noktayı oku — ya da 🔊 ile dinle. Kaynaklı, kısa, üç dilli.',listen:'🔊 Dinle',stop:'⏹ Durdur',map:'📍 Harita',voice:'kendi sesiyle',add:'＋ Tura ekle',added:'✓ Turda',tbInfo:(n)=>`Turunuzda <b>${n}</b> nokta`,tbBuild:'📄 Tur belgesi oluştur',tbClear:'Temizle',note:'🔊 Bir nokta için önceden üretilmiş ses varsa YAMA’nın kendi sesiyle çalar; yoksa cihazınızın ses motoru okur. ♪ ile arkada bölgeye özel müzik açılıp kapatılır; anlatım sırasında müzik otomatik kısılır. 📍 harita bağlantısı noktayı OpenStreetMap\'te açar. ＋ ile noktaları kendi turunuza ekleyip 📄 üç dilli tur belgesi oluşturabilirsiniz.'},
+ de:{title:'Digitaler Guide',lead:'Region wählen, lesen — oder mit 🔊 anhören. Fundiert, kurz, dreisprachig.',listen:'🔊 Anhören',stop:'⏹ Stopp',map:'📍 Karte',voice:'eigene Stimme',add:'＋ Zur Tour',added:'✓ In Tour',tbInfo:(n)=>`<b>${n}</b> Orte in Ihrer Tour`,tbBuild:'📄 Tour-Dokument',tbClear:'Leeren',note:'🔊 Gibt es eine Aufnahme, spielt sie in YAMAs eigener Stimme; sonst liest die Stimme Ihres Geräts. Mit ♪ läuft im Hintergrund regionsspezifische Musik, die während der Erzählung automatisch leiser wird. 📍 öffnet den Ort in OpenStreetMap. Mit ＋ fügen Sie Orte zu Ihrer Tour hinzu und erstellen mit 📄 ein dreisprachiges Tour-Dokument.'},
+ en:{title:'Digital Guide',lead:'Pick a region, read the spot — or listen with 🔊. Sourced, short, trilingual.',listen:'🔊 Listen',stop:'⏹ Stop',map:'📍 Map',voice:'own voice',add:'＋ Add to tour',added:'✓ In tour',tbInfo:(n)=>`<b>${n}</b> stops in your tour`,tbBuild:'📄 Build tour document',tbClear:'Clear',note:'🔊 If a clip exists a spot plays in YAMA’s own voice; otherwise your device reads it. ♪ toggles region-specific background music that automatically ducks under the narration. 📍 opens the spot in OpenStreetMap. Use ＋ to add spots to your own tour and 📄 to build a trilingual tour document.'}
 };
 const SPEECH_LANG={tr:'tr-TR',de:'de-DE',en:'en-GB'};
 const AUDIO_DIR='sesler/';                 // önceden üretilmiş anlatım mp3'leri
@@ -164,9 +181,12 @@ function render(){
         <button class="speak${voiced?' voice':''}" data-place="${p.id}" data-text="${encodeURIComponent(p.name[lang]+'. '+p.desc[lang])}">${t('listen')}</button>
         ${voiced?`<span class="badge-voice">✦ ${t('voice')}</span>`:''}
         <a target="_blank" rel="noopener" href="https://www.openstreetmap.org/?mlat=${p.coords[0]}&mlon=${p.coords[1]}#map=16/${p.coords[0]}/${p.coords[1]}">${t('map')}</a>
+        <button class="add${tourHas(region,p.id)?' in':''}" data-place="${p.id}">${tourHas(region,p.id)?t('added'):t('add')}</button>
       </div>
     </article>`;}).join('');
   document.querySelectorAll('.speak').forEach(b=>b.onclick=()=>toggleSpeak(b));
+  document.querySelectorAll('.add').forEach(b=>b.onclick=()=>{tourToggle(region,b.dataset.place);render();updateTourBar();});
+  updateTourBar();
 }
 
 /* ---------- ANLATIM ---------- */
@@ -199,7 +219,28 @@ function speakTTS(btn){
   u.onerror=()=>{if(speakingBtn===btn)stopSpeak();};
   try{speechSynthesis.speak(u);}catch(e){stopSpeak();}
 }
-document.querySelectorAll('.langs button').forEach(b=>b.onclick=()=>{stopSpeak();lang=b.dataset.lang;render();});
+/* ---------- TUR SEPETİ (localStorage) ---------- */
+const TOUR_KEY='yamaTour';
+function tourGet(){try{const a=JSON.parse(localStorage.getItem(TOUR_KEY)||'[]');return Array.isArray(a)?a:[];}catch(e){return [];}}
+function tourSave(a){try{localStorage.setItem(TOUR_KEY,JSON.stringify(a));}catch(e){}}
+function tourHas(r,p){return tourGet().some(x=>x.r===r&&x.p===p);}
+function tourToggle(r,p){
+  const a=tourGet(); const i=a.findIndex(x=>x.r===r&&x.p===p);
+  if(i>=0)a.splice(i,1); else a.push({r,p});
+  tourSave(a);
+}
+function tourCount(){return tourGet().length;}
+function updateTourBar(){
+  const bar=document.getElementById('tourbar'); const n=tourCount();
+  document.getElementById('tbInfo').innerHTML=t('tbInfo')(n);
+  document.getElementById('tbBuild').textContent=t('tbBuild');
+  document.getElementById('tbClear').textContent=t('tbClear');
+  bar.classList.toggle('show',n>0);
+}
+document.getElementById('tbClear').onclick=()=>{tourSave([]);render();updateTourBar();};
+document.getElementById('tbBuild').onclick=()=>{location.href='tur.html?lang='+lang;};
+
+document.querySelectorAll('.langs button').forEach(b=>b.onclick=()=>{stopSpeak();lang=b.dataset.lang;render();updateTourBar();});
 </script>
 </body>
 </html>
