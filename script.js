@@ -1,193 +1,40 @@
-#!/usr/bin/env python3
-"""
-YAMA guide.html seslendirme betiği
------------------------------------
-places.json'daki her noktayı ElevenLabs ile SENIN klon sesinle mp3'e çevirir,
-sesler/ klasörüne yazar ve sesler/manifest.json'u günceller.
-guide.html bu manifeste bakıp hangi noktaların kendi sesiyle çalınacağını bilir.
 
-KULLANIM (yerel):
-    pip install requests
-    export ELEVENLABS_API_KEY="..."          # ElevenLabs API anahtarın
-    export ELEVENLABS_VOICE_ID="..."         # klonladığın sesin Voice ID'si
-    export YAMA_LANGS="tr"                    # istersen "tr,de,en"
-    python scripts/seslendir_guide.py
-
-Var olan mp3'ler tekrar üretilmez (kota israfı olmasın). Baştan üretmek için:
-    export YAMA_FORCE=1
-"""
-import os
-import json
-import sys
-import shutil
-import subprocess
-import requests
-
-# Ergun'un seçtiği "sıcak" ton: hafif gövde/bas + ufak tiz yumuşatma + seviye eşitleme.
-SICAK_FILTER = ("bass=g=5:f=110:w=0.6, equalizer=f=180:t=q:w=1.2:g=2.5, "
-                "treble=g=-1.5:f=5500, loudnorm=I=-16:TP=-1.5")
-APPLY_EQ = os.environ.get("YAMA_EQ", "1") not in ("0", "false", "False")
-FFMPEG = shutil.which("ffmpeg")
-
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-PLACES = os.path.join(ROOT, "places.json")
-OUT_DIR = os.path.join(ROOT, "sesler")
-MANIFEST = os.path.join(OUT_DIR, "manifest.json")
-
-API_KEY = os.environ.get("ELEVENLABS_API_KEY")
-# Ergun'un klon sesi (ElevenLabs "Ergun TR"). Ortam degiskeniyle degistirilebilir.
-VOICE_ID = os.environ.get("ELEVENLABS_VOICE_ID") or "JuqrWTQM4Cgm58BilWSp"
-LANGS = [x.strip() for x in os.environ.get("YAMA_LANGS", "tr").split(",") if x.strip()]
-FORCE = os.environ.get("YAMA_FORCE", "") not in ("", "0", "false", "False")
-
-# Ergun'un Playground'da seçtiği doğal ton (daha canlı, biraz yavaş, hafif style).
-MODEL_ID = os.environ.get("YAMA_MODEL", "eleven_multilingual_v2")
-VS_STABILITY = float(os.environ.get("YAMA_STABILITY", "0.42"))
-VS_SIMILARITY = float(os.environ.get("YAMA_SIMILARITY", "0.52"))
-VS_STYLE = float(os.environ.get("YAMA_STYLE", "0.12"))
-VS_SPEED = float(os.environ.get("YAMA_SPEED", "0.93"))
-VS_BOOST = os.environ.get("YAMA_SPEAKER_BOOST", "1") not in ("0", "false", "False")
-
-if not API_KEY or not VOICE_ID:
-    print("HATA: ELEVENLABS_API_KEY ve ELEVENLABS_VOICE_ID ortam degiskenleri gerekli.")
-    sys.exit(1)
-
-# ---- Türkçe "okunuş" düzeltici (ekrandaki metin değişmez, sadece sese giden hali) ----
-# Sayıları/yılları kelimeye çevirir, "I." -> "Birinci", "14." -> "on dördüncü",
-# "Chora" -> "Kora" gibi okunuş düzeltmeleri yapar.
-NORMALIZE = os.environ.get("YAMA_NORMALIZE", "1") not in ("0", "false", "False")
-_PRON = {"Chora": "Kora", "chora": "kora", "Phaselis": "Faselis", "Khimaira": "Kimera"}
-_UNITS = {"km": "kilometre", "cm": "santimetre", "mm": "milimetre", "kg": "kilogram",
-          "ha": "hektar", "m²": "metrekare", "m2": "metrekare", "m3": "metreküp", "m": "metre"}
-_ROMAN = {"I": "Birinci", "II": "İkinci", "III": "Üçüncü", "IV": "Dördüncü", "V": "Beşinci",
-          "VI": "Altıncı", "VII": "Yedinci", "VIII": "Sekizinci", "IX": "Dokuzuncu", "X": "Onuncu"}
-_ONES = ['', 'bir', 'iki', 'üç', 'dört', 'beş', 'altı', 'yedi', 'sekiz', 'dokuz']
-_TENS = ['', 'on', 'yirmi', 'otuz', 'kırk', 'elli', 'altmış', 'yetmiş', 'seksen', 'doksan']
-_ORD_LAST = {'bir': 'birinci', 'iki': 'ikinci', 'üç': 'üçüncü', 'dört': 'dördüncü', 'beş': 'beşinci',
-             'altı': 'altıncı', 'yedi': 'yedinci', 'sekiz': 'sekizinci', 'dokuz': 'dokuzuncu', 'on': 'onuncu',
-             'yirmi': 'yirminci', 'otuz': 'otuzuncu', 'kırk': 'kırkıncı', 'elli': 'ellinci', 'altmış': 'altmışıncı',
-             'yetmiş': 'yetmişinci', 'seksen': 'sekseninci', 'doksan': 'doksanıncı', 'yüz': 'yüzüncü', 'bin': 'bininci'}
-
-
-def _three(n):
-    s = []; h = n // 100; t = (n % 100) // 10; o = n % 10
-    if h:
-        s.append('yüz' if h == 1 else _ONES[h] + ' yüz')
-    if t:
-        s.append(_TENS[t])
-    if o:
-        s.append(_ONES[o])
-    return ' '.join(s)
-
-
-def _num2tr(n):
-    if n == 0:
-        return 'sıfır'
-    parts = []
-    for val, name in ((1000000, 'milyon'), (1000, 'bin')):
-        q = n // val
-        if q:
-            parts.append('bin' if (val == 1000 and q == 1) else _three(q) + ' ' + name)
-            n %= val
-    if n:
-        parts.append(_three(n))
-    return ' '.join(parts).strip()
-
-
-def _ordinal(n):
-    w = _num2tr(n).split()
-    w[-1] = _ORD_LAST.get(w[-1], w[-1] + 'ıncı')
-    return ' '.join(w)
-
-
-def humanize_tr(t):
-    import re
-    t = re.sub(r'\bMÖ\b', 'milattan önce', t)
-    t = re.sub(r'\bMS\b', 'milattan sonra', t)
-    for a, b in _PRON.items():
-        t = re.sub(r'\b' + re.escape(a) + r'\b', b, t)
-    t = re.sub(r'\b(VIII|VII|VI|IV|IX|III|II|I|V|X)\.(?=\s+[A-ZÇĞİÖŞÜ])', lambda m: _ROMAN[m.group(1)], t)
-    t = re.sub(r'(\d+)\.(\s+)(?=[a-zçğıöşü])', lambda m: _ordinal(int(m.group(1))) + m.group(2), t)
-    # birim kısaltmaları: "71 m" -> "71 metre", "12 km" -> "12 kilometre" (sayı sonradan kelimeye çevrilir)
-    t = re.sub(r'(\d+)\s*(km|cm|mm|kg|ha|m²|m2|m3|m)(?![a-zçğıöşüA-ZÇĞİÖŞÜ0-9])',
-               lambda m: m.group(1) + ' ' + _UNITS[m.group(2)], t)
-    t = re.sub(r'(\d+)\s*[-–]\s*(\d+)', lambda m: _num2tr(int(m.group(1))) + ' ile ' + _num2tr(int(m.group(2))), t)
-    t = re.sub(r"(\d+)'(\w+)", lambda m: _num2tr(int(m.group(1))) + m.group(2), t)
-    t = re.sub(r'\d+', lambda m: _num2tr(int(m.group(0))), t)
-    return t
-
-os.makedirs(OUT_DIR, exist_ok=True)
-url = f"https://api.elevenlabs.io/v1/text-to-speech/{VOICE_ID}"
-params = {"output_format": "mp3_44100_128"}
-headers = {"Accept": "audio/mpeg", "Content-Type": "application/json", "xi-api-key": API_KEY}
-
-with open(PLACES, encoding="utf-8") as f:
-    data = json.load(f)
-
-made, skipped, failed = 0, 0, 0
-for region in data["regions"]:
-    rid = region["id"]
-    for place in region["places"]:
-        pid = place["id"]
-        for lang in LANGS:
-            name = place["name"].get(lang) or place["name"].get("tr", "")
-            desc = place["desc"].get(lang) or place["desc"].get("tr", "")
-            text = f"{name}. {desc}".strip()
-            if not text or text == ".":
-                continue
-            if NORMALIZE and lang == "tr":
-                text = humanize_tr(text)
-            key = f"{rid}-{pid}-{lang}"
-            out = os.path.join(OUT_DIR, key + ".mp3")
-            if os.path.exists(out) and not FORCE:
-                skipped += 1
-                continue
-
-            print(f"Uretiliyor: {key}  ({len(text)} karakter)")
-            body = {
-                "text": text,
-                "model_id": MODEL_ID,
-                "voice_settings": {
-                    "stability": VS_STABILITY,
-                    "similarity_boost": VS_SIMILARITY,
-                    "style": VS_STYLE,
-                    "use_speaker_boost": VS_BOOST,
-                    "speed": VS_SPEED,
-                },
-            }
-            r = requests.post(url, params=params, json=body, headers=headers)
-            if r.status_code == 200:
-                if APPLY_EQ and FFMPEG:
-                    tmp = out + ".raw.mp3"
-                    with open(tmp, "wb") as af:
-                        af.write(r.content)
-                    proc = subprocess.run(
-                        [FFMPEG, "-y", "-i", tmp, "-af", SICAK_FILTER, "-b:a", "128k", out],
-                        capture_output=True,
-                    )
-                    try:
-                        os.remove(tmp)
-                    except OSError:
-                        pass
-                    if proc.returncode != 0:
-                        with open(out, "wb") as af:
-                            af.write(r.content)
-                        print("  UYARI: EQ uygulanamadi, ham ses yazildi.")
-                else:
-                    if APPLY_EQ and not FFMPEG:
-                        print("  UYARI: ffmpeg yok, 'sicak' EQ atlandi (ham ses).")
-                    with open(out, "wb") as af:
-                        af.write(r.content)
-                made += 1
-            else:
-                print(f"  HATA {r.status_code}: {r.text[:200]}")
-                failed += 1
-
-# manifest = sesler/ icinde gercekten var olan mp3'lerin anahtarlari
-keys = sorted(fn[:-4] for fn in os.listdir(OUT_DIR) if fn.endswith(".mp3"))
-with open(MANIFEST, "w", encoding="utf-8") as mf:
-    json.dump(keys, mf, ensure_ascii=False, indent=0)
-
-print(f"\nBitti. Uretilen: {made}, atlanan: {skipped}, hatali: {failed}. Manifest: {len(keys)} kayit.")
-if failed:
-    sys.exit(1)
+const PF=(lat,lng,name)=>`https://www.peakfinder.com/?lat=${lat}&lng=${lng}&name=${encodeURIComponent(name)}`;
+const mountains=[
+ {n:'Ağrı Dağı',e:'5137 m',lat:39.7020,lng:44.2988},
+ {n:'Süphan Dağı',e:'4058 m',lat:38.9290,lng:42.8480},
+ {n:'Kaçkar Dağı',e:'3937 m',lat:40.8330,lng:41.1600},
+ {n:'Erciyes Dağı',e:'3917 m',lat:38.5317,lng:35.4469},
+ {n:'Demirkazık · Aladağlar',e:'3756 m',lat:37.8236,lng:35.1553},
+ {n:'Medetsiz · Bolkarlar',e:'3524 m',lat:37.4167,lng:34.6167},
+ {n:'Hasan Dağı',e:'3268 m',lat:38.1272,lng:34.1668},
+ {n:'Uludağ',e:'2543 m',lat:40.0700,lng:29.2210}];
+const trails=[
+ {n:'🥾 Likya Yolu',d:'~540 km · Fethiye–Antalya',u:'https://cultureroutesinturkey.com/the-lycian-way/'},
+ {n:'🥾 St. Paul Yolu',d:'~500 km · Perge/Aspendos–Yalvaç',u:'https://cultureroutesinturkey.com/st-paul-trail/'},
+ {n:'🥾 Frig Yolu',d:'~500 km · Frigya Vadileri',u:'https://cultureroutesinturkey.com/phrygian-way/'},
+ {n:'🥾 Karia Yolu',d:'~820 km · Muğla kıyıları',u:'https://cultureroutesinturkey.com/carian-trail/'},
+ {n:'🥾 Evliya Çelebi Yolu',d:'atlı/yaya kültür rotası',u:'https://cultureroutesinturkey.com/evliya-celebi-way/'},
+ {n:'🏛 Kral Yolu',d:'tarihî güzergâh · Sardes–Sus',u:'https://cultureroutesinturkey.com/'},
+ {n:'⛰ Ağrı zirve tırmanışı',d:'izinli çıkış · TDF',u:'https://tdf.gov.tr/'}];
+const W=(t)=>`https://tr.wikipedia.org/wiki/${encodeURIComponent(t)}`;
+const waters=[
+ {n:'🌊 Akdeniz',u:W('Akdeniz')},{n:'🌊 Ege Denizi',u:W('Ege Denizi')},
+ {n:'🌊 Karadeniz',u:W('Karadeniz')},{n:'🌊 Marmara Denizi',u:W('Marmara Denizi')},
+ {n:'🏞 Kızılırmak · 1355 km',u:W('Kızılırmak')},{n:'🏞 Fırat · 2800 km',u:W('Fırat')},
+ {n:'🏞 Dicle · 1900 km',u:W('Dicle')},{n:'🏞 Çoruh · 431 km',u:W('Çoruh')},
+ {n:'💧 Van Gölü',u:W('Van Gölü')},{n:'💧 Tuz Gölü',u:W('Tuz Gölü')},
+ {n:'🌾 Konya Ovası',u:W('Konya Ovası')},{n:'🌾 Harran Ovası',u:W('Harran Ovası')}];
+function renderNature(){
+ const m=document.getElementById('mountainGrid'); if(m) m.innerHTML=mountains.map(x=>`<a class="pill" target="_blank" rel="noopener" href="${PF(x.lat,x.lng,x.n)}">🏔 ${x.n} · ${x.e}</a>`).join('');
+ const t=document.getElementById('trailGrid'); if(t) t.innerHTML=trails.map(x=>`<a class="pill" target="_blank" rel="noopener" href="${x.u}" title="${x.d}">${x.n} <small>· ${x.d}</small></a>`).join('');
+ const w=document.getElementById('waterGrid'); if(w) w.innerHTML=waters.map(x=>`<a class="pill" target="_blank" rel="noopener" href="${x.u}">${x.n}</a>`).join('');
+}
+const routes=[{name:'İstanbul',theme:'İmparatorluklar, limanlar, geçişler',img:'https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=1000&q=80',meta:['24 durak','32 kaynak','⭐⭐⭐⭐']},{name:'Kapadokya',theme:'Taş, inanç, yeraltı ve zaman',img:'https://images.unsplash.com/photo-1641128324972-af3212f0f6bd?auto=format&fit=crop&w=1000&q=80',meta:['18 durak','21 kaynak','⭐⭐⭐']},{name:'Efes · Bergama',theme:'Antik dünya ve Akdeniz hafızası',img:'https://images.unsplash.com/photo-1604408818547-ecbb81f89f6f?auto=format&fit=crop&w=1000&q=80',meta:['16 durak','28 kaynak','⭐⭐⭐⭐']},{name:'Göbeklitepe',theme:'İlk yerleşimler ve ritüel alanları',img:'https://images.unsplash.com/photo-1603484477859-abe6a73f9366?auto=format&fit=crop&w=1000&q=80',meta:['9 durak','19 kaynak','⭐⭐⭐⭐']},{name:'Karadeniz',theme:'Dağ, göç, yol ve hafıza',img:'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1000&q=80',meta:['20 durak','17 kaynak','⭐⭐⭐']},{name:'Mardin',theme:'Taş şehir, diller ve dinler',img:'https://images.unsplash.com/photo-1589308078059-be1415eab4c3?auto=format&fit=crop&w=1000&q=80',meta:['14 durak','22 kaynak','⭐⭐⭐⭐']}];
+const themes=['🏺 Antik Anadolu','🕌 Osmanlı Dünyası','🏰 Bizans','🛶 Akdeniz','🧭 Alman Seyyahları','🧂 Baharat Yolu','🐪 İpek Yolu','⚓ Liman Kentleri','🏛 UNESCO','📜 Seyahatnameler','🗺 Eski Haritalar','🎓 Akademik Okumalar'];
+const translations={tr:{navTurkey:'Türkiye',navRoutes:'Tematik Rotalar',navNature:'Doğa',navGuide:'Rehber',natureEyebrow:'Doğa & Rotalar',natureTitle:'Dağlar, sular ve yürüyüş yolları',natureText:'Kültür rotaları coğrafyadan ayrı okunamaz: her dağın bir ufku, her yolun bir hafızası var. Dağ bağlantıları PeakFinder panoramasını açar; yürüyüş yolları resmî rota kaynaklarına gider.',mountainsTitle:'🏔 Dağlar — panoramik ufuk (PeakFinder)',trailsTitle:'🥾 Yürüyüş yolları',watersTitle:'🌊 Denizler, nehirler, göller ve ovalar',heroEyebrow:'Sadece meraklılar için',heroTitle:'İnsanın ayak izinde zamanda yolculuk',heroText:'YAMA Kültür; okuyarak gezenler, gezerek düşünenler ve bir yerin yalnızca fotoğrafını değil, hafızasını da görmek isteyenler için tasarlanmış kültür platformudur.',startExplore:'Keşfetmeye başla',seeStandard:'Araştırma standardı',quote:'“Çok okuyan mı bilir, çok gezen mi? Bizim cevabımız: okuyarak gezen bilir.”',introText:'YAMA Kültür, turizmi hızlı tüketimden çıkarıp tarih, edebiyat, arkeoloji, mimari, dil ve insan hikâyeleriyle zenginleşen bir keşif biçimine dönüştürmeyi amaçlar.',whyEyebrow:'Neden YAMA?',whyTitle:'Kültür turizmi için yeni bir standart',why1Title:'Akademik temelli',why1Text:'İçerikler hakemli yayınlar, açık erişimli kaynaklar ve birincil belgelerle desteklenir.',why2Title:'Katmanlı rotalar',why2Text:'Bir mekân yalnızca gösterilmez; zaman içindeki dönüşümüyle okunur.',why3Title:'Üç dilli',why3Text:'Türkçe, Almanca ve İngilizce içerik mimarisiyle uluslararası erişim hedeflenir.',why4Title:'AI destekli',why4Text:'Yapay zekâ araştırmayı hızlandırır; kaynaksız bilgi üretmez.',why5Title:'Şeffaf kaynaklar',why5Text:'Her önemli içerikte kullanılan kaynaklar ve güven düzeyi gösterilir.',turkeyEyebrow:'Türkiye rotaları',turkeyTitle:'Bugün nereden başlamak istersiniz?',themesEyebrow:'Tematik yolculuklar',themesTitle:'Medeniyetlerin, yolların ve seyyahların izinde',timeTitle:'Aynı mekânı farklı zamanlarda keşfet',timeText:'Şehirler; bugün, Cumhuriyet, Osmanlı, Bizans, Roma ve daha eski katmanlarıyla ele alınır. Hedef: mekânı yalnızca bugünkü görünümüyle değil, zaman içindeki anlamıyla okumak.',researchEyebrow:'YAMA Research Protocol',researchTitle:'Ucuz bilgi değil, kaynaklı bilgi',researchText:'YAMA Kültür, yapay zekâ tarafından rastgele üretilmiş içerikler sunmaz. Her önemli bilgi mümkün olduğunca akademik yayınlar, müze ve arşiv kaynakları, UNESCO belgeleri, seyahatnameler ve birincil kaynaklarla desteklenir.',rp1:'Araştırma sorusu',rp1t:'Her rota önce hangi sorulara cevap verdiğini tanımlar.',rp2:'Akademik literatür',rp2t:'DergiPark, tezler, hakemli makaleler ve üniversite yayınları taranır.',rp3:'Birincil kaynaklar',rp3t:'Seyahatnameler, kronikler, haritalar ve arşiv belgeleri dikkate alınır.',articleCorner:'Akademik Makale Köşesi',articleCornerText:'Her rota sayfasında “Daha Derine İnmek İsteyenler” bölümü bulunur: seçilmiş akademik makaleler, kısa editoryal notlar, DOI veya açık erişim bağlantıları ve güven düzeyi.',libraryTitle:'Dijital kültür kütüphanesi',libraryText:'Kitaplar, makaleler, seyahatnameler, eski haritalar, belgeseller, podcastler ve dijital koleksiyonlar zamanla bu bölümde toplanır.',academyTitle:'Gezi öncesi kısa öğrenme modülleri',academy1:'10–20 dakikalık rota hazırlıkları.',academy2:'Tarih, mimari, arkeoloji ve dil notları.',academy3:'Okuma listeleri ve rota dosyaları.',academy4:'Katmanlı kültür haritaları.',journalTitle:'Haftalık kültür notları',journal1:'Haftanın Rotası',journal2:'Haftanın Makalesi',journal3:'Haftanın Seyyahı',footerText:'Okuyarak gezenler için akademik destekli kültür platformu.'},de:{navTurkey:'Türkei',navRoutes:'Thematische Routen',navNature:'Natur',navGuide:'Guide',natureEyebrow:'Natur & Wege',natureTitle:'Berge, Gewässer und Wanderwege',natureText:'Kulturrouten sind ohne Geographie nicht lesbar: Jeder Berg hat einen Horizont, jeder Weg ein Gedächtnis. Berg-Links öffnen das PeakFinder-Panorama; Wanderwege führen zu offiziellen Routenquellen.',mountainsTitle:'🏔 Berge — Panoramahorizont (PeakFinder)',trailsTitle:'🥾 Wanderwege',watersTitle:'🌊 Meere, Flüsse, Seen und Ebenen',heroEyebrow:'Für neugierige Reisende',heroTitle:'Zeitreise auf den Spuren des Menschen',heroText:'YAMA Kultur ist eine Plattform für Menschen, die lesend reisen, denkend unterwegs sind und nicht nur Orte, sondern auch ihre Erinnerung verstehen möchten.',startExplore:'Entdecken',seeStandard:'Research Standard',quote:'„Wer weiß mehr: wer viel liest oder wer viel reist? Unsere Antwort: Wer lesend reist.“'},en:{navTurkey:'Türkiye',navRoutes:'Thematic Routes',navNature:'Nature',navGuide:'Guide',natureEyebrow:'Nature & Trails',natureTitle:'Mountains, waters and hiking trails',natureText:'Cultural routes cannot be read apart from geography: every mountain has a horizon, every trail a memory. Mountain links open the PeakFinder panorama; trails lead to official route sources.',mountainsTitle:'🏔 Mountains — panoramic horizon (PeakFinder)',trailsTitle:'🥾 Hiking trails',watersTitle:'🌊 Seas, rivers, lakes and plains',heroEyebrow:'For the curious only',heroTitle:'Time travel through human footprints',heroText:'YAMA Culture is a platform for readers, thinkers and travellers who want to understand not only places, but also their memory.',startExplore:'Start exploring',seeStandard:'Research standard',quote:'“Who knows more: the one who reads or the one who travels? Our answer: the one who travels by reading.”'}};
+const ROUTE_REGION={'İstanbul':'istanbul','Kapadokya':'kapadokya','Efes · Bergama':'efes','Göbeklitepe':'gobeklitepe','Karadeniz':'trabzon','Mardin':'mardin'};
+function renderRoutes(){document.getElementById('routeGrid').innerHTML=routes.map(r=>{const reg=ROUTE_REGION[r.name]||'';const href=reg?`guide.html?region=${reg}`:'guide.html';return `<a class="route-card" href="${href}" style="text-decoration:none;color:inherit;display:block"><div class="img" style="background-image:url('${r.img}')"></div><div class="content"><h3>${r.name}</h3><p>${r.theme}</p><div class="meta">${r.meta.map(m=>`<span>${m}</span>`).join('')}</div></div></a>`;}).join('')}
+function renderThemes(){document.getElementById('themeGrid').innerHTML=themes.map(t=>`<a class="pill" href="#research">${t}</a>`).join('')}
+function setLang(lang){document.querySelectorAll('[data-i18n]').forEach(el=>{const k=el.dataset.i18n;if(translations[lang]&&translations[lang][k]) el.textContent=translations[lang][k]});document.querySelectorAll('[data-lang]').forEach(b=>b.classList.toggle('active',b.dataset.lang===lang));document.documentElement.lang=lang}
+document.querySelectorAll('[data-lang]').forEach(btn=>btn.addEventListener('click',()=>setLang(btn.dataset.lang)));renderRoutes();renderThemes();renderNature();setLang('tr');
