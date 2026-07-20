@@ -57,6 +57,8 @@ if not API_KEY or not VOICE_ID:
 # "Chora" -> "Kora" gibi okunuş düzeltmeleri yapar.
 NORMALIZE = os.environ.get("YAMA_NORMALIZE", "1") not in ("0", "false", "False")
 _PRON = {"Chora": "Kora", "chora": "kora", "Phaselis": "Faselis", "Khimaira": "Kimera"}
+_UNITS = {"km": "kilometre", "cm": "santimetre", "mm": "milimetre", "kg": "kilogram",
+          "ha": "hektar", "m²": "metrekare", "m2": "metrekare", "m3": "metreküp", "m": "metre"}
 _ROMAN = {"I": "Birinci", "II": "İkinci", "III": "Üçüncü", "IV": "Dördüncü", "V": "Beşinci",
           "VI": "Altıncı", "VII": "Yedinci", "VIII": "Sekizinci", "IX": "Dokuzuncu", "X": "Onuncu"}
 _ONES = ['', 'bir', 'iki', 'üç', 'dört', 'beş', 'altı', 'yedi', 'sekiz', 'dokuz']
@@ -106,6 +108,9 @@ def humanize_tr(t):
         t = re.sub(r'\b' + re.escape(a) + r'\b', b, t)
     t = re.sub(r'\b(VIII|VII|VI|IV|IX|III|II|I|V|X)\.(?=\s+[A-ZÇĞİÖŞÜ])', lambda m: _ROMAN[m.group(1)], t)
     t = re.sub(r'(\d+)\.(\s+)(?=[a-zçğıöşü])', lambda m: _ordinal(int(m.group(1))) + m.group(2), t)
+    # birim kısaltmaları: "71 m" -> "71 metre", "12 km" -> "12 kilometre" (sayı sonradan kelimeye çevrilir)
+    t = re.sub(r'(\d+)\s*(km|cm|mm|kg|ha|m²|m2|m3|m)(?![a-zçğıöşüA-ZÇĞİÖŞÜ0-9])',
+               lambda m: m.group(1) + ' ' + _UNITS[m.group(2)], t)
     t = re.sub(r'(\d+)\s*[-–]\s*(\d+)', lambda m: _num2tr(int(m.group(1))) + ' ile ' + _num2tr(int(m.group(2))), t)
     t = re.sub(r"(\d+)'(\w+)", lambda m: _num2tr(int(m.group(1))) + m.group(2), t)
     t = re.sub(r'\d+', lambda m: _num2tr(int(m.group(0))), t)
