@@ -295,23 +295,6 @@
      }
     },
     {
-     "id": "ihlara",
-     "name": {
-      "tr": "Ihlara Vadisi",
-      "de": "Ihlara-Tal",
-      "en": "Ihlara Valley"
-     },
-     "coords": [
-      38.256,
-      34.305
-     ],
-     "desc": {
-      "tr": "Melendiz Çayı'nın binlerce yılda oyduğu Ihlara Vadisi, yaklaşık on dört kilometre boyunca uzanan yeşil ve serin bir kanyondur. Dik kaya duvarlarına oyulmuş onlarca kilise ve manastır, vadiyi bir açık hava inanç merkezine dönüştürmüştür. Bu kiliselerin duvarlarındaki freskler, Bizans dinî sanatının taşradaki en canlı örnekleri arasındadır. Çayın kenarında yürürken, kavakların gölgesi, kuş sesleri ve suyun serinliği tarih gezisine doğa molası katar.",
-      "de": "Das vom Fluss Melendiz über Jahrtausende geformte Ihlara-Tal ist eine grüne, kühle Schlucht von etwa vierzehn Kilometern Länge. Dutzende in die steilen Felswände gehauene Kirchen und Klöster machten das Tal zu einem Freiluft-Glaubenszentrum. Die Fresken an ihren Wänden zählen zu den lebendigsten Beispielen byzantinischer Sakralkunst in der Provinz. Am Flussufer spenden Pappeln Schatten, während Vogelstimmen und kühles Wasser die Reise begleiten.",
-      "en": "The Ihlara Valley, carved by the Melendiz river over millennia, is a green and cool canyon stretching about fourteen kilometres. Dozens of churches and monasteries cut into its sheer cliffs turned the valley into an open-air centre of faith. The frescoes on their walls are among the most vivid provincial examples of Byzantine religious art. Walking along the stream, the shade of poplars, birdsong and the cool water add a touch of nature to a journey through history."
-     }
-    },
-    {
      "id": "avanos",
      "coords": [
       38.7156,
@@ -2414,23 +2397,6 @@
       "tr": "İzmir'in simgesi sayılan Saat Kulesi, 1901'de Sultan II. Abdülhamid'in tahta çıkışının 25. yılı anısına dikilmiştir. Yaklaşık 25 metre yüksekliğindeki dört katlı kule, mimar Raymond Charles Père'in tasarımıyla neo-Mağribi (Faslı) üslupta; at nalı kemerleri, ince sütunları ve mermer işçiliğiyle dikkat çeker; cephelerindeki saatlerin Alman İmparatoru II. Wilhelm tarafından armağan edildiği aktarılır. Kulenin yanındaki, çinileriyle ünlü Konak Yalı Camii ise 18. yüzyıla uzanan küçük ölçekli, sekizgen planlı bir yapıdır. Deniz kıyısındaki Konak Meydanı, kentin idari merkezi ve buluşma noktası olarak İzmir kimliğinin özeti gibidir.",
       "de": "Der als Wahrzeichen Izmirs geltende Uhrturm wurde 1901 zum 25. Thronjubiläum von Sultan Abdülhamid II. errichtet. Der rund 25 Meter hohe, vierstöckige Turm wurde vom Architekten Raymond Charles Père im neomaurischen Stil entworfen und besticht durch Hufeisenbögen, schlanke Säulen und Marmorarbeit; die Uhren an seinen Fassaden sollen ein Geschenk des deutschen Kaisers Wilhelm II. gewesen sein. Die daneben stehende, für ihre Fliesen bekannte Konak-Yalı-Moschee ist ein kleiner Bau mit achteckigem Grundriss aus dem 18. Jahrhundert. Der Konak-Platz am Meer ist als Verwaltungszentrum und Treffpunkt der Stadt gleichsam der Inbegriff der Izmirer Identität.",
       "en": "The Clock Tower, regarded as the symbol of Izmir, was raised in 1901 to mark the 25th anniversary of Sultan Abdülhamid II's accession to the throne. About 25 metres high and four storeys tall, the tower was designed by architect Raymond Charles Père in the neo-Moorish style, standing out with its horseshoe arches, slender columns and marble work; the clocks on its faces are said to have been a gift from German Emperor Wilhelm II. Beside it, the Konak Yalı Mosque, famed for its tiles, is a small octagonal-plan building dating to the 18th century. Konak Square by the sea, as the city's administrative centre and meeting point, is like a distillation of Izmir's identity."
-     }
-    },
-    {
-     "id": "sardes",
-     "coords": [
-      38.488,
-      28.04
-     ],
-     "name": {
-      "tr": "Sardes (Sart) Örenyeri",
-      "de": "Ausgrabungsstätte Sardes (Sart)",
-      "en": "Sardis (Sart) Archaeological Site"
-     },
-     "desc": {
-      "tr": "Manisa'nın Salihli ilçesi yakınındaki Sardes, güçlü Lidya Krallığı'nın başkentidir. Zenginliğiyle efsaneleşen Kral Krezüs (Kroisos) dönemi, kentin altın çağını simgeler; tarihte ilk madenî paraların (elektron sikkeler) MÖ 7. yüzyılda burada basıldığı kabul edilir. Kent, MÖ 547-546 dolaylarında Pers Kralı Kiros tarafından ele geçirilmiştir. Örenyerinde İon düzenindeki anıtsal Artemis Tapınağı, Roma dönemine ait görkemli gymnasium-hamam yapısı ve MS 3.-6. yüzyıllara tarihlenen büyük antik sinagog öne çıkar. 2025'te UNESCO Dünya Mirası Listesi'ne alınan Sardes, Anadolu'nun ekonomik ve dinsel tarihinin en katmanlı tanıklarından biridir.",
-      "de": "Sardes, nahe dem Bezirk Salihli in Manisa, war die Hauptstadt des mächtigen Königreichs Lydien. Die durch ihren Reichtum legendäre Zeit von König Krösus (Kroisos) steht für das goldene Zeitalter der Stadt; als Ort, an dem im 7. Jahrhundert v. Chr. die ersten Münzen der Geschichte (Elektronmünzen) geprägt wurden, gilt sie als Wiege des Geldes. Um 547-546 v. Chr. wurde die Stadt vom Perserkönig Kyros erobert. Auf dem Gelände ragen der monumentale Artemis-Tempel in ionischer Ordnung, der prächtige römische Gymnasion-Bad-Komplex und die große antike Synagoge des 3.-6. Jahrhunderts n. Chr. hervor. 2025 in die UNESCO-Welterbeliste aufgenommen, ist Sardes einer der vielschichtigsten Zeugen der Wirtschafts- und Religionsgeschichte Anatoliens.",
-      "en": "Sardis, near the Salihli district of Manisa, was the capital of the powerful Kingdom of Lydia. The reign of King Croesus (Kroisos), legendary for his wealth, marks the city's golden age; it is accepted as the place where the first coins in history (electrum coins) were minted in the 7th century BC. The city was captured by the Persian King Cyrus around 547-546 BC. The site is distinguished by the monumental Ionic-order Temple of Artemis, the magnificent Roman gymnasium-bath complex, and the great ancient synagogue dating to the 3rd-6th centuries AD. Added to the UNESCO World Heritage List in 2025, Sardis is one of the most many-layered witnesses to Anatolia's economic and religious history."
      }
     }
    ]
@@ -6389,6 +6355,34 @@
       "tr": "Mudurnu, Batı Karadeniz'in ahşap karkas ve kerpiç dolgulu geleneksel evleriyle korunmuş Osmanlı kasabalarından biridir; Ahilik geleneğinin izlerini taşıyan çarşısıyla 2015 yılında UNESCO Dünya Mirası Geçici Listesi'ne \"Mudurnu: Ahiliğin Tanıklığı\" adıyla alınmıştır. Kasaba aynı zamanda Cittaslow (Sakin Şehir) ağının üyesidir. Kentin simgesi, Yıldırım Bayezid'in şehzadeliği döneminde, 1382 yılı dolaylarında yaptırılan Yıldırım Bayezid Camii'dir. Yaklaşık 19,65 metre çapındaki tek büyük kubbesiyle erken Osmanlı tek kubbeli cami mimarisinin gelişiminde önemli bir aşamayı temsil eder; hemen yanındaki tarihi hamam da külliyeye aittir.",
       "de": "Mudurnu ist eine der erhaltenen osmanischen Kleinstädte mit traditionellen Fachwerkhäusern des westlichen Schwarzmeergebiets und wurde 2015 mit seinem von der Ahi-Tradition geprägten Basar unter dem Namen \"Mudurnu: Zeugnis des Ahismus\" in die UNESCO-Tentativliste des Welterbes aufgenommen. Die Stadt gehört zudem zum Cittaslow-Netzwerk (Slow City). Wahrzeichen ist die um 1382 während der Statthalterschaft von Bayezid I. errichtete Yıldırım-Bayezid-Moschee. Mit ihrer einzigen großen Kuppel von rund 19,65 Metern Durchmesser markiert sie einen wichtigen Schritt in der Entwicklung der frühosmanischen Einkuppelmoschee; das benachbarte historische Bad gehört ebenfalls zur Anlage.",
       "en": "Mudurnu is one of the preserved Ottoman towns of the western Black Sea region, known for its traditional timber-framed houses, and in 2015 its bazaar bearing the marks of the Akhi guild tradition was added to UNESCO's World Heritage Tentative List as \"Mudurnu: Testimonies of Akhism.\" The town is also a member of the Cittaslow (Slow City) network. Its landmark is the Yıldırım Bayezid Mosque, built around 1382 while Bayezid I served as regional governor. With its single great dome roughly 19.65 metres in diameter, it marks an important stage in the evolution of the early Ottoman single-domed mosque; the adjacent historic bathhouse also belongs to the complex."
+     }
+    }
+   ]
+  },
+  {
+   "id": "manisa",
+   "geo": "Ege",
+   "name": {
+    "tr": "Manisa",
+    "de": "Manisa",
+    "en": "Manisa"
+   },
+   "places": [
+    {
+     "id": "sardes",
+     "coords": [
+      38.488,
+      28.04
+     ],
+     "name": {
+      "tr": "Sardes (Sart) Örenyeri",
+      "de": "Ausgrabungsstätte Sardes (Sart)",
+      "en": "Sardis (Sart) Archaeological Site"
+     },
+     "desc": {
+      "tr": "Manisa'nın Salihli ilçesi yakınındaki Sardes, güçlü Lidya Krallığı'nın başkentidir. Zenginliğiyle efsaneleşen Kral Krezüs (Kroisos) dönemi, kentin altın çağını simgeler; tarihte ilk madenî paraların (elektron sikkeler) MÖ 7. yüzyılda burada basıldığı kabul edilir. Kent, MÖ 547-546 dolaylarında Pers Kralı Kiros tarafından ele geçirilmiştir. Örenyerinde İon düzenindeki anıtsal Artemis Tapınağı, Roma dönemine ait görkemli gymnasium-hamam yapısı ve MS 3.-6. yüzyıllara tarihlenen büyük antik sinagog öne çıkar. 2025'te UNESCO Dünya Mirası Listesi'ne alınan Sardes, Anadolu'nun ekonomik ve dinsel tarihinin en katmanlı tanıklarından biridir.",
+      "de": "Sardes, nahe dem Bezirk Salihli in Manisa, war die Hauptstadt des mächtigen Königreichs Lydien. Die durch ihren Reichtum legendäre Zeit von König Krösus (Kroisos) steht für das goldene Zeitalter der Stadt; als Ort, an dem im 7. Jahrhundert v. Chr. die ersten Münzen der Geschichte (Elektronmünzen) geprägt wurden, gilt sie als Wiege des Geldes. Um 547-546 v. Chr. wurde die Stadt vom Perserkönig Kyros erobert. Auf dem Gelände ragen der monumentale Artemis-Tempel in ionischer Ordnung, der prächtige römische Gymnasion-Bad-Komplex und die große antike Synagoge des 3.-6. Jahrhunderts n. Chr. hervor. 2025 in die UNESCO-Welterbeliste aufgenommen, ist Sardes einer der vielschichtigsten Zeugen der Wirtschafts- und Religionsgeschichte Anatoliens.",
+      "en": "Sardis, near the Salihli district of Manisa, was the capital of the powerful Kingdom of Lydia. The reign of King Croesus (Kroisos), legendary for his wealth, marks the city's golden age; it is accepted as the place where the first coins in history (electrum coins) were minted in the 7th century BC. The city was captured by the Persian King Cyrus around 547-546 BC. The site is distinguished by the monumental Ionic-order Temple of Artemis, the magnificent Roman gymnasium-bath complex, and the great ancient synagogue dating to the 3rd-6th centuries AD. Added to the UNESCO World Heritage List in 2025, Sardis is one of the most many-layered witnesses to Anatolia's economic and religious history."
      }
     }
    ]
