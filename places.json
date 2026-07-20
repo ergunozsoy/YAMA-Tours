@@ -2696,9 +2696,9 @@
    "id": "safranbolu",
    "geo": "Karadeniz",
    "name": {
-    "tr": "Safranbolu · Kastamonu",
-    "de": "Safranbolu · Kastamonu",
-    "en": "Safranbolu · Kastamonu"
+    "tr": "Safranbolu",
+    "de": "Safranbolu",
+    "en": "Safranbolu"
    },
    "img": "",
    "places": [
@@ -2751,40 +2751,6 @@
       "tr": "19. yüzyıl başına tarihlenen Kaymakamlar Evi, geleneksel Safranbolu konağının müze ev olarak düzenlenmiş en tanınmış örneğidir; 1979'da kamulaştırılıp 1981'de ziyarete açıldı. Alt katı taş, üst katları ahşap karkas arası kerpiç dolgulu üç katlı yapı, haremlik ve selamlık bölümleriyle sarı çam işçiliğinin inceliğini yansıtır. Sedirler, yüklükler, oymalı tavanlar ve yatak nişlerine gizlenmiş gusülhaneler dönemin ev yaşamını yaşatır; selamlıkla haremlik arasında yemek servisini sağlayan dönme dolap ilginç bir ayrıntıdır. Kentin ahşap ev kültürünü yakından tanıtan bir mekândır.",
       "de": "Das auf den Beginn des 19. Jahrhunderts datierte Kaymakamlar-Haus ist das bekannteste als Museumshaus eingerichtete Beispiel des traditionellen Safranbolu-Herrenhauses; 1979 verstaatlicht, wurde es 1981 der Öffentlichkeit zugänglich gemacht. Der dreigeschossige Bau mit steinernem Erdgeschoss und oberen Etagen aus Fachwerk mit Lehmziegelfüllung spiegelt mit seinen Harem- und Selamlık-Bereichen die Feinheit der Gelbkiefer-Handwerkskunst wider. Diwane, Bettschränke, geschnitzte Decken und in Schlafnischen verborgene Waschräume (Gusülhane) lassen das häusliche Leben der Zeit lebendig werden; der Drehschrank zwischen Selamlık und Harem für den Speisendienst ist ein reizvolles Detail. Der Ort macht die hölzerne Hauskultur der Stadt anschaulich.",
       "en": "Dated to the early 19th century, the Kaymakamlar House is the best-known example of the traditional Safranbolu mansion arranged as a museum house; nationalized in 1979, it opened to visitors in 1981. The three-storey structure, with a stone ground floor and upper floors of timber framing filled with adobe, reflects the finesse of yellow-pine craftsmanship in its harem and selamlık sections. Divans, bedding cupboards, carved ceilings and washing rooms (gusülhane) hidden in sleeping alcoves keep the domestic life of the era alive; the rotating cabinet serving meals between selamlık and harem is an intriguing detail. The house vividly showcases the town's timber-house culture."
-     }
-    },
-    {
-     "id": "kastamonu",
-     "coords": [
-      41.388,
-      33.782
-     ],
-     "name": {
-      "tr": "Kastamonu",
-      "de": "Kastamonu",
-      "en": "Kastamonu"
-     },
-     "desc": {
-      "tr": "Kalesi, 1506'da Kadı Nasrullah tarafından yaptırılan dokuz kubbeli Nasrullah Camii, 1746'da eklenen Münire (Bayraklı) Medresesi ve ahşap tarihî evleriyle Kastamonu köklü bir Anadolu kentidir. Milli Mücadele'de Kastamonu-İnebolu arasındaki İstiklal Yolu, İnebolu Limanı'na çıkan silah ve cephanenin kağnılarla Ankara'ya taşındığı hayatî bir güzergâh oldu. Kent, Mustafa Kemal Atatürk'ün 1925 Ağustos'undaki ziyaretiyle de anılır; 28 Ağustos 1925'te İnebolu'da yaptığı konuşmayla başlattığı ve 25 Kasım 1925'te kanunlaşan şapka ve kıyafet inkılabının simge şehridir.",
-      "de": "Mit seiner Burg, der 1506 vom Richter Nasrullah errichteten Nasrullah-Moschee mit neun Kuppeln, der 1746 angefügten Münire- (Bayraklı-) Medrese und seinen hölzernen historischen Häusern ist Kastamonu eine altehrwürdige anatolische Stadt. Im Befreiungskampf war der Unabhängigkeitsweg (İstiklal Yolu) zwischen Kastamonu und İnebolu eine lebenswichtige Route, auf der die im Hafen von İnebolu gelöschten Waffen und Munition mit Ochsenkarren nach Ankara gebracht wurden. Die Stadt ist auch für den Besuch Mustafa Kemal Atatürks im August 1925 bekannt; mit seiner Rede am 28. August 1925 in İnebolu leitete er die am 25. November 1925 gesetzlich verankerte Hut- und Kleiderreform ein, deren Symbolstadt Kastamonu ist.",
-      "en": "With its castle, the nine-domed Nasrullah Mosque built in 1506 by Judge Nasrullah, the Münire (Bayraklı) Medrese added in 1746, and its wooden historic houses, Kastamonu is a deep-rooted Anatolian town. During the War of Independence the Independence Road (İstiklal Yolu) between Kastamonu and İnebolu was a vital route along which arms and ammunition unloaded at İnebolu port were hauled to Ankara by ox-carts. The town is also remembered for Mustafa Kemal Atatürk's visit in August 1925; it is the symbolic city of the hat and dress reform, which he launched with his speech in İnebolu on 28 August 1925 and which was enacted into law on 25 November 1925."
-     }
-    },
-    {
-     "id": "seyhsaban",
-     "coords": [
-      41.38,
-      33.77
-     ],
-     "name": {
-      "tr": "Şeyh Şaban-ı Veli Külliyesi",
-      "de": "Scheich-Şaban-ı-Veli-Komplex",
-      "en": "Şeyh Şaban-ı Veli Complex"
-     },
-     "desc": {
-      "tr": "Kastamonu'da Halvetiliğin Şabaniyye kolunun merkezi olan külliye, adını 1569'da vefat ettiği kabul edilen Hz. Pir Şeyh Şaban-ı Veli'den alır. Cami, türbe, dergâh konakları, iki halvethane, şadırvan, kütüphane ve 'asa suyu' denen kaynaktan oluşan yapılar topluluğu büyük ölçüde 15.-17. yüzyıllar arasında biçimlendi; türbe kapısındaki kitabe 1611 tarihini taşır, konaklar ile şadırvan 19. yüzyıl sonunda eklendi. Şehrin en çok ziyaret edilen maneviyat ve inanç turizmi merkezlerinden biri olan külliye, bugün müzesiyle de tarikat kültürünü tanıtır.",
-      "de": "Der Komplex, in Kastamonu das Zentrum des Şabaniyye-Zweigs des Halveti-Ordens, trägt den Namen des Hz. Pir Scheich Şaban-ı Veli, der vermutlich 1569 verstarb. Die aus Moschee, Türbe (Grabmal), Derwischkonvent-Häusern, zwei Halvethane, Şadırvan (Brunnen), Bibliothek und der als 'Asa suyu' bezeichneten Quelle bestehende Baugruppe entstand größtenteils zwischen dem 15. und 17. Jahrhundert; die Inschrift über dem Türbe-Portal nennt das Jahr 1611, die Konvent-Häuser und der Brunnen kamen im späten 19. Jahrhundert hinzu. Als eines der meistbesuchten Spiritualitäts- und Glaubenstourismuszentren der Stadt vermittelt der Komplex heute mit seinem Museum auch die Kultur des Ordens.",
-      "en": "The complex, the centre of the Şabaniyye branch of the Halveti order in Kastamonu, takes its name from Hz. Pir Şeyh Şaban-ı Veli, held to have died in 1569. The ensemble of a mosque, tomb, dervish-lodge houses, two seclusion cells (halvethane), an ablution fountain, a library and the spring called 'asa suyu' took shape largely between the 15th and 17th centuries; the inscription above the tomb's door bears the date 1611, while the lodge houses and fountain were added in the late 19th century. As one of the town's most-visited centres of spirituality and faith tourism, the complex today also introduces the order's culture through its museum."
      }
     }
    ]
@@ -6171,6 +6137,23 @@
     "en": "Kastamonu"
    },
    "places": [
+    {
+     "id": "kastamonu",
+     "coords": [
+      41.388,
+      33.782
+     ],
+     "name": {
+      "tr": "Kastamonu",
+      "de": "Kastamonu",
+      "en": "Kastamonu"
+     },
+     "desc": {
+      "tr": "Kalesi, 1506'da Kadı Nasrullah tarafından yaptırılan dokuz kubbeli Nasrullah Camii, 1746'da eklenen Münire (Bayraklı) Medresesi ve ahşap tarihî evleriyle Kastamonu köklü bir Anadolu kentidir. Milli Mücadele'de Kastamonu-İnebolu arasındaki İstiklal Yolu, İnebolu Limanı'na çıkan silah ve cephanenin kağnılarla Ankara'ya taşındığı hayatî bir güzergâh oldu. Kent, Mustafa Kemal Atatürk'ün 1925 Ağustos'undaki ziyaretiyle de anılır; 28 Ağustos 1925'te İnebolu'da yaptığı konuşmayla başlattığı ve 25 Kasım 1925'te kanunlaşan şapka ve kıyafet inkılabının simge şehridir.",
+      "de": "Mit seiner Burg, der 1506 vom Richter Nasrullah errichteten Nasrullah-Moschee mit neun Kuppeln, der 1746 angefügten Münire- (Bayraklı-) Medrese und seinen hölzernen historischen Häusern ist Kastamonu eine altehrwürdige anatolische Stadt. Im Befreiungskampf war der Unabhängigkeitsweg (İstiklal Yolu) zwischen Kastamonu und İnebolu eine lebenswichtige Route, auf der die im Hafen von İnebolu gelöschten Waffen und Munition mit Ochsenkarren nach Ankara gebracht wurden. Die Stadt ist auch für den Besuch Mustafa Kemal Atatürks im August 1925 bekannt; mit seiner Rede am 28. August 1925 in İnebolu leitete er die am 25. November 1925 gesetzlich verankerte Hut- und Kleiderreform ein, deren Symbolstadt Kastamonu ist.",
+      "en": "With its castle, the nine-domed Nasrullah Mosque built in 1506 by Judge Nasrullah, the Münire (Bayraklı) Medrese added in 1746, and its wooden historic houses, Kastamonu is a deep-rooted Anatolian town. During the War of Independence the Independence Road (İstiklal Yolu) between Kastamonu and İnebolu was a vital route along which arms and ammunition unloaded at İnebolu port were hauled to Ankara by ox-carts. The town is also remembered for Mustafa Kemal Atatürk's visit in August 1925; it is the symbolic city of the hat and dress reform, which he launched with his speech in İnebolu on 28 August 1925 and which was enacted into law on 25 November 1925."
+     }
+    },
     {
      "id": "mahmut-bey-camii",
      "name": {
