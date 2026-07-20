@@ -110,6 +110,108 @@
             "de": "Die Chora-Kirche (Kariye) verdankt ihren Namen ihrer einstigen Lage außerhalb der byzantinischen Stadtmauern ('chora' – Land). Ihre heute bewunderten Mosaiken und Fresken entstanden im frühen 14. Jahrhundert (etwa 1315-1321) unter der Förderung des Staatsmannes und Gelehrten Theodoros Metochites. Die Szenen aus dem Leben Christi und Mariens zählen mit ihrer Bewegtheit und Tiefe auf Goldgrund zu den reifsten Werken der spätbyzantinischen (palaiologischen) Kunst; das Anastasis-Fresko im Parekklesion ist ihr Höhepunkt. In osmanischer Zeit zur Moschee umgewandelt, 1945 Museum, erhielt der Bau 2020 erneut den Status einer Moschee. Manche sehen darin einen Vorboten der italienischen Renaissance.",
             "en": "The Chora (Kariye) takes its name from its former position outside the Byzantine city walls ('chora' – countryside). Its celebrated mosaics and frescoes were made in the early 14th century (about 1315-1321) under the patronage of the statesman and scholar Theodore Metochites. Depicting the lives of Christ and the Virgin, their movement and depth against gold grounds place them among the most accomplished works of late Byzantine (Palaiologan) art; the Anastasis fresco in the parekklesion is their crowning achievement. Converted to a mosque under the Ottomans, made a museum in 1945, the building was again given mosque status in 2020. Some scholars read these works as a herald of the Italian Renaissance."
           }
+        },
+        {
+          "id": "bogaz",
+          "coords": [
+            41.045,
+            29.035
+          ],
+          "name": {
+            "tr": "Boğaz Turu",
+            "de": "Bosphorus-Rundfahrt",
+            "en": "Bosphorus Cruise"
+          },
+          "desc": {
+            "tr": "İstanbul Boğazı, Karadeniz ile Marmara'yı birleştiren ve Avrupa ile Asya'yı ayıran, yaklaşık 31 kilometre uzunluğunda bir su yoludur. Kıyıları boyunca 18. yüzyıldan kalma ahşap yalılar, Dolmabahçe, Çırağan ve Beylerbeyi sarayları ile tarihî korular sıralanır. Fatih Sultan Mehmed'in 1452'de fetih hazırlığı olarak yaptırdığı Rumeli Hisarı ile Yıldırım Bayezid'in 1394 dolaylarında inşa ettirdiği Anadolu Hisarı karşılıklı yükselir. 1973'te açılan 15 Temmuz Şehitler Köprüsü, 1988'deki Fatih Sultan Mehmet ve 2016'daki Yavuz Sultan Selim köprüleri iki kıtayı bağlar; tekneyle yapılan Boğaz turu bu mirası su üzerinden gezdirir.",
+            "de": "Der Bosporus ist eine etwa 31 Kilometer lange Wasserstraße, die das Schwarze Meer mit dem Marmarameer verbindet und Europa von Asien trennt. An seinen Ufern reihen sich hölzerne Ufervillen (Yalıs) aus dem 18. Jahrhundert, die Paläste Dolmabahçe, Çırağan und Beylerbeyi sowie historische Haine. Gegenüber erheben sich die 1452 von Fatih Sultan Mehmed als Vorbereitung der Eroberung errichtete Festung Rumeli Hisarı und die um 1394 von Yıldırım Bayezid erbaute Anadolu Hisarı. Die 1973 eröffnete Brücke der Märtyrer des 15. Juli (Bosporus-Brücke), die Fatih-Sultan-Mehmet-Brücke von 1988 und die Yavuz-Sultan-Selim-Brücke von 2016 verbinden die beiden Kontinente; eine Bootsfahrt erschließt dieses Erbe vom Wasser aus.",
+            "en": "The Bosphorus is a roughly 31-kilometre waterway linking the Black Sea to the Sea of Marmara and separating Europe from Asia. Along its shores stand eighteenth-century wooden waterside mansions (yalıs), the Dolmabahçe, Çırağan and Beylerbeyi palaces, and historic groves. Facing one another rise Rumeli Hisarı, built by Fatih Sultan Mehmed in 1452 in preparation for the conquest, and Anadolu Hisarı, raised by Yıldırım Bayezid around 1394. The 15 July Martyrs Bridge (Bosphorus Bridge), opened in 1973, the Fatih Sultan Mehmet Bridge of 1988 and the Yavuz Sultan Selim Bridge of 2016 join the two continents; a boat cruise reveals this heritage from the water."
+          }
+        },
+        {
+          "id": "eyupsultan",
+          "coords": [
+            41.048,
+            28.9337
+          ],
+          "name": {
+            "tr": "Eyüp Sultan Camii",
+            "de": "Eyüp-Sultan-Moschee",
+            "en": "Eyüp Sultan Mosque"
+          },
+          "desc": {
+            "tr": "Eyüp Sultan Camii, Hz. Muhammed'in sahabesi ve sancaktarı Ebû Eyyûb el-Ensârî'nin (Hâlid bin Zeyd) türbesi çevresinde yükselir. Ebû Eyyûb, Arapların 7. yüzyıldaki (yaklaşık 668-669) Konstantinopolis kuşatması sırasında burada vefat etmiştir. Kabir, 1453'teki fetih sırasında Akşemseddin'e atfedilen bir keşifle ortaya çıkarıldı; Fatih Sultan Mehmed fethin ardından bu noktada şehirdeki ilk büyük Osmanlı külliyesini yaptırdı (cami 1458). Bugünkü yapı, III. Selim döneminde 1798-1800'de yeniden inşa edildi. Osmanlı padişahları tahta çıkışta burada kılıç kuşanırdı; hemen yakınındaki Pierre Loti Tepesi Haliç manzarasıyla ünlüdür.",
+            "de": "Die Eyüp-Sultan-Moschee erhebt sich um das Grabmal von Ebû Eyyûb el-Ensârî (Hâlid bin Zeyd), einem Gefährten und Fahnenträger des Propheten Mohammed. Ebû Eyyûb starb hier während der arabischen Belagerung Konstantinopels im 7. Jahrhundert (etwa 668-669). Sein Grab wurde bei der Eroberung 1453 durch eine Akşemseddin zugeschriebene Entdeckung freigelegt; nach der Eroberung ließ Fatih Sultan Mehmed an dieser Stelle die erste große osmanische Anlage der Stadt errichten (Moschee 1458). Der heutige Bau entstand 1798-1800 unter Selim III. neu. Osmanische Sultane wurden hier bei ihrer Thronbesteigung mit dem Schwert umgürtet; der nahe Pierre-Loti-Hügel ist für seinen Blick auf das Goldene Horn berühmt.",
+            "en": "The Eyüp Sultan Mosque rises around the tomb of Ebû Eyyûb el-Ensârî (Hâlid bin Zeyd), a companion and standard-bearer of the Prophet Muhammad. Ebû Eyyûb died here during the Arab siege of Constantinople in the 7th century (around 668-669). His grave was uncovered during the conquest of 1453 through a discovery attributed to Akşemseddin; after the conquest Fatih Sultan Mehmed built the city's first great Ottoman complex on this spot (the mosque in 1458). The present building was reconstructed in 1798-1800 under Selim III. Ottoman sultans were girded with the sword here upon accession; the nearby Pierre Loti Hill is famed for its view over the Golden Horn."
+          }
+        },
+        {
+          "id": "fenerbalat",
+          "coords": [
+            41.029,
+            28.949
+          ],
+          "name": {
+            "tr": "Fener - Balat",
+            "de": "Fener - Balat",
+            "en": "Fener - Balat"
+          },
+          "desc": {
+            "tr": "Fener ve Balat, Haliç'in kıyısında, yüzyıllarca İstanbul'un en kozmopolit mahalleleri olan tarihî semtlerdir. Fener, Rum Ortodoks cemaatinin merkeziydi; Fener Rum Ortodoks Patrikhanesi 1600 dolaylarında bu semte taşınmış ve 1601'den beri Aya Yorgi Kilisesi'nde bulunmaktadır. Balat ise Sefarad Yahudilerinin yerleştiği, Ahrida gibi tarihî sinagoglara ev sahipliği yapan bir mahalledir; bölgede Ermeni cemaatinin de köklü izleri vardır. Dar sokaklara sıralanmış renkli ahşap evleri, kiliseleri, sinagogları ve dökme demir malzemeden yapılmış Bulgar Sveti Stefan Kilisesi ile Fener-Balat, farklı inançların yan yana yaşadığı çok katmanlı bir kültür mirasını yansıtır.",
+            "de": "Fener und Balat sind historische Viertel am Ufer des Goldenen Horns, die jahrhundertelang zu den kosmopolitischsten Stadtteilen Istanbuls zählten. Fener war das Zentrum der griechisch-orthodoxen Gemeinde; das Ökumenische Patriarchat von Konstantinopel zog um 1600 hierher und befindet sich seit 1601 in der Kirche St. Georg (Aya Yorgi). Balat wiederum war das Viertel der sephardischen Juden mit historischen Synagogen wie der Ahrida-Synagoge; auch die armenische Gemeinde hinterließ hier tiefe Spuren. Mit seinen bunten Holzhäusern in engen Gassen, Kirchen, Synagogen und der aus Gusseisen gefertigten bulgarischen St.-Stephan-Kirche spiegelt Fener-Balat ein vielschichtiges Kulturerbe des Miteinanders verschiedener Glaubensgemeinschaften wider.",
+            "en": "Fener and Balat are historic districts on the shore of the Golden Horn that were for centuries among Istanbul's most cosmopolitan quarters. Fener was the centre of the Greek Orthodox community; the Ecumenical Patriarchate moved here around 1600 and has been housed in the Church of St. George (Aya Yorgi) since 1601. Balat, in turn, was the quarter of the Sephardic Jews, home to historic synagogues such as the Ahrida Synagogue; the Armenian community also left deep roots here. With its colourful wooden houses lining narrow lanes, its churches, synagogues and the cast-iron Bulgarian St. Stephen Church, Fener-Balat reflects a many-layered cultural heritage of faiths living side by side."
+          }
+        },
+        {
+          "id": "arkeolojimuze",
+          "coords": [
+            41.0116,
+            28.9814
+          ],
+          "name": {
+            "tr": "İstanbul Arkeoloji Müzeleri",
+            "de": "Archäologische Museen Istanbul",
+            "en": "Istanbul Archaeological Museums"
+          },
+          "desc": {
+            "tr": "İstanbul Arkeoloji Müzeleri, ressam ve arkeolog Osman Hamdi Bey'in öncülüğünde kurulan ve 13 Haziran 1891'de ziyarete açılan, Türkiye'nin ilk modern müzesidir. Osman Hamdi Bey'in 1887'de Sayda'daki (Sidon) kral nekropolünde yürüttüğü kazılardan çıkan İskender Lahdi ve öteki görkemli lahitler, koleksiyonun çekirdeğini oluşturur. Külliye üç birimden oluşur: ana Arkeoloji Müzesi, Eski Şark Eserleri Müzesi ve Fatih Sultan Mehmed'in 1472'de yaptırdığı Çinili Köşk. Topkapı Sarayı'nın birinci avlusu ile Gülhane Parkı yakınında yer alan müze, Antik Çağ'dan Bizans'a uzanan on binlerce eseri barındırır.",
+            "de": "Die Archäologischen Museen Istanbul sind das erste moderne Museum der Türkei, gegründet unter der Leitung des Malers und Archäologen Osman Hamdi Bey und am 13. Juni 1891 eröffnet. Den Kern der Sammlung bilden der Alexandersarkophag und weitere prächtige Sarkophage, die Osman Hamdi Bey 1887 bei seinen Grabungen in der Königsnekropole von Sidon (Sayda) barg. Der Komplex besteht aus drei Einheiten: dem Hauptmuseum für Archäologie, dem Museum für Altorientalische Kunst und dem 1472 von Fatih Sultan Mehmed erbauten Çinili Köşk (Kachelpavillon). Nahe dem ersten Hof des Topkapı-Palasts und dem Gülhane-Park gelegen, beherbergt das Museum Zehntausende Objekte von der Antike bis Byzanz.",
+            "en": "The Istanbul Archaeological Museums, founded under the leadership of the painter and archaeologist Osman Hamdi Bey and opened to visitors on 13 June 1891, form Turkey's first modern museum. The core of the collection is the Alexander Sarcophagus and other magnificent sarcophagi that Osman Hamdi Bey recovered in 1887 from the royal necropolis at Sidon (Sayda). The complex comprises three units: the main Archaeology Museum, the Museum of the Ancient Orient, and the Çinili Köşk (Tiled Kiosk), built by Fatih Sultan Mehmed in 1472. Set near the first courtyard of Topkapı Palace and Gülhane Park, the museum holds tens of thousands of works spanning antiquity to Byzantium."
+          }
+        },
+        {
+          "id": "kapalicarsi",
+          "coords": [
+            41.0108,
+            28.968
+          ],
+          "name": {
+            "tr": "Kapalıçarşı",
+            "de": "Der Große Basar",
+            "en": "Grand Bazaar"
+          },
+          "desc": {
+            "tr": "Kapalıçarşı, İstanbul'un fethinden sonra Fatih Sultan Mehmed'in 15. yüzyılın ikinci yarısında yaptırdığı iç bedesten (Cevahir Bedesteni) çekirdeği çevresinde büyümüş, dünyanın en eski ve en büyük kapalı çarşılarından biridir. Bedestenin inşası 1455-1461 dolaylarına tarihlenir; zamanla çevresine hanlar, sokaklar ve dükkânlar eklenmiştir. Bugün yaklaşık 30.700 metrekarelik alanı, 60'tan fazla sokağı, 21 kapısı ve 4.000'e yakın dükkânıyla kapalı bir kent dokusu oluşturur. Kuyumcuları, halıcıları ve antikacılarıyla ünlü çarşı, yüzyıllar boyunca yangın ve depremlerle yıkılıp defalarca onarılmıştır.",
+            "de": "Der Große Basar ist einer der ältesten und größten überdachten Märkte der Welt, gewachsen um den Kern des inneren Bedesten (Cevahir Bedesteni), den Fatih Sultan Mehmed nach der Eroberung Istanbuls in der zweiten Hälfte des 15. Jahrhunderts errichten ließ. Der Bau des Bedesten wird auf etwa 1455-1461 datiert; mit der Zeit kamen ringsum Karawansereien, Gassen und Läden hinzu. Heute bildet er mit rund 30.700 Quadratmetern Fläche, mehr als 60 Straßen, 21 Toren und annähernd 4.000 Läden ein überdachtes Stadtgefüge. Berühmt für seine Juweliere, Teppichhändler und Antiquitätenhändler, wurde der Basar über die Jahrhunderte durch Brände und Erdbeben zerstört und mehrfach wiederaufgebaut.",
+            "en": "The Grand Bazaar is one of the oldest and largest covered markets in the world, having grown around the core of the inner bedesten (Cevahir Bedesteni) that Fatih Sultan Mehmed had built in the second half of the 15th century after the conquest of Istanbul. Construction of the bedesten is dated to around 1455-1461; over time caravanserais, streets and shops were added around it. Today, with an area of about 30,700 square metres, more than 60 streets, 21 gates and close to 4,000 shops, it forms a covered urban fabric. Famed for its jewellers, carpet dealers and antique sellers, the bazaar has been destroyed by fires and earthquakes and rebuilt many times over the centuries."
+          }
+        },
+        {
+          "id": "turkislam",
+          "coords": [
+            41.0058,
+            28.9744
+          ],
+          "name": {
+            "tr": "Türk ve İslam Eserleri Müzesi",
+            "de": "Museum für Türkische und Islamische Kunst",
+            "en": "Museum of Turkish and Islamic Arts"
+          },
+          "desc": {
+            "tr": "Türk ve İslam Eserleri Müzesi, 1914'te Süleymaniye Külliyesi'nin imaret binasında açılan, alanında Türkiye'nin ilk müzesidir. 1983'te, Kanuni Sultan Süleyman'ın sadrazamı Pargalı İbrahim Paşa için 16. yüzyılda yapılmış olan İbrahim Paşa Sarayı'na taşınmıştır. Sultanahmet Meydanı'na (Hipodrom) bakan müze, dünyanın en zengin İslam sanatı koleksiyonlarından birine sahiptir. Konya Alâeddin Camii'nde bulunan 13. yüzyıl Selçuklu halıları başta olmak üzere olağanüstü bir halı koleksiyonu; ayrıca hat, ahşap, taş, seramik, cam ve maden eserleri sergilenir. Osmanlı saray yaşamına ışık tutan mekânlarıyla da dikkat çeker.",
+            "de": "Das Museum für Türkische und Islamische Kunst wurde 1914 im Armenküchengebäude der Süleymaniye-Anlage eröffnet und ist das erste Museum seiner Art in der Türkei. 1983 zog es in den İbrahim-Paşa-Palast, der im 16. Jahrhundert für Pargalı İbrahim Paşa, den Großwesir Sultan Süleymans des Prächtigen, errichtet worden war. Das zum Sultanahmet-Platz (Hippodrom) gelegene Museum besitzt eine der reichsten Sammlungen islamischer Kunst der Welt. Ausgestellt werden eine außergewöhnliche Teppichsammlung – allen voran seldschukische Teppiche des 13. Jahrhunderts aus der Alâeddin-Moschee in Konya – sowie Werke der Kalligrafie, Holz-, Stein-, Keramik-, Glas- und Metallkunst. Auch seine Räume, die das osmanische Hofleben veranschaulichen, sind bemerkenswert.",
+            "en": "The Museum of Turkish and Islamic Arts, opened in 1914 in the soup-kitchen building of the Süleymaniye complex, is the first museum of its kind in Turkey. In 1983 it moved to the İbrahim Paşa Palace, built in the 16th century for Pargalı İbrahim Paşa, grand vizier of Süleyman the Magnificent. Overlooking Sultanahmet Square (the Hippodrome), the museum holds one of the world's richest collections of Islamic art. It displays an exceptional carpet collection—foremost the 13th-century Seljuk carpets found in the Alâeddin Mosque at Konya—as well as works of calligraphy, wood, stone, ceramic, glass and metal. Its rooms evoking Ottoman court life are also notable."
+          }
         }
       ]
     },
@@ -205,6 +307,74 @@
             "tr": "Melendiz Çayı'nın binlerce yılda oyduğu Ihlara Vadisi, yaklaşık on dört kilometre boyunca uzanan yeşil ve serin bir kanyondur. Dik kaya duvarlarına oyulmuş onlarca kilise ve manastır, vadiyi bir açık hava inanç merkezine dönüştürmüştür. Bu kiliselerin duvarlarındaki freskler, Bizans dinî sanatının taşradaki en canlı örnekleri arasındadır. Çayın kenarında yürürken, kavakların gölgesi, kuş sesleri ve suyun serinliği tarih gezisine doğa molası katar.",
             "de": "Das vom Fluss Melendiz über Jahrtausende geformte Ihlara-Tal ist eine grüne, kühle Schlucht von etwa vierzehn Kilometern Länge. Dutzende in die steilen Felswände gehauene Kirchen und Klöster machten das Tal zu einem Freiluft-Glaubenszentrum. Die Fresken an ihren Wänden zählen zu den lebendigsten Beispielen byzantinischer Sakralkunst in der Provinz. Am Flussufer spenden Pappeln Schatten, während Vogelstimmen und kühles Wasser die Reise begleiten.",
             "en": "The Ihlara Valley, carved by the Melendiz river over millennia, is a green and cool canyon stretching about fourteen kilometres. Dozens of churches and monasteries cut into its sheer cliffs turned the valley into an open-air centre of faith. The frescoes on their walls are among the most vivid provincial examples of Byzantine religious art. Walking along the stream, the shade of poplars, birdsong and the cool water add a touch of nature to a journey through history."
+          }
+        },
+        {
+          "id": "avanos",
+          "coords": [
+            38.7156,
+            34.8465
+          ],
+          "name": {
+            "tr": "Avanos",
+            "de": "Avanos",
+            "en": "Avanos"
+          },
+          "desc": {
+            "tr": "Kızılırmak'ın —Türkiye'nin en uzun ırmağı, antik Halys— kıyısında kurulan Avanos, antik çağda Venessa adıyla anılır ve Kapadokya Krallığı döneminde (MÖ 332–MS 17) bölgenin sayılı kentlerinden biriydi. Kasabanın asıl ününü, muhtemelen Hitit çağına (MÖ 2. binyıl) uzanan çömlekçilik geleneği taşır; ustalar hâlâ ırmağın kızıl alüvyonundan elde edilen killi toprağı ayak çarkında biçimlendirir. Kuşaktan kuşağa aktarılan bu zanaat bugün de kasabanın başlıca geçim kaynağıdır ve dar sokaklardaki atölyeler, toprağın sanata dönüştüğü yüzyıllık bir sürekliliği yaşatır.",
+            "de": "Am Ufer des Kızılırmak — des längsten Flusses der Türkei, des antiken Halys — gelegen, hieß Avanos in der Antike Venessa und zählte im Königreich Kappadokien (332 v. Chr.–17 n. Chr.) zu den bedeutenden Städten der Region. Seinen Ruhm verdankt der Ort jedoch der Töpferkunst, die vermutlich bis in die Hethiterzeit (2. Jahrtausend v. Chr.) zurückreicht; noch heute formen die Meister den tonreichen, roten Schlamm des Flusses auf der Fußdrehscheibe. Dieses von Generation zu Generation weitergegebene Handwerk ist bis heute der wichtigste Erwerbszweig, und die Werkstätten der engen Gassen halten eine jahrhundertealte Kontinuität lebendig.",
+            "en": "Set on the banks of the Kızılırmak — Turkey's longest river, the ancient Halys — Avanos was known in antiquity as Venessa and ranked among the notable cities of the Kingdom of Cappadocia (332 BC–17 AD). Yet the town owes its fame to a pottery tradition that probably reaches back to Hittite times (2nd millennium BC); to this day masters shape the clay-rich red silt of the river on the foot-driven wheel. Passed down through generations, this craft remains the town's principal livelihood, and the workshops lining its narrow streets keep alive a centuries-old continuity in which earth becomes art."
+          }
+        },
+        {
+          "id": "devrent",
+          "coords": [
+            38.665,
+            34.87
+          ],
+          "name": {
+            "tr": "Devrent Vadisi (Hayal Vadisi)",
+            "de": "Devrent-Tal (Traumtal)",
+            "en": "Devrent Valley (Valley of Imagination)"
+          },
+          "desc": {
+            "tr": "Ürgüp'e yaklaşık 5, Göreme'ye 12 km uzaklıktaki Devrent, Kapadokya'nın kilise ya da yerleşim barındırmayan, tümüyle doğal biçimlenmiş ender vadilerindendir; bu yüzden 'Hayal Vadisi' diye anılır. Milyonlarca yıllık rüzgâr ve su aşınımının yonttuğu peribacaları, bakış açısına göre deve, yılan, kertenkele ya da masal yaratıklarına benzer; en tanınmışı, vadiye 'Deve Vadisi' adını da kazandıran Deve Kayası'dır. Bitki örtüsünden neredeyse yoksun bu çıplak coğrafya, ziyaretçiyi taş figürleri kendi imgelemiyle okumaya çağıran bir açık hava heykel galerisi gibidir.",
+            "de": "Rund 5 km von Ürgüp und 12 km von Göreme entfernt, gehört Devrent zu den seltenen Tälern Kappadokiens, die weder Kirchen noch Siedlungen bergen und rein natürlich geformt sind — daher der Name 'Traumtal' (Hayal Vadisi). Die von jahrmillionenlanger Wind- und Wassererosion gemeißelten Feenkamine gleichen je nach Blickwinkel Kamelen, Schlangen, Echsen oder Märchenwesen; der berühmteste ist der Kamelfels, der dem Tal auch den Namen 'Kameltal' gab. Diese nahezu vegetationslose, karge Landschaft wirkt wie eine Freiluft-Skulpturengalerie, die den Besucher einlädt, die Steinfiguren mit eigener Fantasie zu deuten.",
+            "en": "About 5 km from Ürgüp and 12 km from Göreme, Devrent is one of Cappadocia's rare valleys that hold neither churches nor settlements and are shaped by nature alone — hence its name, the 'Valley of Imagination' (Hayal Vadisi). The fairy chimneys, carved by millions of years of wind and water erosion, resemble camels, snakes, lizards or mythical creatures depending on one's angle; the best known is the Camel Rock, which also gave the valley its alternate name, 'Camel Valley.' Almost devoid of vegetation, this bare landscape feels like an open-air sculpture gallery, inviting visitors to read the stone figures through their own imagination."
+          }
+        },
+        {
+          "id": "zelve",
+          "coords": [
+            38.672,
+            34.846
+          ],
+          "name": {
+            "tr": "Zelve-Paşabağları Örenyeri",
+            "de": "Ruinenstätte Zelve-Paşabağları",
+            "en": "Zelve-Paşabağları Archaeological Site"
+          },
+          "desc": {
+            "tr": "Kayaya oyulmuş üç vadiden oluşan Zelve, 9.-13. yüzyıllarda gelişen bir Hristiyan yerleşimi ve ruhban eğitiminin verildiği ilk merkezlerden biriydi; İkonoklazm öncesine tarihlenen Üzümlü ve Balıklı kiliseleri, kayaya oyma cami, değirmen ve tünellerle Türk döneminde de yaşandı. Kaya düşmesi tehlikesi yüzünden 1950'lerde boşaltıldı, 1967'de açık hava müzesine dönüştü. Bitişikteki Paşabağı —Keşiş ya da Rahipler Vadisi— 15-20 metreyi bulan çok başlı peribacalarıyla ünlüdür; 6.-9. yüzyıllarda münzevi keşişlere yurt olmuş, üç başlı bir koninin içine oyulan Aziz Simeon (Stylites) şapeli haç kabartmalarıyla bugüne kalmıştır.",
+            "de": "Das aus drei in den Fels gehauenen Tälern bestehende Zelve war im 9.–13. Jahrhundert eine christliche Siedlung und eines der ersten Zentren geistlicher Ausbildung; mit den vorikonoklastischen Üzümlü- und Balıklı-Kirchen, einer Felsmoschee, Mühlen und Tunneln blieb es auch in türkischer Zeit bewohnt. Wegen Steinschlaggefahr wurde es in den 1950er Jahren geräumt und 1967 zum Freilichtmuseum. Das benachbarte Paşabağı — das Mönchs- oder Einsiedlertal — ist berühmt für seine bis zu 15–20 m hohen, mehrköpfigen Feenkamine; im 6.–9. Jahrhundert Heimstatt asketischer Mönche, birgt es die in einen dreiköpfigen Kegel gehauene Kapelle des Heiligen Simeon (Stylites) mit ihren Kreuzreliefs.",
+            "en": "Formed of three rock-hewn valleys, Zelve was a Christian settlement that flourished from the 9th to the 13th century and one of the earliest centres of clerical training; with the pre-Iconoclastic Üzümlü and Balıklı churches, a rock-cut mosque, mills and tunnels, it remained inhabited into the Turkish era. Rockfall danger forced its evacuation in the 1950s, and in 1967 it became an open-air museum. Neighbouring Paşabağı — the Valley of the Monks or Hermits — is famed for its multi-headed fairy chimneys rising 15–20 m; home to ascetic monks from the 6th to 9th century, it preserves the Chapel of Saint Simeon (Stylites), carved into a three-headed cone and adorned with cross reliefs."
+          }
+        },
+        {
+          "id": "guvercinlik",
+          "coords": [
+            38.63,
+            34.809
+          ],
+          "name": {
+            "tr": "Güvercinlik Vadisi",
+            "de": "Taubental (Güvercinlik)",
+            "en": "Pigeon Valley (Güvercinlik)"
+          },
+          "desc": {
+            "tr": "Uçhisar ile Göreme arasında yaklaşık 4 kilometre uzanan Güvercinlik Vadisi, Kapadokya'nın en uzun vadilerinden biridir ve adını, yumuşak kayalara oyulmuş yüzlerce güvercinlikten alır. Yörenin çiftçileri yüzyıllar boyunca bu oyuklarda güvercin beslemiş; toplanan gübreyi bağ ve bahçelerde doğal besin olarak kullanmış, güvercin dışkısını yörenin kaya kiliselerindeki fresklerin boyalarını hazırlamada da değerlendirmiştir. Kimi güvercinliklerin çevresi badana ve bezemelerle süslüdür. Bugün vadi, peribacaları ve Uçhisar Kalesi manzarası eşliğinde Kapadokya'nın en sevilen yürüyüş rotalarından biridir.",
+            "de": "Das etwa 4 km lange Taubental (Güvercinlik Vadisi) zwischen Uçhisar und Göreme zählt zu den längsten Tälern Kappadokiens und verdankt seinen Namen den Hunderten in den weichen Fels gehauenen Taubenschlägen. Über Jahrhunderte hielten die Bauern hier Tauben; den gesammelten Kot nutzten sie als natürlichen Dünger für Weinberge und Gärten und zudem bei der Herstellung der Farben für die Fresken der Felsenkirchen der Region. Manche Taubenschläge sind mit Tünche und Ornamenten verziert. Heute ist das Tal mit seinen Feenkaminen und dem Blick auf die Burg von Uçhisar eine der beliebtesten Wanderrouten Kappadokiens.",
+            "en": "Stretching some 4 km between Uçhisar and Göreme, the Pigeon Valley (Güvercinlik Vadisi) is among Cappadocia's longest and takes its name from the hundreds of dovecotes carved into the soft rock. For centuries local farmers kept pigeons in these hollows, using the droppings as natural fertiliser for vineyards and gardens and also in preparing the pigments for the region's rock-cut church frescoes. Some dovecotes are framed with whitewash and ornamentation. Today, with its fairy chimneys and views toward Uçhisar Castle, the valley is one of the most popular walking routes in Cappadocia."
           }
         }
       ]
@@ -302,6 +472,74 @@
             "de": "Am Hang des Bülbül-Bergs bei Ephesos liegt das Haus der Jungfrau Maria, wo sie der Überlieferung nach ihre letzten Jahre verbracht haben soll. Das kleine, schlichte Steinhaus ist ein bedeutender Wallfahrts- und Gebetsort für Christen wie Muslime. Der auch von mehreren Päpsten besuchte Ort bietet mit dem stillen Wald und der Wunschquelle eine friedvolle Atmosphäre. Gleich neben dem antiken Ephesos verbindet er die Glaubensgeschichte der Stadt mit der Gegenwart.",
             "en": "On the slope of Bülbül Mountain near Ephesus stands the House of the Virgin Mary, where, by tradition, she is believed to have spent her final years. The small, simple stone house is an important place of pilgrimage and prayer for both Christians and Muslims. Visited by several popes, the site offers a peaceful atmosphere with its quiet forest and wishing spring. Beside ancient Ephesus, it has become a living stop linking the city's history of faith to the present."
           }
+        },
+        {
+          "id": "artemis",
+          "coords": [
+            37.949,
+            27.364
+          ],
+          "name": {
+            "tr": "Artemis Tapınağı",
+            "de": "Artemistempel (Ephesos)",
+            "en": "Temple of Artemis"
+          },
+          "desc": {
+            "tr": "Antik dünyanın yedi harikasından biri sayılan Artemis Tapınağı, av ve bereket tanrıçası Artemis'e adanmış dev bir İon tapınağıydı. MÖ 6. yüzyılda Lidya Kralı Kroisos'un (Karun) katkılarıyla, mimarlar Khersiphron ve oğlu Metagenes tarafından tümüyle mermerden inşa edilen yapı, 127'yi aşan sütunuyla çağının en görkemli mabetlerindendi. MÖ 356'da Herostratos adlı birinin ün kazanmak için çıkardığı yangında yandı; yeniden inşa edilse de MS 3. yüzyıldaki Got akınları ve geç antik dönemdeki tahribatla ortadan kalktı. Bugün Selçuk yakınında, bataklık bir düzlükte çeşitli parçalardan derlenmiş tek bir sütun ayakta durur.",
+            "de": "Der Artemistempel, eines der Sieben Weltwunder der Antike, war ein gewaltiger ionischer Tempel, der der Jagd- und Fruchtbarkeitsgöttin Artemis geweiht war. Im 6. Jahrhundert v. Chr. wurde er mit Unterstützung des lydischen Königs Kroisos (Krösus) von den Architekten Chersiphron und seinem Sohn Metagenes vollständig aus Marmor errichtet; mit über 127 Säulen zählte er zu den prächtigsten Heiligtümern seiner Zeit. 356 v. Chr. brannte ihn ein Mann namens Herostratos aus Ruhmsucht nieder. Der wiederaufgebaute Tempel verfiel nach den Goteneinfällen des 3. Jahrhunderts n. Chr. und den Zerstörungen der Spätantike. Heute steht bei Selçuk in einer sumpfigen Ebene nur noch eine einzige, aus verschiedenen Fragmenten zusammengesetzte Säule.",
+            "en": "The Temple of Artemis, one of the Seven Wonders of the ancient world, was a colossal Ionic temple dedicated to Artemis, goddess of the hunt and fertility. In the 6th century BC it was built entirely of marble by the architects Chersiphron and his son Metagenes, with support from the Lydian king Croesus; with more than 127 columns it ranked among the most magnificent sanctuaries of its age. In 356 BC a man named Herostratus burned it down in his craving for fame. Though rebuilt, it declined after the Gothic raids of the 3rd century AD and the destruction of late antiquity. Today, in a marshy plain near Selçuk, only a single column assembled from various fragments still stands."
+          }
+        },
+        {
+          "id": "stjean",
+          "coords": [
+            37.95,
+            27.368
+          ],
+          "name": {
+            "tr": "Ayasuluk Tepesi ve St. Jean (Aziz Yuhanna) Anıtı",
+            "de": "Ayasuluk-Hügel und Johannesbasilika",
+            "en": "Ayasuluk Hill and the Basilica of St. John"
+          },
+          "desc": {
+            "tr": "Ayasuluk Tepesi, Selçuk'a hâkim yükseltisiyle Tunç Çağı'ndan Bizans ve Türk dönemlerine uzanan katmanlı bir yerleşim tarihini barındırır. Tepenin eteğinde, Hristiyan geleneğine göre İncil yazarı Aziz Yuhanna'nın (St. Jean) mezarı üzerine, 6. yüzyılda İmparator Iustinianus tarafından anıtsal bir bazilika yaptırıldı. Haç planlı, kubbelerle örtülü yapı döneminin en büyük kiliselerinden biriydi ve daha erken 4. yüzyıl bazilikasının yerini aldı. Zamanla depremler ve istilalarla yıkılan yapının kalıntıları kısmen restore edilmiştir. Tepenin doruğunda ise Bizans'tan Aydınoğulları ve Osmanlı'ya uzanan katkılarla biçimlenen Ayasuluk Kalesi yükselir.",
+            "de": "Der Ayasuluk-Hügel überragt Selçuk und birgt eine vielschichtige Siedlungsgeschichte von der Bronzezeit über Byzanz bis in die türkische Zeit. An seinem Fuß ließ Kaiser Justinian im 6. Jahrhundert über dem Grab, das der christlichen Überlieferung nach dem Evangelisten Johannes (St. Johannes) gehört, eine monumentale Basilika errichten. Der kreuzförmige, von Kuppeln überwölbte Bau war eine der größten Kirchen seiner Epoche und trat an die Stelle einer älteren Basilika des 4. Jahrhunderts. Durch Erdbeben und Eroberungen zerstört, wurden seine Reste teilweise restauriert. Auf der Kuppe erhebt sich die Burg von Ayasuluk, die byzantinische wie aydinidisch-osmanische Bauphasen vereint.",
+            "en": "Ayasuluk Hill rises above Selçuk and holds a layered history of settlement reaching from the Bronze Age through Byzantium to the Turkish period. At its foot, in the 6th century, Emperor Justinian had a monumental basilica built over the grave held by Christian tradition to be that of John the Evangelist (St. John). Cross-shaped and roofed with domes, it was one of the largest churches of its time and replaced an earlier 4th-century basilica. Ruined by earthquakes and conquests, its remains have been partly restored. Crowning the summit stands Ayasuluk Castle, shaped by Byzantine as well as Aydinid-Ottoman building phases."
+          }
+        },
+        {
+          "id": "isabey",
+          "coords": [
+            37.949,
+            27.366
+          ],
+          "name": {
+            "tr": "İsa Bey Camii",
+            "de": "İsa-Bey-Moschee",
+            "en": "İsa Bey Mosque"
+          },
+          "desc": {
+            "tr": "İsa Bey Camii, 1375'te Aydınoğulları beyi İsa Bey tarafından, Şamlı mimar Dımaşklı Ali bin Müşeymiş'e yaptırıldı. Ayasuluk Tepesi'nin batı eteğinde yükselen yapı, Şam Emeviye Camii'nden esinlenen avlulu planı ve enlemesine gelişen harimiyle Anadolu beylikleri mimarisinin en görkemli örneklerinden sayılır. Efes ve çevresindeki antik yapılardan devşirilen granit ve mermer sütunlar, avluyu ve ibadet mekânını taşır. Selçuklu geleneğinden Osmanlı'ya geçişi yansıtan cami; iki kubbesi, oymalı mermer cephesi ve günümüze tek kalan minaresiyle dikkat çeker. 19. yüzyılda bir dönem kervansaray olarak kullanılmış, sonradan onarılmıştır.",
+            "de": "Die İsa-Bey-Moschee wurde 1375 vom Aydiniden-Fürsten İsa Bey durch den aus Damaskus stammenden Architekten Ali, Sohn des Muschaimisch, errichtet. Der Bau am Westhang des Ayasuluk-Hügels gilt mit seinem von der Umayyaden-Moschee in Damaskus inspirierten Hofplan und seinem quergerichteten Gebetssaal als eines der prächtigsten Werke der anatolischen Beylik-Architektur. Granit- und Marmorsäulen, die als Spolien von antiken Bauten in und um Ephesos stammen, tragen Hof und Gebetsraum. Die Moschee spiegelt den Übergang von der seldschukischen zur osmanischen Tradition wider und besticht durch ihre zwei Kuppeln, die reich behauene Marmorfassade und das einzige erhaltene Minarett. Im 19. Jahrhundert diente sie zeitweise als Karawanserei und wurde später restauriert.",
+            "en": "The İsa Bey Mosque was built in 1375 for the Aydinid ruler İsa Bey by the Damascus-born architect Ali, son of Mushaimish. Rising on the western slope of Ayasuluk Hill, its courtyard plan inspired by the Umayyad Mosque of Damascus and its transverse prayer hall rank it among the most magnificent works of Anatolian beylik architecture. Granite and marble columns taken as spolia from the ancient buildings of Ephesus and its surroundings support the courtyard and prayer hall. Reflecting the transition from Seljuk to Ottoman tradition, the mosque is distinguished by its two domes, richly carved marble façade and single surviving minaret. In the 19th century it served for a time as a caravanserai and was later restored."
+          }
+        },
+        {
+          "id": "yediuyurlar",
+          "coords": [
+            37.941,
+            27.382
+          ],
+          "name": {
+            "tr": "Yedi Uyurlar Mağarası",
+            "de": "Höhle der Siebenschläfer",
+            "en": "Grotto of the Seven Sleepers"
+          },
+          "desc": {
+            "tr": "Yedi Uyurlar Mağarası, hem Hristiyan hem İslami gelenekte kutsal sayılan Ashab-ı Kehf söylencesiyle anılır. Anlatıya göre, inançları yüzünden İmparator Decius döneminde (MS 3. yüzyıl) zulme uğrayan yedi genç bir mağaraya sığınmış, yüzyıllarca uyuduktan sonra II. Theodosius çağında (5. yüzyıl) uyanmıştır; Kur'an'da Kehf Suresi'nde de benzer bir kıssa anlatılır. Efes yakınında Panayır (Pion) Dağı'nın eteğinde yer alan alan, aslında 5.-6. yüzyıllara tarihlenen bir Bizans nekropolüdür; kayaya oyulmuş yüzlerce mezar, kemerli tonozlar ve bir kilise-mezar yapısı içerir. Kutsal sayılan bu yer, yüzyıllarca hac ve ziyaret merkezi olmuştur.",
+            "de": "Die Höhle der Siebenschläfer ist mit der sowohl im Christentum als auch im Islam verehrten Legende der Ashab al-Kahf verbunden. Der Überlieferung zufolge flohen sieben junge Männer, die unter Kaiser Decius (3. Jahrhundert n. Chr.) wegen ihres Glaubens verfolgt wurden, in eine Höhle und erwachten nach Jahrhunderten des Schlafs zur Zeit Theodosius' II. (5. Jahrhundert); eine ähnliche Erzählung findet sich im Koran in der Sure al-Kahf. Die Stätte am Fuß des Panayır- (Pion-)Berges bei Ephesos ist in Wirklichkeit eine byzantinische Nekropole des 5.–6. Jahrhunderts mit Hunderten in den Fels gehauenen Gräbern, Bogengewölben und einem Kirchen-Grab-Komplex. Als heilig geltend, war der Ort über Jahrhunderte ein Ziel von Pilgern und Besuchern.",
+            "en": "The Grotto of the Seven Sleepers is bound to the legend of the Ashab al-Kahf, held sacred in both Christian and Islamic tradition. According to the story, seven young men persecuted for their faith under Emperor Decius (3rd century AD) took refuge in a cave and, after sleeping for centuries, awoke in the age of Theodosius II (5th century); a similar account appears in the Quran in the Surah al-Kahf. The site on the slope of Mount Panayır (Pion) near Ephesus is in fact a Byzantine necropolis of the 5th–6th centuries, with hundreds of rock-cut tombs, arched vaults and a church-tomb complex. Regarded as holy, it drew pilgrims and visitors for centuries."
+          }
         }
       ]
     },
@@ -363,6 +601,125 @@
             "de": "Die Moschee des 15. Jahrhunderts und der römische Tempel stehen Wand an Wand: Ankaras sakrale Kontinuität auf einen Blick. Die 'Res Gestae' an der Tempelwand ist die besterhaltene Fassung des Rechenschaftsberichts des Augustus.",
             "en": "The 15th-century mosque and the Roman temple stand wall to wall: Ankara's sacred continuity in a single view. The 'Res Gestae' on the temple wall is the best-preserved copy of Augustus' testament."
           }
+        },
+        {
+          "id": "aslanhane",
+          "coords": [
+            39.9412,
+            32.8642
+          ],
+          "name": {
+            "tr": "Ahi Şerefettin (Aslanhane) Camii",
+            "de": "Ahi-Şerefettin-Moschee (Aslanhane)",
+            "en": "Ahi Şerefettin (Aslanhane) Mosque"
+          },
+          "desc": {
+            "tr": "Ankara Kalesi eteğinde yükselen cami, 13. yüzyıl sonunda (yaklaşık 1289-1290) Selçuklu döneminde, Ahi teşkilatına bağlı yaptırıcılar eliyle inşa edildi; kesin bir inşa kitabesi bulunmaz. Anadolu'nun ahşap direkli (hipostil) camilerinin seçkin bir örneğidir: ahşap sütun ve kirişlerle taşınan, uzunlamasına neflere bölünmüş iç mekân, dönemin nadir tavan sistemlerini yaşatır. Tavan hizasına dek yükselen çini mozaik ve alçı bezemeli mihrabı, Selçuklu süsleme sanatının başyapıtları arasında sayılır. Adını yakınındaki Aslanhane'den ve buradaki antik aslan figüründen alır. Cami, 2023'te 'Anadolu'nun Ortaçağ Ahşap Direkli Camileri' kapsamında UNESCO Dünya Mirası Listesi'ne alındı.",
+            "de": "Am Fuße der Burg von Ankara erhebt sich die Moschee, die Ende des 13. Jahrhunderts (um 1289-1290) in seldschukischer Zeit von Stiftern der Ahi-Bruderschaft errichtet wurde; eine gesicherte Bauinschrift fehlt. Sie ist ein herausragendes Beispiel der anatolischen Holzstützenmoscheen (Hypostyl): Der von hölzernen Säulen und Balken getragene, in Längsschiffe gegliederte Innenraum bewahrt eine seltene Deckenkonstruktion der Epoche. Der bis zur Deckenhöhe reichende Mihrab mit Fliesenmosaik und Stuckdekor zählt zu den Meisterwerken seldschukischer Zierkunst. Ihren Namen verdankt sie dem nahen Aslanhane und einer antiken Löwenfigur. 2023 wurde sie als Teil der 'mittelalterlichen Holzstützenmoscheen Anatoliens' in die UNESCO-Welterbeliste aufgenommen.",
+            "en": "Rising at the foot of Ankara Castle, the mosque was built in the late 13th century (around 1289-1290) during the Seljuk period by patrons of the Ahi brotherhood; no definitive foundation inscription survives. It is a distinguished example of Anatolia's wooden-columned (hypostyle) mosques: the interior, divided into longitudinal aisles and carried by wooden columns and beams, preserves a rare ceiling system of the age. Its mihrab, rising to ceiling height and adorned with tile mosaic and stucco, ranks among the masterpieces of Seljuk decorative art. It takes its name from the nearby Aslanhane and an ancient lion figure. In 2023 it was inscribed on the UNESCO World Heritage List as part of the 'Medieval Wooden Hypostyle Mosques of Anatolia'."
+          }
+        },
+        {
+          "id": "etnografya",
+          "coords": [
+            39.9283,
+            32.8557
+          ],
+          "name": {
+            "tr": "Ankara Etnografya Müzesi",
+            "de": "Ethnographisches Museum Ankara",
+            "en": "Ankara Ethnography Museum"
+          },
+          "desc": {
+            "tr": "Ulus'ta, Namazgâh Tepesi'nde yükselen müze, mimar Arif Hikmet Koyunoğlu tarafından tasarlandı; temeli 1925'te atıldı, bina 1927'de tamamlandı ve 1930'da ziyarete açıldı. Cumhuriyet döneminde bu amaçla inşa edilen ilk müze yapılarından biri olarak, tek kubbeli ve avlulu planıyla erken dönem ulusal mimarinin simgelerindendir. Koleksiyonunda Selçuklu'dan Osmanlı'ya uzanan halı, kilim, ahşap ve maden işçiliği, hat, giyim-kuşam ve el sanatları sergilenir. Müze, Türk müzeciliğinde ayrı bir yere sahiptir: Atatürk'ün naaşı, 21 Kasım 1938 ile 10 Kasım 1953 arasında, Anıtkabir'e nakledilene dek geçici olarak buradaki bir bölümde bekletildi. Önündeki atlı Atatürk heykeli 1927'de dikildi.",
+            "de": "Im Stadtteil Ulus, auf dem Namazgâh-Hügel, erhebt sich das vom Architekten Arif Hikmet Koyunoğlu entworfene Museum; die Grundsteinlegung erfolgte 1925, der Bau wurde 1927 vollendet und 1930 für Besucher geöffnet. Als eines der ersten eigens als Museum errichteten Gebäude der Republik ist es mit seinem Einkuppelbau und Innenhof ein Sinnbild der frühen nationalen Architektur. Die Sammlung zeigt Teppiche, Kelims, Holz- und Metallarbeiten, Kalligrafie, Trachten und Kunsthandwerk von den Seldschuken bis zu den Osmanen. Das Museum nimmt einen besonderen Platz ein: Der Leichnam Atatürks ruhte vom 21. November 1938 bis zum 10. November 1953 vorübergehend in einem seiner Räume, bis zur Überführung ins Anıtkabir. Das Reiterstandbild Atatürks davor wurde 1927 errichtet.",
+            "en": "Rising on Namazgâh Hill in the Ulus district, the museum was designed by architect Arif Hikmet Koyunoğlu; its foundation was laid in 1925, the building completed in 1927 and opened to visitors in 1930. As one of the first structures purpose-built as a museum in the Republican era, its single-domed, courtyard plan makes it an emblem of early national architecture. The collection displays carpets, kilims, woodwork and metalwork, calligraphy, costumes and handicrafts spanning the Seljuk to the Ottoman periods. The museum holds a special place in Turkish museum history: Atatürk's remains rested temporarily in one of its halls from 21 November 1938 to 10 November 1953, until their transfer to Anıtkabir. The equestrian statue of Atatürk before it was erected in 1927."
+          }
+        },
+        {
+          "id": "vakifeserleri",
+          "coords": [
+            39.941,
+            32.865
+          ],
+          "name": {
+            "tr": "Ankara Vakıf Eserleri Müzesi",
+            "de": "Museum für Stiftungswerke Ankara",
+            "en": "Ankara Museum of Foundation Works"
+          },
+          "desc": {
+            "tr": "Vakıflar Genel Müdürlüğü'ne bağlı müze, vakıf kültürünün ürünlerini bir araya getirir. Sergilendiği yapı, 1920'lerin sonunda Vakıflar Genel Müdürlüğü tarafından inşa edilmiş; 1925'te Mustafa Kemal Atatürk ve Adalet Bakanı Mahmut Esat Bozkurt öncülüğünde kurulan Ankara Hukuk Mektebi'ne tahsis edilmiş ve zaman içinde farklı işlevler üstlenmiştir. Restorasyonun ardından 2007'de müze olarak ziyarete açıldı. Koleksiyonunda 13. yüzyıldan 20. yüzyıla uzanan halı ve kilimler, hat ve el yazması eserler, ahşap, maden, seramik ve dokuma işleri yer alır; toplam eser sayısı yaklaşık 2.669'dur. Türkiye'nin dört bir yanındaki vakıf yapılarından toplanan bu eserler, Selçuklu ve Osmanlı el sanatlarının inceliğini bugüne taşır.",
+            "de": "Das der Generaldirektion der Stiftungen unterstellte Museum vereint die Erzeugnisse der Stiftungskultur (Vakıf). Das Gebäude wurde Ende der 1920er Jahre von der Generaldirektion der Stiftungen errichtet und der 1925 unter der Führung von Mustafa Kemal Atatürk und Justizminister Mahmut Esat Bozkurt gegründeten Juristischen Schule von Ankara zugewiesen; im Laufe der Zeit diente es verschiedenen Zwecken. Nach der Restaurierung wurde es 2007 als Museum eröffnet. Die Sammlung umfasst Teppiche und Kelims, Kalligrafien und Handschriften sowie Arbeiten aus Holz, Metall, Keramik und Textil vom 13. bis zum 20. Jahrhundert; die Gesamtzahl der Werke beträgt etwa 2.669. Aus Stiftungsbauten in der ganzen Türkei zusammengetragen, tragen diese Werke die Feinheit seldschukischer und osmanischer Handwerkskunst in die Gegenwart.",
+            "en": "Overseen by the General Directorate of Foundations, the museum brings together the products of Turkey's charitable-foundation (vakıf) culture. Its building was constructed in the late 1920s by the General Directorate of Foundations and allocated to the Ankara Law School — established in 1925 under the leadership of Mustafa Kemal Atatürk and Justice Minister Mahmut Esat Bozkurt — serving various functions over time. After restoration, it opened as a museum in 2007. The collection features carpets and kilims, calligraphy and manuscripts, and works in wood, metal, ceramic and textile spanning the 13th to the 20th century, totaling around 2,669 objects. Gathered from foundation buildings across Turkey, these works carry the refinement of Seljuk and Ottoman craftsmanship into the present."
+          }
+        },
+        {
+          "id": "ankarakalesi",
+          "coords": [
+            39.9391,
+            32.8662
+          ],
+          "name": {
+            "tr": "Ankara Kalesi",
+            "de": "Burg von Ankara",
+            "en": "Ankara Castle"
+          },
+          "desc": {
+            "tr": "Şehre tepeden bakan kale, Ankara'nın katman katman tarihini taşıyan bir açık hava kroniğidir. Galat ve Roma dönemlerine uzanan geçmişinde surlar birçok kez onarıldı; iç surların 7. yüzyılda Bizanslılarca inşa edildiği, 9. yüzyılda yeniden yapıldığı kabul edilir. Malazgirt'in ardından bölgeye hâkim olan Selçuklular kaleyi onarıp genişletti; kapılarında Selçuklu ve İlhanlı onarım kitabeleri okunur. Beşgen planlı iç kale (Akkale/Alitaş), Ankara taşı ve moloz taşından örülü 14-16 metre yüksekliğinde çok sayıda burçla çevrilidir. Bugün sur içindeki geleneksel Ankara evleri restore edilerek yaşatılır; burçlardan şehrin ve ovanın geniş manzarası izlenir.",
+            "de": "Hoch über der Stadt thronend, ist die Burg eine Freilichtchronik der schichtweisen Geschichte Ankaras. In ihrer bis in die galatische und römische Zeit reichenden Vergangenheit wurden die Mauern mehrfach ausgebessert; die inneren Mauern gelten als im 7. Jahrhundert von den Byzantinern errichtet und im 9. Jahrhundert erneuert. Nach der Schlacht von Manzikert übernahmen die Seldschuken die Region, reparierten und erweiterten die Burg; an den Toren lassen sich seldschukische und ilchanidische Reparaturinschriften lesen. Die fünfeckige Innenburg (Akkale/Alitaş) ist von zahlreichen 14 bis 16 Meter hohen Türmen aus Ankara-Stein und Bruchstein umgeben. Heute werden die traditionellen Ankara-Häuser innerhalb der Mauern restauriert bewahrt; von den Türmen bietet sich ein weiter Blick über Stadt und Ebene.",
+            "en": "Overlooking the city from its hilltop, the castle is an open-air chronicle of Ankara's layered history. In a past reaching back to Galatian and Roman times, its walls were repaired many times; the inner walls are held to have been built by the Byzantines in the 7th century and rebuilt in the 9th. After the Battle of Manzikert the Seljuks took control of the region and repaired and enlarged the castle; Seljuk and Ilkhanid repair inscriptions can be read on its gates. The pentagonal inner citadel (Akkale/Alitaş) is ringed by numerous towers 14 to 16 meters high, built of Ankara stone and rubble. Today the traditional Ankara houses within the walls are preserved through restoration; the towers command a broad view over the city and plain."
+          }
+        },
+        {
+          "id": "romahamami",
+          "coords": [
+            39.9449,
+            32.8577
+          ],
+          "name": {
+            "tr": "Ankara Roma Hamamı",
+            "de": "Römisches Bad von Ankara",
+            "en": "Roman Baths of Ankara"
+          },
+          "desc": {
+            "tr": "Ulus'ta, Çankırı Caddesi üzerinde sokak seviyesinden yaklaşık 2,5 metre yükseklikte uzanan ören yeri, MS 3. yüzyılda İmparator Caracalla döneminde inşa edildi ve sağlık tanrısı Asklepios'a adandı; kazılarda bulunan sikkeler bu adamayı doğrular. Hamam, soyunmalık (apodyterium), soğukluk (frigidarium), ılıklık (tepidarium) ve sıcaklık (caldarium) bölümlerinden oluşur. En dikkat çekici özelliği, Roma mühendisliğinin ustalığını gösteren hipokaust (yerden ısıtma) sistemidir: ocaklarda ısıtılan hava, tuğla ayaklar üstünde yükselen zeminin altından dolaştırılırdı. 1997-2001 onarımlarının ardından açık hava müzesine dönüştürülen alanda mezar taşları, yazıtlar ve mil taşları da sergilenir.",
+            "de": "Im Stadtteil Ulus, an der Çankırı-Straße, etwa 2,5 Meter über dem Straßenniveau gelegen, wurde die Ausgrabungsstätte im 3. Jahrhundert n. Chr. unter Kaiser Caracalla errichtet und dem Heilgott Asklepios geweiht; bei Grabungen gefundene Münzen bestätigen diese Weihung. Das Bad besteht aus Auskleideraum (Apodyterium), Kaltbad (Frigidarium), Warmraum (Tepidarium) und Heißraum (Caldarium). Sein bemerkenswertestes Merkmal ist das Hypokaustum (Fußbodenheizung), das die Meisterschaft römischer Ingenieurskunst zeigt: In Öfen erhitzte Luft strömte unter dem auf Ziegelpfeilern ruhenden Boden hindurch. Nach den Restaurierungen von 1997-2001 in ein Freilichtmuseum verwandelt, zeigt das Areal auch Grabsteine, Inschriften und Meilensteine.",
+            "en": "In the Ulus district, along Çankırı Avenue and lying about 2.5 meters above street level, the site was built in the 3rd century CE under Emperor Caracalla and dedicated to Asclepius, god of health; coins found in excavations confirm this dedication. The bath comprises a changing room (apodyterium), cold room (frigidarium), warm room (tepidarium) and hot room (caldarium). Its most striking feature is the hypocaust (underfloor heating) system, a display of Roman engineering mastery: air heated in furnaces circulated beneath a floor raised on brick pillars. Turned into an open-air museum after the 1997-2001 restorations, the grounds also exhibit tombstones, inscriptions and milestones."
+          }
+        },
+        {
+          "id": "ilmeclis",
+          "coords": [
+            39.9392,
+            32.8543
+          ],
+          "name": {
+            "tr": "Kurtuluş Savaşı Müzesi (I. TBMM Binası)",
+            "de": "Museum des Befreiungskrieges (Erstes Parlamentsgebäude)",
+            "en": "War of Independence Museum (First Grand National Assembly)"
+          },
+          "desc": {
+            "tr": "Ulus'taki bu yapının temeli 1916'da atıldı; Vakıflar mimarı Salim Bey'in projesiyle, başlangıçta İttihat ve Terakki kulübü olarak tasarlandı, savaş koşulları yüzünden yarım kaldı. Tamamlanarak 23 Nisan 1920'de Türkiye Büyük Millet Meclisi'nin ilk binası olarak açıldı ve millî egemenliğin doğduğu çatı oldu. 1920-1924 arasında Kurtuluş Savaşı bu salondan yönetildi, cephedeki kaderi belirleyen kararlar burada alındı. Bina 1961'de müzeye dönüştürülerek ziyarete açıldı, 1981'de bugünkü adını aldı. İçeride ilk Meclis'in sıraları, dönemin fotoğrafları ve Kurtuluş Savaşı'na tanıklık eden belgeler sergilenir.",
+            "de": "Der Grundstein dieses Gebäudes in Ulus wurde 1916 gelegt; nach dem Entwurf des Stiftungsarchitekten Salim Bey zunächst als Klub des Komitees für Einheit und Fortschritt geplant, blieb es kriegsbedingt unvollendet. Fertiggestellt, wurde es am 23. April 1920 als erstes Gebäude der Großen Nationalversammlung der Türkei eröffnet und zum Dach, unter dem die nationale Souveränität geboren wurde. Zwischen 1920 und 1924 wurde der Befreiungskrieg aus diesem Saal geführt und die schicksalhaften Entscheidungen der Front hier getroffen. 1961 in ein Museum umgewandelt und eröffnet, erhielt es 1981 seinen heutigen Namen. Im Inneren sind die Bänke des ersten Parlaments, Fotografien der Zeit und Dokumente des Befreiungskrieges zu sehen.",
+            "en": "The foundation of this building in Ulus was laid in 1916; designed by foundation architect Salim Bey and initially planned as a Committee of Union and Progress club, it was left unfinished due to wartime conditions. Once completed, it opened on 23 April 1920 as the first building of the Grand National Assembly of Turkey, the roof under which national sovereignty was born. Between 1920 and 1924 the War of Independence was directed from this hall, and the decisions shaping the front were taken here. Converted into a museum and opened in 1961, it took its present name in 1981. Inside, the benches of the first Assembly, period photographs and documents witnessing the War of Independence are on display."
+          }
+        },
+        {
+          "id": "iimeclis",
+          "coords": [
+            39.9271,
+            32.8541
+          ],
+          "name": {
+            "tr": "Cumhuriyet Müzesi (II. TBMM Binası)",
+            "de": "Museum der Republik (Zweites Parlamentsgebäude)",
+            "en": "Museum of the Republic (Second Grand National Assembly)"
+          },
+          "desc": {
+            "tr": "Cumhuriyet'in ilân edildiği yılın hemen ardından, mimar Vedat Tek'in tasarımıyla 1923'te inşa edildi ve 18 Ekim 1924'te hizmete açıldı. İlk Meclis binasının ihtiyaca yetmemesi üzerine yapılan bu yapı, 1960'a dek yaklaşık 36 yıl İkinci Türkiye Büyük Millet Meclisi olarak kullanıldı; genç Cumhuriyet'in kurucu kanunları, devrimleri ve çok partili hayata geçiş adımları bu salonda tartışıldı. Meclis 1961'de yeni binasına taşındıktan sonra yapı çeşitli kurumlarca kullanıldı ve 1981'de Cumhuriyet Müzesi olarak ziyarete açıldı. Bugün ilk üç cumhurbaşkanı dönemini yansıtan belgeler, fotoğraflar ve özgün meclis salonu görülebilir.",
+            "de": "Unmittelbar nach dem Jahr der Ausrufung der Republik wurde das Gebäude 1923 nach dem Entwurf des Architekten Vedat Tek errichtet und am 18. Oktober 1924 in Betrieb genommen. Da das erste Parlamentsgebäude nicht mehr ausreichte, diente dieser Bau bis 1960 rund 36 Jahre lang als Zweite Große Nationalversammlung der Türkei; die Gründungsgesetze der jungen Republik, ihre Reformen und die Schritte zum Mehrparteiensystem wurden in diesem Saal erörtert. Nachdem das Parlament 1961 in sein neues Gebäude umgezogen war, wurde der Bau von verschiedenen Institutionen genutzt und 1981 als Museum der Republik eröffnet. Heute sind Dokumente, Fotografien der ersten drei Präsidenten und der originale Plenarsaal zu sehen.",
+            "en": "Built in 1923 to the design of architect Vedat Tek, just after the year the Republic was proclaimed, the building was inaugurated on 18 October 1924. Erected because the first Assembly building had become inadequate, it served for about 36 years, until 1960, as the Second Grand National Assembly of Turkey; the founding laws of the young Republic, its reforms and the steps toward multiparty life were debated in this hall. After the Assembly moved to its new building in 1961, the structure was used by various institutions and opened as the Museum of the Republic in 1981. Today it displays documents and photographs from the era of the first three presidents, along with the original assembly chamber."
+          }
         }
       ]
     },
@@ -407,6 +764,40 @@
             "de": "Auf dem Platz von Sivas stehen sich zwei Monumente des 13. Jahrhunderts gegenüber: die Doppelminarett-Medrese von 1271 und die Şifaiye von 1217 — eines der ältesten Krankenhaus-Medizinschulen Anatoliens. Hier schlägt das Herz seldschukischer Wissenschaft und Baukunst.",
             "en": "On Sivas' main square two 13th-century monuments face each other: the Twin-Minaret Medrese of 1271 and the Şifaiye of 1217 — one of Anatolia's oldest hospital-medical schools. This is the heart of Seljuk science and architecture."
           }
+        },
+        {
+          "id": "buruciye",
+          "coords": [
+            39.748,
+            37.017
+          ],
+          "name": {
+            "tr": "Buruciye Medresesi",
+            "de": "Buruciye-Medrese",
+            "en": "Buruciye Madrasa"
+          },
+          "desc": {
+            "tr": "Sivas'ın Anadolu Selçuklu dönemine ait üç büyük medresesinden biri olan Buruciye, kaynaklara göre 1271 (Hicri 670) yılında, İran'daki Burucird'den geldiği kabul edilen Muzafferüddin Burucirdi tarafından yaptırılmıştır. İzzeddin Keykavus Darüşşifası ile Çifte Minare arasında yükselen yapı, ortasında üstü açık avlu bulunan klasik dört eyvanlı plana sahiptir. En dikkat çekici yanı, mukarnaslı kavsarası geometrik ve bitkisel motiflerle bezenmiş görkemli taş taçkapısıdır. Yapının bir bölümü mescit, bir bölümü ise banisinin çini kaplamalı türbesi olarak düzenlenmiştir. Dönemin medreselerinde din ilimleri yanında doğa bilimleri ve astronomi de okutulduğu söylenir. 13. yüzyıl Selçuklu taş işçiliğinin en olgun örneklerinden sayılır.",
+            "de": "Die Buruciye-Medrese ist eine der drei großen anatolisch-seldschukischen Medresen von Sivas und wurde Quellen zufolge 1271 (670 nach islamischer Zeitrechnung) von Muzafferüddin Burucirdi errichtet, der aus dem iranischen Burudscherd stammen soll. Zwischen dem Darüşşifa des Izzeddin Keykavus und dem Çifte Minare gelegen, folgt der Bau dem klassischen Grundriss mit vier Iwanen um einen offenen Innenhof. Am eindrucksvollsten ist das prächtige steinerne Portal, dessen Muqarnas-Nische von geometrischen und pflanzlichen Motiven überzogen ist. Ein Teil des Baus diente als Moschee, ein anderer als fliesengeschmücktes Grabmal des Stifters. Neben religiösen Wissenschaften sollen dort auch Naturwissenschaften und Astronomie gelehrt worden sein. Sie gilt als eines der reifsten Beispiele seldschukischer Steinmetzkunst des 13. Jahrhunderts.",
+            "en": "One of the three great Anatolian Seljuk madrasas of Sivas, the Buruciye was built, according to the sources, in 1271 (670 in the Islamic calendar) by Muzafferüddin Burucirdi, held to have come from Burujird in Iran. Standing between the Izzeddin Keykavus hospital and the Çifte Minare, it follows the classic four-iwan plan around an open central courtyard. Its most striking feature is the magnificent stone portal, whose muqarnas hood is covered with geometric and vegetal motifs. Part of the building served as a mosque, another as the tile-clad tomb of its founder. Alongside religious sciences, natural sciences and astronomy are said to have been taught here. It ranks among the most accomplished examples of 13th-century Seljuk stonework."
+          }
+        },
+        {
+          "id": "kongremuze",
+          "coords": [
+            39.75,
+            37.015
+          ],
+          "name": {
+            "tr": "Sivas Atatürk ve Kongre Müzesi",
+            "de": "Atatürk- und Kongressmuseum Sivas",
+            "en": "Sivas Atatürk and Congress Museum"
+          },
+          "desc": {
+            "tr": "Bina, 1892 yılında Vali Mehmet Memduh Bey tarafından Mekteb-i İdadi olarak yaptırılmış; sonraki yıllarda sultani ve nihayet Sivas Lisesi olarak 1981'e kadar okul işlevini sürdürmüştür. Türk tarihindeki asıl önemini, 4-11 Eylül 1919 tarihleri arasında toplanan Sivas Kongresi'ne ev sahipliği yapmasıyla kazanmıştır. Mustafa Kemal Atatürk başkanlığında toplanan kongrede, ülkenin bölünmez bütünlüğü ilan edilmiş, dağınık Müdafaa-i Hukuk cemiyetleri tek çatı altında birleştirilmiş ve Milli Mücadele'nin örgütsel temeli atılmıştır. Atatürk ve Heyet-i Temsiliye binayı yaklaşık üç ay karargah olarak kullanmıştır. Yapı 1984'te Kültür Bakanlığı'na devredilerek müzeye dönüştürülmüş; kongre salonu özgün haliyle korunmuş, alt katı etnografya bölümüne ayrılmıştır.",
+            "de": "Das Gebäude wurde 1892 von Gouverneur Mehmet Memduh Bey als höhere Schule (Mekteb-i İdadi) errichtet und diente in den folgenden Jahren als Sultani und schließlich bis 1981 als Gymnasium von Sivas. Seine eigentliche Bedeutung für die türkische Geschichte erhielt es als Tagungsort des Kongresses von Sivas, der vom 4. bis 11. September 1919 stattfand. Unter dem Vorsitz von Mustafa Kemal Atatürk wurde dort die unteilbare Einheit des Landes verkündet, die verstreuten Rechtsverteidigungsvereine unter einem Dach vereint und das organisatorische Fundament des Nationalen Befreiungskampfes gelegt. Atatürk und das Repräsentativkomitee nutzten das Haus rund drei Monate lang als Hauptquartier. 1984 an das Kulturministerium übergeben, wurde es zum Museum umgestaltet; der Kongresssaal blieb original erhalten, das Erdgeschoss beherbergt die ethnografische Abteilung.",
+            "en": "The building was erected in 1892 by Governor Mehmet Memduh Bey as a secondary school (Mekteb-i İdadi); in later years it served as a sultani and finally as Sivas High School until 1981. Its true significance in Turkish history comes from hosting the Sivas Congress, held from 4 to 11 September 1919. Chaired by Mustafa Kemal Atatürk, the congress proclaimed the country's indivisible unity, merged the scattered Defence of Rights associations under a single roof, and laid the organizational foundation of the National Struggle. Atatürk and the Representative Committee used the building as their headquarters for about three months. Transferred to the Ministry of Culture in 1984 and converted into a museum, its congress hall is preserved in its original form, while the ground floor houses an ethnography section."
+          }
         }
       ]
     },
@@ -450,6 +841,57 @@
             "tr": "1206 tarihli darüşşifa, Anadolu'nun ayakta kalan en eski hastanesi ve tıp okuludur; bugün Selçuklu Uygarlığı Müzesi'dir. Akıl hastalarının müzikle tedavi edildiği bölümleriyle tıp tarihinin öncü kurumlarındandır.",
             "de": "Das Hospital von 1206 ist das älteste erhaltene Krankenhaus und die älteste Medizinschule Anatoliens; heute Museum der seldschukischen Zivilisation. Mit Abteilungen, in denen psychisch Kranke mit Musik behandelt wurden, ein Pionier der Medizingeschichte.",
             "en": "Dated 1206, this is Anatolia's oldest surviving hospital and medical school, today the Museum of Seljuk Civilization. With wards where the mentally ill were treated with music, it is a pioneer in the history of medicine."
+          }
+        },
+        {
+          "id": "gurgupoglu",
+          "coords": [
+            38.722,
+            35.482
+          ],
+          "name": {
+            "tr": "Güpgüpoğlu Konağı Etnografya Müzesi",
+            "de": "Ethnografiemuseum Güpgüpoğlu-Konak",
+            "en": "Güpgüpoğlu Mansion Ethnography Museum"
+          },
+          "desc": {
+            "tr": "Kayseri'nin geleneksel taş ev mimarisini bugüne taşıyan Güpgüpoğlu Konağı, vakıf kayıtlarına göre 15. yüzyılda (yaklaşık 1419-1497) inşa edilmiş, 18. yüzyıla dek eklemelerle genişlemiştir. Haremlik ve selamlık bölümlerinden oluşan yapı, kalenin sur duvarlarına yaslanır; renkli taş işçiliği ve kemerli bezeme programıyla dikkat çeker. 1995 ve 1998'de etnografya müzesine dönüştürülen konak; sikke, mühür, takı, geleneksel kıyafet, silah, çini ve el yazması Kuran koleksiyonlarının yanı sıra Kayseri ev yaşamını canlandıran mekân düzenlemeleriyle bölgenin kültürel belleğini sergiler.",
+            "de": "Der Güpgüpoğlu-Konak, ein Zeugnis der traditionellen Kayseri-Steinhausarchitektur, wurde Stiftungsurkunden zufolge im 15. Jahrhundert (etwa 1419-1497) errichtet und bis ins 18. Jahrhundert durch Anbauten erweitert. Das aus Haremlik und Selamlık bestehende Gebäude lehnt sich an die Mauern der Burg und besticht durch farbige Steinmetzarbeit und ein reiches, von Bögen gegliedertes Dekorprogramm. 1995 und 1998 in ein Ethnografiemuseum umgewandelt, zeigt der Konak Sammlungen von Münzen, Siegeln, Schmuck, Trachten, Waffen, Fliesen und handschriftlichen Koranen sowie Raumszenen, die das häusliche Leben Kayseris lebendig werden lassen.",
+            "en": "The Güpgüpoğlu Mansion, a living record of Kayseri's traditional stone-house architecture, was built in the 15th century (around 1419-1497) according to foundation records and expanded with additions until the 18th century. Comprising haremlik and selamlık quarters, it leans against the walls of the citadel and stands out for its coloured stonework and dense, arched decorative program. Converted into an ethnography museum in 1995 and 1998, the mansion displays collections of coins, seals, jewellery, traditional costumes, weapons, tiles and handwritten Qurans, alongside room settings that bring the domestic life of Kayseri vividly to life."
+          }
+        },
+        {
+          "id": "donerkumbet",
+          "coords": [
+            38.713,
+            35.49
+          ],
+          "name": {
+            "tr": "Döner Kümbet",
+            "de": "Döner Kümbet",
+            "en": "Döner Kümbet (Revolving Tomb)"
+          },
+          "desc": {
+            "tr": "Kayseri'nin güney nekropolünde yükselen Döner Kümbet, Anadolu Selçuklu türbe mimarisinin en zarif örneklerinden sayılır. İki satırlık kitabesinden Şah Cihan Hatun için yapıldığı anlaşılır; yaygın olarak 13. yüzyıla, yaklaşık 1276'ya tarihlense de bu tarih kimi araştırmacılarca tartışmalıdır. Kare kaideden on iki köşeli silindirik bir gövdeye geçen yapı, dıştan konik külahla örtülüdür. Cephelerini geometrik ve bitkisel taş kabartmalar bezer; hayat ağacı, çift başlı kartal ve insan başı motifleri işlenmiştir. İçeride, girişin karşısında mukarnaslı ince uzun bir mihrap yer alır.",
+            "de": "Der in der südlichen Nekropole Kayseris aufragende Döner Kümbet gilt als eines der elegantesten Beispiele anatolisch-seldschukischer Grabarchitektur. Seiner zweizeiligen Inschrift zufolge wurde er für Şah Cihan Hatun errichtet; gemeinhin wird er ins 13. Jahrhundert, etwa auf 1276, datiert, doch ist dieses Datum unter Forschern umstritten. Über quadratischem Sockel erhebt sich ein zwölfeckiger, zylindrischer Körper, außen von einem konischen Kegeldach bekrönt. Die Fassaden zieren geometrische und pflanzliche Steinreliefs mit Lebensbaum-, Doppeladler- und Menschenkopfmotiven. Im Inneren steht dem Eingang gegenüber ein schlanker Mihrab mit Muqarnas.",
+            "en": "Rising in Kayseri's southern necropolis, the Döner Kümbet is regarded as one of the most elegant examples of Anatolian Seljuk tomb architecture. Its two-line inscription indicates it was built for Şah Cihan Hatun; it is commonly dated to the 13th century, around 1276, though this date is disputed among scholars. A square base gives way to a twelve-sided cylindrical body, crowned externally by a conical roof. Geometric and floral stone reliefs adorn the façades, carved with tree-of-life, double-headed eagle and human-head motifs. Inside, a tall, slender muqarnas mihrab faces the entrance."
+          }
+        },
+        {
+          "id": "selcuklumuze",
+          "coords": [
+            38.7248,
+            35.4869
+          ],
+          "name": {
+            "tr": "Selçuklu Uygarlığı Müzesi",
+            "de": "Museum der Seldschukischen Zivilisation",
+            "en": "Museum of Seljuk Civilization"
+          },
+          "desc": {
+            "tr": "Gevher Nesibe'nin 1205-1206'da yaptırdığı Çifte Medrese yapısında, 21 Şubat 2014'te açılan Selçuklu Uygarlığı Müzesi, Anadolu Selçuklu dünyasının bilim, tıp ve sanat mirasını çağdaş bir dille anlatır. Tematik kurgusu iki eksende ilerler: Selçuklu kentleri, mimarisi, sanatı ve giyimini konu alan uygarlık bölümü ile hastalıklar, tedavi yöntemleri, tıp aletleri, eczacılık, müzik ve renk terapisini işleyen sağlık bölümü. Dokunmatik ekranlar, sesli anlatımlar, gündelik yaşamı canlandıran balmumu figürler ve çocuklara yönelik animasyonlarla deneyime dayalı, dijital bir sergileme sunar.",
+            "de": "Im Bau der von Gevher Nesibe 1205-1206 gestifteten Çifte Medrese eröffnete am 21. Februar 2014 das Museum der Seldschukischen Zivilisation, das das wissenschaftliche, medizinische und künstlerische Erbe der anatolischen Seldschuken in zeitgemäßer Sprache vermittelt. Sein thematischer Aufbau folgt zwei Achsen: einem Zivilisationsteil über seldschukische Städte, Architektur, Kunst und Kleidung sowie einem Gesundheitsteil über Krankheiten, Behandlungsmethoden, medizinische Instrumente, Pharmazie, Musik- und Farbtherapie. Touchscreens, Audioerzählungen, Wachsfiguren zum Alltagsleben und Animationen für Kinder schaffen eine erlebnisorientierte, digitale Präsentation.",
+            "en": "Housed in the Çifte Medrese endowed by Gevher Nesibe in 1205-1206, the Museum of Seljuk Civilization opened on 21 February 2014 to recount the scientific, medical and artistic heritage of the Anatolian Seljuk world in a contemporary idiom. Its thematic layout runs along two axes: a civilization section on Seljuk cities, architecture, art and dress, and a health section on diseases, treatment methods, medical instruments, pharmacy, music and colour therapy. Touchscreens, audio narrations, wax figures depicting daily life and animations for children make for an experiential, digital display."
           }
         }
       ]
@@ -512,6 +954,23 @@
             "de": "Das rund 9.000 Jahre alte Çatalhöyük ist eine der ältesten und größten neolithischen Siedlungen der Welt. Diese 'erste Stadt' ohne Straßen, deren Häuser über die Dächer betreten wurden, ist ein Schlüssel zur Sesshaftwerdung des Menschen; seit 2012 UNESCO-Welterbe.",
             "en": "Some 9,000 years old, Çatalhöyük is one of the world's oldest and largest Neolithic settlements. This streetless 'first city', entered through the rooftops, is a key to humanity's transition to settled life; UNESCO-listed since 2012."
           }
+        },
+        {
+          "id": "inceminare",
+          "name": {
+            "tr": "İnce Minareli Medrese - Taş ve Ahşap Eserler Müzesi",
+            "de": "Medrese İnce Minareli - Museum für Stein- und Holzarbeiten",
+            "en": "İnce Minareli Medrese - Museum of Stone and Wooden Artifacts"
+          },
+          "coords": [
+            37.872,
+            32.49
+          ],
+          "desc": {
+            "tr": "Anadolu Selçuklu döneminin en görkemli yapılarından olan İnce Minareli Medrese, 13. yüzyıl ortasında (yaklaşık 1265) devrin güçlü veziri Sahip Ata Fahreddin Ali tarafından bir darülhadis olarak yaptırılmıştır. Mimarı, taçkapı üzerindeki madalyonlara adını yazdıran Kölük bin Abdullah'tır. Yapı, muhteşem taçkapısıyla ünlüdür: düğümlenip birbirine geçen kabartma kuşaklar içinde Fetih ve Yâsîn surelerinden âyetlerin sülüs hatla dolandığı bu cephe, Selçuklu taş işçiliğinin doruk örneklerinden sayılır. Adını verdiği çift şerefeli, tuğla örgülü ve firuze çinilerle bezeli minaresinin üst bölümü 1901'de düşen bir yıldırımla yıkılmıştır. Yapı bugün Selçuklu taş ve ahşap eserlerinin sergilendiği müze olarak hizmet vermektedir.",
+            "de": "Die Medrese İnce Minareli, eines der prächtigsten Bauwerke der anatolisch-seldschukischen Zeit, wurde um 1265 durch den mächtigen Wesir Sahip Ata Fahreddin Ali als Dârülhadis (Hadith-Schule) errichtet. Als Architekt gilt Kölük bin Abdullah, dessen Name in Medaillons am Portal eingemeißelt ist. Berühmt ist das Bauwerk vor allem für sein grandioses Portal: geknüpfte, ineinander verschlungene Reliefbänder tragen in Thuluth-Kalligraphie Verse der Suren al-Fath und Yasin und zählen zu den Höhepunkten seldschukischer Steinmetzkunst. Der obere Teil des namensgebenden, zweigeschossigen, mit Ziegeln und Türkisfliesen verzierten Minaretts stürzte 1901 nach einem Blitzeinschlag ein. Heute dient der Bau als Museum für seldschukische Stein- und Holzarbeiten.",
+            "en": "One of the most splendid buildings of the Anatolian Seljuk era, the İnce Minareli Medrese was founded around 1265 by the powerful vizier Sahip Ata Fahreddin Ali as a school of hadith (darülhadis). Its architect was Kölük bin Abdullah, whose name is inscribed in medallions on the portal. The building is celebrated above all for its monumental doorway: knotted, interlacing bands of relief carry verses from the Suras al-Fath and Yasin in thuluth calligraphy, ranking among the finest achievements of Seljuk stonework. The upper part of its double-balconied, brick-built minaret, sheathed in turquoise tiles and the source of the building's name, collapsed after a lightning strike in 1901. Today the structure serves as a museum displaying Seljuk stone and wooden artifacts."
+          }
         }
       ]
     },
@@ -555,6 +1014,57 @@
             "tr": "Eskişehir'in tarihî çekirdeği Odunpazarı, renkli cumbalı Osmanlı evleriyle yaşayan bir açık hava müzesidir. Lületaşı atölyeleri ve Odunpazarı Modern Müze ile gelenek ve çağdaş sanat yan yana durur.",
             "de": "Odunpazarı, der historische Kern Eskişehirs, ist mit seinen farbigen osmanischen Erkerhäusern ein lebendiges Freilichtmuseum. Mit Meerschaum-Werkstätten und dem Museum Odunpazarı Modern stehen Tradition und Gegenwartskunst Seite an Seite.",
             "en": "Odunpazarı, the historic core of Eskişehir, is a living open-air museum of colourful Ottoman houses with projecting bays. With meerschaum workshops and the Odunpazarı Modern Museum, tradition and contemporary art stand side by side."
+          }
+        },
+        {
+          "id": "surpkilise",
+          "coords": [
+            39.4492,
+            31.5352
+          ],
+          "name": {
+            "tr": "Sivrihisar Surp Yerrortutyun Ermeni Kilisesi",
+            "de": "Armenische Surp-Yerrortutyun-Kirche (Heilige Dreifaltigkeit) in Sivrihisar",
+            "en": "Surp Yerrortutyun (Holy Trinity) Armenian Church, Sivrihisar"
+          },
+          "desc": {
+            "tr": "Sivrihisar'ın eski Ermeni mahallesinde yükselen Surp Yerrortutyun (Kutsal Üçlük) Kilisesi, kaynaklara göre ilk olarak 1650'de inşa edilmiş, 1876'daki yangının ardından 1881'de mimar Mintes Panoyat eliyle Patrik Nerses Varjabedyan döneminde yeniden yapılmıştır; bu nedenle bugüne ulaşan yapı büyük ölçüde 19. yüzyıl eseri sayılır. Yerel taştan, dikdörtgen bazilika planında yükselen kilise, yörenin taş işçiliği geleneğini yansıtan yontma duvarları ve kubbesiyle dikkat çeker ve kaynaklarda Anadolu'nun en büyük Ermeni kiliselerinden biri olarak anılır. 1915 sonrası uzun süre depo olarak kullanılıp harap düşen yapı, 2010'larda başlatılan restorasyonla onarılarak kültür mekânı olarak yeniden hayata kazandırılmıştır.",
+            "de": "Die im ehemaligen armenischen Viertel von Sivrihisar gelegene Surp-Yerrortutyun-Kirche (Heilige Dreifaltigkeit) wurde den Quellen zufolge ursprünglich 1650 errichtet und nach dem Brand von 1876 im Jahr 1881 unter Patriarch Nerses Warschabedjan durch den Baumeister Mintes Panoyat neu erbaut; der heutige Bau gilt daher weitgehend als Werk des 19. Jahrhunderts. Als rechteckige Basilika aus einheimischem Stein besticht die Kirche durch ihre behauenen Mauern und die Kuppel, die die steinmetzliche Tradition der Region widerspiegeln; in den Quellen zählt sie zu den größten armenischen Kirchen Anatoliens. Nach 1915 lange als Lager genutzt und verfallen, wurde das Gebäude durch eine in den 2010er Jahren begonnene Restaurierung instand gesetzt und als Kulturstätte wiedereröffnet.",
+            "en": "Rising in Sivrihisar's former Armenian quarter, the Surp Yerrortutyun (Holy Trinity) Church was, according to the sources, first built in 1650 and, after the fire of 1876, rebuilt in 1881 by the architect Mintes Panoyat during the tenure of Patriarch Nerses Varzhabedyan; the surviving structure is therefore largely a 19th-century work. Raised in local stone on a rectangular basilica plan, the church is notable for its dressed walls and dome, which reflect the region's stone-carving tradition, and the sources rank it among the largest Armenian churches in Anatolia. Long used as a storehouse and left to decay after 1915, the building was repaired through a restoration begun in the 2010s and revived as a cultural venue."
+          }
+        },
+        {
+          "id": "etiarkeoloji",
+          "coords": [
+            39.776,
+            30.521
+          ],
+          "name": {
+            "tr": "Eskişehir Eti Arkeoloji Müzesi",
+            "de": "Archäologisches Eti-Museum Eskişehir",
+            "en": "Eskişehir Eti Archaeology Museum"
+          },
+          "desc": {
+            "tr": "Eskişehir Eti Arkeoloji Müzesi'nin kökeni 1945'te kurulan bir depo müzesine dayanır; koleksiyon önce 1966'da Kurşunlu Külliyesi'ne taşınmış, ETİ Şirketler Grubu'nun katkısıyla düzenlenen bugünkü modern binasında 2011'de ziyarete açılmıştır. Neolitik dönemden Osmanlı'ya uzanan yaklaşık 22.500 eseri barındıran müze, Frig, Hitit, Roma ve Bizans dönemlerine ait buluntularıyla bölgenin katmanlı geçmişini kronolojik olarak sergiler. Dorylaion (Şarhöyük) ve antik Pessinus (Ballıhisar) gibi kazı alanlarından gelen seramikler, heykeller ve sikkeler, Eskişehir çevresinin Frig ve Midas mirasına ışık tutar. Müze, bölgenin en kapsamlı arkeoloji koleksiyonlarından birini oluşturur.",
+            "de": "Das Archäologische Eti-Museum Eskişehir geht auf ein 1945 gegründetes Depotmuseum zurück; die Sammlung wurde 1966 zunächst in den Kurşunlu-Komplex überführt und 2011 in ihrem heutigen, mit Unterstützung der ETİ-Unternehmensgruppe eingerichteten Neubau eröffnet. Mit rund 22.500 Objekten von der Jungsteinzeit bis in osmanische Zeit zeigt das Museum Funde aus phrygischer, hethitischer, römischer und byzantinischer Epoche und macht so die vielschichtige Vergangenheit der Region chronologisch anschaulich. Keramiken, Skulpturen und Münzen aus Grabungsstätten wie Dorylaion (Şarhöyük) und dem antiken Pessinus (Ballıhisar) beleuchten das phrygische und das Midas-Erbe rund um Eskişehir. Das Museum bildet eine der umfassendsten archäologischen Sammlungen der Region.",
+            "en": "The Eskişehir Eti Archaeology Museum traces its origins to a depot museum founded in 1945; the collection was first moved to the Kurşunlu complex in 1966 and opened in its present modern building, arranged with the support of the ETİ Group of Companies, in 2011. Holding some 22,500 objects spanning the Neolithic to the Ottoman era, the museum displays Phrygian, Hittite, Roman and Byzantine finds, laying out the region's layered past in chronological order. Ceramics, sculptures and coins from excavation sites such as Dorylaion (Şarhöyük) and ancient Pessinus (Ballıhisar) shed light on the Phrygian and Midas heritage around Eskişehir. The museum forms one of the most comprehensive archaeological collections in the region."
+          }
+        },
+        {
+          "id": "sivrihisaruluc",
+          "coords": [
+            39.4489,
+            31.5345
+          ],
+          "name": {
+            "tr": "Sivrihisar Ulu Camii",
+            "de": "Große Moschee (Ulu Cami) von Sivrihisar",
+            "en": "Sivrihisar Grand Mosque (Ulu Cami)"
+          },
+          "desc": {
+            "tr": "Sivrihisar Ulu Camii, kaynaklara göre 1231-1232'de Anadolu Selçuklu Sultanı I. Alâeddin Keykubad döneminde Emir Celaleddin Ali tarafından yaptırılmış, 1275'te Eminüddin Mikail'in onarımıyla bugünkü görkemine kavuşmuştur. Anadolu'nun anıtsal ahşap direkli camilerinin öne çıkan örneklerinden olan yapının düz tavanı, yeşil, kırmızı ve siyah kalem işleriyle bezeli 67 ahşap sütun üzerine oturur; sütun başlıklarının bir bölümü antik Pessinus'tan devşirmedir. 1245 tarihli ceviz ağacından oyma minberi ve 1409'da eklenen minaresiyle tanınan cami, 2023'te 'Ortaçağ Anadolu'sunun Ahşap Direkli Camileri' kapsamında UNESCO Dünya Mirası Listesi'ne alınmıştır.",
+            "de": "Die Ulu Cami von Sivrihisar wurde den Quellen zufolge 1231-1232 unter dem anatolisch-seldschukischen Sultan Alaeddin Keykubad I. von Emir Celaleddin Ali errichtet und erhielt 1275 durch die Instandsetzung des Eminüddin Mikail ihre heutige Gestalt. Als herausragendes Beispiel der monumentalen Holzsäulenmoscheen Anatoliens ruht ihre flache Decke auf 67 hölzernen Säulen, die mit grünen, roten und schwarzen Malereien verziert sind; ein Teil der Säulenkapitelle stammt als Spolien aus dem antiken Pessinus. Bekannt für ihre geschnitzte Nussholz-Minbar von 1245 und das 1409 hinzugefügte Minarett, wurde die Moschee 2023 im Rahmen der 'Hölzernen Hypostyl-Moscheen des mittelalterlichen Anatolien' in die UNESCO-Welterbeliste aufgenommen.",
+            "en": "According to the sources, the Sivrihisar Grand Mosque was built in 1231-1232 under the Anatolian Seljuk sultan Alaeddin Keykubad I by Emir Celaleddin Ali, and took its present grand form through the restoration of Eminüddin Mikail in 1275. A leading example of Anatolia's monumental wooden-columned mosques, its flat ceiling rests on 67 wooden columns decorated with green, red and black painted engravings; some of the capitals are spolia reused from ancient Pessinus. Known for its carved walnut-wood minbar of 1245 and the minaret added in 1409, the mosque was inscribed on the UNESCO World Heritage List in 2023 as part of the 'Wooden Hypostyle Mosques of Medieval Anatolia'."
           }
         }
       ]
@@ -634,6 +1144,91 @@
             "de": "Das antike Nikaia war Schauplatz zweier ökumenischer Konzile (325 und 787), seine Stadtmauern umschließen die Stadt bis heute. In osmanischer Zeit wurde es zum Zentrum der weltberühmten İznik-Keramik; seine Hagia Sophia verbindet beide Epochen.",
             "en": "Ancient Nicaea hosted two ecumenical councils (325 and 787) and its walls still encircle the town. In the Ottoman era it became the centre of the world-famous İznik tiles; its Hagia Sophia unites both eras."
           }
+        },
+        {
+          "id": "kozahan",
+          "coords": [
+            40.183,
+            29.062
+          ],
+          "name": {
+            "tr": "Koza Han",
+            "de": "Koza Han (Seidenkokon-Karawanserei)",
+            "en": "Koza Han (Silk Cocoon Han)"
+          },
+          "desc": {
+            "tr": "Koza Han, 1491'de II. Bayezid tarafından İstanbul'daki külliyesine gelir sağlamak amacıyla yaptırılan iki katlı bir Osmanlı hanıdır. Yaklaşık 46 × 38 metrelik dikdörtgen avlusunu çevreleyen revaklı galerilerde altta ve üstte toplam 101 oda yer alır. Avlunun ortasında sekiz ayak üzerine oturan ve altında şadırvanı bulunan mescit yükselir; bu, Bursa hanları içinde günümüze bütün olarak ulaşan tek mescittir. Yüzyıllar boyunca ipek ve koza ticaretinin kalbi olan han, Doğu ile Batı tüccarlarını buluşturmuş ve adını da bu koza pazarından almıştır. Bugün üst kat dükkânlarında ipek kumaş, eşarp ve el sanatları satılırken avlusu hâlâ canlı bir ipek çarşısı ve buluşma yeri olarak yaşamaktadır.",
+            "de": "Der Koza Han ist eine zweistöckige osmanische Karawanserei, die 1491 von Bayezid II. erbaut wurde, um Einnahmen für seine Stiftungsanlage in Istanbul zu erwirtschaften. Um den etwa 46 × 38 Meter großen rechteckigen Innenhof reihen sich in Arkadengalerien insgesamt 101 Kammern auf zwei Ebenen. In der Mitte des Hofes erhebt sich eine auf acht Pfeilern ruhende Moschee mit einem Brunnen darunter – die einzige Moschee, die in den Hanen Bursas vollständig erhalten blieb. Über Jahrhunderte war der Han das Herz des Seiden- und Kokonhandels, brachte östliche und westliche Kaufleute zusammen und erhielt seinen Namen von diesem Kokonmarkt. Heute verkaufen die Läden im Obergeschoss Seidenstoffe, Tücher und Kunsthandwerk, während der Hof als lebendiger Seidenbasar und Treffpunkt weiterlebt.",
+            "en": "Koza Han is a two-storey Ottoman han built in 1491 by Bayezid II to generate revenue for his mosque complex in Istanbul. Around its rectangular courtyard of roughly 46 by 38 metres, arcaded galleries hold a total of 101 rooms on two levels. At the centre of the courtyard rises a mosque resting on eight piers with a fountain beneath it, the only mosque among Bursa's hans to survive intact. For centuries the han was the heart of the silk and cocoon trade, bringing together merchants from East and West, and it took its name from this cocoon market. Today the upper-floor shops sell silk fabrics, scarves and crafts, while the courtyard still thrives as a living silk bazaar and meeting place."
+          }
+        },
+        {
+          "id": "osmanorhan",
+          "coords": [
+            40.1815,
+            29.0575
+          ],
+          "name": {
+            "tr": "Osman Gazi ve Orhan Gazi Türbeleri",
+            "de": "Mausoleen von Osman Gazi und Orhan Gazi",
+            "en": "Tombs of Osman Gazi and Orhan Gazi"
+          },
+          "desc": {
+            "tr": "Tophane'deki bu iki türbe, Osmanlı Devleti'nin kurucusu Osman Gazi ile oğlu Orhan Gazi'nin kabirlerini barındırır. Rivayete göre Osman Gazi, Bursa'yı seyrederken gördüğü gümüş kubbeli manastır şapelinin altına gömülmeyi vasiyet etmiş; şehri 1326'da fetheden Orhan Gazi babasını, \"Gümüşlü Kümbet\" adıyla anılan bu eski Bizans yapısına defnetmiştir. Manastırın bir bölümü zamanla Orhan Camii ve medresesine dönüştürülmüştür. Özgün yapı 1801'de yanmış, 1855 depreminde ağır hasar görmüş; bugünkü türbeler Sultan Abdülaziz döneminde 1863'te yeniden inşa edilmiştir. Çevresindeki park ve saat kulesiyle Tophane, kentin Osmanlı hafızasını taşıyan simgesel bir alandır ve şehir manzarasına hâkim bir teras sunar.",
+            "de": "Diese beiden Mausoleen in Tophane bergen die Gräber Osman Gazis, des Gründers des Osmanischen Reiches, und seines Sohnes Orhan Gazi. Der Überlieferung nach wünschte Osman Gazi, unter der silberkuppligen Klosterkapelle bestattet zu werden, die er beim Blick auf Bursa erspäht hatte; Orhan Gazi, der die Stadt 1326 eroberte, bettete seinen Vater in diesem alten byzantinischen Bau bei, der als \"Silberne Kuppel\" (Gümüşlü Kümbet) bekannt ist. Ein Teil des Klosters wurde später in die Orhan-Moschee und -Medrese umgewandelt. Der ursprüngliche Bau brannte 1801, wurde beim Erdbeben von 1855 schwer beschädigt; die heutigen Mausoleen entstanden 1863 unter Sultan Abdülaziz neu. Mit Park und Uhrturm ist Tophane ein symbolträchtiger Ort des osmanischen Gedächtnisses der Stadt mit weitem Blick über Bursa.",
+            "en": "These two mausoleums in Tophane hold the tombs of Osman Gazi, founder of the Ottoman state, and his son Orhan Gazi. According to tradition, Osman Gazi asked to be buried beneath the silver-domed monastery chapel he had spotted while gazing at Bursa; Orhan Gazi, who conquered the city in 1326, laid his father to rest in this former Byzantine structure known as the \"Silver Dome\" (Gümüşlü Kümbet). Part of the monastery was later converted into the Orhan Mosque and medrese. The original building burned in 1801 and was badly damaged in the 1855 earthquake; the present mausoleums were rebuilt in 1863 under Sultan Abdülaziz. With its surrounding park and clock tower, Tophane is a symbolic site of the city's Ottoman memory, offering a terrace overlooking Bursa."
+          }
+        },
+        {
+          "id": "iznikayasofya",
+          "coords": [
+            40.429,
+            29.7205
+          ],
+          "name": {
+            "tr": "İznik Ayasofya (Orhan Camii)",
+            "de": "Hagia Sophia von İznik (Orhan-Moschee)",
+            "en": "İznik Hagia Sophia (Orhan Mosque)"
+          },
+          "desc": {
+            "tr": "İznik'in tam merkezinde yükselen yapı, temelleri 5.-6. yüzyıllara uzanan üç nefli bir Bizans bazilikasıdır. 787'de toplanan ve ikona tartışmalarını (İkonoklazm) karara bağlayan Yedinci Ekümenik Konsil bu kilisede gerçekleşmiş, böylece yapı Hristiyanlık tarihinde özel bir yer edinmiştir; İznik (Nikaia) ayrıca 325'teki İlk Konsil'in toplandığı kenttir. Orhan Gazi 1331'de İznik'i fethedince kiliseyi camiye çevirmiş, yapı 19. yüzyıla dek Orhan Camii olarak anılmıştır. Kanuni döneminde Mimar Sinan tarafından onarıldığı belirtilir. İçeride opus sectile döşeme ile mozaik ve fresk izleri korunur. Uzun süre müze olarak kullanılan yapı, 2011'de yeniden ibadete açılmıştır.",
+            "de": "Das Bauwerk im Zentrum von İznik ist eine dreischiffige byzantinische Basilika, deren Fundamente bis ins 5.–6. Jahrhundert zurückreichen. Das Siebte Ökumenische Konzil von 787, das den Bilderstreit (Ikonoklasmus) entschied, tagte in dieser Kirche und verlieh ihr damit einen besonderen Platz in der Geschichte des Christentums; İznik (Nikaia) war zudem die Stadt des Ersten Konzils von 325. Als Orhan Gazi İznik 1331 eroberte, wandelte er die Kirche in eine Moschee um, und der Bau hieß bis ins 19. Jahrhundert Orhan-Moschee. Überliefert ist eine Instandsetzung durch den Baumeister Sinan unter Süleyman dem Prächtigen. Im Inneren sind ein Opus-sectile-Boden sowie Spuren von Mosaiken und Fresken erhalten. Lange als Museum genutzt, wurde das Gebäude 2011 wieder für den Gottesdienst geöffnet.",
+            "en": "Standing at the very heart of İznik, the building is a three-aisled Byzantine basilica whose foundations reach back to the 5th–6th centuries. The Seventh Ecumenical Council of 787, which settled the dispute over icons (Iconoclasm), was held in this church, giving it a special place in the history of Christianity; İznik (Nicaea) was also the city of the First Council of 325. When Orhan Gazi conquered İznik in 1331 he converted the church into a mosque, and the structure was known as the Orhan Mosque until the 19th century. It is recorded as having been repaired by the architect Sinan under Süleyman the Magnificent. Inside, an opus sectile floor and traces of mosaics and frescoes survive. Long used as a museum, the building was reopened for worship in 2011."
+          }
+        },
+        {
+          "id": "izniksur",
+          "coords": [
+            40.4285,
+            29.716
+          ],
+          "name": {
+            "tr": "İznik Surları",
+            "de": "Stadtmauern von İznik",
+            "en": "Walls of İznik"
+          },
+          "desc": {
+            "tr": "İznik'i beş kenarlı bir çokgen halinde kuşatan surların temeli Bithynia döneminde (MÖ 4. yüzyıl) atılmış, Roma ve Bizans dönemlerindeki eklerle bugünkü görkemli halini almıştır. Yaklaşık 5 kilometre (4.970 metre) uzunluğundaki savunma hattı, yüksekliği 10-13 metre arasında değişen duvarlar ve 114 kuleyle desteklenir. Kenti dört ana kapı dışarıya bağlar: kuzeyde İstanbul, doğuda Lefke, güneyde Yenişehir ve batıda göle açılan Göl Kapısı. Anıtsal İstanbul ve Lefke kapıları, üç ayrı geçitli yapılarıyla dönemin askeri mimarisini bugüne taşır. Surlar, İznik'in Roma-Bizans çağındaki stratejik önemini ve başkent düzeyindeki savunma gücünü gözler önüne serer.",
+            "de": "Die Fundamente der Mauern, die İznik in Form eines fünfeckigen Polygons umschließen, wurden in der bithynischen Zeit (4. Jahrhundert v. Chr.) gelegt und erhielten durch Ergänzungen der römischen und byzantinischen Epoche ihre heutige monumentale Gestalt. Die rund 5 Kilometer (4.970 Meter) lange Verteidigungslinie wird von 10 bis 13 Meter hohen Mauern und 114 Türmen getragen. Vier Haupttore verbinden die Stadt mit dem Umland: im Norden das Istanbul-Tor, im Osten das Lefke-Tor, im Süden das Yenişehir-Tor und im Westen das zum See führende Göl-Tor. Die monumentalen Tore von Istanbul und Lefke mit ihren drei getrennten Durchgängen zeugen bis heute von der Militärarchitektur der Zeit. Die Mauern verdeutlichen die strategische Bedeutung İzniks in römisch-byzantinischer Zeit.",
+            "en": "The foundations of the walls that enclose İznik in a five-sided polygon were laid in the Bithynian period (4th century BC) and took their present monumental form through additions in Roman and Byzantine times. The defensive line of roughly 5 kilometres (4,970 metres) is reinforced by walls varying between 10 and 13 metres in height and 114 towers. Four main gates connect the city to the outside: the Istanbul Gate to the north, the Lefke Gate to the east, the Yenişehir Gate to the south, and the Göl (Lake) Gate opening to the lake in the west. The monumental Istanbul and Lefke gates, with their three separate passages, still convey the military architecture of the era. The walls reveal İznik's strategic importance in the Roman–Byzantine age."
+          }
+        },
+        {
+          "id": "niluferhatun",
+          "coords": [
+            40.4295,
+            29.7215
+          ],
+          "name": {
+            "tr": "İznik Nilüfer Hatun İmareti (İznik Müzesi)",
+            "de": "Nilüfer-Hatun-Imaret (İznik-Museum)",
+            "en": "Nilüfer Hatun Imaret (İznik Museum)"
+          },
+          "desc": {
+            "tr": "Yapı, 1388'de I. Murad tarafından annesi Nilüfer Hatun adına imaret olarak Lefke Kapısı yakınında yaptırılmıştır. Erken Osmanlı mimarisinin karakteristik ters T (zaviyeli/tabhaneli) planında kurgulanan imaret, ortadaki sofayı çevreleyen yan mekânlar ve mescit bölümünden oluşur; duvarlarında üç sıra tuğla ile bir sıra taşın almaşık örgüsü ve çeşitli tuğla bezemeler dikkat çeker. Erken Osmanlı tarihinin saygın bir figürü olan Nilüfer Hatun, bu vakıf esere adını vermiştir. 1955'te kapsamlı onarım gören yapı bugün İznik Müzesi olarak hizmet verir ve yörenin arkeolojik buluntularıyla dünyaca ünlü İznik çinilerinden örnekleri ziyaretçiyle buluşturur.",
+            "de": "Das Gebäude wurde 1388 von Sultan Murad I. zu Ehren seiner Mutter Nilüfer Hatun als Armenküche (Imaret) nahe dem Lefke-Tor errichtet. In dem für die frühosmanische Architektur typischen umgekehrten T-Grundriss (Zawiya- bzw. Tabhane-Typ) gruppieren sich Seitenräume und ein Gebetsteil um einen zentralen Saal; an den Mauern fallen das Wechselmauerwerk aus drei Ziegel- und einer Steinreihe sowie verschiedene Ziegelornamente auf. Nilüfer Hatun, eine geachtete Gestalt der frühosmanischen Geschichte, gab dem Stiftungsbau ihren Namen. 1955 umfassend restauriert, dient das Gebäude heute als İznik-Museum und zeigt archäologische Funde der Region sowie Beispiele der weltberühmten İznik-Fliesen.",
+            "en": "The building was erected in 1388 by Sultan Murad I in honour of his mother Nilüfer Hatun as an imaret (public kitchen) near the Lefke Gate. Laid out on the inverted-T (zaviye/tabhane) plan characteristic of early Ottoman architecture, it consists of side rooms and a prayer section grouped around a central hall; its walls are notable for their alternating masonry of three brick courses and one stone course, along with varied brick ornament. Nilüfer Hatun, a respected figure of early Ottoman history, gave her name to this endowed building. Comprehensively restored in 1955, it now serves as the İznik Museum, presenting the region's archaeological finds together with examples of the world-famous İznik tiles."
+          }
         }
       ]
     },
@@ -677,6 +1272,74 @@
             "tr": "1488 tarihli külliyenin darüşşifası, hastaların su sesi ve müzikle tedavi edildiği bölümleriyle ünlüdür; bugün Sağlık Müzesi'dir. Osmanlı tıp ve vakıf anlayışının en dokunaklı anıtıdır.",
             "de": "Das Hospital des Komplexes von 1488 ist berühmt für die Behandlung der Kranken mit Wassergeräuschen und Musik; heute Gesundheitsmuseum. Das berührendste Denkmal osmanischer Medizin- und Stiftungskultur.",
             "en": "The hospital of this 1488 complex is famous for treating patients with the sound of water and music; today it is a Health Museum. The most touching monument of Ottoman medicine and charitable foundations."
+          }
+        },
+        {
+          "id": "sinagog",
+          "coords": [
+            41.6772,
+            26.549
+          ],
+          "name": {
+            "tr": "Edirne Büyük Sinagogu",
+            "de": "Große Synagoge von Edirne",
+            "en": "Great Synagogue of Edirne"
+          },
+          "desc": {
+            "tr": "Edirne'nin Sefarad Yahudi cemaati için yükselen bu görkemli mabet, 1905 yangınında yanan on üç küçük sinagogun tek çatı altında birleştirilmesi amacıyla inşa edildi. İnşaat fermanı 1906'da alındı; Paris'ten getirtilen mimar France Depré tarafından, Viyana'daki Leopoldstadt Tapınağı esin alınarak bazilika planında tasarlanan yapı, 1909 ilkbaharında Hamursuz Bayramı arifesinde ibadete açıldı. Yaklaşık 900 erkek ve 300 kadın kapasitesiyle Türkiye'nin en büyük, Avrupa'nın önde gelen sinagoglarından sayılır. Davut yıldızı motifleri, giriş kuleleri ve galeri katındaki kaset tavan süslemeleriyle dikkat çeker. Uzun yılların terkinden sonra 2015'te restore edilerek ibadete ve ziyarete yeniden açıldı.",
+            "de": "Dieses prachtvolle Gotteshaus der sephardischen jüdischen Gemeinde von Edirne entstand, um dreizehn kleine Synagogen zusammenzuführen, die beim Brand von 1905 zerstört worden waren. Der Baubefehl erging 1906; der aus Paris berufene Architekt France Depré entwarf den Bau nach dem Vorbild des Wiener Leopoldstädter Tempels als Basilika, und im Frühjahr 1909 wurde er am Vorabend des Pessachfests eingeweiht. Mit Platz für etwa 900 Männer und 300 Frauen gilt sie als größte Synagoge der Türkei und eine der bedeutendsten Europas. Davidsterne, Eingangstürme und die Kassettendecken der Galerie prägen ihr Bild. Nach langem Verfall wurde sie 2015 restauriert und wieder für Gottesdienst und Besuch geöffnet.",
+            "en": "This magnificent house of worship for Edirne's Sephardic Jewish community was built to unite thirteen small synagogues destroyed in the 1905 fire under a single roof. The construction decree came in 1906; the Paris-trained architect France Depré designed it on a basilica plan inspired by Vienna's Leopoldstadt Temple, and it opened for worship in spring 1909 on the eve of Passover. With room for roughly 900 men and 300 women, it ranks as Turkey's largest synagogue and among Europe's foremost. Stars of David, entrance towers and the coffered ceilings of its gallery stand out. After long abandonment, it was restored in 2015 and reopened to worship and visitors."
+          }
+        },
+        {
+          "id": "karaagac",
+          "coords": [
+            41.656,
+            26.533
+          ],
+          "name": {
+            "tr": "Karaağaç Tren İstasyonu ve Lozan Anıtı",
+            "de": "Bahnhof Karaağaç und Lausanne-Denkmal",
+            "en": "Karaağaç Railway Station and Lausanne Monument"
+          },
+          "desc": {
+            "tr": "Meriç'in batı kıyısındaki Karaağaç semti, 1923 Lozan Antlaşması'yla savaş tazminatı olarak Türkiye'ye bırakılmasıyla ayrı bir anlam kazandı. Şark Demiryolları döneminden kalan zarif taş gar binası 1971'e dek istasyon olarak hizmet verdi; ardından Trakya Üniversitesi'ne devredilerek bugün rektörlük ve güzel sanatlar birimlerini barındırır. Yakınında yükselen Lozan Anıtı, Trakya Üniversitesi'nin girişimiyle 29 Mart 1998'de temeli atılıp, Cumhurbaşkanı Süleyman Demirel tarafından 19 Temmuz 1998'de açıldı. Farklı yüksekliklerdeki üç eğik sütun Anadolu, Trakya ve Karaağaç'ı, birleştiren halka ise birliği simgeler; barışı temsil eden güvercinli kadın figürü tamamlar. Semt, büyük bahçeli köşkleriyle dönemin dokusunu korur.",
+            "de": "Das Viertel Karaağaç am Westufer der Maritsa erhielt besondere Bedeutung, als es durch den Vertrag von Lausanne 1923 als Kriegsentschädigung an die Türkei fiel. Das elegante steinerne Bahnhofsgebäude aus der Zeit der Orientbahnen diente bis 1971 als Station; danach ging es an die Trakya-Universität über und beherbergt heute das Rektorat und Kunstfakultäten. Das nahe Lausanne-Denkmal wurde auf Betreiben der Universität am 29. März 1998 gegründet und von Präsident Süleyman Demirel am 19. Juli 1998 eingeweiht. Drei geneigte Säulen unterschiedlicher Höhe stehen für Anatolien, Thrakien und Karaağaç, der verbindende Ring für die Einheit; eine Frauenfigur mit Friedenstaube vollendet das Werk. Das Viertel bewahrt mit seinen Herrenhäusern das Gepräge der Epoche.",
+            "en": "The Karaağaç quarter on the west bank of the Maritsa gained special meaning when it was ceded to Turkey as war indemnity under the 1923 Treaty of Lausanne. The elegant stone station building from the Oriental Railways era served as a station until 1971; it then passed to Trakya University and today houses the rectorate and fine-arts departments. The nearby Lausanne Monument, initiated by the university, was founded on 29 March 1998 and inaugurated by President Süleyman Demirel on 19 July 1998. Three leaning columns of differing heights represent Anatolia, Thrace and Karaağaç, while a connecting ring symbolises unity; a female figure holding a dove of peace completes it. The quarter preserves the character of its era through mansions set in large gardens."
+          }
+        },
+        {
+          "id": "kopruler",
+          "coords": [
+            41.67,
+            26.54
+          ],
+          "name": {
+            "tr": "Meriç ve Tunca Köprüleri",
+            "de": "Brücken über Maritsa und Tundscha",
+            "en": "Maritsa and Tundzha Bridges"
+          },
+          "desc": {
+            "tr": "Meriç ve Tunca nehirlerinin kuşattığı Edirne, on üçe yakın tarihî taş köprüsüyle adeta bir köprüler şehridir. En görkemlisi, Meriç üzerindeki Mecidiye (Meriç) Köprüsü'dür: Sultan Abdülmecid döneminde 1842-1847 arasında kesme taştan inşa edilen köprü 261 metre uzunluğunda, on iki gözlüdür; mermer seyir köşkü, çift ejder ve ay-yıldız kabartmaları gibi süslemeleriyle öne çıkar. Tunca üzerindeki köprüler ise Osmanlı'nın erken ve klasik dönemlerine uzanır: 1420 tarihli, on altı gözlü Gazi Mihal Köprüsü; 1451 tarihli Saraçhane ile 1452 tarihli Fatih köprüleri; Mimar Sedefkâr Mehmed Ağa'ya atfedilen, 1607-1615 arası yapılan on gözlü Tunca Köprüsü. Zarif kemerleriyle bu köprüler yüzyıllardır kentin siluetini belirler.",
+            "de": "Von Maritsa und Tundscha umschlossen, ist Edirne mit rund dreizehn historischen Steinbrücken geradezu eine Stadt der Brücken. Die prächtigste ist die Mecidiye-(Maritsa-)Brücke: Unter Sultan Abdülmecid zwischen 1842 und 1847 aus Quaderstein errichtet, ist sie 261 Meter lang und hat zwölf Bögen; ein marmorner Aussichtspavillon sowie Reliefs mit Doppeldrachen und Mondsichel-Stern zeichnen sie aus. Die Brücken über die Tundscha reichen in die frühe und klassische osmanische Zeit zurück: die sechzehnbogige Gazi-Mihal-Brücke von 1420, die Saraçhane-Brücke von 1451 und die Fatih-Brücke von 1452 sowie die dem Baumeister Sedefkâr Mehmed Ağa zugeschriebene, zwischen 1607 und 1615 erbaute zehnbogige Tundscha-Brücke. Mit ihren anmutigen Bögen prägen sie seit Jahrhunderten die Silhouette der Stadt.",
+            "en": "Encircled by the Maritsa and Tundzha rivers, Edirne is virtually a city of bridges, with close to thirteen historic stone crossings. The grandest is the Mecidiye (Maritsa) Bridge: built of cut stone under Sultan Abdülmecid between 1842 and 1847, it is 261 metres long with twelve arches, distinguished by a marble viewing pavilion and reliefs of paired dragons and the crescent-and-star. The bridges over the Tundzha reach back to the early and classical Ottoman periods: the sixteen-arch Gazi Mihal Bridge of 1420; the Saraçhane Bridge of 1451 and the Fatih Bridge of 1452; and the ten-arch Tundzha Bridge, attributed to the master builder Sedefkâr Mehmed Ağa and built between 1607 and 1615. With their graceful arches, these bridges have defined the city's skyline for centuries."
+          }
+        },
+        {
+          "id": "turkislamedirne",
+          "coords": [
+            41.678,
+            26.5588
+          ],
+          "name": {
+            "tr": "Edirne Türk İslam Eserleri Müzesi",
+            "de": "Museum für Türkisch-Islamische Kunst Edirne",
+            "en": "Edirne Museum of Turkish and Islamic Arts"
+          },
+          "desc": {
+            "tr": "Mimar Sinan'ın başyapıtı Selimiye Külliyesi'nin Darülhadis Medresesi'nde yer alan müze, avlulu revaklı yapısıyla eserlere zarif bir çerçeve sunar. 1924'te Dr. Rıfat Osman öncülüğünde etnografik ve mezar taşı koleksiyonuyla kurulan müze, 1971'de yeni arkeoloji müzesi açılınca bugünkü adını aldı. Koleksiyonunda Edirne evlerinden derlenmiş ahşap tavan göbekleri, çivi ve tutkal kullanılmayan kündekâri kapı kanatları, Edirnekârî bezeme örnekleri ve hat levhaları sergilenir. Bab-ı Saadet'ten getirilen Osmanlı arması, tören kalkanları, kılıç ve miğferler ile Balkan Savaşı'ndan toplar ve gülleler öne çıkar; 15. ve 19. yüzyıla ait Kur'an nüshaları ve ney, rebap gibi çalgılar da müzeyi zenginleştirir.",
+            "de": "Untergebracht in der Darülhadis-Medrese des von Mimar Sinan geschaffenen Selimiye-Komplexes, bietet das Museum mit seinem Hof und den Arkaden einen anmutigen Rahmen für die Sammlung. 1924 unter der Leitung von Dr. Rıfat Osman mit ethnografischen Stücken und Grabsteinen gegründet, erhielt es 1971 mit der Eröffnung des neuen Archäologiemuseums seinen heutigen Namen. Gezeigt werden aus Edirner Häusern geborgene hölzerne Deckenrosetten, Türflügel in nagel- und leimloser Kündekâri-Technik, Beispiele der Edirnekârı-Verzierung und Kalligrafietafeln. Hervor stechen das osmanische Wappen vom Tor Bab-ı Saadet, Zeremonienschilde, Schwerter und Helme sowie Kanonen und Kugeln aus dem Balkankrieg; auch Korane des 15. und 19. Jahrhunderts und Instrumente wie Ney und Rebab bereichern die Sammlung.",
+            "en": "Housed in the Darülhadis Madrasa of the Selimiye complex, Mimar Sinan's masterpiece, the museum offers an elegant setting with its courtyard and arcaded porch. Founded in 1924 under Dr. Rıfat Osman with ethnographic pieces and tombstones, it took its present name in 1971 when the new archaeology museum opened. Its collection displays wooden ceiling rosettes salvaged from Edirne houses, door wings crafted in the nail- and glue-free kündekâri technique, examples of Edirnekârî ornament and calligraphy panels. Highlights include the Ottoman coat of arms from the Bab-ı Saadet gate, ceremonial shields, swords and helmets, and cannons and cannonballs from the Balkan War; Korans from the 15th and 19th centuries and instruments such as the ney and rebab further enrich it."
           }
         }
       ]
@@ -738,6 +1401,91 @@
             "tr": "1915 Çanakkale Savaşları'nın cephesi Gelibolu, Conkbayırı'ndan Anzak Koyu'na şehitlikler ve anıtlarla kaplı bir hafıza coğrafyasıdır. Yarım milyonu aşan kayıp, burayı Türkiye, Avustralya ve Yeni Zelanda için ortak yas ve saygı alanı yapar.",
             "de": "Gallipoli, Front der Schlachten von 1915, ist von Conkbayırı bis zur Anzac-Bucht eine Erinnerungslandschaft aus Soldatenfriedhöfen und Denkmälern. Über eine halbe Million Opfer machen den Ort zu einem gemeinsamen Trauer- und Gedenkraum für die Türkei, Australien und Neuseeland.",
             "en": "Gallipoli, front of the 1915 campaign, is a landscape of memory from Chunuk Bair to Anzac Cove, covered with cemeteries and memorials. Over half a million casualties make it a shared space of mourning for Türkiye, Australia and New Zealand."
+          }
+        },
+        {
+          "id": "sehitlerabide",
+          "coords": [
+            40.047,
+            26.22
+          ],
+          "name": {
+            "tr": "Çanakkale Şehitler Abidesi",
+            "de": "Märtyrerdenkmal von Çanakkale",
+            "en": "Çanakkale Martyrs' Memorial"
+          },
+          "desc": {
+            "tr": "Gelibolu Yarımadası'nın güney ucunda, Morto Koyu'na bakan Hisarlıkbaba Tepesi'nde yükselen anıt, 1915 Çanakkale Savaşı'nda şehit düşen yaklaşık 253.000 Mehmetçiğin anısına yapılmıştır. Doğan Erginbaş, İsmail Utkular ve Feridun Kip'in tasarladığı dört ayaklı zafer takı biçimindeki yapının temeli 17 Nisan 1954'te atılmış, inşaat büyük ölçüde halkın bağışlarıyla sürdürülmüş ve anıt 21 Ağustos 1960'ta açılmıştır. Tabandan tepesine 41,70 metre yüksekliğindeki granit kaplı abide, her biri 7,5 metre genişliğindeki dört sütunu ve altındaki müze ve şehitlikle Tarihi Alan'ın simgesi sayılır.",
+            "de": "Am Südende der Halbinsel Gallipoli, auf dem Hügel Hisarlıkbaba mit Blick auf die Morto-Bucht, erhebt sich dieses Denkmal zum Gedenken an die rund 253.000 osmanischen Soldaten, die 1915 in der Schlacht von Çanakkale fielen. Das von Doğan Erginbaş, İsmail Utkular und Feridun Kip entworfene Bauwerk in Form eines vierbeinigen Triumphbogens wurde am 17. April 1954 gegründet, weitgehend durch Spenden der Bevölkerung errichtet und am 21. August 1960 eingeweiht. Das granitverkleidete Monument ist von der Basis bis zur Spitze 41,70 Meter hoch, ruht auf vier je 7,5 Meter breiten Pfeilern und gilt mit dem darunterliegenden Museum und Friedhof als Wahrzeichen der Gedenkstätte.",
+            "en": "Rising on Hisarlıkbaba Hill at the southern tip of the Gallipoli Peninsula, overlooking Morto Bay, this monument honours the roughly 253,000 Ottoman soldiers who fell in the 1915 Battle of Çanakkale. Designed by Doğan Erginbaş, İsmail Utkular and Feridun Kip in the shape of a four-legged triumphal arch, its foundation was laid on 17 April 1954, its construction sustained largely by public donations, and it was inaugurated on 21 August 1960. Standing 41.70 metres from base to summit and clad in granite, the memorial rests on four pillars each 7.5 metres wide and, together with the museum and cemetery beneath it, is regarded as the emblem of the Historic Site."
+          }
+        },
+        {
+          "id": "conkbayiri",
+          "coords": [
+            40.244,
+            26.316
+          ],
+          "name": {
+            "tr": "Conk Bayırı ve 57. Alay",
+            "de": "Chunuk Bair und das 57. Regiment",
+            "en": "Chunuk Bair and the 57th Regiment"
+          },
+          "desc": {
+            "tr": "Anafartalar cephesinin sırtlarında yer alan Conk Bayırı, Çanakkale kara savaşlarının kaderini belirleyen yükseltilerden biridir. 25 Nisan 1915 sabahı Anzak çıkarmasıyla karşılaşan Yarbay Mustafa Kemal, 57. Piyade Alayı'na atfedilen ünlü emri verdi: \"Ben size taarruzu emretmiyorum, ölmeyi emrediyorum.\" Büyük kısmı bu çarpışmalarda erimiş kabul edilen alayın anısına 1992'de açılan 57. Alay Şehitliği, Selçuklu esintili anıtı ve şehit adlarını taşıyan panolarıyla bilinir. Ağustos 1915'te Yeni Zelanda birliklerinin kısa süre tuttuğu tepede bugün Atatürk heykeli ile Yeni Zelanda Ulusal Anıtı yan yana durur.",
+            "de": "Auf den Höhenzügen der Anafarta-Front gelegen, war Chunuk Bair einer der Hügel, die den Ausgang der Landschlachten von Gallipoli bestimmten. Als Oberstleutnant Mustafa Kemal am Morgen des 25. April 1915 der Anzac-Landung begegnete, erteilte er dem 57. Infanterieregiment seinen berühmten Befehl: „Ich befehle euch nicht anzugreifen, ich befehle euch zu sterben.\" Zum Gedenken an das Regiment, das in diesen Kämpfen weitgehend aufgerieben wurde, wurde 1992 der Friedhof des 57. Regiments eröffnet, bekannt für sein seldschukisch inspiriertes Denkmal und die Namenstafeln der Gefallenen. Auf der Höhe, die neuseeländische Truppen im August 1915 kurz hielten, stehen heute eine Atatürk-Statue und das neuseeländische Nationaldenkmal nebeneinander.",
+            "en": "Set on the ridges of the Anafarta front, Chunuk Bair was one of the heights that decided the fate of the Gallipoli land campaign. Facing the Anzac landing on the morning of 25 April 1915, Lieutenant Colonel Mustafa Kemal gave the famous order attributed to the 57th Infantry Regiment: \"I am not ordering you to attack, I am ordering you to die.\" Opened in 1992 in memory of the regiment, largely destroyed in these battles, the 57th Regiment Cemetery is known for its Seljuk-inspired monument and the panels bearing the fallen soldiers' names. On the summit briefly held by New Zealand troops in August 1915, a statue of Atatürk and the New Zealand National Memorial now stand side by side."
+          }
+        },
+        {
+          "id": "lonepine",
+          "coords": [
+            40.234,
+            26.287
+          ],
+          "name": {
+            "tr": "Lone Pine (Kanlısırt)",
+            "de": "Lone Pine (Kanlısırt)",
+            "en": "Lone Pine (Kanlısırt)"
+          },
+          "desc": {
+            "tr": "Türkçe adıyla Kanlısırt olarak anılan Lone Pine, Gelibolu'nun en kanlı çarpışmalarından birine sahne oldu. 6-9 Ağustos 1915 arasında Avustralya birlikleri, dar bir plato üzerindeki Osmanlı siperlerine saldırdı; üç günlük göğüs göğüse savaşta binlerce asker öldü ya da yaralandı ve çatışma sırasında yedi Victoria Cross madalyası verildi. Mevkiye adını, çıkarma sırasında burada tek başına duran, kısa sürede top ateşiyle yok olan bir çam ağacı verdi. Bugün ele geçirilen Osmanlı siperleri üzerine kurulan mezarlık ve anıt, adı bilinen ve mezarı bulunmayan yaklaşık 4.900 Anzak askerini anar; Lone Pine, Avustralya'nın Çanakkale anmalarının başlıca merkezidir.",
+            "de": "Unter seinem türkischen Namen Kanlısırt bekannt, war Lone Pine Schauplatz einer der blutigsten Kämpfe von Gallipoli. Vom 6. bis 9. August 1915 stürmten australische Truppen die osmanischen Schützengräben auf einem schmalen Plateau; im dreitägigen Nahkampf wurden Tausende getötet oder verwundet, und sieben Victoria-Cross-Medaillen wurden verliehen. Den Namen erhielt der Ort von einer einzelnen Kiefer, die bei der Landung dort stand und bald durch Artilleriefeuer zerstört wurde. Der auf den eroberten osmanischen Gräben angelegte Friedhof und das Denkmal gedenken heute rund 4.900 Anzac-Soldaten, deren Namen bekannt sind, deren Gräber aber unbekannt bleiben; Lone Pine ist der zentrale Ort australischer Gallipoli-Gedenkfeiern.",
+            "en": "Known by its Turkish name Kanlısırt, Lone Pine was the scene of one of Gallipoli's bloodiest actions. Between 6 and 9 August 1915, Australian forces assaulted the Ottoman trenches on a narrow plateau; in three days of hand-to-hand fighting thousands were killed or wounded, and seven Victoria Crosses were awarded. The site took its name from a single pine that stood here at the landing and was soon destroyed by artillery fire. Laid out over the captured Ottoman trenches, the cemetery and memorial today commemorate roughly 4,900 Anzac soldiers whose names are known but whose graves are unknown; Lone Pine is the principal focus of Australia's Gallipoli commemorations."
+          }
+        },
+        {
+          "id": "kilitbahir",
+          "coords": [
+            40.15,
+            26.376
+          ],
+          "name": {
+            "tr": "Kilitbahir Kalesi",
+            "de": "Festung Kilitbahir",
+            "en": "Kilitbahir Castle"
+          },
+          "desc": {
+            "tr": "Çanakkale Boğazı'nın en dar yerinde, Rumeli kıyısında yükselen Kilitbahir Kalesi, Fatih Sultan Mehmed tarafından boğaz geçişini denetim altına almak için yaptırıldı. Tarihçi Kritovulos'a göre inşasına 1463'te başlanmış ve yaklaşık 1465'te tamamlanmıştır; adı \"denizi kilitleyen\" anlamına gelir. Anadolu yakasındaki Kale-i Sultaniye (Çimenlik Kalesi) ile karşılıklı kurulan kale, boğazı iki koldan kapatan bir kilit oluşturur. En özgün yanı, ortada yaklaşık 30 metrelik bir kule çevresinde gelişen üç yapraklı yonca planlı iç kaledir. Kanuni Sultan Süleyman döneminde 1541'de genişletilen yapı, sonraki yüzyıllarda da savunma işlevini korumuştur.",
+            "de": "An der engsten Stelle der Dardanellen, am rumelischen Ufer, erhebt sich die Festung Kilitbahir, die Sultan Mehmed II. errichten ließ, um die Durchfahrt der Meerenge zu kontrollieren. Nach dem Chronisten Kritobulos begann der Bau 1463 und wurde um 1465 vollendet; der Name bedeutet „das Meer verriegelnd\". Zusammen mit der gegenüberliegenden Festung Kale-i Sultaniye (Çimenlik) auf der anatolischen Seite bildet sie ein Schloss, das die Meerenge von zwei Seiten sperrt. Ihr eigentümlichstes Merkmal ist die innere Burg mit kleeblattförmigem Grundriss, die sich um einen etwa 30 Meter hohen zentralen Turm entfaltet. Unter Süleyman dem Prächtigen wurde die Anlage 1541 erweitert und behielt in den folgenden Jahrhunderten ihre Verteidigungsfunktion.",
+            "en": "At the narrowest point of the Dardanelles, on the Rumelian shore, rises Kilitbahir Castle, built by Sultan Mehmed the Conqueror to control passage through the strait. According to the chronicler Kritovoulos, construction began in 1463 and was completed around 1465; its name means \"locking the sea.\" Paired with the fortress of Kale-i Sultaniye (Çimenlik) on the Anatolian side, it forms a lock that seals the strait from both banks. Its most distinctive feature is the trefoil, clover-leaf-shaped inner keep unfolding around a central tower some 30 metres tall. Expanded under Süleyman the Magnificent in 1541, the structure retained its defensive role in later centuries."
+          }
+        },
+        {
+          "id": "troyamuze",
+          "coords": [
+            39.956,
+            26.239
+          ],
+          "name": {
+            "tr": "Troya Müzesi",
+            "de": "Troja-Museum",
+            "en": "Troy Museum"
+          },
+          "desc": {
+            "tr": "Antik Troya ören yerinin hemen yakınında, Tevfikiye köyü yanında yükselen Troya Müzesi, 10 Eylül 2018'de ziyarete açıldı. Ömer Selçuk Baz yönetimindeki Yalın Mimarlık'ın tasarladığı yapı, topraktan çıkarılmış bir buluntuyu çağrıştıran kübik kütlesi ve pas rengi korten çelik cephesiyle dikkat çeker; dört katlı ve büyük bölümü zemine gömülü müzede iç rampalar katları birbirine bağlar. Sergiler, Troya'nın dokuz yerleşim katmanını, Tunç Çağı'ndan Osmanlı dönemine uzanan buluntuları, altın takıları ve savaş temalarını izleyiciye aktarır; Troya efsanesi ve tahta at anlatımın merkezindedir. Müze, 1998'de UNESCO Dünya Mirası Listesi'ne alınan Troya arkeolojik alanının çağdaş kapısı sayılır.",
+            "de": "Unweit der antiken Ausgrabungsstätte Troja, beim Dorf Tevfikiye, erhebt sich das Troja-Museum, das am 10. September 2018 eröffnet wurde. Der von Yalın Mimarlık unter Ömer Selçuk Baz entworfene Bau besticht durch seinen kubischen, an ein ausgegrabenes Fundstück erinnernden Körper und seine rostfarbene Corten-Stahl-Fassade; im vierstöckigen, größtenteils in den Boden eingelassenen Museum verbinden innere Rampen die Ebenen. Die Ausstellungen vermitteln die neun Siedlungsschichten Trojas, Funde von der Bronzezeit bis zur osmanischen Epoche, Goldschmuck und Kriegsthemen; die Troja-Sage und das hölzerne Pferd stehen im Mittelpunkt der Erzählung. Das Museum gilt als zeitgenössisches Tor zur archäologischen Stätte von Troja, die 1998 in die UNESCO-Welterbeliste aufgenommen wurde.",
+            "en": "Rising close to the ancient site of Troy, near the village of Tevfikiye, the Troy Museum opened to visitors on 10 September 2018. Designed by Yalın Mimarlık under Ömer Selçuk Baz, the building is notable for its cubic mass, evoking an unearthed artefact, and its rust-coloured corten-steel façade; in the four-storey museum, largely sunk into the ground, internal ramps connect the levels. The exhibitions convey Troy's nine settlement layers, finds ranging from the Bronze Age to the Ottoman period, gold jewellery and the themes of war, with the legend of Troy and the wooden horse at the heart of the narrative. The museum is considered the contemporary gateway to the archaeological site of Troy, inscribed on the UNESCO World Heritage List in 1998."
           }
         }
       ]
@@ -919,6 +1667,108 @@
             "tr": "Toros Dağları'nın derin vadilerinde, Köprülü Kanyon'un yukarısında kurulan Selge, Pisidya'nın yüksek bir dağ kentidir. Çevresini saran sarp kayalıklar kente doğal bir kale görünümü kazandırır; bugün hâlâ ayakta olan tiyatrosu ve agorası, köyün taş evleriyle iç içe geçmiştir. Selge'ye giden yolda Köprüçay'ın üzerinden atlayan Roma dönemine ait Oluk ve Bögrüm köprüleri, iki bin yıldır ayakta durarak antik mühendisliğe tanıklık eder. Kentin ayağındaki Beşkonak ve Köprülü Kanyon Milli Parkı ise buz gibi akan Köprüçay'da rafting ile ünlüdür. Selge, tarih, kanyon ve dağ doğasının aynı rotada birleştiği ender bir noktadır.",
             "de": "In den tiefen Tälern des Taurusgebirges, oberhalb des Köprülü-Canyons, liegt Selge, eine hoch gelegene pisidische Bergstadt. Die umgebenden schroffen Felsen verleihen ihr das Aussehen einer natürlichen Festung; das noch erhaltene Theater und die Agora verschmelzen mit den Steinhäusern des heutigen Dorfes. Auf dem Weg nach Selge bezeugen die römischen Oluk- und Bögrüm-Brücken, die den Fluss Köprüçay überspannen, seit zweitausend Jahren antike Ingenieurskunst. Am Fuß der Stadt sind Beşkonak und der Köprülü-Canyon-Nationalpark für das Rafting auf dem eiskalten Köprüçay berühmt. Selge vereint Geschichte, Schlucht und Bergnatur auf einer Route.",
             "en": "In the deep valleys of the Taurus Mountains, above the Köprülü Canyon, lies Selge, a high mountain city of Pisidia. The sheer cliffs around it give the city the look of a natural fortress; its still-standing theatre and agora merge with the stone houses of today's village. On the road to Selge, the Roman Oluk and Bögrüm bridges spanning the Köprüçay river have stood for two thousand years, bearing witness to ancient engineering. At the foot of the city, Beşkonak and the Köprülü Canyon National Park are famous for rafting on the icy Köprüçay. Selge is a rare place where history, canyon and mountain nature meet on one route."
+          }
+        },
+        {
+          "id": "damlatas",
+          "coords": [
+            36.5412,
+            31.993
+          ],
+          "name": {
+            "tr": "Damlataş Mağarası",
+            "de": "Damlataş-Höhle",
+            "en": "Damlataş Cave"
+          },
+          "desc": {
+            "tr": "Alanya kalesinin batı eteğinde, Kleopatra Plajı'nın hemen yanında yer alan Damlataş Mağarası, 1948 yılında liman inşaatı sırasında yapılan kazılarda tesadüfen ortaya çıktı ve Türkiye'de turizme açılan ilk mağara oldu. Yaklaşık 15.000 yılda oluştuğu belirtilen sarkıt, dikit ve sütunlarıyla dikkat çeken mağarada sıcaklık yıl boyunca 22°C dolayında sabit kalır; nem oranının yüksekliği ve havadaki karbondioksit yoğunluğu, oluşan mikroklimanın astım hastalarına iyi geldiği yönünde yaygın bir inanışa yol açmıştır. Bu nedenle mağara uzun yıllar denetimli soluk kürleriyle de anılmıştır.",
+            "de": "Am westlichen Fuß der Burg von Alanya, direkt neben dem Kleopatra-Strand, wurde die Damlataş-Höhle 1948 bei Bauarbeiten für den Hafen zufällig entdeckt und war die erste für den Tourismus erschlossene Höhle der Türkei. In der Höhle mit ihren Stalaktiten, Stalagmiten und Säulen, deren Bildung auf etwa 15.000 Jahre geschätzt wird, bleibt die Temperatur das ganze Jahr über bei rund 22°C konstant; die hohe Luftfeuchtigkeit und der erhöhte Kohlendioxidgehalt haben zu dem verbreiteten Glauben geführt, das Mikroklima tue Asthmakranken gut. Deshalb ist die Höhle lange auch für kontrollierte Atemkuren bekannt gewesen.",
+            "en": "At the western foot of Alanya Castle, right beside Cleopatra Beach, Damlataş Cave was discovered by chance in 1948 during harbour construction and became the first cave in Turkey opened to tourism. Its stalactites, stalagmites and columns are estimated to have formed over some 15.000 years, and the temperature stays around a constant 22°C all year; the high humidity and elevated carbon-dioxide levels have given rise to the widespread belief that the microclimate benefits asthma sufferers. For this reason the cave has long been associated with supervised breathing cures."
+          }
+        },
+        {
+          "id": "kekova",
+          "coords": [
+            36.183,
+            29.86
+          ],
+          "name": {
+            "tr": "Kekova (Batık Şehir)",
+            "de": "Kekova (Versunkene Stadt)",
+            "en": "Kekova (Sunken City)"
+          },
+          "desc": {
+            "tr": "Kaş ile Demre arasındaki koyda, Kekova Adası'nın karşısında uzanan batık şehir, MS 2. yüzyıldaki şiddetli depremlerin ardından kısmen sular altında kalan Likya kentlerinin — özellikle Simena ve Teimussa'nın — kalıntılarını barındırır. Berrak suyun birkaç metre altında denize inen taş merdivenler, ev temelleri, tersane izleri ve amfora parçaları seçilebilir; kıyıda ise Kaleköy'ü taçlandıran, Likya temelleri üzerine sonradan yükseltilmiş Simena kalesi ve bölgenin en küçük antik tiyatrosu yer alır. Bölge tekneyle gezilir; turlar çoğunlukla Üçağız'dan başlar.",
+            "de": "In der Bucht zwischen Kaş und Demre, gegenüber der Insel Kekova, birgt die versunkene Stadt die Überreste lykischer Städte – vor allem von Simena und Teimussa –, die nach schweren Erdbeben im 2. Jahrhundert n. Chr. teilweise im Meer versanken. Nur wenige Meter unter dem klaren Wasser lassen sich zum Meer hinabführende Steintreppen, Hausfundamente, Werftspuren und Amphorenscherben erkennen; an der Küste erhebt sich die auf lykischen Fundamenten errichtete Burg von Simena über Kaleköy samt dem kleinsten antiken Theater der Region. Das Gebiet wird per Boot erkundet, meist ab Üçağız.",
+            "en": "In the bay between Kaş and Demre, opposite Kekova Island, the sunken city holds the remains of Lycian towns – above all Simena and Teimussa – that partly slipped beneath the sea after severe earthquakes in the 2nd century AD. Just a few metres below the clear water one can make out stone stairways descending into the sea, house foundations, traces of a shipyard and amphora shards; on the shore rises the castle of Simena above Kaleköy, raised on Lycian foundations, together with the smallest ancient theatre in the region. The area is explored by boat, usually setting out from Üçağız."
+          }
+        },
+        {
+          "id": "likyamuze",
+          "coords": [
+            36.236,
+            29.956
+          ],
+          "name": {
+            "tr": "Likya Uygarlıkları Müzesi ve Andriake",
+            "de": "Museum der Lykischen Zivilisationen und Andriake",
+            "en": "Museum of Lycian Civilizations and Andriake"
+          },
+          "desc": {
+            "tr": "Demre ovasının kıyısında, Myra'nın antik limanı Andriake'nin kalıntıları arasında yer alan müze, İmparator Hadrianus döneminde (MS 2. yüzyıl) inşa edilen görkemli tahıl ambarı Horrea Hadriani'nin içine kurulmuştur. Yaklaşık 2.300 metrekarelik, kesme taştan yapılmış sağlam depo restore edilerek Likya Uygarlıkları Müzesi'ne dönüştürülmüş; içinde MÖ 4. yüzyıldan Osmanlı dönemine uzanan yaklaşık 1.000 eserle Likya kentlerinin tarihi, ticareti ve gündelik yaşamı anlatılır. Andriake, Roma çağında Akdeniz'in işlek tahıl ve ticaret limanlarından biriydi.",
+            "de": "Am Rand der Ebene von Demre, inmitten der Ruinen von Andriake, dem antiken Hafen Myras, ist das Museum in dem prächtigen Getreidespeicher Horrea Hadriani untergebracht, der unter Kaiser Hadrian (2. Jahrhundert n. Chr.) errichtet wurde. Der rund 2.300 Quadratmeter große, aus Quadersteinen gefügte Bau wurde restauriert und zum Museum der Lykischen Zivilisationen umgestaltet; mit etwa 1.000 Objekten vom 4. Jahrhundert v. Chr. bis in die osmanische Zeit erzählt es Geschichte, Handel und Alltag der lykischen Städte. Andriake war in römischer Zeit einer der belebten Getreide- und Handelshäfen des Mittelmeers.",
+            "en": "On the edge of the Demre plain, amid the ruins of Andriake, the ancient harbour of Myra, the museum is housed in the imposing granary Horrea Hadriani, built under Emperor Hadrian (2nd century AD). The sturdy ashlar structure of about 2.300 square metres was restored and turned into the Museum of Lycian Civilizations; with some 1.000 objects ranging from the 4th century BC to the Ottoman period, it recounts the history, trade and daily life of the Lycian cities. In Roman times Andriake was one of the busy grain and trade harbours of the Mediterranean."
+          }
+        },
+        {
+          "id": "myra",
+          "coords": [
+            36.259,
+            29.985
+          ],
+          "name": {
+            "tr": "Myra Örenyeri",
+            "de": "Antike Stadt Myra",
+            "en": "Ancient City of Myra"
+          },
+          "desc": {
+            "tr": "Demre yakınındaki Myra, varlığı en az MÖ 5. yüzyıla uzanan ve Likya Birliği'nde üç oy hakkına sahip büyük kentlerden biri olan önemli bir Likya merkeziydi. Kentin ünü, kayalık yamaca üst üste oyulmuş, kimi kabartmalı görkemli Likya kaya mezarlarından ve bunların hemen yanında yükselen, on bine yakın seyirci alabilen iyi korunmuş Roma tiyatrosundan gelir. Ev biçimli mezar cepheleri, Likya mimarisinin ahşap geleneğini taşa yansıtır. Roma ve Bizans çağlarında da önemini koruyan kent, sonraki yüzyıllarda Aziz Nikolaos'un piskoposluk yaptığı yer olarak anılacaktır.",
+            "de": "Das bei Demre gelegene Myra war ein bedeutendes lykisches Zentrum, dessen Anfänge mindestens bis ins 5. Jahrhundert v. Chr. zurückreichen und das im Lykischen Bund zu den großen Städten mit drei Stimmen zählte. Berühmt ist die Stadt für ihre übereinander in den Fels gehauenen, teils reliefgeschmückten lykischen Felsgräber und das unmittelbar daneben aufragende, gut erhaltene römische Theater, das nahezu zehntausend Zuschauer fasste. Die hausförmigen Grabfassaden übertragen die hölzerne Bautradition Lykiens in den Stein. Auch in römischer und byzantinischer Zeit blieb Myra bedeutend – später als Bischofssitz des Heiligen Nikolaus.",
+            "en": "Myra, near Demre, was an important Lycian centre whose origins reach back at least to the 5th century BC and which ranked among the great cities of the Lycian League with three votes. It is famous for its Lycian rock-cut tombs, carved one above another into the cliff and partly adorned with reliefs, and for the well-preserved Roman theatre rising right beside them, which held close to ten thousand spectators. The house-shaped tomb façades translate Lycia's timber building tradition into stone. Myra remained significant in Roman and Byzantine times too – later remembered as the see of Bishop Saint Nicholas."
+          }
+        },
+        {
+          "id": "stnikolaos",
+          "coords": [
+            36.2447,
+            29.9853
+          ],
+          "name": {
+            "tr": "St. Nikolaos (Noel Baba) Anıt Müzesi",
+            "de": "St.-Nikolaus-Kirche (Weihnachtsmann-Museum)",
+            "en": "Church of St. Nicholas (Santa Claus)"
+          },
+          "desc": {
+            "tr": "Demre merkezindeki kilise, MS 4. yüzyılda Myra piskoposluğu yapan, cömertliğiyle tanınan ve zamanla Noel Baba (Santa Claus) efsanesine kaynaklık eden Aziz Nikolaos'un (yaklaşık MS 270-343) adını taşır. Aziz'in mezarının bulunduğu yapı, Bizans döneminde birçok kez onarılmış, 6. yüzyıldan sonra genişletilmiş ve 1862'de Rus desteğiyle kapsamlı biçimde restore edilmiştir. İçindeki fresklerle, mozaik döşemeleriyle ve kırık lahdiyle önemli bir Hristiyan hac merkezidir. Aziz'in kemiklerinin büyük bölümü 1087'de İtalyan denizciler tarafından Bari'ye götürülmüştür.",
+            "de": "Die Kirche im Zentrum von Demre trägt den Namen des Heiligen Nikolaus (etwa 270–343 n. Chr.), der im 4. Jahrhundert Bischof von Myra war, für seine Freigebigkeit bekannt wurde und mit der Zeit zum Ursprung der Weihnachtsmann-Legende (Santa Claus) wurde. Der Bau, in dem sich das Grab des Heiligen befand, wurde in byzantinischer Zeit mehrfach instand gesetzt, nach dem 6. Jahrhundert erweitert und 1862 mit russischer Unterstützung umfassend restauriert. Mit ihren Fresken, Mosaikböden und dem zerbrochenen Sarkophag ist sie ein bedeutender christlicher Wallfahrtsort. Ein Großteil der Gebeine des Heiligen wurde 1087 von italienischen Seeleuten nach Bari gebracht.",
+            "en": "The church in the centre of Demre bears the name of Saint Nicholas (about AD 270-343), who was bishop of Myra in the 4th century, became known for his generosity and in time gave rise to the legend of Santa Claus. The building, which held the saint's tomb, was repaired many times in Byzantine days, enlarged after the 6th century and thoroughly restored in 1862 with Russian support. With its frescoes, mosaic floors and broken sarcophagus, it is an important Christian pilgrimage site. Much of the saint's remains was carried off to Bari by Italian sailors in 1087."
+          }
+        },
+        {
+          "id": "xanthos",
+          "coords": [
+            36.356,
+            29.32
+          ],
+          "name": {
+            "tr": "Xanthos – Letoon ve Patara",
+            "de": "Xanthos – Letoon und Patara",
+            "en": "Xanthos – Letoon and Patara"
+          },
+          "desc": {
+            "tr": "1988'de UNESCO Dünya Mirası Listesi'ne birlikte alınan Xanthos ve Letoon, Likya uygarlığının kalbini oluşturur. Xanthos, Likya'nın başkenti olarak anıtsal sütun ve kaya mezarları, Nereidler Anıtı ve Likçe'nin en uzun yazıtlarını taşıyan dikilitaşıyla öne çıkar. Yakınındaki Letoon, tanrıça Leto ile çocukları Apollon ve Artemis'e adanmış üç tapınağıyla Likya Birliği'nin ortak kutsal alanıydı. Aynı bölgedeki Patara ise geniş kumsalı, Likya Birliği meclis binası ve antik dünyanın en eski deniz fenerlerinden biriyle tanınır; Aziz Nikolaos'un da doğduğu kent olarak anılır.",
+            "de": "Xanthos und Letoon, 1988 gemeinsam in die UNESCO-Welterbeliste aufgenommen, bilden das Herz der lykischen Kultur. Xanthos, die Hauptstadt Lykiens, besticht durch monumentale Pfeiler- und Felsgräber, das Nereidenmonument und den Obelisken mit den längsten Inschriften in lykischer Sprache. Das nahe Letoon war mit seinen drei der Göttin Leto und ihren Kindern Apollon und Artemis geweihten Tempeln das gemeinsame Heiligtum des Lykischen Bundes. Das in derselben Region gelegene Patara wiederum ist für seinen weiten Sandstrand, das Ratsgebäude des Lykischen Bundes und einen der ältesten Leuchttürme der Antike bekannt – und gilt als Geburtsort des Heiligen Nikolaus.",
+            "en": "Xanthos and Letoon, jointly inscribed on the UNESCO World Heritage List in 1988, form the heart of Lycian civilization. Xanthos, the capital of Lycia, stands out for its monumental pillar and rock-cut tombs, the Nereid Monument and the obelisk bearing the longest inscriptions in the Lycian language. Nearby Letoon, with three temples dedicated to the goddess Leto and her children Apollo and Artemis, was the federal sanctuary of the Lycian League. Patara, in the same region, is known for its wide sandy beach, the Lycian League's council house and one of the oldest lighthouses of antiquity – and is regarded as the birthplace of Saint Nicholas."
           }
         }
       ]
@@ -1190,6 +2040,452 @@
             "tr": "Mardin'in Tur Abdin bölgesindeki Midyat, taş işçiliğinin ve çok kültürlü yaşamın simge kentlerinden biridir. Bal renkli taştan yapılmış konakları, dantel gibi işlenmiş cepheleri ve dar sokaklarıyla eski Midyat, gezginleri başka bir çağa taşır. Süryani manastır ve kiliseleri, camilerle aynı ufku paylaşır; bu topraklar yüzyıllardır farklı inançların ortak yurdu olmuştur. Telkâri adı verilen ince gümüş işçiliği, Midyat ustalarının elinde bugün de yaşayan bir sanattır.",
             "de": "Midyat in der Region Tur Abdin von Mardin ist eine Symbolstadt der Steinmetzkunst und des multikulturellen Lebens. Mit honigfarbenen Steinvillen, spitzenartig gearbeiteten Fassaden und engen Gassen versetzt die Altstadt von Midyat die Reisenden in eine andere Zeit. Syrisch-orthodoxe Klöster und Kirchen teilen denselben Horizont mit Moscheen; dieses Land ist seit Jahrhunderten Heimat verschiedener Glaubensrichtungen. Die feine Silberkunst Telkâri lebt in den Händen der Meister von Midyat bis heute.",
             "en": "Midyat, in the Tur Abdin region of Mardin, is one of the symbol cities of stone craftsmanship and multicultural life. With its honey-coloured stone mansions, lace-like carved façades and narrow lanes, old Midyat carries travellers to another age. Syriac monasteries and churches share the same horizon with mosques; this land has been the common home of different faiths for centuries. The fine silverwork called telkâri is an art still alive today in the hands of Midyat's masters."
+          }
+        }
+      ]
+    },
+    {
+      "id": "adana",
+      "name": {
+        "tr": "Adana",
+        "de": "Adana",
+        "en": "Adana"
+      },
+      "img": "",
+      "places": [
+        {
+          "id": "adanaarkeoloji",
+          "coords": [
+            37.001,
+            35.329
+          ],
+          "name": {
+            "tr": "Adana Arkeoloji Müzesi",
+            "de": "Archäologisches Museum Adana",
+            "en": "Adana Archaeology Museum"
+          },
+          "desc": {
+            "tr": "Cumhuriyet'in ilanından yalnızca bir yıl sonra, 1924'te kurulan Adana Arkeoloji Müzesi, Türkiye'nin en eski müzelerinden biri sayılır. 2017'de restore edilen tarihî Millî Mensucat Fabrikası'nda düzenlenen geniş müze kompleksine taşınarak çağdaş bir sergileme anlayışına kavuşmuştur. Koleksiyonu Hitit, Asur, Roma ve Bizans dönemlerini kapsayıp Çukurova'nın kesintisiz tarihini gözler önüne serer; Fırtına Tanrısı Tarhunda'yı betimleyen yaklaşık 2,5 metrelik bazalt heykel, Truva Savaşı sahneleriyle bezeli Akhilleus Lahdi, Roma dönemi mozaikleri ile Geç Roma cam eserleri öne çıkan yapıtlar arasındadır.",
+            "de": "Das 1924, nur ein Jahr nach der Ausrufung der Republik, gegründete Archäologische Museum Adana zählt zu den ältesten Museen der Türkei. 2017 zog es in einen weitläufigen Museumskomplex in der restaurierten historischen Millî-Mensucat-Textilfabrik um und erhielt so eine zeitgemäße Ausstellungsform. Die Sammlung umfasst hethitische, assyrische, römische und byzantinische Epochen und zeigt die ununterbrochene Geschichte der Çukurova-Region. Zu den Höhepunkten gehören eine rund 2,5 Meter hohe Basaltstatue des Wettergottes Tarhunda, der mit Szenen des Trojanischen Krieges verzierte Achilleus-Sarkophag sowie römische Mosaiken und spätrömische Glasarbeiten.",
+            "en": "Founded in 1924, just one year after the proclamation of the Republic, the Adana Archaeology Museum is considered one of Turkey's oldest museums. In 2017 it moved into a spacious museum complex housed in the restored historic Millî Mensucat textile factory, gaining a contemporary display concept. Its collection spans the Hittite, Assyrian, Roman and Byzantine periods, revealing the unbroken history of the Çukurova region. Highlights include a roughly 2.5-metre basalt statue depicting the storm god Tarhunda, the Achilles Sarcophagus adorned with scenes of the Trojan War, Roman-era mosaics and Late Roman glassware."
+          }
+        },
+        {
+          "id": "taskopru",
+          "coords": [
+            36.9885,
+            35.336
+          ],
+          "name": {
+            "tr": "Adana Taşköprü",
+            "de": "Steinbrücke von Adana (Taşköprü)",
+            "en": "Adana Stone Bridge (Taşköprü)"
+          },
+          "desc": {
+            "tr": "Seyhan Nehri üzerinde yükselen Taşköprü, büyük olasılıkla MS 2. yüzyılın ilk yarısında, İmparator Hadrianus döneminde inşa edilmiştir; gezgin Victor Langlois'nın bulduğu bir yazıt köprüyü Hadrianus'a bağlarken kimi araştırmacılar bu görüşü tartışmalı bulur. Yaklaşık 310 metre uzunluğundaki yapı özgün halinde 21 kemerliydi. Prokopios'un anlatımına göre İmparator Iustinianus (527-565) döneminde nehir yatağı geçici olarak değiştirilerek kapsamlı biçimde onarılmıştır. Emevî ve Osmanlı çağlarında da defalarca elden geçen köprü, 2007'de araç trafiğine kapatılmış; dünyanın hâlâ kullanılan en eski köprülerinden biri olarak kentin simgesi olmuştur.",
+            "de": "Die über dem Seyhan-Fluss aufragende Taşköprü wurde höchstwahrscheinlich in der ersten Hälfte des 2. Jahrhunderts n. Chr. unter Kaiser Hadrian errichtet; eine vom Reisenden Victor Langlois entdeckte Inschrift schreibt sie Hadrian zu, doch manche Forscher halten diese Zuordnung für umstritten. Das etwa 310 Meter lange Bauwerk besaß ursprünglich 21 Bögen. Nach dem Bericht des Prokopios wurde die Brücke unter Kaiser Justinian (527-565) umfassend saniert, wobei das Flussbett vorübergehend umgeleitet wurde. Auch in umayyadischer und osmanischer Zeit mehrfach instand gesetzt, wurde sie 2007 für den Autoverkehr gesperrt und gilt als eine der ältesten noch genutzten Brücken der Welt sowie als Wahrzeichen der Stadt.",
+            "en": "Rising over the Seyhan River, the Taşköprü was most probably built in the first half of the 2nd century AD, during the reign of Emperor Hadrian; an inscription found by the traveller Victor Langlois links the bridge to Hadrian, though some scholars regard this attribution as disputed. About 310 metres long, the structure originally had 21 arches. According to Procopius, it was extensively repaired under Emperor Justinian (527-565), when the riverbed was temporarily diverted. Repeatedly restored in Umayyad and Ottoman times as well, it was closed to motor traffic in 2007 and, as one of the oldest bridges still in use in the world, has become the city's emblem."
+          }
+        },
+        {
+          "id": "adanauluc",
+          "coords": [
+            36.9872,
+            35.3322
+          ],
+          "name": {
+            "tr": "Adana Ulu Camii ve Ramazanoğlu Yapıları",
+            "de": "Ulu-Moschee von Adana und die Ramazanoğlu-Bauten",
+            "en": "Adana Grand Mosque (Ulu Mosque) and the Ramazanoğlu Buildings"
+          },
+          "desc": {
+            "tr": "Adana Ulu Camii, Ramazanoğlu Beyliği'nin en görkemli eseridir. İnşasına 1513'te Halil Bey döneminde başlanmış, 1541'de oğlu Piri Mehmet Paşa zamanında tamamlanarak ibadete açılmıştır. Ulucami plan tipindeki yapı Memlük, Selçuklu ve Osmanlı üsluplarını kaynaştırır; cephelerdeki siyah-beyaz kesme taş bezeme Memlük etkisini yansıtır, mihrap ve duvarları 17. yüzyıl İznik çinileriyle, mercan kırmızısı motiflerle süslenir. Cami; türbe, medrese, hazire ve bitişiğindeki Ramazanoğlu Konağı (Tuz Hanı) ile bir külliye oluşturarak beyliğin kent merkezindeki mirasını günümüze taşır.",
+            "de": "Die Ulu-Moschee von Adana ist das prächtigste Bauwerk des Fürstentums der Ramazanoğulları. Ihr Bau begann 1513 unter Halil Bey und wurde 1541 unter seinem Sohn Piri Mehmet Pascha vollendet und für den Gottesdienst geöffnet. Der Bau im Ulucami-Typus verbindet mamlukische, seldschukische und osmanische Stilelemente; die schwarz-weiße Quadersteindekoration der Fassaden spiegelt mamlukischen Einfluss wider, während Mihrab und Wände mit İznik-Fliesen des 17. Jahrhunderts und korallenroten Motiven geschmückt sind. Zusammen mit Türbe, Medrese, Friedhof und dem angrenzenden Ramazanoğlu-Konak (Tuz Hanı) bildet die Moschee einen Külliye-Komplex, der das Erbe des Fürstentums im Stadtzentrum bewahrt.",
+            "en": "The Adana Grand Mosque is the most magnificent work of the Ramazanoğlu principality. Its construction began in 1513 under Halil Bey and was completed in 1541 under his son Piri Mehmet Pasha, when it was opened for worship. Built in the ulucami plan type, it fuses Mamluk, Seljuk and Ottoman styles; the black-and-white cut-stone ornamentation of the façades reflects Mamluk influence, while the mihrab and walls are decorated with 17th-century İznik tiles and coral-red motifs. Together with its tomb, madrasa, cemetery and the adjoining Ramazanoğlu Mansion (Tuz Hanı), the mosque forms a külliye complex that carries the principality's legacy in the city centre to the present day."
+          }
+        },
+        {
+          "id": "saatkulesi",
+          "coords": [
+            36.9885,
+            35.3305
+          ],
+          "name": {
+            "tr": "Adana Büyük Saat Kulesi",
+            "de": "Großer Uhrturm von Adana",
+            "en": "Adana Great Clock Tower"
+          },
+          "desc": {
+            "tr": "Adana Büyük Saat Kulesi'nin yapımına 1881'de Vali Ziya Paşa döneminde başlanmış, 1882'de Vali Abidin Paşa zamanında tamamlanmıştır. Yaklaşık 32 metre yüksekliğiyle Türkiye'nin en yüksek tarihî saat kulelerinden biri kabul edilir. Tümüyle kesme taştan, kare prizma biçiminde örülen yapının tepesine 110 basamaklı bir merdivenle çıkılır; dört yüzünde saat bulunur ve mevcut mekanizması 1925'te Almanya'dan getirilmiştir. Tarihî çarşının tam ortasında yükselen kule, Osmanlı'nın son çeyreğindeki saat kulesi yapım furyasının Çukurova'daki en anıtsal örneklerinden biri ve kentin başlıca simgelerindendir.",
+            "de": "Der Bau des Großen Uhrturms von Adana begann 1881 unter Gouverneur Ziya Pascha und wurde 1882 unter Gouverneur Abidin Pascha vollendet. Mit rund 32 Metern Höhe gilt er als einer der höchsten historischen Uhrtürme der Türkei. Das vollständig aus Quaderstein in Form eines quadratischen Prismas gemauerte Bauwerk erreicht man über eine Treppe mit 110 Stufen; an allen vier Seiten befinden sich Uhren, und das heutige Werk wurde 1925 aus Deutschland gebracht. Der mitten im historischen Basar aufragende Turm ist eines der monumentalsten Beispiele der Uhrturm-Bauwelle des späten Osmanischen Reiches in der Çukurova und eines der wichtigsten Wahrzeichen der Stadt.",
+            "en": "Construction of the Adana Great Clock Tower began in 1881 under Governor Ziya Pasha and was completed in 1882 under Governor Abidin Pasha. At about 32 metres, it is regarded as one of the tallest historic clock towers in Turkey. Built entirely of cut stone in the form of a square prism, its top is reached by a staircase of 110 steps; clocks appear on all four faces, and the current mechanism was brought from Germany in 1925. Rising in the very heart of the historic bazaar, the tower is one of the most monumental examples in the Çukurova of the late Ottoman clock-tower building wave and one of the city's principal landmarks."
+          }
+        }
+      ]
+    },
+    {
+      "id": "aydin",
+      "name": {
+        "tr": "Aydın · Didim",
+        "de": "Aydın · Didim",
+        "en": "Aydın · Didim"
+      },
+      "img": "",
+      "places": [
+        {
+          "id": "didimapollon",
+          "coords": [
+            37.385,
+            27.256
+          ],
+          "name": {
+            "tr": "Didim Apollon Tapınağı (Didyma)",
+            "de": "Apollon-Tempel von Didyma (Didim)",
+            "en": "Temple of Apollo at Didyma (Didim)"
+          },
+          "desc": {
+            "tr": "Didim'deki Apollon Tapınağı, antik dünyanın en görkemli kutsal alanlarından biri ve Apollon'a adanmış ünlü bir kehanet merkeziydi. Bugünkü Helenistik yapı, Büyük İskender'in Milet'i Pers egemenliğinden kurtarmasının ardından MÖ 334'ten sonra tasarlandı; inşaat 600 yıldan uzun sürdü, ama tapınak hiçbir zaman tamamlanamadı. Yaklaşık 51x109 metrelik çift sıra sütunlu (dipteros) planı, 19,70 metreye ulaşan İon sütunları ve dev ölçüleriyle çağını aşar. Milet'ten yaklaşık 20 kilometrelik Kutsal Yol tapınağa ulaşırdı; rahibeler kutsal pınarın başında kehanetlerini bildirirdi. Mimarları Efesli Paionios ile Miletli Daphnis'tir.",
+            "de": "Der Apollon-Tempel von Didim war eines der prächtigsten Heiligtümer der antiken Welt und ein berühmtes Orakel des Apollon. Der heutige hellenistische Bau wurde nach 334 v. Chr. geplant, nachdem Alexander der Große Milet von der Perserherrschaft befreit hatte; die Arbeiten dauerten über 600 Jahre, doch der Tempel wurde nie vollendet. Mit seinem etwa 51x109 Meter großen doppelreihigen (dipteralen) Grundriss, ionischen Säulen von bis zu 19,70 Metern und gewaltigen Ausmaßen übertraf er seine Zeit. Ein rund 20 Kilometer langer Heiliger Weg führte von Milet zum Tempel; Priesterinnen verkündeten die Orakelsprüche an der heiligen Quelle. Als Architekten gelten Paionios aus Ephesos und Daphnis aus Milet.",
+            "en": "The Temple of Apollo at Didim was one of the grandest sanctuaries of the ancient world and a celebrated oracle of Apollo. The present Hellenistic building was planned after 334 BC, once Alexander the Great had freed Miletus from Persian rule; construction lasted more than 600 years, yet the temple was never completed. With its roughly 51x109 metre double-colonnade (dipteral) plan, Ionic columns reaching 19.70 metres and colossal scale, it surpassed its age. A Sacred Way of about 20 kilometres led from Miletus to the temple, where priestesses delivered prophecies beside the sacred spring. Its architects were Paionios of Ephesus and Daphnis of Miletus."
+          }
+        },
+        {
+          "id": "milet",
+          "coords": [
+            37.531,
+            27.277
+          ],
+          "name": {
+            "tr": "Milet Örenyeri",
+            "de": "Antike Stadt Milet",
+            "en": "Ancient City of Miletus"
+          },
+          "desc": {
+            "tr": "Milet, İon kentlerinin en önemlilerinden biri; ticaret, denizcilik ve düşünce tarihinin başkentlerinden sayılır. 90'ı aşkın koloni kurmasıyla ün kazandı ve Thales, Anaksimandros, Anaksimenes gibi ilk doğa filozoflarına (Miletos Okulu) beşiklik etti; evreni mitoslarla değil maddi nedenlerle açıklama çabası burada doğdu. Miletli Hippodamos'un adıyla anılan ızgara (dik açılı) kent planı, Helenistik ve Roma kentlerine örnek oldu. Yaklaşık 15.000 kişilik büyük tiyatrosu en görkemli kalıntısıdır. Zamanla Menderes (Maiandros) Irmağı'nın taşıdığı alüvyon limanı doldurdu; kıyı çizgisi geriledi ve bir zamanların deniz gücü iç bölgede kaldı.",
+            "de": "Milet zählt zu den bedeutendsten ionischen Städten und gilt als eine Metropole des Handels, der Seefahrt und des Denkens. Es wurde durch über 90 Kolonien berühmt und war die Wiege der ersten Naturphilosophen (Milesische Schule) wie Thales, Anaximander und Anaximenes; hier entstand das Bestreben, die Welt nicht durch Mythen, sondern durch materielle Ursachen zu erklären. Der nach Hippodamos von Milet benannte rechtwinklige Rasterplan wurde zum Vorbild hellenistischer und römischer Städte. Das große Theater für etwa 15.000 Zuschauer ist die eindrucksvollste Ruine. Mit der Zeit verlandeten die Sedimente des Mäander (Maiandros) den Hafen; die Küstenlinie zog sich zurück, und die einstige Seemacht lag im Binnenland.",
+            "en": "Miletus was among the foremost Ionian cities, counted a capital of trade, seafaring and thought. It won fame for founding over 90 colonies and was the cradle of the first natural philosophers (the Milesian School) such as Thales, Anaximander and Anaximenes; here arose the effort to explain the world through material causes rather than myth. The grid (right-angled) city plan named after Hippodamus of Miletus became the model for Hellenistic and Roman cities. Its great theatre, seating about 15,000, is the most striking ruin. In time the silt carried by the Meander (Maiandros) River filled the harbour; the coastline retreated, and the former sea power was left inland."
+          }
+        },
+        {
+          "id": "priene",
+          "coords": [
+            37.66,
+            27.298
+          ],
+          "name": {
+            "tr": "Priene Örenyeri",
+            "de": "Antike Stadt Priene",
+            "en": "Ancient City of Priene"
+          },
+          "desc": {
+            "tr": "Priene, Mykale (Samsun) Dağı eteklerinde, bir zamanlar denize, bugün Menderes ovasına bakan seçkin bir İon kentidir. MÖ 4. yüzyılda bugünkü yerine kurulan kent, dik açılı sokaklardan oluşan ızgara planı ve teraslara oturan düzeniyle antik kent tasarımının en iyi korunmuş örneklerinden sayılır. Ünlü mimar Pytheos'un yaptığı Athena Polias Tapınağı kentin simgesidir; adak yazıtına göre yapıya Büyük İskender katkıda bulunmuştur. İyi korunmuş meclis binası (bouleuterion), tiyatrosu ve konutlarıyla Priene, gündelik antik yaşamı canlı biçimde yansıtır. Su dağıtım ağı ve drenaj sistemleriyle çağının gelişmiş kentsel altyapısını gösterir.",
+            "de": "Priene ist eine vornehme ionische Stadt am Fuß des Mykale-Gebirges (Samsun Dağı), einst zum Meer, heute zur Mäander-Ebene gewandt. Im 4. Jahrhundert v. Chr. an ihrem heutigen Ort gegründet, gilt sie mit ihrem rechtwinkligen Rasterplan und ihrer terrassierten Anlage als eines der besterhaltenen Beispiele antiker Stadtplanung. Der vom berühmten Architekten Pytheos errichtete Tempel der Athena Polias ist das Wahrzeichen der Stadt; laut Weihinschrift trug Alexander der Große zum Bau bei. Mit dem gut erhaltenen Ratsgebäude (Bouleuterion), dem Theater und den Wohnhäusern spiegelt Priene das antike Alltagsleben lebendig wider. Wasserverteilungs- und Entwässerungsnetze zeugen von fortschrittlicher städtischer Infrastruktur.",
+            "en": "Priene is a distinguished Ionian city on the slopes of Mount Mycale (Samsun Dağı), once facing the sea and today the Meander plain. Founded on its present site in the 4th century BC, it ranks among the best-preserved examples of ancient urban design, with its right-angled grid plan and terraced layout. The Temple of Athena Polias, built by the celebrated architect Pytheos, is the city's emblem; according to its dedicatory inscription, Alexander the Great contributed to the building. With its well-preserved council house (bouleuterion), theatre and dwellings, Priene vividly reflects everyday ancient life. Its water-distribution and drainage networks attest to advanced urban infrastructure for the age."
+          }
+        },
+        {
+          "id": "bafa",
+          "coords": [
+            37.5,
+            27.5
+          ],
+          "name": {
+            "tr": "Bafa Gölü (Herakleia)",
+            "de": "Bafasee (Herakleia)",
+            "en": "Lake Bafa (Herakleia)"
+          },
+          "desc": {
+            "tr": "Bafa Gölü, Latmos (Beşparmak) Dağı'nın heybetli granit kütlesiyle su arasında uzanan, Ege'nin en büyük doğal göllerinden biridir; bir zamanlar Menderes'in alüvyonuyla dolan Latmos Körfezi'nin kalıntısıdır. Kıyısındaki Kapıkırı köyünde, MÖ 4. yüzyılda bugünkü yerine taşınan Herakleia antik kenti yükselir; Helenistik surları, agorası ve kayalık tepedeki Athena Tapınağı öne çıkar. Yöre, ay tanrıçası Selene ile çoban Endymion'un sonsuz uyku efsanesiyle anılır. Dağın kovuklarında bulunan prehistorik kaya resimleri ise buradaki insan izini binlerce yıl öncesine taşır. Kent adını yarı tanrı Herakles'ten alır.",
+            "de": "Der Bafasee, zwischen dem wuchtigen Granitmassiv des Latmos-Gebirges (Beşparmak) und dem Wasser gelegen, ist einer der größten Naturseen der Ägäis; er ist der Rest des einst durch die Sedimente des Mäander verlandeten Latmischen Golfs. Im Uferdorf Kapıkırı erhebt sich die antike Stadt Herakleia, die im 4. Jahrhundert v. Chr. an ihren heutigen Ort verlegt wurde; hervorzuheben sind ihre hellenistischen Mauern, die Agora und der Athena-Tempel auf dem Felshügel. Die Gegend ist mit dem Mythos der ewigen Schlafes des Hirten Endymion und der Mondgöttin Selene verbunden. Prähistorische Felsmalereien in den Höhlungen des Berges führen die menschliche Spur Jahrtausende zurück. Die Stadt trägt ihren Namen nach dem Halbgott Herakles.",
+            "en": "Lake Bafa, stretching between the imposing granite mass of Mount Latmos (Beşparmak) and the water, is one of the Aegean's largest natural lakes; it is the remnant of the Latmian Gulf, once filled by the silt of the Meander. In the lakeside village of Kapıkırı rises the ancient city of Herakleia, relocated to its present site in the 4th century BC; its Hellenistic walls, agora and the Temple of Athena on a rocky hill stand out. The area is bound to the myth of the eternal sleep of the shepherd Endymion and the moon goddess Selene. Prehistoric rock paintings in the mountain's hollows carry the human trace back thousands of years. The city takes its name from the demigod Herakles."
+          }
+        },
+        {
+          "id": "aphrodisias",
+          "coords": [
+            37.708,
+            28.725
+          ],
+          "name": {
+            "tr": "Aphrodisias",
+            "de": "Aphrodisias",
+            "en": "Aphrodisias"
+          },
+          "desc": {
+            "tr": "Aphrodisias, aşk ve güzellik tanrıçası Afrodit'e adanmış, 2017'de UNESCO Dünya Mirası Listesi'ne alınan seçkin bir antik kenttir. MÖ 2. yüzyılda kurulan kent, yakınındaki kaliteli mermer yataklarına borçlu olduğu ünlü heykeltıraşlık okuluyla Roma İmparatorluğu boyunca ün saldı; buradaki heykeltıraşların eserleri Akdeniz'e yayıldı. Yaklaşık 30.000 seyirci kapasiteli stadyumu, türünün dünyada en iyi korunmuş örneğidir. Anıtsal geçit Tetrapylon, Afrodit Tapınağı, tiyatro ve çevre yapılarla kent bütünlüğünü korur. Yerinde açılan müzesi, ünlü Sebasteion kabartmalarını ve kentin heykel geleneğinin başyapıtlarını barındırır.",
+            "de": "Aphrodisias ist eine herausragende antike Stadt, die der Liebes- und Schönheitsgöttin Aphrodite geweiht und 2017 in die UNESCO-Welterbeliste aufgenommen wurde. Die im 2. Jahrhundert v. Chr. gegründete Stadt erlangte durch ihre berühmte Bildhauerschule, die sie den nahen Marmorvorkommen verdankte, im gesamten Römischen Reich Ruhm; die Werke ihrer Bildhauer verbreiteten sich im Mittelmeerraum. Ihr Stadion mit etwa 30.000 Plätzen ist das besterhaltene seiner Art in der Welt. Mit dem monumentalen Torbau Tetrapylon, dem Aphrodite-Tempel, dem Theater und weiteren Bauten bewahrt die Stadt ihre Geschlossenheit. Das Museum vor Ort beherbergt die berühmten Sebasteion-Reliefs und Meisterwerke der städtischen Bildhauertradition.",
+            "en": "Aphrodisias is a distinguished ancient city dedicated to Aphrodite, goddess of love and beauty, inscribed on the UNESCO World Heritage List in 2017. Founded in the 2nd century BC, the city gained fame throughout the Roman Empire for its celebrated school of sculpture, owed to the fine marble beds nearby; the works of its sculptors spread across the Mediterranean. Its stadium, seating about 30,000, is the best-preserved of its kind in the world. With the monumental gateway Tetrapylon, the Temple of Aphrodite, the theatre and surrounding structures, the city preserves its integrity. Its on-site museum houses the famous Sebasteion reliefs and masterpieces of the city's sculptural tradition."
+          }
+        }
+      ]
+    },
+    {
+      "id": "denizli",
+      "name": {
+        "tr": "Denizli · Pamukkale",
+        "de": "Denizli · Pamukkale",
+        "en": "Denizli · Pamukkale"
+      },
+      "img": "",
+      "places": [
+        {
+          "id": "pamukkale",
+          "coords": [
+            37.92,
+            29.12
+          ],
+          "name": {
+            "tr": "Pamukkale - Hierapolis",
+            "de": "Pamukkale - Hierapolis",
+            "en": "Pamukkale - Hierapolis"
+          },
+          "desc": {
+            "tr": "Pamukkale, Çaldağ eteklerinden yüzeye çıkan kalsiyum karbonatlı termal suların çökelmesiyle biçimlenen beyaz travertenleriyle dünyaca ünlüdür; üzerinde yükselen Hierapolis antik kenti ise MÖ yaklaşık 190'da Bergama (Pergamon) Kralı 2. Eumenes tarafından kurulmuş, adını mitolojik kraliçe Hiera'dan almıştır. MS 17 ve 60 depremlerinin ardından Roma çağında yeniden imar edilen kentte, İmparator Septimius Severus döneminde tamamlanan büyük tiyatro, Anadolu'nun en geniş nekropollerinden biri, Apollon'a adanmış Plutonium ve antik sütunların bugün de görülebildiği kutsal 'Kleopatra Havuzu' öne çıkar. Hem kültürel hem doğal değeriyle 1988'de UNESCO Dünya Mirası Listesi'ne alınmıştır.",
+            "de": "Pamukkale ist weltberühmt für seine weißen Sinterterrassen, die durch das Ausfällen kalziumkarbonathaltiger Thermalquellen am Fuße des Çaldağ entstanden sind; die darüber gelegene antike Stadt Hierapolis wurde um 190 v. Chr. von Eumenes 2. von Pergamon gegründet und trägt den Namen der mythischen Königin Hiera. Nach den Erdbeben von 17 und 60 n. Chr. in römischer Zeit wiederaufgebaut, beeindruckt die Stadt mit ihrem unter Kaiser Septimius Severus vollendeten großen Theater, einer der weitläufigsten Nekropolen Anatoliens, dem Apollon geweihten Plutonium und dem heiligen 'Kleopatra-Becken', in dem noch heute antike Säulen liegen. Wegen ihres kulturellen und natürlichen Werts wurde sie 1988 in die UNESCO-Welterbeliste aufgenommen.",
+            "en": "Pamukkale is world-renowned for its white travertine terraces, formed by the deposition of calcium-carbonate-rich thermal waters emerging on the slopes of Mount Çaldağ; the ancient city of Hierapolis rising above them was founded around 190 BC by Eumenes 2. of Pergamon and takes its name from the mythical queen Hiera. Rebuilt in the Roman era after the earthquakes of 17 and 60 AD, the city is distinguished by its great theatre completed under Emperor Septimius Severus, one of Anatolia's largest necropoleis, the Plutonium sanctuary dedicated to Apollo, and the sacred 'Cleopatra's Pool' where antique columns still lie. Valued for both its cultural and natural significance, it was inscribed on the UNESCO World Heritage List in 1988."
+          }
+        },
+        {
+          "id": "hierapolismuze",
+          "coords": [
+            37.924,
+            29.127
+          ],
+          "name": {
+            "tr": "Hierapolis Arkeoloji Müzesi",
+            "de": "Archäologisches Museum Hierapolis",
+            "en": "Hierapolis Archaeology Museum"
+          },
+          "desc": {
+            "tr": "Hierapolis Arkeoloji Müzesi, Pamukkale ören yeri içinde, MS 2. yüzyıla tarihlenen anıtsal Roma hamamı yapısında düzenlenmiş olup 1 Şubat 1984'te ziyarete açılmıştır. Lahitler ve Heykeller Salonu, Küçük Eserler Salonu ile Hierapolis Tiyatrosu Buluntuları Salonu olmak üzere üç ana bölümden oluşur; Tyche, Dionysos, Pan ve Asklepios heykelleri, Sidamara tipi lahitler, tiyatro sahne binasından kabartmalar ve İmparator Septimius Severus'un taç giyme törenini betimleyen frizler koleksiyonun öne çıkan parçalarıdır. Bölgedeki kazılardan gelen yaklaşık 5.296 arkeolojik eser ile 18.616 sikke, Frig'den Osmanlı'ya uzanan geniş bir kültür katmanını yansıtır.",
+            "de": "Das Archäologische Museum Hierapolis liegt innerhalb der Ausgrabungsstätte von Pamukkale und ist in einem monumentalen römischen Badegebäude aus dem 2. Jahrhundert n. Chr. eingerichtet; es wurde am 1. Februar 1984 eröffnet. Es gliedert sich in drei Hauptsäle: den Saal der Sarkophage und Skulpturen, den Saal der Kleinfunde und den Saal der Funde aus dem Theater von Hierapolis. Zu den herausragenden Stücken zählen Statuen von Tyche, Dionysos, Pan und Asklepios, Sarkophage vom Sidamara-Typ, Reliefs vom Bühnengebäude des Theaters sowie Friese, die die Krönungszeremonie Kaiser Septimius Severus' zeigen. Rund 5.296 archäologische Objekte und 18.616 Münzen aus den Grabungen der Region spiegeln eine breite Kulturschicht von den Phrygern bis zu den Osmanen wider.",
+            "en": "The Hierapolis Archaeology Museum stands within the Pamukkale archaeological site, housed in a monumental Roman bath building dating to the 2nd century AD, and opened to visitors on 1 February 1984. It is arranged in three main halls: the Sarcophagi and Sculptures Hall, the Small Artifacts Hall, and the Hierapolis Theatre Finds Hall. Statues of Tyche, Dionysus, Pan and Asclepius, Sidamara-type sarcophagi, reliefs from the theatre's stage building and friezes depicting the coronation ceremony of Emperor Septimius Severus are among the collection's highlights. Roughly 5,296 archaeological artifacts and 18,616 coins from excavations across the region reflect a broad cultural span reaching from the Phrygians to the Ottomans."
+          }
+        },
+        {
+          "id": "laodikeia",
+          "coords": [
+            37.836,
+            29.108
+          ],
+          "name": {
+            "tr": "Laodikeia Örenyeri",
+            "de": "Antike Stadt Laodikeia",
+            "en": "Laodicea Ancient City"
+          },
+          "desc": {
+            "tr": "Laodikeia, Lykos (Çürüksu) Vadisi'nde kurulan büyük bir antik kent olup, Seleukos Kralı 2. Antiokhos tarafından MÖ 261-253 yılları arasında eşi Laodike adına kurulmuş, bu nedenle 'Laodikeia ad Lycum' olarak anılmıştır. Tekstil, mermer ve ticaretle zenginleşen kent, İncil'in Vahiy bölümünde adı geçen yedi kiliseden biriyle Hristiyanlık tarihinde özel bir yer tutar. Yaklaşık 285 metre uzunluğundaki stadyumu, iki tiyatrosu, sütunlu caddeleri, hamamları ve agoralarıyla dikkat çeken kentte, Büyük Constantinus döneminde (MS 306-337) yükselen erken dönem kilisesi öne çıkar. MS 60 depreminden sonra onarılan kent, 494 depreminde büyük ölçüde yıkılmış ve eski görkemine bir daha kavuşamamıştır.",
+            "de": "Laodikeia ist eine große antike Stadt im Lykos-Tal (Çürüksu) und wurde zwischen 261 und 253 v. Chr. vom Seleukidenkönig Antiochos 2. zu Ehren seiner Frau Laodike gegründet, weshalb sie als 'Laodikeia ad Lycum' bekannt ist. Durch Textilien, Marmor und Handel wohlhabend geworden, nimmt die Stadt einen besonderen Platz in der Geschichte des Christentums ein, da sie zu den sieben in der Offenbarung des Neuen Testaments genannten Gemeinden zählt. Mit ihrem etwa 285 Meter langen Stadion, zwei Theatern, Säulenstraßen, Bädern und Agoren beeindruckt sie ebenso wie mit der frühchristlichen Kirche, die unter Konstantin dem Großen (306-337 n. Chr.) errichtet wurde. Nach dem Erdbeben von 60 n. Chr. wiederaufgebaut, wurde die Stadt beim Beben von 494 weitgehend zerstört und erlangte ihren einstigen Glanz nie wieder.",
+            "en": "Laodicea is a large ancient city set in the Lycus (Çürüksu) Valley, founded between 261 and 253 BC by the Seleucid king Antiochus 2. in honour of his wife Laodice, which is why it was known as 'Laodicea ad Lycum'. Grown wealthy through textiles, marble and trade, the city holds a special place in Christian history as one of the seven churches named in the Book of Revelation. Notable for its roughly 285-metre-long stadium, two theatres, colonnaded streets, baths and agoras, the site is distinguished by its early Christian church raised during the reign of Constantine the Great (306-337 AD). Rebuilt after the earthquake of 60 AD, the city was largely destroyed in the earthquake of 494 and never regained its former splendour."
+          }
+        }
+      ]
+    },
+    {
+      "id": "izmir",
+      "name": {
+        "tr": "İzmir",
+        "de": "İzmir",
+        "en": "İzmir"
+      },
+      "img": "",
+      "places": [
+        {
+          "id": "agora",
+          "coords": [
+            38.4185,
+            27.139
+          ],
+          "name": {
+            "tr": "İzmir (Smyrna) Agorası",
+            "de": "Agora von Smyrna (Izmir)",
+            "en": "Agora of Smyrna (Izmir)"
+          },
+          "desc": {
+            "tr": "İzmir'in Konak-Namazgâh yamacında uzanan Smyrna Agorası, antik kentin Roma dönemi devlet agorasıdır. Hellenistik çağda kurulan yapı, MS 178 depreminde büyük hasar görmüş, İmparator Marcus Aurelius ve eşi Faustina'nın katkısıyla yeniden inşa edilmiştir. Üç galerili bazilika, sütunlu galeriler (stoa), tonozlu bodrum katları ve hâlâ izlenebilen yer altı su kanallarıyla dikkat çeker. Limandan agoraya çıkan yol üzerinde yükselen çift kemerli Faustina Kapısı, imparatoriçe onuruna adanmıştır. Bazilikanın duvarlarında bulunan Yunanca yazılar (grafiti), dönemin gündelik yaşamına ışık tutan, türünün en zengin koleksiyonlarından biri sayılır.",
+            "de": "Am Hang von Konak-Namazgâh gelegen, war die Agora von Smyrna die staatliche Agora der antiken Stadt in römischer Zeit. In hellenistischer Zeit gegründet, wurde der Bau beim Erdbeben von 178 n. Chr. schwer beschädigt und mit Unterstützung von Kaiser Marcus Aurelius und seiner Frau Faustina wiederaufgebaut. Bemerkenswert sind die dreischiffige Basilika, säulengesäumte Hallen (Stoa), gewölbte Untergeschosse und ein noch nachvollziehbares unterirdisches Wassersystem. Das doppelbogige Faustina-Tor am Weg vom Hafen zur Agora ist der Kaiserin gewidmet. Die griechischen Wandinschriften (Graffiti) in der Basilika gelten als eine der reichsten Sammlungen ihrer Art und beleuchten den Alltag jener Zeit.",
+            "en": "Set on the Konak-Namazgâh slope, the Agora of Smyrna was the ancient city's Roman-era state agora. Founded in the Hellenistic age, it was heavily damaged in the earthquake of 178 AD and rebuilt with the support of Emperor Marcus Aurelius and his wife Faustina. It is notable for its three-aisled basilica, colonnaded galleries (stoa), vaulted basement levels, and an underground water system that can still be traced. The double-arched Faustina Gate, rising on the road leading up from the harbour, was dedicated in the empress's honour. The Greek graffiti on the basilica walls is regarded as one of the richest collections of its kind, shedding light on everyday life of the period."
+          }
+        },
+        {
+          "id": "izmirarkeoloji",
+          "coords": [
+            38.413,
+            27.127
+          ],
+          "name": {
+            "tr": "İzmir Arkeoloji Müzesi",
+            "de": "Archäologisches Museum Izmir",
+            "en": "Izmir Archaeology Museum"
+          },
+          "desc": {
+            "tr": "Bölgenin arkeolojik hafızasını taşıyan İzmir Arkeoloji Müzesi, 1924'te Basmane'deki eski bir kilisede kurulmuş, 1927'de ziyarete açılmıştır. Bir süre Kültürpark'taki pavyonda kaldıktan sonra, 1984'te Konak'taki Bahribaba Parkı yanındaki bugünkü modern binasına taşınmıştır. Koleksiyonu; Smyrna başta olmak üzere Efes, Bergama, Klazomenai, Teos gibi İon ve Batı Anadolu kentlerinden gelen Hellenistik ve Roma dönemi heykelleri, Neolitik Çağ'dan Bizans'a uzanan seramikleri, altın-gümüş takıları ve zengin bir sikke koleksiyonunu kapsar. Antik Smyrna'nın ve Ege kıyısının binlerce yıllık kültür katmanı burada bir arada okunabilir.",
+            "de": "Als Träger des archäologischen Gedächtnisses der Region wurde das Archäologische Museum Izmir 1924 in einer ehemaligen Kirche im Viertel Basmane gegründet und 1927 eröffnet. Nach einer Zeit in einem Pavillon im Kültürpark zog es 1984 in seinen heutigen modernen Bau am Bahribaba-Park in Konak um. Die Sammlung umfasst hellenistische und römische Skulpturen aus Smyrna, Ephesos, Pergamon, Klazomenai, Teos und weiteren ionischen sowie westanatolischen Städten, Keramik vom Neolithikum bis nach Byzanz, Gold- und Silberschmuck sowie eine reiche Münzsammlung. Hier lassen sich die jahrtausendealten Kulturschichten des antiken Smyrna und der Ägäisküste gemeinsam ablesen.",
+            "en": "Bearer of the region's archaeological memory, the Izmir Archaeology Museum was founded in 1924 in a former church in the Basmane district and opened to visitors in 1927. After a period in a pavilion in Kültürpark, it moved in 1984 to its present modern building beside Bahribaba Park in Konak. Its collection spans Hellenistic and Roman sculptures from Smyrna, Ephesus, Pergamon, Klazomenai, Teos and other Ionian and western Anatolian cities, ceramics ranging from the Neolithic to the Byzantine era, gold and silver jewellery, and a rich coin collection. Here the millennia-deep cultural layers of ancient Smyrna and the Aegean coast can be read side by side."
+          }
+        },
+        {
+          "id": "kemeralti",
+          "coords": [
+            38.418,
+            27.129
+          ],
+          "name": {
+            "tr": "Kızlarağası Hanı ve Kemeraltı Çarşısı",
+            "de": "Kızlarağası-Han und Basar von Kemeraltı",
+            "en": "Kızlarağası Han and Kemeraltı Bazaar"
+          },
+          "desc": {
+            "tr": "İzmir'in tarihî ticaret kalbi Kemeraltı, 17. yüzyıldan bu yana hanları, camileri, sinagogları ve dar zanaat sokaklarıyla kesintisiz yaşayan bir çarşıdır. Merkezindeki Kızlarağası Hanı, 1744'te Darüssaade Ağası (Kızlarağası) Hacı Beşir Ağa tarafından yaptırılmış, iki katlı avlulu bir Osmanlı hanıdır. İzmir'in en büyük camisi olan Hisar Camii'nin hemen batısında yer alır; kemerli galerileri ve avlusu, bakır işi, gümüş takı ve baharatın satıldığı canlı bir mekân olarak restore edilerek yaşatılmıştır. Kemeraltı, Doğu ile Batı ticaretinin buluştuğu, çok dinli ve çok kültürlü liman kentinin belleğini bugüne taşır.",
+            "de": "Kemeraltı, das historische Handelsherz Izmirs, ist ein seit dem 17. Jahrhundert ununterbrochen lebendiger Basar mit Karawansereien, Moscheen, Synagogen und engen Handwerkergassen. In seinem Zentrum steht der Kızlarağası-Han, ein zweistöckiger osmanischer Han mit Innenhof, 1744 vom Obersten der Haremseunuchen (Kızlarağası) Hacı Beşir Ağa erbaut. Er liegt unmittelbar westlich der Hisar-Moschee, der größten Moschee Izmirs; seine Bogengalerien und der Hof wurden restauriert und als lebendiger Ort für Kupferarbeiten, Silberschmuck und Gewürze erhalten. Kemeraltı bewahrt das Gedächtnis einer mehrreligiösen, multikulturellen Hafenstadt, in der sich der Handel von Ost und West traf.",
+            "en": "Kemeraltı, the historic commercial heart of Izmir, is a bazaar that has been continuously alive since the 17th century, with its caravanserais, mosques, synagogues and narrow artisans' lanes. At its centre stands the Kızlarağası Han, a two-storey Ottoman han with a courtyard, built in 1744 by Hacı Beşir Ağa, the Chief Harem Eunuch (Kızlarağası). It sits just west of the Hisar Mosque, Izmir's largest mosque; its arched galleries and courtyard have been restored and kept alive as a bustling place selling copperware, silver jewellery and spices. Kemeraltı carries forward the memory of a multireligious, multicultural port city where the trade of East and West once met."
+          }
+        },
+        {
+          "id": "konak",
+          "coords": [
+            38.419,
+            27.128
+          ],
+          "name": {
+            "tr": "Konak Meydanı ve Saat Kulesi",
+            "de": "Konak-Platz und Uhrturm",
+            "en": "Konak Square and the Clock Tower"
+          },
+          "desc": {
+            "tr": "İzmir'in simgesi sayılan Saat Kulesi, 1901'de Sultan II. Abdülhamid'in tahta çıkışının 25. yılı anısına dikilmiştir. Yaklaşık 25 metre yüksekliğindeki dört katlı kule, mimar Raymond Charles Père'in tasarımıyla neo-Mağribi (Faslı) üslupta; at nalı kemerleri, ince sütunları ve mermer işçiliğiyle dikkat çeker; cephelerindeki saatlerin Alman İmparatoru II. Wilhelm tarafından armağan edildiği aktarılır. Kulenin yanındaki, çinileriyle ünlü Konak Yalı Camii ise 18. yüzyıla uzanan küçük ölçekli, sekizgen planlı bir yapıdır. Deniz kıyısındaki Konak Meydanı, kentin idari merkezi ve buluşma noktası olarak İzmir kimliğinin özeti gibidir.",
+            "de": "Der als Wahrzeichen Izmirs geltende Uhrturm wurde 1901 zum 25. Thronjubiläum von Sultan Abdülhamid II. errichtet. Der rund 25 Meter hohe, vierstöckige Turm wurde vom Architekten Raymond Charles Père im neomaurischen Stil entworfen und besticht durch Hufeisenbögen, schlanke Säulen und Marmorarbeit; die Uhren an seinen Fassaden sollen ein Geschenk des deutschen Kaisers Wilhelm II. gewesen sein. Die daneben stehende, für ihre Fliesen bekannte Konak-Yalı-Moschee ist ein kleiner Bau mit achteckigem Grundriss aus dem 18. Jahrhundert. Der Konak-Platz am Meer ist als Verwaltungszentrum und Treffpunkt der Stadt gleichsam der Inbegriff der Izmirer Identität.",
+            "en": "The Clock Tower, regarded as the symbol of Izmir, was raised in 1901 to mark the 25th anniversary of Sultan Abdülhamid II's accession to the throne. About 25 metres high and four storeys tall, the tower was designed by architect Raymond Charles Père in the neo-Moorish style, standing out with its horseshoe arches, slender columns and marble work; the clocks on its faces are said to have been a gift from German Emperor Wilhelm II. Beside it, the Konak Yalı Mosque, famed for its tiles, is a small octagonal-plan building dating to the 18th century. Konak Square by the sea, as the city's administrative centre and meeting point, is like a distillation of Izmir's identity."
+          }
+        },
+        {
+          "id": "sardes",
+          "coords": [
+            38.488,
+            28.04
+          ],
+          "name": {
+            "tr": "Sardes (Sart) Örenyeri",
+            "de": "Ausgrabungsstätte Sardes (Sart)",
+            "en": "Sardis (Sart) Archaeological Site"
+          },
+          "desc": {
+            "tr": "Manisa'nın Salihli ilçesi yakınındaki Sardes, güçlü Lidya Krallığı'nın başkentidir. Zenginliğiyle efsaneleşen Kral Krezüs (Kroisos) dönemi, kentin altın çağını simgeler; tarihte ilk madenî paraların (elektron sikkeler) MÖ 7. yüzyılda burada basıldığı kabul edilir. Kent, MÖ 547-546 dolaylarında Pers Kralı Kiros tarafından ele geçirilmiştir. Örenyerinde İon düzenindeki anıtsal Artemis Tapınağı, Roma dönemine ait görkemli gymnasium-hamam yapısı ve MS 3.-6. yüzyıllara tarihlenen büyük antik sinagog öne çıkar. 2025'te UNESCO Dünya Mirası Listesi'ne alınan Sardes, Anadolu'nun ekonomik ve dinsel tarihinin en katmanlı tanıklarından biridir.",
+            "de": "Sardes, nahe dem Bezirk Salihli in Manisa, war die Hauptstadt des mächtigen Königreichs Lydien. Die durch ihren Reichtum legendäre Zeit von König Krösus (Kroisos) steht für das goldene Zeitalter der Stadt; als Ort, an dem im 7. Jahrhundert v. Chr. die ersten Münzen der Geschichte (Elektronmünzen) geprägt wurden, gilt sie als Wiege des Geldes. Um 547-546 v. Chr. wurde die Stadt vom Perserkönig Kyros erobert. Auf dem Gelände ragen der monumentale Artemis-Tempel in ionischer Ordnung, der prächtige römische Gymnasion-Bad-Komplex und die große antike Synagoge des 3.-6. Jahrhunderts n. Chr. hervor. 2025 in die UNESCO-Welterbeliste aufgenommen, ist Sardes einer der vielschichtigsten Zeugen der Wirtschafts- und Religionsgeschichte Anatoliens.",
+            "en": "Sardis, near the Salihli district of Manisa, was the capital of the powerful Kingdom of Lydia. The reign of King Croesus (Kroisos), legendary for his wealth, marks the city's golden age; it is accepted as the place where the first coins in history (electrum coins) were minted in the 7th century BC. The city was captured by the Persian King Cyrus around 547-546 BC. The site is distinguished by the monumental Ionic-order Temple of Artemis, the magnificent Roman gymnasium-bath complex, and the great ancient synagogue dating to the 3rd-6th centuries AD. Added to the UNESCO World Heritage List in 2025, Sardis is one of the most many-layered witnesses to Anatolia's economic and religious history."
+          }
+        }
+      ]
+    },
+    {
+      "id": "mugla",
+      "name": {
+        "tr": "Muğla · Bodrum",
+        "de": "Muğla · Bodrum",
+        "en": "Muğla · Bodrum"
+      },
+      "img": "",
+      "places": [
+        {
+          "id": "bodrumkalesi",
+          "coords": [
+            37.032,
+            27.429
+          ],
+          "name": {
+            "tr": "Bodrum Kalesi ve Sualtı Arkeoloji Müzesi",
+            "de": "Burg von Bodrum und Museum für Unterwasserarchäologie",
+            "en": "Bodrum Castle and Museum of Underwater Archaeology"
+          },
+          "desc": {
+            "tr": "Bodrum limanına hâkim bu görkemli yapı, Rodos merkezli St. Jean (Hospitalier) Şövalyeleri tarafından 1402'de inşa edilmeye başlanmış ve 'Aziz Petrus Kalesi' (Petronium) olarak anılmıştır. İngiliz, Fransız, Alman ve İtalyan şövalyelerinin yaptığı dört ayrı kuleyle anıtsallaşan kalenin taşları kısmen Halikarnassos Mozolesi'nin yıkıntılarından devşirilmiştir. 1523'te Osmanlı egemenliğine geçen yapı, 1962'den bu yana dünyaca ünlü Sualtı Arkeoloji Müzesi'ne ev sahipliği yapar. Müzenin başyapıtı, MÖ 14. yüzyıla tarihlenen Uluburun batığıdır; içindeki bakır külçeleri, cam ve mühürlerle Tunç Çağı ticaretinin eşsiz tanığıdır.",
+            "de": "Dieses eindrucksvolle Bauwerk über dem Hafen von Bodrum wurde ab 1402 von den auf Rhodos ansässigen Johannitern (St.-Johannes-Ritter) errichtet und als 'Burg des heiligen Petrus' (Petronium) bezeichnet. Vier von englischen, französischen, deutschen und italienischen Rittern erbaute Türme prägen die Anlage, deren Steine teils aus den Ruinen des Mausoleums von Halikarnassos stammen. 1523 fiel sie an die Osmanen und beherbergt seit 1962 das weltberühmte Museum für Unterwasserarchäologie. Dessen Herzstück ist das ins 14. Jahrhundert v. Chr. datierte Wrack von Uluburun, das mit Kupferbarren, Glas und Siegeln ein einzigartiges Zeugnis des bronzezeitlichen Handels bildet.",
+            "en": "Commanding the harbour of Bodrum, this imposing fortress was begun in 1402 by the Rhodes-based Knights of St John (Hospitallers) and named the 'Castle of St Peter' (Petronium). Its four towers, raised by English, French, German and Italian knights, give it a monumental air, and its walls incorporate stone salvaged from the ruined Mausoleum at Halicarnassus. Passing to the Ottomans in 1523, the castle has housed the world-renowned Museum of Underwater Archaeology since 1962. Its centrepiece is the Uluburun shipwreck, dated to the 14th century BC, whose copper ingots, glass and seals make it an unrivalled witness to Bronze Age trade."
+          }
+        },
+        {
+          "id": "mozole",
+          "coords": [
+            37.038,
+            27.424
+          ],
+          "name": {
+            "tr": "Halikarnassos Mozolesi",
+            "de": "Mausoleum von Halikarnassos",
+            "en": "Mausoleum at Halicarnassus"
+          },
+          "desc": {
+            "tr": "Karya satrabı Mausolos için tasarlanan bu anıt mezar, hükümdarın MÖ 353 dolaylarındaki ölümünün ardından kız kardeşi ve eşi Artemisia'nın öncülüğünde MÖ 350 civarında tamamlandı. Mimarlığını Pytheos'un üstlendiği yapı, yaklaşık 45 metre yüksekliğe, 36 İon sütununa ve 24 basamaklı piramidal bir çatıya sahipti; Leokhares, Bryaksis, Skopas ve Timotheos gibi dönemin usta heykeltıraşları bezemesini işledi. Antik dünyanın yedi harikasından sayılan eser, olasılıkla 12.-15. yüzyıllar arasındaki depremlerle yıkıldı ve taşları Bodrum Kalesi'ne taşındı. Bütün dillerde anıt mezar anlamına gelen 'mozole' sözcüğü Mausolos'un adından türemiştir; bugün temelleri ve müzesi görülebilir.",
+            "de": "Dieses monumentale Grabmal wurde für Mausolos, den Satrapen von Karien, geplant und nach seinem Tod um 353 v. Chr. unter Leitung seiner Schwester und Gemahlin Artemisia um 350 v. Chr. vollendet. Der von Pytheos entworfene Bau erreichte etwa 45 Meter Höhe, umgeben von 36 ionischen Säulen und bekrönt von einem 24-stufigen Pyramidendach; Meisterbildhauer wie Leochares, Bryaxis, Skopas und Timotheos schufen den Schmuck. Als eines der Sieben Weltwunder der Antike stürzte es vermutlich durch Erdbeben zwischen dem 12. und 15. Jahrhundert ein, und seine Steine wanderten zur Burg von Bodrum. Das Wort 'Mausoleum' geht auf den Namen Mausolos zurück; heute sind Fundamente und Museum zu sehen.",
+            "en": "Conceived for Mausolus, satrap of Caria, this monumental tomb was completed around 350 BC under his sister and wife Artemisia after the ruler's death about 353 BC. Designed by the architect Pytheos, it rose some 45 metres high, ringed by 36 Ionic columns and crowned with a 24-step pyramidal roof; master sculptors such as Leochares, Bryaxis, Scopas and Timotheus carved its reliefs. One of the Seven Wonders of the ancient world, it likely collapsed in earthquakes between the 12th and 15th centuries, and its stones were carried off to Bodrum Castle. The very word 'mausoleum' derives from the name Mausolus; today the foundations and a small museum can be visited."
+          }
+        },
+        {
+          "id": "kaunos",
+          "coords": [
+            36.827,
+            28.621
+          ],
+          "name": {
+            "tr": "Dalyan ve Kaunos Kral Mezarları",
+            "de": "Dalyan und die Königsgräber von Kaunos",
+            "en": "Dalyan and the Royal Tombs of Kaunos"
+          },
+          "desc": {
+            "tr": "Dalyan kanalının kıyısındaki sarp kayalara oyulmuş tapınak cepheli mezarlarıyla ünlenen Kaunos, Karya ile Likya sınırındaki antik bir liman kentiydi. Kökeni MÖ 10. yüzyıla dek uzanan kentin en görkemli kaya mezarları, İon düzenli tapınak yüzleriyle MÖ 4.-2. yüzyıllara tarihlenir; 'kral mezarları' olarak anılsalar da soylulara ait oldukları düşünülür. Kıyının alüvyonla dolmasıyla denizden giderek uzaklaşan kent, 15. yüzyılda sıtma salgınının da etkisiyle terk edildi. Kanalın ağzındaki İztuzu Plajı ise nesli tehlike altındaki caretta caretta deniz kaplumbağalarının Akdeniz'deki en önemli yuvalama alanlarından biridir.",
+            "de": "Berühmt für seine in steile Felsen gehauenen Gräber mit Tempelfassaden, war Kaunos eine antike Hafenstadt an der Grenze zwischen Karien und Lykien am Kanal von Dalyan. Die Ursprünge der Stadt reichen bis ins 10. Jahrhundert v. Chr. zurück; ihre prächtigsten Felsgräber mit ionischen Tempelfronten werden ins 4.–2. Jahrhundert v. Chr. datiert. Obwohl 'Königsgräber' genannt, dürften sie Adligen gehört haben. Durch Verlandung entfernte sich die Stadt vom Meer und wurde im 15. Jahrhundert, auch wegen der Malaria, aufgegeben. Der Strand von İztuzu an der Kanalmündung zählt zu den wichtigsten Nistplätzen der bedrohten Unechten Karettschildkröte (Caretta caretta).",
+            "en": "Famed for its temple-fronted tombs carved into sheer cliffs above the Dalyan channel, Kaunos was an ancient port city on the border between Caria and Lycia. The city's origins reach back to the 10th century BC, and its most striking rock-cut tombs, with Ionic temple facades, are dated to the 4th–2nd centuries BC; though called 'royal tombs', they are thought to have belonged to nobles. As the coast silted up, the city drew ever further from the sea and was finally abandoned in the 15th century, partly owing to malaria. İztuzu Beach at the channel's mouth is among the Mediterranean's most important nesting grounds for the endangered loggerhead sea turtle (caretta caretta)."
+          }
+        },
+        {
+          "id": "kayakoy",
+          "coords": [
+            36.575,
+            29.091
+          ],
+          "name": {
+            "tr": "Kayaköy (Levissi)",
+            "de": "Kayaköy (Levissi)",
+            "en": "Kayaköy (Levissi)"
+          },
+          "desc": {
+            "tr": "Fethiye'nin hemen güneyindeki bu taş köy, yüzyıllarca Anadolu Rumlarının yaşadığı Levissi'ydi. 30 Ocak 1923'te imzalanan Türk-Yunan nüfus mübadelesiyle köy halkı Yunanistan'a göç etti; yerleşen mübadiller yöreye uzun süre tutunamayınca köy giderek sessizliğe gömüldü. Yamaca sıralanan yüzlerce terk edilmiş taş ev — tescilli yapıların sayısı 700'ü aşar — ve iki büyük kilise, Yukarı Kilise (Taksiyarhis) ile Aşağı Kilise (Panagia Pyrgiotissa), bugün 'hayalet köy' olarak anılan bu ören yerini oluşturur. Çatısız duvarları ve boş sokaklarıyla köy, 1988'de koruma altına alınmış ve barış ve dostluk köyü olarak yaşatılmaktadır.",
+            "de": "Dieses Steindorf unmittelbar südlich von Fethiye war das über Jahrhunderte von anatolischen Griechen bewohnte Levissi. Mit dem am 30. Januar 1923 unterzeichneten griechisch-türkischen Bevölkerungsaustausch wanderte die Dorfbevölkerung nach Griechenland aus; die angesiedelten Neuankömmlinge blieben nicht lange, und das Dorf versank allmählich in Stille. Hunderte verlassener Steinhäuser am Hang — mehr als 700 Bauten stehen unter Denkmalschutz — sowie zwei große Kirchen, die Obere Kirche (Taxiarchis) und die Untere Kirche (Panagia Pyrgiotissa), bilden diese heute als 'Geisterdorf' bekannte Stätte. 1988 wurde das Dorf unter Schutz gestellt und wird seither als Dorf des Friedens und der Freundschaft bewahrt.",
+            "en": "This stone village just south of Fethiye was Levissi, home for centuries to Anatolian Greeks. With the Greek–Turkish population exchange signed on 30 January 1923, the villagers emigrated to Greece; the incoming settlers never truly took root, and the village gradually fell silent. Hundreds of abandoned stone houses ranged across the hillside — more than 700 structures are listed as monuments — together with two large churches, the Upper Church (Taxiarchis) and the Lower Church (Panagia Pyrgiotissa), make up this site now known as the 'ghost village'. With its roofless walls and empty lanes, the village was placed under protection in 1988 and has since been cherished as a village of peace and friendship."
+          }
+        },
+        {
+          "id": "amyntas",
+          "coords": [
+            36.652,
+            29.123
+          ],
+          "name": {
+            "tr": "Amyntas Kaya Mezarı (Telmessos)",
+            "de": "Felsengrab des Amyntas (Telmessos)",
+            "en": "Tomb of Amyntas (Telmessos)"
+          },
+          "desc": {
+            "tr": "Fethiye'nin (antik Telmessos) yamaçlarındaki nekropolde yükselen bu anıtsal kaya mezarı, kentin en görkemli örneğidir. MÖ 4. yüzyıla tarihlenen yapı, tek bir kaya kütlesine oyulmuş, antalar arasında iki sütunlu (in antis) İon tapınak cephesiyle bezeli bir yüze sahiptir. Doğu ante duvarındaki 'Hermapias oğlu Amyntas' yazıtı esere adını vermiştir; mezar odasında ölülerin yatırıldığı üç kline bulunur. Likya kaya mimarisinin bu seçkin örneği, tapınak görünümlü cephesiyle şehre tepeden bakar ve zamana iyi direnmiş haliyle bugün Fethiye'nin simgelerinden biri sayılır.",
+            "de": "Dieses monumentale Felsengrab in der Nekropole an den Hängen von Fethiye (dem antiken Telmessos) ist das prächtigste der Stadt. Der ins 4. Jahrhundert v. Chr. datierte Bau wurde aus einem einzigen Felsblock gehauen und trägt eine ionische Tempelfassade mit zwei Säulen zwischen den Anten (in antis). Die Inschrift 'Amyntas, Sohn des Hermapias' an der östlichen Antenwand gab dem Grab seinen Namen; in der Grabkammer liegen drei Klinen für die Toten. Als herausragendes Beispiel lykischer Felsarchitektur blickt es mit seiner tempelartigen Front von oben auf die Stadt herab und zählt, gut erhalten, heute zu den Wahrzeichen von Fethiye.",
+            "en": "Rising from the necropolis on the slopes of Fethiye (ancient Telmessos), this monumental rock-cut tomb is the city's grandest. Dated to the 4th century BC, it was hewn from a single mass of rock and bears an Ionic temple facade with two columns set between the antae (in antis). The inscription 'Amyntas, son of Hermapias' on the eastern anta wall gave the tomb its name; three klinai for the dead line the burial chamber. An outstanding example of Lycian rock architecture, its temple-like front gazes down over the town, and, well preserved through the centuries, it is today one of the emblems of Fethiye."
+          }
+        },
+        {
+          "id": "gumuskesen",
+          "coords": [
+            37.316,
+            27.783
+          ],
+          "name": {
+            "tr": "Milas Gümüşkesen Anıtı",
+            "de": "Gümüşkesen-Monument in Milas",
+            "en": "Gümüşkesen Monument in Milas"
+          },
+          "desc": {
+            "tr": "Milas'ın (antik Mylasa) Sodra Dağı eteğinde yükselen Gümüşkesen, MS 2. yüzyıla tarihlenen görkemli bir Roma dönemi anıt mezarıdır. Yüksek bir podyum üzerine oturan yapı, köşelerde kare, aralarda oval kesitli toplam 12 sütunun taşıdığı bir üst galeriye ve çapraz basamaklı piramidal bir çatıya sahiptir. Bitkisel ve geometrik motiflerle bezeli ince mermer işçiliğiyle dikkat çeken anıtın, antik dünyanın yedi harikasından Halikarnassos Mozolesi'nden esinlenen küçük ölçekli bir yorumu olduğu düşünülür. Fazla hasar görmeden günümüze ulaşan yapının altında, ölünün gömüldüğü mezar odası yer alır.",
+            "de": "Am Fuße des Sodra-Bergs in Milas (dem antiken Mylasa) erhebt sich das Gümüşkesen, ein prächtiges Grabmonument aus römischer Zeit, datiert ins 2. Jahrhundert n. Chr. Auf einem hohen Podium ruhend, trägt der Bau eine obere Galerie aus insgesamt 12 Säulen — an den Ecken quadratisch, dazwischen mit ovalem Querschnitt — sowie ein kreuzweise gestuftes Pyramidendach. Mit seiner feinen, von pflanzlichen und geometrischen Motiven geschmückten Marmorarbeit gilt das Monument als kleinmaßstäbliche Nachbildung des Mausoleums von Halikarnassos, eines der Sieben Weltwunder. Der weitgehend unversehrt erhaltene Bau birgt in seinem Unterbau die Grabkammer.",
+            "en": "Rising at the foot of Mount Sodra in Milas (ancient Mylasa), the Gümüşkesen is a splendid tomb monument of the Roman period, dated to the 2nd century AD. Set upon a high podium, the structure carries an upper gallery of twelve columns — square at the corners and oval in section between them — beneath a cross-stepped pyramidal roof. Noted for its fine marble carving of plant and geometric motifs, the monument is thought to be a small-scale echo of the Mausoleum at Halicarnassus, one of the Seven Wonders of the ancient world. Reaching the present day largely undamaged, it shelters a burial chamber in its lower storey."
           }
         }
       ]
