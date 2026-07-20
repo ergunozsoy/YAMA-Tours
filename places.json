@@ -1849,6 +1849,57 @@
             "de": "Harran, eine der ältesten Siedlungen der Welt, ist für seine kegelförmigen „Kuppelhäuser“ bekannt; diese Lehmziegelbauten sind eine kluge Architektur gegen die Hitze der Ebene. In der Antike war Harran Zentrum eines dem Mondgott Sin geweihten Tempels und wurde später eine große Wissenschaftsstadt, in der Astronomie und Philosophie blühten. Die Ruinen der Ulu-Moschee und der alten Universität bewahren dieses Erbe. Inmitten der mesopotamischen Ebene wirkt Harran wie eine Schwelle zwischen Himmel und Erde.",
             "en": "Harran, one of the world's oldest settlements, is known for its conical 'beehive houses'; these mud-brick domes are a clever architecture for staying cool in the heat of the plain. In antiquity Harran was the centre of a temple dedicated to the moon god Sin, and later became a great city of science where astronomy and philosophy flourished. The ruins of the Grand Mosque and the old university carry this legacy to the present. In the midst of the Mesopotamian plain, Harran feels like a threshold where sky and earth meet."
           }
+        },
+        {
+          "id": "haleplibahce",
+          "coords": [
+            37.16,
+            38.785
+          ],
+          "name": {
+            "tr": "Haleplibahçe Mozaik Müzesi",
+            "de": "Mosaikmuseum Haleplibahçe",
+            "en": "Haleplibahçe Mosaic Museum"
+          },
+          "desc": {
+            "tr": "Şanlıurfa Kalesi eteğindeki Haleplibahçe mevkiinde, 2006'daki kazılarda ortaya çıkan geç Roma dönemi villa tabanları üzerine kurulan ve mozaikleri bulundukları yerde (in situ) koruyan bu müze 2015'te ziyarete açılmıştır. Cam ve çelik konstrüksiyonla örtülen, yürüme yollarından izlenen mozaikler arasında en ünlüsü, ata binmiş savaşçı Amazon kraliçelerini av sahneleriyle betimleyen ve kraliçelerin adlarının Yunanca yazıldığı Amazonlar tabanıdır. Koleksiyonda ayrıca MS 194'e tarihlenen Orfeus mozaiği ile Ktisis ve Akhilleus'un yaşamını anlatan panolar yer alır; renkli taş ve cam tesseralarla işlenen bu eserler bölgenin zengin mitolojik anlatı geleneğini yansıtır.",
+            "de": "Dieses Museum am Fuße der Burg von Şanlıurfa steht am Fundort Haleplibahçe über spätrömischen Villenböden, die bei Grabungen 2006 freigelegt wurden, und bewahrt die Mosaike an Ort und Stelle (in situ); es wurde 2015 eröffnet. Unter den über Stege betrachteten, von einer Glas-Stahl-Konstruktion überdachten Mosaiken ist das bekannteste der Amazonen-Boden, der berittene Amazonenköniginnen bei der Jagd zeigt und ihre Namen auf Griechisch nennt. Die Sammlung umfasst zudem das auf 194 n. Chr. datierte Orpheus-Mosaik sowie Tafeln zu Ktisis und zum Leben des Achilles; die aus farbigen Stein- und Glastesserae gefertigten Werke spiegeln die mythologische Erzähltradition der Region wider.",
+            "en": "Built at the foot of Urfa Castle in the Haleplibahçe area over late Roman villa floors uncovered in the 2006 excavations, this museum preserves its mosaics in situ and opened to visitors in 2015. Viewed from walkways beneath a glass-and-steel canopy, the most famous piece is the Amazons floor, which depicts mounted warrior Amazon queens in hunting scenes with their names written in Greek. The collection also includes the Orpheus mosaic dated to 194 CE and panels showing Ktisis and the life of Achilles; crafted from colored stone and glass tesserae, these works reflect the region's rich mythological narrative tradition."
+          }
+        },
+        {
+          "id": "urfamuze",
+          "coords": [
+            37.159,
+            38.786
+          ],
+          "name": {
+            "tr": "Şanlıurfa Arkeoloji Müzesi",
+            "de": "Archäologisches Museum Şanlıurfa",
+            "en": "Şanlıurfa Archaeology Museum"
+          },
+          "desc": {
+            "tr": "2015'te açılan ve kapalı sergi alanıyla Türkiye'nin en büyük müze kompleksleri arasında sayılan Şanlıurfa Arkeoloji Müzesi, Neolitik Çağ'a ait Göbeklitepe, Karahantepe ve Nevali Çori kazılarından dikilitaş, kabartma ve heykelleri bir araya getirir. Müzenin en ünlü eseri, 1993'te Balıklıgöl yakınındaki Yeni Mahalle'de bulunan ve yaklaşık 11 bin yıl öncesine, Çanak Çömleksiz Neolitik döneme tarihlenen Urfa Adamı'dır; 1,80 metre boyundaki kireçtaşı heykel, göz çukurlarına obsidyen parçaları yerleştirilmiş haliyle bilinen en eski gerçek insan boyutlu heykel olarak kabul edilir. Canlandırmalı düzenlemeleriyle müze, bölgenin Neolitik yaşamını da ziyaretçiye anlatır.",
+            "de": "Das 2015 eröffnete Archäologische Museum Şanlıurfa zählt mit seiner Ausstellungsfläche zu den größten Museumskomplexen der Türkei und vereint Stelen, Reliefs und Skulpturen aus den neolithischen Grabungen von Göbekli Tepe, Karahan Tepe und Nevalı Çori. Das berühmteste Stück ist der Urfa-Mann, 1993 im Viertel Yeni Mahalle nahe dem Balıklıgöl gefunden und auf etwa 11.000 Jahre, das präkeramische Neolithikum, datiert; die 1,80 Meter hohe Kalksteinfigur mit in die Augenhöhlen eingesetzten Obsidianstücken gilt als älteste bekannte lebensgroße Menschenskulptur. Mit szenischen Inszenierungen vermittelt das Museum zudem das neolithische Leben der Region.",
+            "en": "Opened in 2015 and counted among Turkey's largest museum complexes by exhibition space, the Şanlıurfa Archaeology Museum brings together stelae, reliefs and sculptures from the Neolithic excavations at Göbekli Tepe, Karahan Tepe and Nevalı Çori. Its most famous work is the Urfa Man, found in 1993 in the Yeni Mahalle district near Balıklıgöl and dated to roughly 11,000 years ago, in the Pre-Pottery Neolithic; the 1.80-meter limestone figure, with obsidian pieces set into its eye sockets, is regarded as the oldest known life-sized human sculpture. Through immersive displays the museum also recounts the region's Neolithic life."
+          }
+        },
+        {
+          "id": "eyyub",
+          "coords": [
+            37.152,
+            38.78
+          ],
+          "name": {
+            "tr": "Hz. Eyyüb Makamı",
+            "de": "Schrein des Propheten Hiob (Eyyüb)",
+            "en": "Shrine of the Prophet Job (Eyyüb)"
+          },
+          "desc": {
+            "tr": "Şanlıurfa'nın Eyyübiye ilçesine adını veren bu ziyaret yeri, İslam geleneğinde sabrıyla anılan Eyyüb Peygamber'e adanmıştır. İnanışa göre ağır bir hastalık döneminde çile çektiği kabul edilen mağara ile şifa bulmasına vesile olduğuna inanılan kuyu, günümüzde bir cami ve külliye çevresinde ziyaret edilir. Rivayete göre topuğunu yere vurunca kaynayan sudan içen ve mağarada bekleyen peygamber, servetini, çocuklarını ve sağlığını yitirmesine rağmen imanını koruduğu için sabır peygamberi olarak anılır. Yöre halkı ve ziyaretçiler mağarayı, sabır taşını ve şifalı sayılan su kuyusunu görmek ve dua etmek için gelir; burası bölgenin en önemli manevi duraklarından biridir.",
+            "de": "Diese Pilgerstätte, die dem Bezirk Eyyübiye in Şanlıurfa ihren Namen gibt, ist dem Propheten Hiob (Eyyüb) gewidmet, der in der islamischen Überlieferung für seine Geduld verehrt wird. Der Überlieferung nach werden die Höhle, in der er während einer schweren Krankheit ausgeharrt haben soll, und der Brunnen, dem seine Genesung zugeschrieben wird, heute rund um eine Moschee und einen Gebäudekomplex besucht. Der Erzählung zufolge sprang das Wasser hervor, als er mit der Ferse auf den Boden schlug; obwohl er Vermögen, Kinder und Gesundheit verlor, bewahrte er seinen Glauben und gilt darum als Prophet der Geduld. Besucher kommen, um die Höhle, den Geduldsstein und den als heilkräftig geltenden Brunnen zu sehen und zu beten; der Ort zählt zu den bedeutendsten spirituellen Stationen der Region.",
+            "en": "This pilgrimage site, which gives its name to Şanlıurfa's Eyyübiye district, is dedicated to the Prophet Job (Eyyüb), revered in Islamic tradition for his patience. According to belief, the cave where he is held to have endured a severe illness and the well credited with his recovery are today visited within a mosque and religious complex. As the story goes, water sprang up when he struck the ground with his heel; though he lost his wealth, children and health, he kept his faith and is remembered as the prophet of patience. Locals and visitors come to see the cave, the patience stone and the well regarded as healing, and to pray; it is one of the region's most important spiritual stops."
+          }
         }
       ]
     },
@@ -2057,6 +2108,91 @@
             "tr": "Mardin'in Tur Abdin bölgesindeki Midyat, taş işçiliğinin ve çok kültürlü yaşamın simge kentlerinden biridir. Bal renkli taştan yapılmış konakları, dantel gibi işlenmiş cepheleri ve dar sokaklarıyla eski Midyat, gezginleri başka bir çağa taşır. Süryani manastır ve kiliseleri, camilerle aynı ufku paylaşır; bu topraklar yüzyıllardır farklı inançların ortak yurdu olmuştur. Telkâri adı verilen ince gümüş işçiliği, Midyat ustalarının elinde bugün de yaşayan bir sanattır.",
             "de": "Midyat in der Region Tur Abdin von Mardin ist eine Symbolstadt der Steinmetzkunst und des multikulturellen Lebens. Mit honigfarbenen Steinvillen, spitzenartig gearbeiteten Fassaden und engen Gassen versetzt die Altstadt von Midyat die Reisenden in eine andere Zeit. Syrisch-orthodoxe Klöster und Kirchen teilen denselben Horizont mit Moscheen; dieses Land ist seit Jahrhunderten Heimat verschiedener Glaubensrichtungen. Die feine Silberkunst Telkâri lebt in den Händen der Meister von Midyat bis heute.",
             "en": "Midyat, in the Tur Abdin region of Mardin, is one of the symbol cities of stone craftsmanship and multicultural life. With its honey-coloured stone mansions, lace-like carved façades and narrow lanes, old Midyat carries travellers to another age. Syriac monasteries and churches share the same horizon with mosques; this land has been the common home of different faiths for centuries. The fine silverwork called telkâri is an art still alive today in the hands of Midyat's masters."
+          }
+        },
+        {
+          "id": "zinciriye",
+          "coords": [
+            37.313,
+            40.737
+          ],
+          "name": {
+            "tr": "Zinciriye (Sultan İsa) Medresesi",
+            "de": "Zinciriye-Medrese (Sultan-İsa-Medrese)",
+            "en": "Zinciriye (Sultan İsa) Madrasa"
+          },
+          "desc": {
+            "tr": "Mardin'in yamaçlarında yükselen Zinciriye Medresesi, Artuklu hükümdarı Melik Necmeddin İsa bin Muzaffer Davud tarafından 1385'te yaptırıldı; bu nedenle Sultan İsa Medresesi olarak da anılır. Adını, kubbeleri arasına asıldığı söylenen zincirlerden alır. Anıtsal taçkapısı, yivli iki kubbesi ve ince taş işçiliğiyle 14. yüzyıl Artuklu mimarisinin başyapıtlarından sayılır. İki katlı yapı; cami, türbe, avlu ve öğrenci hücrelerini bir araya getirir; kuzeybatı köşesindeki türbede kurucusunun gömülü olduğu kabul edilir. Terasından Mardin'in taş evleri ile uçsuz bucaksız Mezopotamya ovası bütün genişliğiyle izlenir.",
+            "de": "Die an den Hängen Mardins aufragende Zinciriye-Medrese wurde 1385 vom artukidischen Herrscher Melik Necmeddin İsa bin Muzaffer Davud errichtet und daher auch Sultan-İsa-Medrese genannt. Ihren Namen soll sie von Ketten haben, die einst zwischen ihren Kuppeln hingen. Mit ihrem monumentalen Portal, den beiden gerippten Kuppeln und der feinen Steinmetzkunst zählt sie zu den Meisterwerken der artukidischen Architektur des 14. Jahrhunderts. Der zweigeschossige Bau vereint Moschee, Grabmal, Innenhof und Studentenzellen; im nordwestlichen Grabmal soll der Stifter bestattet sein. Von der Terrasse überblickt man die Steinhäuser Mardins und die weite mesopotamische Ebene.",
+            "en": "Rising on Mardin's slopes, the Zinciriye Madrasa was built in 1385 by the Artuqid ruler Melik Necmeddin İsa bin Muzaffer Davud, and is therefore also called the Sultan İsa Madrasa. It is said to owe its name to chains once hung between its domes. With its monumental portal, twin ribbed domes and refined stonework, it ranks among the masterpieces of 14th-century Artuqid architecture. The two-storey building brings together a mosque, mausoleum, courtyard and student cells; the founder is believed to be buried in the mausoleum at its northwestern corner. From its terrace, the stone houses of Mardin and the vast Mesopotamian plain stretch out in full."
+          }
+        },
+        {
+          "id": "morgabriel",
+          "coords": [
+            37.33,
+            41.5
+          ],
+          "name": {
+            "tr": "Mor Gabriel Manastırı",
+            "de": "Mor-Gabriel-Kloster",
+            "en": "Mor Gabriel Monastery"
+          },
+          "desc": {
+            "tr": "Midyat'ın güneydoğusundaki Mor Gabriel Manastırı, 397 yılında Mor Şmuel ve Mor Şemun tarafından kuruldu; Deyrulumur ve Kartmin Manastırı adlarıyla da bilinir. Dünyada ayakta kalan en eski Süryani Ortodoks manastırlarından biri olarak 1600 yılı aşkın süredir faaldir. Turabdin bölgesinin manevi merkezi sayılan manastır, Süryanice ibadetin ve din adamı yetiştiren eğitimin sürdüğü canlı bir topluluğa ev sahipliği yapar. Erken Hristiyanlık dönemine uzanan mozaikleri, kubbeli mekânları ve taş avlularıyla dikkat çeker; 2021'de UNESCO Dünya Mirası Geçici Listesi'ne alınmıştır.",
+            "de": "Das südöstlich von Midyat gelegene Mor-Gabriel-Kloster wurde 397 von Mor Schmuel und Mor Schemun gegründet und ist auch als Deyrulumur oder Kartmin-Kloster bekannt. Als eines der ältesten bis heute bestehenden syrisch-orthodoxen Klöster der Welt ist es seit über 1600 Jahren in Betrieb. Als geistliches Zentrum der Region Turabdin gilt, beherbergt es eine lebendige Gemeinschaft, in der der syrische Gottesdienst und die Ausbildung von Geistlichen fortgeführt werden. Es besticht durch Mosaike aus frühchristlicher Zeit, kuppelüberwölbte Räume und steinerne Höfe; 2021 wurde es in die UNESCO-Vorschlagsliste des Welterbes aufgenommen.",
+            "en": "Southeast of Midyat, the Mor Gabriel Monastery was founded in 397 by Mor Shmuel and Mor Shemun, and is also known as Deyrulumur or the Kartmin Monastery. As one of the oldest surviving Syriac Orthodox monasteries in the world, it has been in continuous use for more than 1,600 years. Regarded as the spiritual heart of the Tur Abdin region, it is home to a living community where Syriac worship and the training of clergy still continue. It is notable for mosaics reaching back to early Christian times, domed halls and stone courtyards; in 2021 it was added to the UNESCO World Heritage Tentative List."
+          }
+        },
+        {
+          "id": "kirklar",
+          "coords": [
+            37.312,
+            40.736
+          ],
+          "name": {
+            "tr": "Kırklar Kilisesi",
+            "de": "Kırklar-Kirche (Mor-Behnam-Kirche)",
+            "en": "Church of the Forty (Kırklar / Mor Behnam Church)"
+          },
+          "desc": {
+            "tr": "Mardin merkezdeki Kırklar Kilisesi, asıl adıyla Mor Behnam Kilisesi, Süryani Ortodoks cemaatinin başlıca ibadet mekânlarından biridir. Kesin yapım tarihi bilinmese de bugünkü hâli büyük ölçüde 17.-18. yüzyıla tarihlenir. 1170'te Kırk Şehitler'in kalıntıları buraya taşınınca kilise 'Kırklar' adını almıştır. Üç nefli plana sahip yapı; oymalı ceviz kapıları, gümüş kandilleri ve özellikle işçiliğiyle öne çıkan oymalı ahşap ikonostası ile tanınır. Taş avlusu ve değerli ikonalarıyla dikkat çeken kilise bugün hâlâ ibadete açıktır.",
+            "de": "Die im Zentrum Mardins gelegene Kırklar-Kirche, eigentlich Mor-Behnam-Kirche, ist eine der wichtigsten Gebetsstätten der syrisch-orthodoxen Gemeinde. Ihr genaues Baudatum ist unbekannt, doch ihr heutiger Zustand wird weitgehend ins 17.–18. Jahrhundert datiert. Als 1170 die Reliquien der Vierzig Märtyrer hierher überführt wurden, erhielt die Kirche den Namen „Kırklar“ (die Vierzig). Der dreischiffige Bau ist bekannt für seine geschnitzten Nussbaumtüren, silbernen Öllampen und vor allem für seine kunstvoll geschnitzte hölzerne Ikonostase. Mit ihrem steinernen Hof und wertvollen Ikonen beeindruckend, ist die Kirche bis heute dem Gottesdienst geöffnet.",
+            "en": "In central Mardin, the Kırklar Church, properly the Mor Behnam Church, is one of the principal places of worship of the Syriac Orthodox community. Although its exact construction date is unknown, its present form is largely dated to the 17th–18th centuries. When the relics of the Forty Martyrs were brought here in 1170, the church took the name 'Kırklar' (the Forty). The three-aisled building is known for its carved walnut doors, silver oil lamps and, above all, its finely carved wooden iconostasis. Striking for its stone courtyard and precious icons, the church remains open for worship today."
+          }
+        },
+        {
+          "id": "mardinmuze",
+          "coords": [
+            37.311,
+            40.734
+          ],
+          "name": {
+            "tr": "Sakıp Sabancı Mardin Kent Müzesi",
+            "de": "Sakıp-Sabancı-Stadtmuseum Mardin",
+            "en": "Sakıp Sabancı Mardin City Museum"
+          },
+          "desc": {
+            "tr": "Sakıp Sabancı Mardin Kent Müzesi, 19. yüzyıl sonunda Hamidiye Süvari Kışlası olarak inşa edilen, sonraki dönemde vergi dairesi olarak kullanılan tarihî yapıda hizmet verir. Sabancı Vakfı'nca restore edilerek 2009'da açılan müze, Mardin'in çok kültürlü tarihini; farklı inançlara ait mezar taşları, el sanatları, dokumacılık, kuyumculuk ve yöresel giysiler üzerinden anlatır. Alt katındaki Dilek Sabancı Sanat Galerisi resim, fotoğraf ve çağdaş sanat sergilerine ev sahipliği yapar. Yapı, kentin dokusunu ve gündelik yaşam belleğini bir araya getiren canlı bir kültür durağıdır.",
+            "de": "Das Sakıp-Sabancı-Stadtmuseum Mardin ist in einem historischen Gebäude untergebracht, das Ende des 19. Jahrhunderts als Kavalleriekaserne der Hamidiye-Truppen errichtet und später als Finanzamt genutzt wurde. Vom Sabancı-Stiftung restauriert und 2009 eröffnet, erzählt das Museum die multikulturelle Geschichte Mardins anhand von Grabsteinen verschiedener Glaubensrichtungen, Handwerk, Weberei, Goldschmiedekunst und regionaler Tracht. Die Dilek-Sabancı-Kunstgalerie im Untergeschoss zeigt Malerei-, Fotografie- und Gegenwartskunstausstellungen. Der Bau ist eine lebendige Kulturstation, die das Gefüge der Stadt und das Gedächtnis des Alltags zusammenführt.",
+            "en": "The Sakıp Sabancı Mardin City Museum occupies a historic building erected in the late 19th century as a cavalry barracks of the Hamidiye regiments and later used as a tax office. Restored by the Sabancı Foundation and opened in 2009, the museum tells Mardin's multicultural history through gravestones of different faiths, handicrafts, weaving, jewellery-making and regional dress. On its lower floor, the Dilek Sabancı Art Gallery hosts painting, photography and contemporary art exhibitions. The building is a living cultural stop that brings together the fabric of the city and the memory of everyday life."
+          }
+        },
+        {
+          "id": "hasankeyf",
+          "coords": [
+            37.714,
+            41.413
+          ],
+          "name": {
+            "tr": "Hasankeyf",
+            "de": "Hasankeyf",
+            "en": "Hasankeyf"
+          },
+          "desc": {
+            "tr": "Batman'da, Dicle kıyısında kurulu Hasankeyf, on iki bin yıla uzanan geçmişiyle Mezopotamya'nın en köklü yerleşimlerinden biridir; Neolitik çağdan Osmanlı'ya birçok uygarlığa tanıklık etmiştir. Kayalara oyulmuş mağara meskenleri, kaya kalesi, 14. yüzyıl Ulu Camii ve Dicle üzerindeki tarihî köprünün ayakta kalan ayakları öne çıkar. Ilısu Barajı'nın oluşturduğu göl nedeniyle kentin büyük bölümü sular altında kalmış; Akkoyunlu dönemine ait Zeynel Bey Türbesi gibi anıtlar korunmak üzere yeni kurulan Arkeopark'a taşınmıştır. Firuze rengi nehri ve kanyon manzarasıyla çarpıcı bir tarih-doğa buluşması sunar.",
+            "de": "Am Ufer des Tigris in Batman gelegen, ist Hasankeyf mit einer bis zu zwölftausend Jahre zurückreichenden Geschichte eine der ältesten Siedlungen Mesopotamiens und war Zeuge zahlreicher Kulturen vom Neolithikum bis zu den Osmanen. Hervor stechen die in den Fels gehauenen Höhlenwohnungen, die Felsburg, die Große Moschee aus dem 14. Jahrhundert und die erhaltenen Pfeiler der historischen Tigris-Brücke. Durch den Stausee des Ilısu-Damms wurde ein großer Teil der Stadt überflutet; Denkmäler wie das Zeynel-Bey-Grabmal aus der Aq-Qoyunlu-Zeit wurden zum Schutz in den neu angelegten Archäopark versetzt. Mit seinem türkisfarbenen Fluss und der Schluchtlandschaft bietet der Ort ein eindrucksvolles Zusammentreffen von Geschichte und Natur.",
+            "en": "Set on the banks of the Tigris in Batman, Hasankeyf, with a past reaching back some twelve thousand years, is one of the oldest settlements in Mesopotamia, having witnessed many civilisations from the Neolithic to the Ottomans. Its rock-cut cave dwellings, cliff citadel, 14th-century Grand Mosque and the surviving piers of the historic Tigris bridge stand out. Because of the reservoir formed by the Ilısu Dam, much of the town was submerged; monuments such as the Aq Qoyunlu-era Zeynel Bey Mausoleum were moved to the newly built Archaeopark for preservation. With its turquoise river and canyon scenery, it offers a striking meeting of history and nature."
           }
         }
       ]
@@ -3337,6 +3473,243 @@
             "tr": "1972'de kurulan Van Müzesi, 2011 depremlerinin ardından Van Kalesi'nin karşısındaki çağdaş binasına taşınarak 2019'da yeniden ziyarete açıldı. Envanterinde 40 bini aşan eser bulunan müze, dünyanın en zengin Urartu koleksiyonlarından birine ev sahipliği yapar. Salonlarda altın ve gümüş takılar, bronz kemerler, tören silahları, damga ve silindir mühürler ile çivi yazılı kil tabletler kronolojik bir düzende sergilenir. Urartu'dan Ortaçağ'a bölgenin katmanlı geçmişini yansıtan koleksiyon, kazılarda gün ışığına çıkan buluntularla zenginleşir; müze, Van havzasının arkeolojik derinliğini tek çatı altında sunar.",
             "de": "Das 1972 gegründete Museum von Van zog nach den Erdbeben von 2011 in einen modernen Neubau gegenüber der Festung von Van um und wurde 2019 wiedereröffnet. Mit über 40.000 inventarisierten Objekten beherbergt es eine der reichsten urartäischen Sammlungen der Welt. In den Sälen werden Gold- und Silberschmuck, Bronzegürtel, Zeremonialwaffen, Stempel- und Rollsiegel sowie Tontafeln mit Keilschrift in chronologischer Ordnung gezeigt. Die Sammlung, die die vielschichtige Vergangenheit der Region von Urartu bis ins Mittelalter widerspiegelt, wird durch Funde aus laufenden Grabungen ergänzt; das Museum präsentiert die archäologische Tiefe des Van-Beckens unter einem Dach.",
             "en": "Founded in 1972, the Van Museum moved into a modern building opposite the Van Fortress after the 2011 earthquakes and reopened in 2019. With more than 40,000 inventoried objects, it holds one of the richest Urartian collections in the world. Its halls display gold and silver jewellery, bronze belts, ceremonial weapons, stamp and cylinder seals, and clay tablets bearing cuneiform, all arranged in chronological order. Reflecting the layered past of the region from Urartu to the medieval era, the collection is continually enriched by finds from ongoing excavations; the museum presents the archaeological depth of the Van basin under a single roof."
+          }
+        }
+      ]
+    },
+    {
+      "id": "adiyaman",
+      "name": {
+        "tr": "Adıyaman · Nemrut",
+        "de": "Adıyaman · Nemrut",
+        "en": "Adıyaman · Nemrut"
+      },
+      "img": "",
+      "places": [
+        {
+          "id": "nemrut",
+          "coords": [
+            37.981,
+            38.741
+          ],
+          "name": {
+            "tr": "Nemrut Dağı",
+            "de": "Berg Nemrut (Nemrut Dağı)",
+            "en": "Mount Nemrut"
+          },
+          "desc": {
+            "tr": "Nemrut Dağı, 1987'de UNESCO Dünya Mirası Listesi'ne alınan, 2150 metre dolayındaki zirvesinde Kommagene kralı I. Antiokhos'un MÖ 1. yüzyılda yaptırdığı anıt mezarla dünyaca ünlüdür. Kırma taştan yaklaşık 50 metre yüksekliğindeki tümülüsün doğu ve batı teraslarında Zeus-Oromasdes, Apollon-Mithras, Herakles ve tanrıça Kommagene ile kralın kendisini betimleyen 8-10 metre yüksekliğindeki dev heykeller sıralanır; kartal ve aslan figürleri bu diziye eşlik eder. Depremler ve zamanla gövdelerden kopan kolosal başlar bugün teraslara dağılmış hâlde durur. Gün doğumu ile batımında ışığın heykeller üzerinde gezinmesi, ziyaretin en etkileyici anıdır.",
+            "de": "Der Berg Nemrut ist weltberühmt für das Grabmal, das der kommagenische König Antiochos I. im 1. Jahrhundert v. Chr. auf dem rund 2150 Meter hohen Gipfel errichten ließ und das 1987 in die UNESCO-Welterbeliste aufgenommen wurde. Auf den Ost- und Westterrassen des etwa 50 Meter hohen Tumulus aus Bruchstein reihen sich 8 bis 10 Meter hohe kolossale Statuen, die Zeus-Oromasdes, Apollon-Mithras, Herakles, die Göttin Kommagene und den König selbst darstellen; Adler- und Löwenfiguren begleiten diese Reihe. Die durch Erdbeben und Zeit von den Körpern gelösten Kolossalköpfe liegen heute über die Terrassen verstreut. Am eindrucksvollsten wirkt der Ort, wenn das Licht bei Sonnenauf- und -untergang über die Figuren wandert.",
+            "en": "Mount Nemrut is world-famous for the funerary monument that the Commagene king Antiochos I had built on its roughly 2150-metre summit in the 1st century BC, inscribed on the UNESCO World Heritage List in 1987. On the east and west terraces of the roughly 50-metre-high tumulus of crushed stone stand rows of colossal statues 8 to 10 metres tall, depicting Zeus-Oromasdes, Apollo-Mithras, Herakles, the goddess Commagene and the king himself; eagle and lion figures accompany the row. The colossal heads, detached from their bodies by earthquakes and time, now lie scattered across the terraces. The most striking moment of a visit is when the light of sunrise and sunset moves across the figures."
+          }
+        },
+        {
+          "id": "cendere",
+          "coords": [
+            37.92,
+            38.63
+          ],
+          "name": {
+            "tr": "Cendere Köprüsü",
+            "de": "Cendere-Brücke",
+            "en": "Cendere Bridge"
+          },
+          "desc": {
+            "tr": "Cendere Köprüsü, Kâhta Çayı üzerinde yükselen ve büyük bölümüyle hâlâ ayakta duran görkemli bir Roma köprüsüdür. MS 2. yüzyılda, İmparator Septimius Severus onuruna 16. Roma Lejyonu tarafından harç kullanılmadan, kesme taş bloklarla inşa edilmiştir. Yaklaşık 120 metre uzunluğundaki yapının ana kemer açıklığı 30 metreyi aşar. İki ucundaki dört sütundan üçü günümüze ulaşmıştır; sütunlar imparatora, eşi Iulia Domna'ya ve oğullarına adanmış, Geta için dikilen sütun ise kardeşi Caracalla'nın buyruğuyla kaldırılmıştır. 2007'den bu yana araç trafiğine kapalı olan köprü, yanına yapılan yeni geçişle korunmaktadır.",
+            "de": "Die Cendere-Brücke ist eine eindrucksvolle römische Brücke über den Fluss Kâhta, die zum größten Teil bis heute erhalten ist. Sie wurde im 2. Jahrhundert n. Chr. zu Ehren des Kaisers Septimius Severus von der 16. römischen Legion ohne Mörtel aus behauenen Steinblöcken errichtet. Das rund 120 Meter lange Bauwerk hat eine Hauptbogenspannweite von über 30 Metern. Von den vier Säulen an den beiden Enden sind drei erhalten; sie waren dem Kaiser, seiner Frau Iulia Domna und seinen Söhnen gewidmet, doch die Säule für Geta wurde auf Befehl seines Bruders Caracalla entfernt. Seit 2007 ist die Brücke für den Fahrzeugverkehr gesperrt und wird durch einen daneben errichteten Neubau geschont.",
+            "en": "The Cendere Bridge is an impressive Roman bridge over the Kâhta River, still largely standing today. It was built in the 2nd century AD in honour of Emperor Septimius Severus by the 16th Roman Legion, using cut stone blocks laid without mortar. The roughly 120-metre-long structure has a main arch span of more than 30 metres. Of the four columns at its two ends, three survive; they were dedicated to the emperor, his wife Iulia Domna and his sons, but the column raised for Geta was removed by order of his brother Caracalla. Closed to vehicle traffic since 2007, the bridge is now preserved thanks to a new crossing built alongside it."
+          }
+        },
+        {
+          "id": "karakus",
+          "coords": [
+            37.9,
+            38.61
+          ],
+          "name": {
+            "tr": "Karakuş Tümülüsü",
+            "de": "Karakuş-Tumulus",
+            "en": "Karakuş Tumulus"
+          },
+          "desc": {
+            "tr": "Karakuş Tümülüsü, Kommagene hanedanının kadın üyelerine adanmış bir anıt mezardır; kral II. Mithradates tarafından MÖ 1. yüzyılda annesi kraliçe Isias ile hanedanın diğer kadınları için yaptırıldığı kabul edilir. Yaklaşık 20 metre yüksekliğindeki tepeyi çevreleyen sütunların üzerinde kartal, aslan ve boğa gibi figürler yer alır; güneydeki sütunu taçlandıran kartal heykeli yapıya adını vermiştir. Yaklaşık 10 metre yüksekliğindeki sütunlardan bir bölümü günümüze ulaşmıştır. Roma döneminde Cendere Köprüsü'nün yapımı için buradan taş sökülmesinin anıta zarar verdiği belirtilir. Nemrut gezi rotasının doğal bir durağıdır.",
+            "de": "Der Karakuş-Tumulus ist ein Grabmal, das den weiblichen Mitgliedern der kommagenischen Dynastie gewidmet ist; er soll im 1. Jahrhundert v. Chr. von König Mithridates II. für seine Mutter, Königin Isias, und weitere Frauen der Dynastie errichtet worden sein. Um den etwa 20 Meter hohen Hügel stehen Säulen, die Figuren wie Adler, Löwe und Stier tragen; die den südlichen Pfeiler krönende Adlerstatue gab dem Bauwerk seinen Namen. Von den rund 10 Meter hohen Säulen ist ein Teil erhalten. Es heißt, dass der Abbau von Steinen für den Bau der Cendere-Brücke in römischer Zeit dem Denkmal geschadet hat. Der Ort ist eine natürliche Station auf der Nemrut-Route.",
+            "en": "The Karakuş Tumulus is a funerary monument dedicated to the female members of the Commagene dynasty; it is held to have been built in the 1st century BC by King Mithridates II for his mother, Queen Isias, and other women of the dynasty. Around the roughly 20-metre-high mound stand columns bearing figures such as an eagle, a lion and a bull; the eagle statue crowning the southern column gave the monument its name. Some of the roughly 10-metre-high columns survive today. It is noted that the quarrying of stone from the site for the construction of the Cendere Bridge in Roman times damaged the monument. The site is a natural stop on the Nemrut route."
+          }
+        }
+      ]
+    },
+    {
+      "id": "diyarbakir",
+      "name": {
+        "tr": "Diyarbakır",
+        "de": "Diyarbakır",
+        "en": "Diyarbakır"
+      },
+      "img": "",
+      "places": [
+        {
+          "id": "diyarbakirsur",
+          "coords": [
+            37.914,
+            40.238
+          ],
+          "name": {
+            "tr": "Diyarbakır Surları ve Hevsel Bahçeleri",
+            "de": "Stadtmauern von Diyarbakır und Hevsel-Gärten",
+            "en": "Diyarbakır City Walls and Hevsel Gardens"
+          },
+          "desc": {
+            "tr": "Kentin simgesi olan siyah bazalttan surlar, eski şehir çekirdeğini yaklaşık 5,5 kilometre boyunca çevreleyerek dünyanın en uzun ve en sağlam sur duvarlarından birini oluşturur. 4. yüzyıldan itibaren Roma, Bizans, Mervani, Selçuklu, Artuklu ve Osmanlı dönemlerinde onarılıp güçlendirilen surlar, çok sayıda burç ile farklı uygarlıklara ait kitabeler ve figürlü kabartmalar taşır. Surların Dicle vadisine inen eteklerinde, yüzyıllardır kesintisiz sürdürülen bostan tarımıyla ünlü tarihî Hevsel Bahçeleri uzanır. Alan, 2015 yılında \"Diyarbakır Kalesi ve Hevsel Bahçeleri Kültürel Peyzajı\" adıyla UNESCO Dünya Mirası Listesi'ne alınmıştır.",
+            "de": "Die schwarzen Basaltmauern, Wahrzeichen der Stadt, umschließen den historischen Stadtkern auf rund 5,5 Kilometern und bilden eine der längsten und besterhaltenen Wehrmauern der Welt. Seit dem 4. Jahrhundert von Römern, Byzantinern, Marwaniden, Seldschuken, Artukiden und Osmanen ausgebessert und verstärkt, tragen sie zahlreiche Türme sowie Inschriften und figürliche Reliefs verschiedener Kulturen. An den zum Tigristal abfallenden Hängen erstrecken sich die historischen Hevsel-Gärten, seit Jahrhunderten für ihren ununterbrochenen Gemüseanbau bekannt. Das Gebiet wurde 2015 als \"Kulturlandschaft der Festung von Diyarbakır und der Hevsel-Gärten\" in die UNESCO-Welterbeliste aufgenommen.",
+            "en": "The city's emblematic black basalt walls encircle the old urban core for roughly 5.5 kilometres, forming one of the longest and best-preserved defensive walls in the world. Repaired and reinforced from the 4th century onward by Romans, Byzantines, Marwanids, Seljuks, Artuqids and Ottomans, they bear numerous towers along with inscriptions and figural reliefs from many civilizations. On the slopes descending to the Tigris valley lie the historic Hevsel Gardens, famed for centuries of uninterrupted market gardening. The site was inscribed on the UNESCO World Heritage List in 2015 as the \"Diyarbakır Fortress and Hevsel Gardens Cultural Landscape.\""
+          }
+        },
+        {
+          "id": "diyulucami",
+          "coords": [
+            37.913,
+            40.24
+          ],
+          "name": {
+            "tr": "Diyarbakır Ulu Camii",
+            "de": "Große Moschee von Diyarbakır (Ulu Cami)",
+            "en": "Great Mosque of Diyarbakır (Ulu Cami)"
+          },
+          "desc": {
+            "tr": "Anadolu'nun en eski ve en büyük camilerinden biri olarak kabul edilen yapı, mihrap yönüne enlemesine uzanan çok ayaklı planıyla erken İslam mimarisinin Şam Emevi Camii geleneğini yansıtır. Bugünkü biçimini büyük ölçüde 11. yüzyılda, bir yangının ardından Büyük Selçuklu Sultanı Melikşah döneminde yürütülen yeniden inşayla almıştır. Avlusunda, kentin daha eski Roma ve Bizans yapılarından devşirilen sütunlar ile Selçuklu, Artuklu ve sonraki dönemlere ait taş bezemeli cepheler bir arada görülür. Farklı dönem kitabeleri ve zengin taş işçiliğiyle öne çıkan cami, bazı kaynaklarda \"beşinci Harem-i Şerif\" olarak da anılır.",
+            "de": "Als eine der ältesten und größten Moscheen Anatoliens spiegelt der Bau mit seinem breit zur Gebetsrichtung ausgerichteten Pfeilerplan die Tradition der Umayyaden-Moschee von Damaskus wider. Seine heutige Gestalt erhielt er weitgehend im 11. Jahrhundert durch einen Wiederaufbau nach einem Brand unter dem großseldschukischen Sultan Malik Schah. Im Innenhof vereinen sich aus älteren römischen und byzantinischen Bauten der Stadt wiederverwendete Säulen mit steinverzierten Fassaden der Seldschuken, Artukiden und späterer Epochen. Bekannt für Inschriften verschiedener Zeiten und reiche Steinmetzkunst, wird die Moschee in manchen Quellen auch als \"fünftes Heiligtum\" (Harem-i Şerif) bezeichnet.",
+            "en": "Regarded as one of the oldest and largest mosques in Anatolia, the building's wide, multi-pillared plan running parallel to the qibla reflects the tradition of the Umayyad Mosque of Damascus. It took its present form largely in the 11th century, through a reconstruction after a fire under the Great Seljuk Sultan Malik Shah. Its courtyard combines columns reused (spolia) from the city's older Roman and Byzantine structures with stone-carved façades of the Seljuk, Artuqid and later periods. Notable for inscriptions from many eras and rich stonework, the mosque is sometimes called the \"fifth Harem-i Şerif.\""
+          }
+        },
+        {
+          "id": "ongozlu",
+          "coords": [
+            37.895,
+            40.235
+          ],
+          "name": {
+            "tr": "On Gözlü Köprü (Dicle Köprüsü)",
+            "de": "Zehnbogenbrücke (Tigris-Brücke)",
+            "en": "Ten-Eyed Bridge (Tigris Bridge)"
+          },
+          "desc": {
+            "tr": "Dicle Nehri üzerinde yükselen bu bazalt kemerli köprü, kitabesine göre 1065 yılında Mervani (Mervanoğulları) döneminde yaptırılmıştır. On sivri kemer gözü, yaklaşık 170 metrelik uzunluğu ve kesme siyah bazalt işçiliğiyle Diyarbakır'ın en tanınmış tarihî yapılarından biridir. Güney cephesindeki iki satırlık kufi kitabe, köprünün yapımını ve dönemin yöneticisini belgeler; mimarının Ubeyd oğlu Yusuf olduğu belirtilir. Yüzyıllar boyunca kenti güney ve doğu yollarına bağlayan köprü, kimi araştırmacılarca daha eski bir yapının izlerini de taşıdığı öne sürülen konumuyla bugün de ziyaretçilerin uğrak noktasıdır.",
+            "de": "Diese Basaltbogenbrücke über den Tigris wurde ihrer Inschrift zufolge 1065 unter den Marwaniden errichtet. Mit ihren zehn Spitzbogen-Öffnungen, einer Länge von rund 170 Metern und der Verarbeitung aus behauenem schwarzem Basalt zählt sie zu den bekanntesten historischen Bauwerken von Diyarbakır. Eine zweizeilige kufische Inschrift an der Südseite dokumentiert Bau und Herrscher jener Zeit; als Architekt wird Yusuf, Sohn des Ubeyd, genannt. Die Brücke, die die Stadt über Jahrhunderte mit den südlichen und östlichen Wegen verband, ist bis heute ein beliebtes Ausflugsziel; manche Forscher vermuten an ihrem Standort Spuren eines noch älteren Bauwerks.",
+            "en": "This basalt arched bridge spanning the Tigris was, according to its inscription, built in 1065 under the Marwanid dynasty. With ten pointed-arch openings, a length of about 170 metres and finely cut black basalt, it is one of Diyarbakır's most recognizable historic monuments. A two-line Kufic inscription on the southern face records its construction and the ruler of the time; its architect is named as Yusuf, son of Ubeyd. Long connecting the city to the roads south and east, the bridge remains a favorite spot for visitors, and some researchers suggest its site preserves traces of an even older structure."
+          }
+        },
+        {
+          "id": "diyickale",
+          "coords": [
+            37.916,
+            40.242
+          ],
+          "name": {
+            "tr": "Diyarbakır İçkale ve Müzeler",
+            "de": "Innere Zitadelle (İçkale) und Museen von Diyarbakır",
+            "en": "Diyarbakır Inner Citadel (İçkale) and Museums"
+          },
+          "desc": {
+            "tr": "Surların kuzeydoğu köşesinde yer alan İçkale, kentin en eski yerleşim çekirdeği ve yönetim merkezi olmuş, kendi bazalt duvarları ve burçlarıyla ayrı bir kale oluşturur. Roma'dan Osmanlı'ya uzanan katmanlarda saray, kışla, cami ve idari yapıların izlerini barındırır. Kapsamlı bir düzenlemenin ardından bölge bugün açık hava ve kapalı sergi alanları içeren Diyarbakır Arkeoloji Müzesi ile tarihî yapıları bir araya getirir; Mustafa Kemal Atatürk'ün 1916-1917'de 16. Kolordu komutanı olarak görev yaptığı döneme ait Komutan Atatürk Binası da bu alanda anılır. Dicle vadisine hakim konumu ve restore edilmiş yapılarıyla İçkale, kentin binlerce yıllık geçmişini tek noktada okumaya olanak tanır.",
+            "de": "Die İçkale, an der Nordostecke der Stadtmauern gelegen, war der älteste Siedlungskern und das Verwaltungszentrum der Stadt und bildet mit eigenen Basaltmauern und Türmen eine gesonderte Zitadelle. In Schichten von den Römern bis zu den Osmanen bewahrt sie Spuren von Palast, Kaserne, Moschee und Verwaltungsbauten. Nach einer umfassenden Neugestaltung vereint das Areal heute das Archäologische Museum von Diyarbakır mit Frei- und Innenausstellungen sowie historische Gebäude; auch das Gebäude, das an Mustafa Kemal Atatürks Zeit als Kommandeur des 16. Korps (1916–1917) erinnert, wird hier bewahrt. Mit ihrer Lage über dem Tigristal und den restaurierten Bauten lässt die İçkale die jahrtausendealte Geschichte der Stadt an einem Ort ablesen.",
+            "en": "Set at the northeastern corner of the city walls, the İçkale was the oldest settlement core and administrative heart of the city, forming a separate citadel with its own basalt walls and towers. Across layers from Roman to Ottoman times it preserves traces of palace, barracks, mosque and administrative buildings. After a comprehensive redevelopment, the area now brings together the Diyarbakır Archaeology Museum, with open-air and indoor displays, and historic structures; a building recalling Mustafa Kemal Atatürk's time as commander of the 16th Corps (1916–1917) is also commemorated here. Overlooking the Tigris valley with its restored buildings, the İçkale lets visitors read the city's millennia-long past in a single place."
+          }
+        },
+        {
+          "id": "surpgiragos",
+          "coords": [
+            37.912,
+            40.236
+          ],
+          "name": {
+            "tr": "Surp Giragos Ermeni Kilisesi",
+            "de": "Armenische Surp-Giragos-Kirche",
+            "en": "Surp Giragos Armenian Church"
+          },
+          "desc": {
+            "tr": "Surların içinde, Sur ilçesindeki bu kilise Ortadoğu'nun en büyük Ermeni kiliselerinden biri olarak kabul edilir. Geniş, çok nefli ibadet mekânı ve tarihî çan kulesiyle bilinen yapının kesin yapım tarihi bilinmemekle birlikte 17. yüzyıl başındaki kayıtlarda anılır; 1881 yangınının ardından 1883'te yeniden inşa edilmiştir. Uzun yıllar işlevini yitiren ve harap durumdaki kilise, kapsamlı bir restorasyonla 2011'de yeniden ibadete açılmış, sonraki yıllarda gördüğü hasarın onarılmasının ardından 2022'de yeniden hizmete girmiştir. Bugün Diyarbakır'ın çok kültürlü geçmişinin simgelerinden biri olarak yerli ve yabancı ziyaretçileri ağırlar.",
+            "de": "Diese Kirche im Stadtviertel Sur innerhalb der Mauern gilt als eine der größten armenischen Kirchen des Nahen Ostens. Bekannt für ihren weiten, mehrschiffigen Andachtsraum und den historischen Glockenturm, ist ihr genaues Baujahr unbekannt, wird aber in Aufzeichnungen des frühen 17. Jahrhunderts erwähnt; nach dem Brand von 1881 wurde sie 1883 wiederaufgebaut. Lange ohne Funktion und verfallen, wurde die Kirche nach einer umfassenden Restaurierung 2011 wieder für Gottesdienste geöffnet und nach der Behebung späterer Schäden 2022 erneut in Betrieb genommen. Heute empfängt sie als eines der Sinnbilder der multikulturellen Vergangenheit Diyarbakırs einheimische und ausländische Besucher.",
+            "en": "Located in the Sur district within the walls, this church is regarded as one of the largest Armenian churches in the Middle East. Known for its wide, multi-nave prayer hall and historic bell tower, its exact construction date is unknown but it is mentioned in early 17th-century records; after a fire in 1881 it was rebuilt in 1883. Long left without function and fallen into ruin, the church was reopened for worship in 2011 following a comprehensive restoration, and returned to service in 2022 after later damage was repaired. Today, as one of the symbols of Diyarbakır's multicultural past, it welcomes local and foreign visitors."
+          }
+        }
+      ]
+    },
+    {
+      "id": "gaziantep",
+      "name": {
+        "tr": "Gaziantep",
+        "de": "Gaziantep",
+        "en": "Gaziantep"
+      },
+      "img": "",
+      "places": [
+        {
+          "id": "zeugma",
+          "coords": [
+            37.064,
+            37.383
+          ],
+          "name": {
+            "tr": "Zeugma Mozaik Müzesi",
+            "de": "Zeugma-Mosaikmuseum",
+            "en": "Zeugma Mosaic Museum"
+          },
+          "desc": {
+            "tr": "Gaziantep'in simgesi Zeugma Mozaik Müzesi, 2011 yılında açıldı ve yaklaşık 3.000 metrekarelik mozaik sergisiyle dünyanın en büyük mozaik müzelerinden biri sayılır. Fırat kıyısındaki antik Zeugma kentinden kurtarılan Roma dönemi villa mozaikleri; tanrılar, kahramanlar ve mitolojik sahnelerle bezelidir. Müzenin en ünlü eseri, Milattan sonra 2. yüzyıla tarihlenen ve derin bakışlarıyla 'Zeugma'nın Mona Lisa'sı' olarak da anılan Çingene Kızı mozaiğidir. 2018 yılında yurt dışından iade edilen eksik parçalarla bütünlenen koleksiyon, Roma döneminin sanat anlayışına ve gündelik yaşamına ışık tutar.",
+            "de": "Das Zeugma-Mosaikmuseum, ein Wahrzeichen Gazianteps, wurde 2011 eröffnet und gilt mit rund 3.000 Quadratmetern Mosaikfläche als eines der größten Mosaikmuseen der Welt. Die aus der antiken Stadt Zeugma am Euphrat geretteten römischen Villenmosaike zeigen Götter, Helden und mythologische Szenen. Das berühmteste Stück ist das auf das 2. Jahrhundert nach Christus datierte Mosaik des 'Zigeunermädchens', wegen seines tiefen Blicks auch 'Mona Lisa von Zeugma' genannt. Die 2018 durch zurückgegebene Fragmente vervollständigte Sammlung beleuchtet Kunst und Alltag der Römerzeit.",
+            "en": "A landmark of Gaziantep, the Zeugma Mosaic Museum opened in 2011 and, with roughly 3,000 square metres of mosaics on display, ranks among the largest mosaic museums in the world. The Roman-era villa mosaics rescued from the ancient city of Zeugma on the Euphrates depict gods, heroes and mythological scenes. Its most famous work is the 'Gypsy Girl' mosaic, dated to the 2nd century AD and nicknamed the 'Mona Lisa of Zeugma' for its penetrating gaze. Completed in 2018 with fragments returned from abroad, the collection illuminates Roman-period art and daily life."
+          }
+        },
+        {
+          "id": "antepkale",
+          "coords": [
+            37.064,
+            37.378
+          ],
+          "name": {
+            "tr": "Gaziantep Kalesi",
+            "de": "Burg von Gaziantep",
+            "en": "Gaziantep Castle"
+          },
+          "desc": {
+            "tr": "Kent merkezinde bir höyük üzerinde yükselen Gaziantep Kalesi'nin bugünkü görünümü büyük ölçüde Roma-Bizans dönemine dayanır; kalenin 6. yüzyılda Bizans İmparatoru Justinianus döneminde genişletildiği kabul edilir. Sonraki yüzyıllarda Selçuklu ve Osmanlı onarımlarıyla varlığını sürdüren yapı, yaklaşık dairesel planı ve burçlarıyla kentin simgesidir. İçinde, 1920-1921'deki Antep Savunması'nı anlatan Gaziantep Savunması ve Kahramanlık Panorama Müzesi yer alır. Kale, 2023 yılındaki depremlerde önemli hasar görmüştür; ziyaret ve onarım durumu için güncel bilgi almanız önerilir.",
+            "de": "Die auf einem Hügel im Stadtzentrum thronende Burg von Gaziantep geht in ihrer heutigen Gestalt weitgehend auf die römisch-byzantinische Zeit zurück; ihr Ausbau wird dem byzantinischen Kaiser Justinian im 6. Jahrhundert zugeschrieben. In späteren Jahrhunderten durch seldschukische und osmanische Reparaturen erhalten, prägt der nahezu runde Bau mit seinen Türmen das Stadtbild. Im Inneren befindet sich das Panoramamuseum zur Verteidigung von Antep, das die Ereignisse von 1920-1921 schildert. Die Burg wurde bei den Erdbeben 2023 stark beschädigt; über Besuch und Sanierung sollte man sich aktuell informieren.",
+            "en": "Rising on a mound in the city centre, Gaziantep Castle owes its present form largely to the Roman-Byzantine period; its expansion is attributed to the Byzantine emperor Justinian in the 6th century. Preserved through later Seljuk and Ottoman repairs, the nearly circular structure with its towers is a symbol of the city. Inside stands the Gaziantep Defence and Heroism Panorama Museum, which recounts the defence of Antep in 1920-1921. The castle sustained significant damage in the 2023 earthquakes; visitors are advised to check current access and restoration status."
+          }
+        },
+        {
+          "id": "antepcarsi",
+          "coords": [
+            37.059,
+            37.38
+          ],
+          "name": {
+            "tr": "Bakırcılar Çarşısı ve Bey Mahallesi",
+            "de": "Kupferschmiedebasar und Bey-Viertel",
+            "en": "Coppersmiths' Bazaar and Bey Quarter"
+          },
+          "desc": {
+            "tr": "Gaziantep Kalesi'nin eteklerinde uzanan Bakırcılar Çarşısı, yüzyıllardır süren bakırcılık geleneğinin yaşadığı canlı bir el sanatları merkezidir; ustalar burada bakır kap kacağı elde dövüp işlemeyi sürdürür. Çevresindeki tarihî hanlar, taş konaklar ve dar sokaklarıyla Bey Mahallesi, eski kent dokusunu koruyan bir bölgedir. Çarşı ve çevresi, baklavası, Antep fıstığı ve zengin mutfağıyla ünlü kentin gündelik ticaret hayatına ayna tutar; bakırcıların yanı sıra baharatçılar, kuyumcular ve yöresel lezzet dükkânları sokakları doldurur.",
+            "de": "Am Fuße der Burg von Gaziantep erstreckt sich der Kupferschmiedebasar, ein lebendiges Handwerkszentrum, in dem die jahrhundertealte Tradition der Kupferbearbeitung fortlebt; die Meister treiben und verzieren hier Kupfergeschirr von Hand. Mit seinen historischen Karawansereien, Steinhäusern und engen Gassen bewahrt das umliegende Bey-Viertel das alte Stadtbild. Der Basar spiegelt das Alltagsleben einer für Baklava, Pistazien und ihre reiche Küche berühmten Stadt wider; neben Kupferschmieden füllen Gewürzhändler, Goldschmiede und Läden mit regionalen Spezialitäten die Straßen.",
+            "en": "Spreading at the foot of Gaziantep Castle, the Coppersmiths' Bazaar is a lively crafts hub where the centuries-old tradition of coppersmithing lives on; masters still hammer and engrave copperware by hand. With its historic caravanserais, stone mansions and narrow lanes, the surrounding Bey Quarter preserves the old urban fabric. The bazaar mirrors the everyday commerce of a city famed for its baklava, pistachios and rich cuisine; alongside the coppersmiths, spice sellers, goldsmiths and shops of regional delicacies fill the streets."
+          }
+        },
+        {
+          "id": "zeugmaoren",
+          "coords": [
+            37.06,
+            37.86
+          ],
+          "name": {
+            "tr": "Zeugma Antik Kenti (Belkıs)",
+            "de": "Antike Stadt Zeugma (Belkıs)",
+            "en": "Ancient City of Zeugma (Belkıs)"
+          },
+          "desc": {
+            "tr": "Fırat kıyısında kurulan Zeugma, adını nehri aşan tekne köprüsünden alır; Yunanca 'zeugma' 'köprü' ya da 'geçit' anlamına gelir. Kentin Milattan önce yaklaşık 300 yılında, İskender'in halefi Selevkos Nikator tarafından kurulduğu kabul edilir. Milattan önce 64 yılında Roma egemenliğine giren Zeugma, stratejik konumu sayesinde büyüyerek görkemli villaları ve zengin mozaikleriyle ün kazandı. Kentin önemli bir bölümü, 2000 yılında tamamlanan Birecik Barajı'nın suları altında kalmış; kurtarma kazılarıyla çıkarılan mozaikler ise Zeugma Mozaik Müzesi'nde korunmaktadır. Alan 2012'den beri UNESCO Dünya Mirası geçici listesindedir.",
+            "de": "Das am Euphrat gegründete Zeugma verdankt seinen Namen einer Schiffsbrücke über den Fluss; das griechische 'Zeugma' bedeutet 'Brücke' oder 'Übergang'. Die Stadt gilt als um 300 vor Christus von Seleukos Nikator, einem Nachfolger Alexanders, gegründet. 64 vor Christus unter römische Herrschaft gelangt, wuchs Zeugma dank seiner strategischen Lage und wurde für prächtige Villen und reiche Mosaike berühmt. Ein großer Teil der Stadt versank unter den Fluten des 2000 vollendeten Birecik-Staudamms; die bei Rettungsgrabungen geborgenen Mosaike werden im Zeugma-Mosaikmuseum bewahrt. Das Gelände steht seit 2012 auf der UNESCO-Vorschlagsliste des Welterbes.",
+            "en": "Founded on the banks of the Euphrates, Zeugma takes its name from a boat bridge across the river; the Greek word 'zeugma' means 'bridge' or 'crossing'. The city is held to have been established around 300 BC by Seleucus Nicator, a successor of Alexander. Coming under Roman rule in 64 BC, Zeugma flourished thanks to its strategic position, gaining fame for its splendid villas and rich mosaics. A large part of the city was submerged beneath the waters of the Birecik Dam, completed in 2000; the mosaics recovered through rescue excavations are preserved in the Zeugma Mosaic Museum. The site has been on UNESCO's tentative World Heritage list since 2012."
           }
         }
       ]
