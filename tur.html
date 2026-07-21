@@ -64,6 +64,14 @@ body{margin:0;background:var(--bg);color:var(--text);font-family:Georgia,'Times 
 .egg-add{font:inherit;font-size:.74rem;font-family:Arial,sans-serif;white-space:nowrap;border:1px solid #8a6d25;color:#8a6d25;background:none;border-radius:999px;padding:5px 11px;cursor:pointer}
 .egg-add:hover{background:#8a6d25;color:#fff}
 @media(max-width:640px){.eggs{grid-template-columns:1fr}}
+
+.dayhdr{background:#20242c;color:#f0cd7c;font-family:Arial,sans-serif;font-size:.82rem;letter-spacing:.08em;border-radius:8px;padding:8px 14px;margin:18px 0 12px;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+table.price{width:100%;border-collapse:collapse;font-size:.88rem;margin:4px 0 10px}
+table.price th{font-family:Arial,sans-serif;font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;color:#8a6d25;border-bottom:2px solid #e7dcc4;text-align:left;padding:6px 8px}
+table.price td{border-bottom:1px solid #eee3cc;padding:7px 8px;color:#33302a}
+table.price td[contenteditable]{background:#fdfaf2;min-width:60px}
+table.price td[contenteditable]:focus{outline:2px solid #d0a047;background:#fff}
+table.price tr.ptotal td{border-top:2px solid #8a6d25;font-weight:700;color:#20242c}
 @media print{
   body{background:#fff}
   .egg-add{display:none}
@@ -89,6 +97,12 @@ body{margin:0;background:var(--bg);color:var(--text);font-family:Georgia,'Times 
     <button class="chip aud" data-a="rehber">Rehber</button>
     <button class="chip aud" data-a="acente">Acente</button>
   </div>
+  <div class="grp"><span class="lbl" id="lblDays">Günler:</span>
+    <button class="chip day on" data-d="0">—</button>
+    <button class="chip day" data-d="1">1</button><button class="chip day" data-d="2">2</button>
+    <button class="chip day" data-d="3">3</button><button class="chip day" data-d="4">4</button>
+    <button class="chip day" data-d="5">5</button><button class="chip day" data-d="7">7</button>
+  </div>
   <span class="spacer"></span>
   <button class="btn" id="btnPrint2">↑↓ Sırala</button>
   <button class="btn print" id="btnPrint">🖨 Yazdır / PDF</button>
@@ -98,7 +112,7 @@ body{margin:0;background:var(--bg);color:var(--text);font-family:Georgia,'Times 
 <script>
 /* ---------- ÇEVİRİLER ---------- */
 const T={
- tr:{docTitle:'Kişiye Özel Kültür Turu',sub:'YAMA Kültür ile hazırlanmış üç dilli gezi programı',stops:'Nokta',regions:'Bölge',dist:'≈ km rota',route:'Rota',itin:'Gezi Programı',notes:'Pratik Notlar',sources:'Kaynak & Not',coord:'Koordinat',dirTitle:'Yol Tarifi (Google Maps)',dirNote:'Bağlantı, durakları sırayla araç rotası olarak açar. 10 duraktan uzun turlar bölümlere ayrılır.',leg:'Bölüm',fuel:'benzin istasyonu',food:'restoran',market:'market',charge:'elektrikli şarj',eggsTitle:'🥚 Yol Üstü Sürprizler',eggsNote:'Rotanıza 35 kilometreden yakın, listenizde olmayan duraklar — küçük bir sapmayla büyük keşifler.',addEgg:'＋ Rotaya ekle',detour:'sapma',
+ tr:{docTitle:'Kişiye Özel Kültür Turu',sub:'YAMA Kültür ile hazırlanmış üç dilli gezi programı',stops:'Nokta',regions:'Bölge',dist:'≈ km rota',route:'Rota',itin:'Gezi Programı',notes:'Pratik Notlar',sources:'Kaynak & Not',coord:'Koordinat',dirTitle:'Yol Tarifi (Google Maps)',dirNote:'Bağlantı, durakları sırayla araç rotası olarak açar. 10 duraktan uzun turlar bölümlere ayrılır.',leg:'Bölüm',fuel:'benzin istasyonu',food:'restoran',market:'market',charge:'elektrikli şarj',eggsTitle:'🥚 Yol Üstü Sürprizler',eggsNote:'Rotanıza 35 kilometreden yakın, listenizde olmayan duraklar — küçük bir sapmayla büyük keşifler.',addEgg:'＋ Rotaya ekle',detour:'sapma',lblDays:'Günler:',singleList:'—',dayWord:'Gün',dayStops:'durak',priceTitle:'Fiyat Tablosu (Acente)',priceNote:'Alanlar doldurulabilir — ekranda tıklayıp yazın; yazdırırken elle doldurmak için boş bırakın.',priceItem:'Kalem',priceDetail:'Detay',priceAmt:'Tutar',priceTransport:'Ulaşım (araç+yakıt)',priceGuide:'Profesyonel rehberlik',priceHotel:'Konaklama',priceMeals:'Yemekler',priceEntries:'Müze/ören giriş ücretleri',priceTotal:'GENEL TOPLAM',
    guideLbl:'REHBER NOTU',agencyLbl:'ACENTE / LOJİSTİK',
    guideTip:'Anlatım süresi, vurgulanacak noktalar ve grup yönlendirmesi için boş alan.',
    agencyTip:'Ulaşım, giriş ücreti, süre ve fiyatlandırma için boş alan.',
@@ -106,7 +120,7 @@ const T={
    src:'Anlatımlar YAMA Kültür dijital rehberinden derlenmiştir; akademik ve resmî kaynaklara (Kültür ve Turizm Bakanlığı, UNESCO, müze yayınları) dayanır.',
    made:'Bu belge otomatik oluşturulmuştur',empty:'Turunuz henüz boş. Rehber sayfasına dönüp noktaları ＋ ile ekleyin.',emptyLink:'→ Rehbere dön',
    remove:'Çıkar',up:'Yukarı',down:'Aşağı',done:'Bitti',sortHint:'Sıralamayı değiştirin, sonra “Bitti”ye basın.'},
- de:{docTitle:'Individuelle Kulturreise',sub:'Dreisprachiges Reiseprogramm, erstellt mit YAMA Kültür',stops:'Orte',regions:'Regionen',dist:'≈ km Route',route:'Route',itin:'Reiseprogramm',notes:'Praktische Hinweise',sources:'Quellen & Hinweis',coord:'Koordinaten',dirTitle:'Route (Google Maps)',dirNote:'Der Link öffnet die Stopps als Fahrroute. Touren mit mehr als 10 Stopps werden in Abschnitte geteilt.',leg:'Abschnitt',fuel:'Tankstelle',food:'Restaurant',market:'Supermarkt',charge:'E-Ladestation',eggsTitle:'🥚 Überraschungen am Weg',eggsNote:'Orte näher als 35 Kilometer an Ihrer Route, die noch nicht auf der Liste stehen — kleiner Umweg, große Entdeckung.',addEgg:'＋ Zur Route',detour:'Umweg',
+ de:{docTitle:'Individuelle Kulturreise',sub:'Dreisprachiges Reiseprogramm, erstellt mit YAMA Kültür',stops:'Orte',regions:'Regionen',dist:'≈ km Route',route:'Route',itin:'Reiseprogramm',notes:'Praktische Hinweise',sources:'Quellen & Hinweis',coord:'Koordinaten',dirTitle:'Route (Google Maps)',dirNote:'Der Link öffnet die Stopps als Fahrroute. Touren mit mehr als 10 Stopps werden in Abschnitte geteilt.',leg:'Abschnitt',fuel:'Tankstelle',food:'Restaurant',market:'Supermarkt',charge:'E-Ladestation',eggsTitle:'🥚 Überraschungen am Weg',eggsNote:'Orte näher als 35 Kilometer an Ihrer Route, die noch nicht auf der Liste stehen — kleiner Umweg, große Entdeckung.',addEgg:'＋ Zur Route',detour:'Umweg',lblDays:'Tage:',singleList:'—',dayWord:'Tag',dayStops:'Stopps',priceTitle:'Preistabelle (Agentur)',priceNote:'Felder sind ausfüllbar — am Bildschirm klicken und tippen; für den Ausdruck leer lassen.',priceItem:'Posten',priceDetail:'Detail',priceAmt:'Betrag',priceTransport:'Transport (Fahrzeug+Kraftstoff)',priceGuide:'Professionelle Führung',priceHotel:'Unterkunft',priceMeals:'Mahlzeiten',priceEntries:'Museums-/Eintrittsgebühren',priceTotal:'GESAMTSUMME',
    guideLbl:'GUIDE-NOTIZ',agencyLbl:'AGENTUR / LOGISTIK',
    guideTip:'Platz für Dauer, Höhepunkte und Gruppenführung.',
    agencyTip:'Platz für Anfahrt, Eintritt, Dauer und Preise.',
@@ -114,7 +128,7 @@ const T={
    src:'Die Texte stammen aus dem digitalen Guide YAMA Kültür und beruhen auf akademischen und offiziellen Quellen (Kultusministerium, UNESCO, Museumspublikationen).',
    made:'Automatisch erstelltes Dokument',empty:'Ihre Tour ist noch leer. Gehen Sie zum Guide zurück und fügen Sie Orte mit ＋ hinzu.',emptyLink:'→ Zum Guide',
    remove:'Entfernen',up:'Hoch',down:'Runter',done:'Fertig',sortHint:'Reihenfolge ändern, dann „Fertig“.'},
- en:{docTitle:'Personalised Culture Tour',sub:'Trilingual itinerary built with YAMA Kültür',stops:'Stops',regions:'Regions',dist:'≈ km route',route:'Route',itin:'Itinerary',notes:'Practical Notes',sources:'Sources & Note',coord:'Coordinates',dirTitle:'Directions (Google Maps)',dirNote:'The link opens your stops as a driving route. Tours longer than 10 stops are split into legs.',leg:'Leg',fuel:'fuel station',food:'restaurant',market:'supermarket',charge:'EV charging',eggsTitle:'🥚 Surprises Along the Way',eggsNote:'Spots within 35 kilometres of your route that are not on your list — a small detour, a big discovery.',addEgg:'＋ Add to route',detour:'detour',
+ en:{docTitle:'Personalised Culture Tour',sub:'Trilingual itinerary built with YAMA Kültür',stops:'Stops',regions:'Regions',dist:'≈ km route',route:'Route',itin:'Itinerary',notes:'Practical Notes',sources:'Sources & Note',coord:'Coordinates',dirTitle:'Directions (Google Maps)',dirNote:'The link opens your stops as a driving route. Tours longer than 10 stops are split into legs.',leg:'Leg',fuel:'fuel station',food:'restaurant',market:'supermarket',charge:'EV charging',eggsTitle:'🥚 Surprises Along the Way',eggsNote:'Spots within 35 kilometres of your route that are not on your list — a small detour, a big discovery.',addEgg:'＋ Add to route',detour:'detour',lblDays:'Days:',singleList:'—',dayWord:'Day',dayStops:'stops',priceTitle:'Price Table (Agency)',priceNote:'Fields are editable — click and type on screen; leave blank to fill in by hand when printed.',priceItem:'Item',priceDetail:'Detail',priceAmt:'Amount',priceTransport:'Transport (vehicle+fuel)',priceGuide:'Professional guiding',priceHotel:'Accommodation',priceMeals:'Meals',priceEntries:'Museum/site entrance fees',priceTotal:'GRAND TOTAL',
    guideLbl:'GUIDE NOTE',agencyLbl:'AGENCY / LOGISTICS',
    guideTip:'Space for duration, highlights and group handling.',
    agencyTip:'Space for transport, entry fee, duration and pricing.',
@@ -132,6 +146,7 @@ let ui=(params.get('lang')||'tr'); if(!T[ui])ui='tr';
 let langs=['tr','de','en'];        // belgeye dahil diller
 let audience='birey';
 let sortMode=false;
+let days=0;
 let DATA=null;
 
 function tourGet(){try{const a=JSON.parse(localStorage.getItem(TOUR_KEY)||'[]');return Array.isArray(a)?a:[];}catch(e){return [];}}
@@ -193,6 +208,7 @@ function render(){
   const tr=T[ui];
   document.getElementById('lblLang').textContent={tr:'Diller:',de:'Sprachen:',en:'Languages:'}[ui];
   document.getElementById('lblAud').textContent={tr:'Model:',de:'Modell:',en:'Model:'}[ui];
+  document.getElementById('lblDays').textContent=tr.lblDays;
   document.getElementById('btnPrint').textContent={tr:'🖨 Yazdır / PDF',de:'🖨 Drucken / PDF',en:'🖨 Print / PDF'}[ui];
   document.getElementById('btnPrint2').textContent=sortMode?('✓ '+tr.done):'↕ '+({tr:'Sırala',de:'Sortieren',en:'Reorder'}[ui]);
 
@@ -207,6 +223,14 @@ function render(){
   let dist=0; for(let i=1;i<items.length;i++){dist+=haversine(items[i-1].d.pl.coords,items[i].d.pl.coords);}
   const routeLine=items.map(i=>i.d.pl.name[ui]||i.d.pl.name.tr).join('  →  ');
 
+  const chunk=days>0?Math.ceil(items.length/days):0;
+  function dayHdr(idx){
+    if(!chunk||idx%chunk!==0) return '';
+    const dNo=Math.floor(idx/chunk)+1;
+    const dItems=items.slice(idx,idx+chunk);
+    let dkm=0;for(let i=1;i<dItems.length;i++)dkm+=haversine(dItems[i-1].d.pl.coords,dItems[i].d.pl.coords);
+    return `<div class="dayhdr">☀ ${dNo}. ${tr.dayWord} · ${dItems.length} ${tr.dayStops}${dkm>1?' · ≈'+Math.round(dkm)+' km':''}</div>`;
+  }
   const stopsHtml=items.map((it,idx)=>{
     const pl=it.d.pl, reg=it.d.reg;
     const langBlocks=langs.map(l=>{
@@ -233,7 +257,7 @@ function render(){
       <button class="chip" onclick="move(${idx},1)">↓</button>
       <button class="chip" onclick="removeAt(${idx})">✕</button></span>`
       :`<span class="reg">${esc(reg.name[ui]||reg.name.tr)}</span>`;
-    return `<div class="stop">
+    return dayHdr(idx)+`<div class="stop">
       <div class="head"><span class="no">${idx+1}</span><h3>${esc(pl.name[ui]||pl.name.tr)}</h3>${sortCtl}</div>
       ${langBlocks}${mapLinks}${extra}
     </div>`;
@@ -242,7 +266,16 @@ function render(){
   const today=new Date().toISOString().slice(0,10);
   root.innerHTML=`<div class="doc">
     <div class="cover">
-      <div class="brand">YAMA KÜLTÜR · DIGITAL TOUR GUIDE</div>
+      <div style="display:flex;align-items:center;gap:14px">
+        <svg width="54" height="54" viewBox="0 0 100 100" aria-hidden="true">
+          <g fill="none" stroke="#d0a047" stroke-width="3">
+            <path d="M50 4 L61 27 L85 15 L73 39 L96 50 L73 61 L85 85 L61 73 L50 96 L39 73 L15 85 L27 61 L4 50 L27 39 L15 15 L39 27 Z"/>
+            <circle cx="50" cy="50" r="21"/>
+          </g>
+          <text x="50" y="58" text-anchor="middle" font-family="Georgia,serif" font-size="22" fill="#d0a047" font-weight="bold">YK</text>
+        </svg>
+        <div class="brand">YAMA KÜLTÜR · DIGITAL TOUR GUIDE</div>
+      </div>
       <h1>${tr.docTitle}</h1>
       <p class="sub">${tr.sub}</p>
       <div class="meta">
@@ -258,6 +291,17 @@ function render(){
       ${sortMode?`<p class="route" style="color:#8a6d25">${tr.sortHint}</p>`:''}
       <div class="sec-title">${tr.itin}</div>
       ${stopsHtml}
+      ${audience==='acente'?`<div class="sec-title">${tr.priceTitle}</div>
+      <p class="route">${tr.priceNote}</p>
+      <table class="price"><thead><tr><th>${tr.priceItem}</th><th>${tr.priceDetail}</th><th style="width:110px">${tr.priceAmt}</th></tr></thead><tbody>
+      ${items.map((it,i)=>`<tr><td>${i+1}. ${esc(it.d.pl.name[ui]||it.d.pl.name.tr)}</td><td contenteditable="true"></td><td contenteditable="true"></td></tr>`).join('')}
+      <tr><td>${tr.priceEntries}</td><td contenteditable="true"></td><td contenteditable="true"></td></tr>
+      <tr><td>${tr.priceTransport}</td><td contenteditable="true"></td><td contenteditable="true"></td></tr>
+      <tr><td>${tr.priceGuide}</td><td contenteditable="true"></td><td contenteditable="true"></td></tr>
+      <tr><td>${tr.priceHotel}</td><td contenteditable="true"></td><td contenteditable="true"></td></tr>
+      <tr><td>${tr.priceMeals}</td><td contenteditable="true"></td><td contenteditable="true"></td></tr>
+      <tr class="ptotal"><td>${tr.priceTotal}</td><td contenteditable="true"></td><td contenteditable="true"></td></tr>
+      </tbody></table>`:''}
       <div class="sec-title">${tr.dirTitle}</div>
       <p class="route">${tr.dirNote}</p>
       <div class="dirlegs">${dirLegs(items).map((l,i)=>`<a class="dirbtn" href="${l.u}" target="_blank" rel="noopener">🗺 ${dirLegs(items).length>1?tr.leg+' '+(i+1)+': ':''}${esc(l.from)} → ${esc(l.to)}</a>`).join('')}</div>
@@ -289,6 +333,7 @@ document.querySelectorAll('.chip[data-l]').forEach(c=>c.onclick=()=>{
   render();
 });
 document.querySelectorAll('.chip.aud').forEach(c=>c.onclick=()=>{audience=c.dataset.a;render();});
+document.querySelectorAll('.chip.day').forEach(c=>c.onclick=()=>{days=+c.dataset.d;document.querySelectorAll('.chip.day').forEach(x=>x.classList.toggle('on',x===c));render();});
 document.getElementById('btnPrint').onclick=()=>window.print();
 document.getElementById('btnPrint2').onclick=()=>{sortMode=!sortMode;render();};
 
