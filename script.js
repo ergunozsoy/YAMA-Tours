@@ -67,3 +67,16 @@ const ERAS={
     });
   });
 })();
+
+/* Akıllı menü: aşağı inerken gizlenir, yukarı kayınca hemen geri gelir */
+(function(){
+  const nav=document.querySelector('.nav'); if(!nav) return;
+  let lastY=window.scrollY;
+  window.addEventListener('scroll',()=>{
+    const y=window.scrollY;
+    nav.classList.toggle('solid',y>60);
+    if(y>lastY+6 && y>220) nav.classList.add('hide');
+    else if(y<lastY-6) nav.classList.remove('hide');
+    lastY=y;
+  },{passive:true});
+})();
