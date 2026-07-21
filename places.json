@@ -8,7 +8,7 @@
     "de": "Istanbul",
     "en": "Istanbul"
    },
-   "img": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=1000&q=80",
+   "img": "img/bolge-istanbul.jpg",
    "places": [
     {
      "id": "ayasofya",
@@ -1335,7 +1335,8 @@
       "en": "Housed in the Darülhadis Madrasa of the Selimiye complex, Mimar Sinan's masterpiece, the museum offers an elegant setting with its courtyard and arcaded porch. Founded in 1924 under Dr. Rıfat Osman with ethnographic pieces and tombstones, it took its present name in 1971 when the new archaeology museum opened. Its collection displays wooden ceiling rosettes salvaged from Edirne houses, door wings crafted in the nail- and glue-free kündekâri technique, examples of Edirnekârî ornament and calligraphy panels. Highlights include the Ottoman coat of arms from the Bab-ı Saadet gate, ceremonial shields, swords and helmets, and cannons and cannonballs from the Balkan War; Korans from the 15th and 19th centuries and instruments such as the ney and rebab further enrich it."
      }
     }
-   ]
+   ],
+   "img": "img/bolge-edirne.jpg"
   },
   {
    "id": "canakkale",
