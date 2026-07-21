@@ -80,3 +80,24 @@ const ERAS={
     lastY=y;
   },{passive:true});
 })();
+
+/* Hero döngüsü: Çifte Minareli video → Galata → Kapadokya (9 sn'de bir yumuşak geçiş) */
+(function(){
+  const video=document.querySelector('.hero-video');
+  const slides=[...document.querySelectorAll('.hero-slide')];
+  if(!video||slides.length<2) return;
+  const seq=[{v:true},{el:slides[0]},{el:slides[1]}];
+  let i=0;
+  setInterval(()=>{
+    i=(i+1)%seq.length;
+    slides.forEach(x=>x.classList.remove('on'));
+    if(seq[i].v){
+      video.classList.remove('off');
+      const p=video.play(); if(p&&p.catch)p.catch(()=>{});
+    }else{
+      video.classList.add('off');
+      seq[i].el.classList.add('on');
+      setTimeout(()=>{ if(video.classList.contains('off')) video.pause(); },1700);
+    }
+  },9000);
+})();
